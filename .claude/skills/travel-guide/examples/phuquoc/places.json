@@ -90,7 +90,10 @@
     "photo": {
      "file": "photos/델루나_스파.jpg",
      "src": "https://blog.naver.com/gol2006/224459560282"
-    }
+    },
+    "booking_note": [
+     "카카오톡으로 한국어 예약(한국인 사장) — 채널 주소는 확인 못 함"
+    ]
    },
    {
     "name": "피오나 스파",
@@ -1005,7 +1008,10 @@
     "photo": {
      "file": "photos/웨일_스파.jpg",
      "src": "https://blog.naver.com/xilala/224461860937"
-    }
+    },
+    "booking_note": [
+     "카카오톡 ID: WHALESPA (친구 추가 후 예약)"
+    ]
    },
    {
     "name": "럭스 스파 (LUXE SPA)",
@@ -1579,7 +1585,10 @@
     "photo": {
      "file": "photos/서울_스파.jpg",
      "src": "https://blog.naver.com/chzhkiss/224443416259"
-    }
+    },
+    "booking_note": [
+     "카카오톡 오픈채팅 \"서울스파 푸꾸옥\" 검색"
+    ]
    },
    {
     "name": "리틀 윈 스파",
@@ -1718,7 +1727,10 @@
     "photo": {
      "file": "photos/라센타_스파.jpg",
      "src": "https://blog.naver.com/wherewego365/224453707775"
-    }
+    },
+    "booking_note": [
+     "카카오톡 ID: Ducan15122002 (한인 예약)"
+    ]
    },
    {
     "name": "로즈 스파",
@@ -2092,7 +2104,10 @@
     "photo": {
      "file": "photos/한즈_선셋_스파.jpg",
      "src": "https://blog.naver.com/cjddk0206/224424028478"
-    }
+    },
+    "booking_note": [
+     "카카오톡 ID: hanzsunsetspa (한국어 문의·예약)"
+    ]
    },
    {
     "name": "허브 스파 (Herbal Spa & Nail)",
@@ -2177,7 +2192,10 @@
     "photo": {
      "file": "photos/허브_스파_Herbal_Spa_Nail.jpg",
      "src": "https://blog.naver.com/ttinker__bell/224459504976"
-    }
+    },
+    "booking_note": [
+     "카카오톡 ID: Herbs_spa"
+    ]
    },
    {
     "name": "미스 티엔 스파",
@@ -2247,7 +2265,11 @@
     "photo": {
      "file": "photos/미스_티엔_스파.jpg",
      "src": "https://blog.naver.com/dltjgua618/224452324106"
-    }
+    },
+    "booking_note": [
+     "카카오톡 ID: misstienspa",
+     "인스타그램 DM 예약"
+    ]
    },
    {
     "name": "페퍼 스파",
@@ -2363,7 +2385,10 @@
     "photo": {
      "file": "photos/파라리아_스파.jpg",
      "src": "https://blog.naver.com/easyhyxn/224455593194"
-    }
+    },
+    "booking_note": [
+     "WhatsApp: +84 342 957 764"
+    ]
    },
    {
     "name": "메르 스파 (Mer Spa)",
@@ -2461,7 +2486,10 @@
     "photo": {
      "file": "photos/메르_스파_Mer_Spa.jpg",
      "src": "https://blog.naver.com/iluv_-/224464167797"
-    }
+    },
+    "booking_note": [
+     "카카오톡 ID: Merspa"
+    ]
    },
    {
     "name": "라이온 스파",
@@ -2534,7 +2562,10 @@
     "photo": {
      "file": "photos/라이온_스파.jpg",
      "src": "https://blog.naver.com/mnjtour82/224452982383"
-    }
+    },
+    "booking_note": [
+     "카카오톡 ID: lionspa1330"
+    ]
    },
    {
     "name": "조아 스파",
@@ -2593,7 +2624,10 @@
     "photo": {
      "file": "photos/조아_스파.jpg",
      "src": "https://blog.naver.com/sic6212/224407266323"
-    }
+    },
+    "booking_note": [
+     "카카오톡 ID: joaspa1"
+    ]
    },
    {
     "name": "더베이 스파",
@@ -2921,7 +2955,10 @@
       }
      ],
      "basis": "광고·AI 제외 후기 10건(장소명이 제목에 들어간 글 37건 중 최근 20건 검토, 광고 9·AI 1건 제외)"
-    }
+    },
+    "booking_note": [
+     "인스타그램 DM으로 픽업·예약 문의"
+    ]
    },
    {
     "name": "분꿔이 끼엔써이",
@@ -3443,7 +3480,10 @@
     "photo": {
      "file": "photos/미스터씨푸드.jpg",
      "src": "https://blog.naver.com/jhyoon6246/224463969737"
-    }
+    },
+    "booking_note": [
+     "카카오톡 ID: mrseafood2023"
+    ]
    },
    {
     "name": "39k Seafood & BBQ",
@@ -5441,7 +5481,10 @@
     "photo": {
      "file": "photos/식객_한식.jpg",
      "src": "https://blog.naver.com/realreviewerrr/224426379855"
-    }
+    },
+    "booking_note": [
+     "카카오톡 ID: sikgaekpq"
+    ]
    },
    {
     "name": "껌디디",
@@ -5996,7 +6039,10 @@
     "photo": {
      "file": "photos/서울식당_한식.jpg",
      "src": "https://blog.naver.com/rim_traveler/224466562779"
-    }
+    },
+    "booking_note": [
+     "카카오톡 ID: suldelivery (배달·예약)"
+    ]
    }
   ],
   "가볼만한 곳": [

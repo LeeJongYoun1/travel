@@ -46,8 +46,8 @@ def dist(r, hs, nmc):
 SRCRANGE = {}; ALLURLS = []
 for sname, rows in P['sheets'].items():
     ws = wb.create_sheet(sname); plabel = cfg['categories'].get(sname, {}).get('price_label', '가격') + ' (원 / ' + cfg['currency']['unit'] + ')'
-    H = ['지역'] + [h['short'] + '거리' for h in HOT] + ['업체명', '대표사진', '홈페이지', '구글맵', '설명', plabel, '장점', '단점', '추가정보', '긍정평가 (출처)', '부정평가 (출처)']
-    W = [9] + [15]*len(HOT) + [20, 25, 30, 18, 40, 52, 34, 30, 34, 62, 62]
+    H = ['지역'] + [h['short'] + '거리' for h in HOT] + ['업체명', '대표사진', '홈페이지', '예약', '구글맵', '설명', plabel, '장점', '단점', '추가정보', '긍정평가 (출처)', '부정평가 (출처)']
+    W = [9] + [15]*len(HOT) + [20, 25, 30, 30, 18, 40, 52, 34, 30, 34, 62, 62]
     nc = 1 + len(HOT)  # 업체명 직전 열
     for i, h in enumerate(H, 1):
         c = ws.cell(1, i, h); c.font = FB; c.fill = HF; c.border = BD; c.alignment = Alignment(horizontal='center', vertical='center', wrap_text=True)
@@ -62,6 +62,7 @@ for sname, rows in P['sheets'].items():
         extra = list(p.get('extra', [])) + ([rv['basis']] if rv.get('basis') else [])
         vals = [p['region']] + [dist(r, h['short'], namecol) for h in HOT] + [
             p['name'], ('사진: ' + ph['src']) if ph else '사진 없음', bl([f"{h['label']} {h['url']}" for h in hp]) if hp else cfg.get('no_home_text', '구글 검색으로 확인된 공식 홈페이지·채널 없음'),
+            bl([f"{x['label']} {x['url']}" for x in p.get('booking', [])] + p.get('booking_note', [])) if (p.get('booking') or p.get('booking_note')) else '온라인 예약 페이지 없음(현장·전화 예약)',
             '구글맵에서 보기' + (f" ({p['map_note']})" if p.get('map_note') else ''), p.get('desc', ''),
             bl([M.conv(x) for x in p.get('price', [])]), bl([M.conv(x) for x in p.get('pros', [])]), bl([M.conv(x) for x in p.get('cons', [])]),
             bl([M.conv(x) for x in extra]), fmt(pos, '검토한 후기에서 긍정 평가를 찾지 못함'), fmt(neg, rv.get('neg_note') or '검토한 후기에서 부정 평가를 찾지 못함')]
@@ -74,10 +75,11 @@ for sname, rows in P['sheets'].items():
                 if ph: c.hyperlink = ph['src']
             if col == '구글맵': c.hyperlink = gmap(p); c.font = LINK
             if col == '홈페이지' and len(hp) == 1: c.hyperlink = hp[0]['url']; c.font = LINK
+            if col == '예약' and len(p.get('booking', [])) >= 1: c.hyperlink = p['booking'][0]['url']; c.font = LINK
         if ph and os.path.exists(os.path.join(base, ph['file'])):
             im = PImage.open(os.path.join(base, ph['file'])); im.thumbnail((170, 128)); b = io.BytesIO(); im.convert('RGB').save(b, 'JPEG', quality=72); b.seek(0)
             xi = XLImage(b); xi.width, xi.height = 170, 128; ws.add_image(xi, f"{get_column_letter(nc+2)}{r}")
-        lines = max(sum(max(1, len(x)//max(1, int(W[i]*1.1))+1) for x in str(v).split('\n')) for i, v in enumerate(vals) if isinstance(v, str) and i > nc+3)
+        lines = max(sum(max(1, len(x)//max(1, int(W[i]*1.1))+1) for x in str(v).split('\n')) for i, v in enumerate(vals) if isinstance(v, str) and i > nc+4)
         ws.row_dimensions[r].height = max(125 if ph else 40, min(409, lines*13.5))
     ws.freeze_panes = f"{get_column_letter(nc+2)}2"; ws.auto_filter.ref = f"A1:{get_column_letter(len(H))}{len(rows)+1}"
 # ---- 좌표 시트 ----
@@ -98,6 +100,7 @@ cols = [('지역', cfg.get('region_note', '권역 구분')),
         ('○○거리', f"각 숙소에서 업체까지 예상 도로거리(km)와 {T['mode']}(1km 미만은 도보) 예상시간. 좌표 시트 위경도로 계산"),
         ('대표사진', '광고가 아닌 후기 글의 대표 사진과 그 글 주소(저작권은 블로거에게 있음, 개인 여행 준비용)'),
         ('홈페이지', '구글 검색·직접 접속으로 확인한 업체 자체 홈페이지(없으면 공식 SNS·카카오톡 채널). "(블로그 기재)"는 후기에만 적혀 있고 확인 못 한 것'),
+        ('예약', '업체·운영사의 공식 온라인 예약/티켓 페이지(예약 대행·OTA 제외)와 후기에 반복해서 나온 카카오톡 ID·WhatsApp 예약 연락처. 링크는 첫 번째 예약 페이지로 연결'),
         ('구글맵', '구글맵 검색 링크(블로그 구글맵 카드의 등록명·주소 우선). 괄호 표시는 목록에서 골라야 하거나 주소 위치로만 이동'),
         ('설명', '위치와 업체·장소 소개'), ('가격', f"후기에서 확인한 금액을 '원 / {cfg['currency']['unit']}' 순서로 표기. 여러 항목은 * 글머리표"),
         ('장점 / 단점 / 추가정보', '광고·AI 제외 후기에서 반복해서 나온 내용. 추가정보 마지막 줄은 근거 후기 수'),

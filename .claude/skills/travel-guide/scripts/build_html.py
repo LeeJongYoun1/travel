@@ -25,7 +25,7 @@ for sname, rows in P['sheets'].items():
         out.append({'region': p['region'], 'name': p['name'], 'desc': p.get('desc', ''), 'price': lst(p.get('price', [])), 'pro': lst(p.get('pros', [])),
             'con': lst(p.get('cons', [])), 'extra': lst(p.get('extra', [])), 'basis': rv.get('basis', ''), 'reviews': int(''.join(c for c in rv.get('basis', '0').split('건')[0] if c.isdigit()) or 0),
             'pos': rv.get('pos', []), 'neg': rv.get('neg', []), 'negnote': rv.get('neg_note', ''), 'dist': [dist(p, h) for h in cfg['hotels']],
-            'home': [{'l': h['label'], 'u': h['url']} for h in p.get('home', [])], 'img': img, 'imgsrc': ph['src'] if ph else '',
+            'home': [{'l': h['label'], 'u': h['url']} for h in p.get('home', [])], 'book': [{'l': x['label'], 'u': x['url']} for x in p.get('booking', [])], 'booknote': p.get('booking_note', []), 'img': img, 'imgsrc': ph['src'] if ph else '',
             'gmap': 'https://www.google.com/maps/search/?api=1&query=' + urllib.parse.quote(p.get('map_query') or p['name'] + ' ' + cfg.get('destination_en', '')), 'gnote': p.get('map_note', '')})
     S[sname] = out
 order = [r for r in cfg.get('region_order', []) if r in regions] + [r for r in regions if r not in cfg.get('region_order', [])]
