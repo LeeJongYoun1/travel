@@ -19,6 +19,7 @@ python3 $SK/sources.py config.json discover            # 제목 빈도 → place
   "pros": ["압이 센 편", "카톡 한국어 예약"], "cons": ["픽업 유료"], "extra": ["영업 09:00~23:00"],
   "map_query": "Delluna Spa 139 Đường Trần Hưng Đạo Phú Quốc", "map_note": "",
   "home": [{"label": "인스타그램(접속 확인)", "url": "https://..."}],
+  "booking": [{"label": "공식 예약", "url": "https://..."}], "booking_note": ["카카오톡 ID: xxx"],
   "photo": {"file": "photos/델루나_스파.jpg", "src": "https://blog.naver.com/..."},
   "reviews": {"pos": [{"t": "...", "u": "..."}], "neg": [], "basis": "광고·AI 제외 후기 23건(...)", "neg_note": ""}
 }]}}
@@ -37,6 +38,7 @@ python3 $SK/reviews.py config.json merge places.json
 python3 $SK/photos.py config.json cands places.json         # work/photo/sheet*.jpg 를 Read 로 보고
 python3 $SK/photos.py config.json pick places.json '{"델루나 스파": 0, "라온 스파": null}'
 #  홈페이지: 서브에이전트 4개 병렬 확인(criteria.md) → places.json home 갱신
+#  예약: 서브에이전트 3개 병렬로 공식 예약/티켓 페이지 확인 → places.json booking, 후기의 카톡 ID 등은 booking_note
 python3 $SK/build_xlsx.py config.json places.json out/<여행지>_여행정보.xlsx
 python3 <xlsx 스킬>/scripts/recalc.py out/<여행지>_여행정보.xlsx 180   # total_errors 0 확인
 python3 $SK/build_html.py config.json places.json out out/<여행지>_여행정보.xlsx

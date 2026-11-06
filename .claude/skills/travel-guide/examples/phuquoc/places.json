@@ -2814,7 +2814,10 @@
     "photo": {
      "file": "photos/메오키친.jpg",
      "src": "https://blog.naver.com/myans/224464753482"
-    }
+    },
+    "booking_note": [
+     "예약 없이 방문, 대기 번호표"
+    ]
    },
    {
     "name": "빈산",
@@ -4672,7 +4675,13 @@
     "photo": {
      "file": "photos/옥센_비치바.jpg",
      "src": "https://blog.naver.com/moreyoung_k/224465866587"
-    }
+    },
+    "booking": [
+     {
+      "label": "공식 예약",
+      "url": "https://www.ocsenbeachbar.com/reservations"
+     }
+    ]
    },
    {
     "name": "안바 카페 (ANBA)",
@@ -6128,7 +6137,13 @@
     "photo": {
      "file": "photos/혼똔섬_케이블카_썬월드.jpg",
      "src": "https://blog.naver.com/eleyam/224386012821"
-    }
+    },
+    "booking": [
+     {
+      "label": "공식 티켓",
+      "url": "https://booking.sunworld.vn/vi"
+     }
+    ]
    },
    {
     "name": "키스 오브 더 씨 (공연)",
@@ -6203,7 +6218,13 @@
     "photo": {
      "file": "photos/키스_오브_더_씨_공연.jpg",
      "src": "https://blog.naver.com/chppsr/224465929624"
-    }
+    },
+    "booking": [
+     {
+      "label": "공식 티켓",
+      "url": "https://booking.sunworld.vn/vi"
+     }
+    ]
    },
    {
     "name": "키스브릿지 & 선셋타운",
@@ -6284,7 +6305,13 @@
     "photo": {
      "file": "photos/키스브릿지_선셋타운.jpg",
      "src": "https://blog.naver.com/dandipapalab/224458285324"
-    }
+    },
+    "booking": [
+     {
+      "label": "공식 티켓",
+      "url": "https://booking.sunworld.vn/vi"
+     }
+    ]
    },
    {
     "name": "사오비치",
@@ -6771,7 +6798,13 @@
     "photo": {
      "file": "photos/그랜드월드.jpg",
      "src": "https://blog.naver.com/gabogomeogobogo/224459561077"
-    }
+    },
+    "booking": [
+     {
+      "label": "공식 티켓",
+      "url": "https://booking.vinpearl.com/en-VND/tour/grand-world-phu-quoc-ve-tinh-hoa-viet-nam-vw00613"
+     }
+    ]
    },
    {
     "name": "빈원더스",
@@ -6861,7 +6894,13 @@
     "photo": {
      "file": "photos/빈원더스.jpg",
      "src": "https://blog.naver.com/playerez_25/224466811091"
-    }
+    },
+    "booking": [
+     {
+      "label": "공식 티켓",
+      "url": "https://vinwonders.com/en/vinwonders-phu-quoc-price-and-regulations/"
+     }
+    ]
    },
    {
     "name": "빈펄 사파리",
@@ -6954,7 +6993,13 @@
     "photo": {
      "file": "photos/빈펄_사파리.jpg",
      "src": "https://blog.naver.com/syu89/224466642451"
-    }
+    },
+    "booking": [
+     {
+      "label": "공식 티켓",
+      "url": "https://vinwonders.com/en/offers/official-vinwonders-ticket-booking/"
+     }
+    ]
    },
    {
     "name": "스타피쉬 비치 (Rach Vem)",
@@ -7182,7 +7227,13 @@
     "photo": {
      "file": "photos/심포니_오브_더_씨_공연.jpg",
      "src": "https://blog.naver.com/chppsr/224465929624"
-    }
+    },
+    "booking": [
+     {
+      "label": "공식 티켓",
+      "url": "https://booking.sunworld.vn/vi"
+     }
+    ]
    },
    {
     "name": "선셋타운 버기투어",
@@ -7260,7 +7311,10 @@
     "photo": {
      "file": "photos/선셋타운_버기투어.jpg",
      "src": "https://blog.naver.com/grace_gogo/224465993290"
-    }
+    },
+    "booking_note": [
+     "현장(선셋타운 입구)에서 이용"
+    ]
    },
    {
     "name": "선 바바리아 (비어홀)",
