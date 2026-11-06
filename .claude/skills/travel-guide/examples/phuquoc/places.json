@@ -1,0 +1,7669 @@
+{
+ "sheets": {
+  "마사지": [
+   {
+    "name": "델루나 스파",
+    "region": "중부",
+    "aliases": [
+     "델루나"
+    ],
+    "lat": 10.13,
+    "lon": 103.9885,
+    "coord_note": "근사(지역 기준)",
+    "desc": "소나시 야시장 안(Đường Sonashi 9, Bai Truong)",
+    "price": [
+     "아로마 전신 90분 40,600원 / 780,000동",
+     "아로마 스톤 90분 41,600원 / 800,000동",
+     "60분 30,700원 / 590,000동",
+     "발 60분 26,000원 / 500,000동",
+     "키즈 27,600원 / 530,000동"
+    ],
+    "pros": [
+     "한국인 사장이라 카카오톡으로 한국어 예약",
+     "압이 센 편",
+     "매장 깔끔·샤워 가능",
+     "대형 밴 픽업(12인 26,000원 / 500,000동)"
+    ],
+    "cons": [
+     "픽업 유료"
+    ],
+    "extra": [
+     "오픈채팅 10% + 구글리뷰 10% 할인",
+     "픽업 편도 즈엉동 5,200원 / 100,000동",
+     "픽업 편도 남부 7,800원 / 150,000동",
+     "픽업 편도 북부 20,800원 / 400,000동"
+    ],
+    "map_query": "Delluna Spa 139 Đường Trần Hưng Đạo Phú Quốc",
+    "map_note": "",
+    "home": [],
+    "reviews": {
+     "pos": [
+      {
+       "t": "한국어 카톡 예약, 빠른 응답, 당일 샌딩까지 대만족",
+       "u": "https://blog.naver.com/gol2006/224459560282"
+      },
+      {
+       "t": "한국어 예약, 아이 케어, 넓고 깔끔한 샵",
+       "u": "https://blog.naver.com/tnwjdsh319/224466122022"
+      },
+      {
+       "t": "카톡 예약 편리, 가격·할인 안내 친절, 추천",
+       "u": "https://blog.naver.com/yenavla/224465261102"
+      },
+      {
+       "t": "세 곳 중 청결도 압승",
+       "u": "https://blog.naver.com/owniii/224464526618"
+      },
+      {
+       "t": "받은 마사지 중 가장 만족, 깨끗하고 친절",
+       "u": "https://blog.naver.com/chlwl0510/224464118267"
+      },
+      {
+       "t": "한국어 소통, 오일 선택, 은은한 조명과 압 조절",
+       "u": "https://blog.naver.com/bajjirakk/224464308984"
+      },
+      {
+       "t": "무료 픽업·픽드랍, 짐 보관 가능",
+       "u": "https://blog.naver.com/myans/224463619352"
+      }
+     ],
+     "neg": [
+      {
+       "t": "카드결제 수수료 5% 별도",
+       "u": "https://blog.naver.com/gol2006/224459560282"
+      },
+      {
+       "t": "공항 외 픽업샌딩은 추가 요금",
+       "u": "https://blog.naver.com/tnwjdsh319/224466122022"
+      },
+      {
+       "t": "오일이 끈적이고 압이 아쉬움, 샤워시설 없음",
+       "u": "https://blog.naver.com/owniii/224464526618"
+      },
+      {
+       "t": "강한 압 선택 시 등이 너무 아팠음",
+       "u": "https://blog.naver.com/myans/224463619352"
+      }
+     ],
+     "basis": "광고·AI 제외 후기 23건(장소명이 제목에 들어간 글 143건 중 최근 29건 검토, 광고 5·AI 1건 제외)"
+    },
+    "photo": {
+     "file": "photos/델루나_스파.jpg",
+     "src": "https://blog.naver.com/gol2006/224459560282"
+    }
+   },
+   {
+    "name": "피오나 스파",
+    "region": "중부",
+    "aliases": [
+     "피오나"
+    ],
+    "lat": 10.2125,
+    "lon": 103.962,
+    "coord_note": "근사(지역 기준)",
+    "desc": "즈엉동 Tran Hung Dao, 야시장 도보 4분",
+    "price": [
+     "아로마 60분 31,100원 / 598,000동",
+     "아로마 90분 38,300원 / 736,000동",
+     "아로마 120분 46,600원 / 897,000동",
+     "스페셜 90분 41,900원 / 805,000동",
+     "스페셜 120분 51,400원 / 989,000동"
+    ],
+    "pros": [
+     "해피아워(10~12시) 20% 할인",
+     "최근 리모델링·청결",
+     "한글 메뉴판",
+     "2인실 개별 샤워"
+    ],
+    "cons": [
+     "팁 별도(60분 2,400원 / 46,000동, 90분 3,600원 / 69,000동)"
+    ],
+    "extra": [
+     "루아 스파와 같은 계열로 함께 소개되는 경우 많음"
+    ],
+    "map_query": "FIONA SPA 20 Đường Trần Hưng Đạo Phú Quốc",
+    "map_note": "",
+    "home": [],
+    "reviews": {
+     "pos": [
+      {
+       "t": "직원 친절, 팁 포함 가격",
+       "u": "https://blog.naver.com/miu_rae/224435688732"
+      },
+      {
+       "t": "섬세한 손길, 일랑일랑 향 최고, 짐보관",
+       "u": "https://blog.naver.com/jiyeon750/224397793284"
+      },
+      {
+       "t": "리모델링으로 예쁘고 고급스러운 인테리어",
+       "u": "https://blog.naver.com/akasia602/224384609821"
+      },
+      {
+       "t": "깨끗한 공간, 친절한 직원, 테라피스트 실력",
+       "u": "https://blog.naver.com/hloveh01/224323853639"
+      },
+      {
+       "t": "가성비 좋고 매년 재방문할 만큼 만족",
+       "u": "https://blog.naver.com/mina860527/224309616795"
+      },
+      {
+       "t": "리노베이션 인테리어, 깔끔하고 차분한 분위기",
+       "u": "https://blog.naver.com/parangusl_/224280632353"
+      },
+      {
+       "t": "가장 시원하고 근육을 잘 풀어줌",
+       "u": "https://blog.naver.com/znlwm_dhkd/224207904703"
+      },
+      {
+       "t": "깔끔한 공간, 숙련된 테라피스트, 넓은 대기공간",
+       "u": "https://blog.naver.com/hloveh01/224204689414"
+      }
+     ],
+     "neg": [
+      {
+       "t": "인터컨티넨탈에서 멀고 픽업 서비스 없음",
+       "u": "https://blog.naver.com/miu_rae/224435688732"
+      },
+      {
+       "t": "공항 픽업·샌딩 없음",
+       "u": "https://blog.naver.com/znlwm_dhkd/224207904703"
+      }
+     ],
+     "basis": "광고·AI 제외 후기 8건(장소명이 제목에 들어간 글 28건 중 최근 20건 검토, 광고 12·AI 0건 제외)"
+    },
+    "photo": {
+     "file": "photos/피오나_스파.jpg",
+     "src": "https://blog.naver.com/miu_rae/224435688732"
+    }
+   },
+   {
+    "name": "루아 스파",
+    "region": "중부",
+    "aliases": [
+     "루아스파",
+     "루아 스파"
+    ],
+    "lat": 10.214,
+    "lon": 103.9615,
+    "coord_note": "근사(지역 기준)",
+    "desc": "즈엉동 야시장 근처",
+    "price": [
+     "아로마 60분 31,200원 / 600,000동",
+     "아로마 90분 40,600원 / 780,000동",
+     "아로마 120분 49,900원 / 960,000동",
+     "스페셜 90분 43,200원 / 830,000동",
+     "스페셜 120분 53,600원 / 1,030,000동"
+    ],
+    "pros": [
+     "해피아워(10:00~12:30) 20% 할인",
+     "팁을 따로 줄 필요 없음",
+     "오일 선택 가능"
+    ],
+    "cons": [
+     "특별한 단점 후기 없음(제휴 할인 홍보성 글이 많음)"
+    ],
+    "extra": [
+     "오일: 생강·로터스·라벤더·일랑일랑"
+    ],
+    "map_query": "Lua Spa 25 Đường Trần Hưng Đạo Phú Quốc",
+    "map_note": "",
+    "home": [],
+    "reviews": {
+     "pos": [
+      {
+       "t": "발 씻겨주고 개인 샤워실, 청결, 짐 보관",
+       "u": "https://blog.naver.com/b868___/224460511253"
+      },
+      {
+       "t": "깔끔한 시설, 샤워 가능, 수박과 차 제공",
+       "u": "https://blog.naver.com/available_1940/224455278656"
+      },
+      {
+       "t": "숙소 건너편, 해피아워 할인, 시원함",
+       "u": "https://blog.naver.com/jiyeon750/224453414399"
+      },
+      {
+       "t": "시설 좋고 규모 크고 마사지 괜찮음",
+       "u": "https://blog.naver.com/mkan075/224448486470"
+      },
+      {
+       "t": "시설 좋고 깨끗함",
+       "u": "https://blog.naver.com/j_uyr/224430322932"
+      },
+      {
+       "t": "발리 느낌 분위기",
+       "u": "https://blog.naver.com/dreamer8717/224392801611"
+      },
+      {
+       "t": "해피아워 30% 할인, 재방문 쿠폰, 청결",
+       "u": "https://blog.naver.com/blunique_/224389026144"
+      },
+      {
+       "t": "캐리어 보관 가능, 할인 다양",
+       "u": "https://blog.naver.com/seeyouarchive/224380573982"
+      }
+     ],
+     "neg": [
+      {
+       "t": "엄청난 수준은 아닌 무난한 마사지",
+       "u": "https://blog.naver.com/available_1940/224455278656"
+      },
+      {
+       "t": "예약이 꽉 차 전날 이용 못함",
+       "u": "https://blog.naver.com/mkan075/224448486470"
+      },
+      {
+       "t": "인기 많아 당일 예약 어렵다고 함",
+       "u": "https://blog.naver.com/j_uyr/224430322932"
+      }
+     ],
+     "basis": "광고·AI 제외 후기 9건(장소명이 제목에 들어간 글 38건 중 최근 23건 검토, 광고 13·AI 1건 제외)"
+    },
+    "photo": {
+     "file": "photos/루아_스파.jpg",
+     "src": "https://blog.naver.com/b868___/224460511253"
+    }
+   },
+   {
+    "name": "제니스 스파",
+    "region": "중부",
+    "aliases": [
+     "제니스"
+    ],
+    "lat": 10.1965,
+    "lon": 103.9675,
+    "coord_note": "근사(지역 기준)",
+    "desc": "즈엉동 85 Tran Hung Dao(야시장에서 차로 3분)",
+    "price": [
+     "아로마 60분 32,200원 / 620,000동",
+     "아로마 90분 41,100원 / 790,000동",
+     "아로마 120분 47,300원 / 910,000동",
+     "스톤 90분 42,600원 / 820,000동",
+     "키즈 60분 18,700원 / 360,000동"
+    ],
+    "pros": [
+     "전 지역 픽업·샌딩",
+     "90분 해피아워 시 1인 약 25,000원 / 약 481,000동",
+     "룸 내 샤워",
+     "핸드사인으로 소통"
+    ],
+    "cons": [
+     "\"압이 약했다\"는 후기"
+    ],
+    "extra": [
+     "임산부 마사지(20주부터) 가능"
+    ],
+    "map_query": "ZENITH SPA & NAIL 85 Đường Trần Hưng Đạo Phú Quốc",
+    "map_note": "",
+    "home": [],
+    "reviews": {
+     "pos": [
+      {
+       "t": "깔끔하고 깨끗한 시설, 카페 회원 할인",
+       "u": "https://blog.naver.com/mariweather/224449769038"
+      },
+      {
+       "t": "해피아워 40% 할인 가성비, 예쁜 로비",
+       "u": "https://blog.naver.com/heejjung0305/224459573108"
+      },
+      {
+       "t": "압과 시설 만족, 샤워 가능, 소통 카드",
+       "u": "https://blog.naver.com/moonyanya-/224434371987"
+      },
+      {
+       "t": "넓은 공간, 카톡 예약, 짐 보관과 픽업",
+       "u": "https://blog.naver.com/minsy91/224422768556"
+      },
+      {
+       "t": "픽드랍 편리, 재방문하고 싶은 곳",
+       "u": "https://blog.naver.com/thescapequeen/224410604873"
+      },
+      {
+       "t": "큰 단독 건물로 믿음감, 북부 샌딩 가능",
+       "u": "https://blog.naver.com/kwy3567/224409389910"
+      }
+     ],
+     "neg": [
+      {
+       "t": "네일 마무리가 한국만큼 깔끔하진 않음",
+       "u": "https://blog.naver.com/minsy91/224422768556"
+      },
+      {
+       "t": "킹콩마트 드랍 시 5달러 추가",
+       "u": "https://blog.naver.com/thescapequeen/224410604873"
+      },
+      {
+       "t": "북부 샌딩 편도 20달러, 쿠폰 사용 제한",
+       "u": "https://blog.naver.com/kwy3567/224409389910"
+      }
+     ],
+     "basis": "광고·AI 제외 후기 15건(장소명이 제목에 들어간 글 32건 중 최근 22건 검토, 광고 7·AI 0건 제외)"
+    },
+    "photo": {
+     "file": "photos/제니스_스파.jpg",
+     "src": "https://blog.naver.com/mariweather/224449769038"
+    }
+   },
+   {
+    "name": "오션스파",
+    "region": "중부",
+    "aliases": [
+     "오션스파",
+     "오션 스파"
+    ],
+    "lat": 10.195,
+    "lon": 103.9685,
+    "coord_note": "근사(지역 기준)",
+    "desc": "즈엉동 킹콩마트 앞(114 Tran Hung Dao 일대)",
+    "price": [
+     "아로마 60분 30,700원 / 590,000동",
+     "아로마 90분 40,000원 / 770,000동",
+     "타이 90분 42,100원 / 810,000동",
+     "120분 49,400원 / 950,000동"
+    ],
+    "pros": [
+     "07~22시 영업",
+     "90분 이상이면 전 지역 무료 픽업·샌딩"
+    ],
+    "cons": [
+     "출처마다 가격 기준이 다름"
+    ],
+    "extra": [],
+    "map_query": "Ocean Spa 114 Đường Trần Hưng Đạo Phú Quốc",
+    "map_note": "",
+    "home": [],
+    "reviews": {
+     "pos": [
+      {
+       "t": "캐리어 짐 보관, 체크아웃투어 편리",
+       "u": "https://blog.naver.com/llernvs_j/224462154981"
+      },
+      {
+       "t": "아침 7시 오픈, 무료 픽업샌딩",
+       "u": "https://blog.naver.com/uzaxrwk/224460924970"
+      },
+      {
+       "t": "선번케어 메뉴, 무료 픽업샌딩",
+       "u": "https://blog.naver.com/op3uj5-nm6e/224459477044"
+      },
+      {
+       "t": "픽업샌딩 가능, 킹콩마트 앞 위치",
+       "u": "https://blog.naver.com/asdfghjk2738/224452351898"
+      },
+      {
+       "t": "한국어 카톡 예약, 짐 보관 편리",
+       "u": "https://blog.naver.com/geukaseyo/224448890099"
+      },
+      {
+       "t": "무료 픽업, 오일·강도 선택, 키즈 마사지",
+       "u": "https://blog.naver.com/ghwns8ghk/224443643760"
+      },
+      {
+       "t": "공항픽업부터 샌딩까지 한번에 편리",
+       "u": "https://blog.naver.com/ottina/224434537217"
+      },
+      {
+       "t": "무료 픽업샌딩, 짐 보관 가능",
+       "u": "https://blog.naver.com/maponest/224429125687"
+      },
+      {
+       "t": "킹콩마트 앞, 걷기 편하고 말 안 통해도 고르기 쉬움",
+       "u": "https://blog.naver.com/ks_jangmi/224426223054"
+      },
+      {
+       "t": "한국어 소통 직원, 킹콩마트 바로 앞",
+       "u": "https://blog.naver.com/cjddk0206/224423125907"
+      }
+     ],
+     "neg": [
+      {
+       "t": "시설이 오래된 느낌, 세련되지 않음",
+       "u": "https://blog.naver.com/cjddk0206/224423125907"
+      },
+      {
+       "t": "입장 시 퀴퀴한 하수구 냄새",
+       "u": "https://blog.naver.com/dbtndus22/224146452290"
+      }
+     ],
+     "basis": "광고·AI 제외 후기 18건(장소명이 제목에 들어간 글 22건 중 최근 20건 검토, 광고 1·AI 1건 제외)"
+    },
+    "photo": {
+     "file": "photos/오션스파.jpg",
+     "src": "https://blog.naver.com/llernvs_j/224462154981"
+    }
+   },
+   {
+    "name": "오메가 스파",
+    "region": "중부",
+    "aliases": [
+     "오메가"
+    ],
+    "lat": 10.2,
+    "lon": 103.966,
+    "coord_note": "근사(지역 기준)",
+    "desc": "즈엉동 중부, 한인 운영",
+    "price": [
+     "가격 미확인(광고가 아닌 후기에서 확인 못 함)"
+    ],
+    "pros": [
+     "한국어 소통"
+    ],
+    "cons": [],
+    "extra": [],
+    "map_query": "Omega Spa Phu Quoc",
+    "map_note": "검색 목록에서 선택",
+    "home": [],
+    "reviews": {
+     "pos": [
+      {
+       "t": "오션뷰 프라이빗 개인룸, 룸 내 화장실",
+       "u": "https://blog.naver.com/dbtjdrud96/224452542425"
+      },
+      {
+       "t": "넓고 깨끗한 로비, 친절, 샤워 가능, 시원한 마사지",
+       "u": "https://blog.naver.com/guswjd4236/224436241154"
+      },
+      {
+       "t": "짐보관·샤워·프라이빗룸, 공항 가까움",
+       "u": "https://blog.naver.com/yooky617/224390414150"
+      },
+      {
+       "t": "임산부 세심한 배려, 깨끗하고 가성비 좋음",
+       "u": "https://blog.naver.com/you_need_more/224294373871"
+      }
+     ],
+     "neg": [
+      {
+       "t": "방 안 가림막 없음",
+       "u": "https://blog.naver.com/guswjd4236/224436241154"
+      },
+      {
+       "t": "샤워 시간 여유 없이 노크로 재촉",
+       "u": "https://blog.naver.com/you_need_more/224294373871"
+      }
+     ],
+     "basis": "광고·AI 제외 후기 5건(장소명이 제목에 들어간 글 7건 중 최근 7건 검토, 광고 2·AI 0건 제외)"
+    },
+    "photo": {
+     "file": "photos/오메가_스파.jpg",
+     "src": "https://blog.naver.com/dbtjdrud96/224452542425"
+    }
+   },
+   {
+    "name": "푸꾸옥 데이 스파",
+    "region": "중부",
+    "aliases": [
+     "데이스파",
+     "데이 스파",
+     "Day Spa"
+    ],
+    "lat": 10.212,
+    "lon": 103.9625,
+    "coord_note": "근사(지역 기준)",
+    "desc": "즈엉동 100/3 Tran Hung Dao",
+    "price": [
+     "60분 23,400원 / 450,000동"
+    ],
+    "pros": [
+     "오래 영업한 로컬 스파",
+     "2시간 핫스톤 스페셜 코스"
+    ],
+    "cons": [
+     "관리사마다 실력 차이가 있다는 평"
+    ],
+    "extra": [],
+    "map_query": "Phu Quoc Day Spa 100/3 Đường Trần Hưng Đạo Phú Quốc",
+    "map_note": "",
+    "home": [
+     {
+      "label": "홈페이지",
+      "url": "https://spaphuquoc.com/"
+     },
+     {
+      "label": "페이스북",
+      "url": "https://www.facebook.com/phuquocdayspa/"
+     }
+    ],
+    "reviews": {
+     "pos": [
+      {
+       "t": "2시간 핫스톤 스페셜 코스 강추",
+       "u": "https://www.tripadvisor.com/Attraction_Review-g469418-d6960632-Reviews-Phu_Quoc_Day_Spa-Phu_Quoc_Island_Kien_Giang_Province.html"
+      },
+      {
+       "t": "깔끔한 위생, 좋은 서비스, 무료 픽드랍",
+       "u": "https://blog.naver.com/chadior20/224448876127"
+      }
+     ],
+     "neg": [
+      {
+       "t": "관리사마다 실력 차이",
+       "u": "https://www.tripadvisor.com/Attraction_Review-g469418-d6960632-Reviews-Phu_Quoc_Day_Spa-Phu_Quoc_Island_Kien_Giang_Province.html"
+      }
+     ],
+     "basis": "광고·AI 제외 후기 5건(장소명이 제목에 들어간 글 5건 중 최근 5건 검토, 광고 0·AI 0건 제외)"
+    }
+   },
+   {
+    "name": "아라 스파",
+    "region": "중부",
+    "aliases": [
+     "아라스파",
+     "아라 스파"
+    ],
+    "lat": 10.1305,
+    "lon": 103.989,
+    "coord_note": "근사(지역 기준)",
+    "desc": "소나시 SS05 Sonasea Villas",
+    "price": [
+     "120분 47,300원 / 910,000동",
+     "10시 전 해피아워 40% 할인 시 28,400원 / 546,000동"
+    ],
+    "pros": [
+     "한국어 가능",
+     "공항 픽업·드랍",
+     "청결",
+     "향이 좋다는 평"
+    ],
+    "cons": [
+     "픽드랍 왕복 5달러"
+    ],
+    "extra": [],
+    "map_query": "Ara Hotel Spa PhuQuoc SS05 Sonasea Villas",
+    "map_note": "",
+    "home": [],
+    "reviews": {
+     "pos": [
+      {
+       "t": "공항 픽업, 해피아워 40% 할인, 꼼꼼한 마사지",
+       "u": "https://blog.naver.com/82252448/224455414261"
+      },
+      {
+       "t": "마사지사 실력 좋아 둘 다 만족",
+       "u": "https://blog.naver.com/kka_mung/224463374736"
+      },
+      {
+       "t": "무료 샌딩 서비스로 이동 편리",
+       "u": "https://blog.naver.com/lxkazuyaxl/224453531737"
+      },
+      {
+       "t": "픽업·드랍, 친절한 사장님, 재방문 의사",
+       "u": "https://blog.naver.com/j_uyr/224431494890"
+      },
+      {
+       "t": "서비스 좋고 편안함",
+       "u": "https://blog.naver.com/heui616_/224392511330"
+      },
+      {
+       "t": "야시장 앞 접근성, 타이 마사지 만족",
+       "u": "https://blog.naver.com/entely/224344617789"
+      },
+      {
+       "t": "깨끗한 시설, 친절, 재방문 의사",
+       "u": "https://blog.naver.com/youn_na0/224331744979"
+      },
+      {
+       "t": "합리적 가격, 샤워시설, 공항 픽업",
+       "u": "https://blog.naver.com/danzzak78/224313337706"
+      }
+     ],
+     "neg": [
+      {
+       "t": "보통 강도는 압이 약해 2% 부족",
+       "u": "https://blog.naver.com/heui616_/224392511330"
+      },
+      {
+       "t": "현장결제 시 예약 할인 못 받아 아쉬움",
+       "u": "https://blog.naver.com/entely/224344617789"
+      }
+     ],
+     "basis": "광고·AI 제외 후기 12건(장소명이 제목에 들어간 글 23건 중 최근 20건 검토, 광고 6·AI 2건 제외)"
+    },
+    "photo": {
+     "file": "photos/아라_스파.jpg",
+     "src": "https://blog.naver.com/82252448/224455414261"
+    }
+   },
+   {
+    "name": "라온 스파",
+    "region": "중부",
+    "aliases": [
+     "라온"
+    ],
+    "lat": 10.129,
+    "lon": 103.988,
+    "coord_note": "근사(지역 기준)",
+    "desc": "소나시 야시장 메인 거리",
+    "price": [
+     "90분 41,100원 / 790,000동"
+    ],
+    "pros": [
+     "인테리어 최고",
+     "문의 답변 빠름",
+     "깨끗"
+    ],
+    "cons": [
+     "\"마사지 자체는 아쉬웠다\"는 후기",
+     "북부 픽업 20달러"
+    ],
+    "extra": [],
+    "map_query": "LAONSPA & NAIL Đường Bào Phú Quốc",
+    "map_note": "",
+    "home": [],
+    "reviews": {
+     "pos": [
+      {
+       "t": "키즈스페셜 구성 알참",
+       "u": "https://blog.naver.com/kidandme/224465343051"
+      },
+      {
+       "t": "온열베드, 키즈룸, 골반 엉덩이 잘 풀어줌",
+       "u": "https://blog.naver.com/owniii/224464526618"
+      },
+      {
+       "t": "가장 깔끔한 시설, 핫스톤 좋음, 무료 샌딩",
+       "u": "https://blog.naver.com/cloolv/224459178529"
+      },
+      {
+       "t": "마사지 아주 좋고 직원 친절, 럭셔리 시설",
+       "u": "https://blog.naver.com/yihyunaa/224456521486"
+      },
+      {
+       "t": "넓고 고급스러운 시설, 룸 내 샤워실",
+       "u": "https://blog.naver.com/wherewego365/224453707775"
+      }
+     ],
+     "neg": [
+      {
+       "t": "다친 발을 계속 건드림, 샤워실 이용 불가 통보",
+       "u": "https://blog.naver.com/homi519/224466774284"
+      },
+      {
+       "t": "잡담, 중간 교대, 일찍 종료, 샤워부스 바퀴벌레",
+       "u": "https://blog.naver.com/owniii/224464526618"
+      },
+      {
+       "t": "핫스톤 순서가 일반 아로마와 거의 비슷",
+       "u": "https://blog.naver.com/cloolv/224459178529"
+      },
+      {
+       "t": "로비 화장실에서 큰 바퀴벌레 발견",
+       "u": "https://blog.naver.com/yihyunaa/224456521486"
+      },
+      {
+       "t": "마사지 만족도 기대 이하, 카드결제 불가",
+       "u": "https://blog.naver.com/wherewego365/224453707775"
+      }
+     ],
+     "basis": "광고·AI 제외 후기 15건(장소명이 제목에 들어간 글 54건 중 최근 27건 검토, 광고 11·AI 1건 제외)"
+    }
+   },
+   {
+    "name": "소라 스파",
+    "region": "중부",
+    "aliases": [
+     "소라스파",
+     "소라 스파",
+     "Sora Spa"
+    ],
+    "lat": 10.1126,
+    "lon": 103.9835,
+    "coord_note": "근사(지역 기준)",
+    "desc": "롱비치 남쪽 Waterfront(B8-208), 인터컨티넨탈 근처",
+    "price": [
+     "가격 미확인(후기에서 확인 못 함)"
+    ],
+    "pros": [
+     "헤드스파 반응이 좋음",
+     "한국어 가능"
+    ],
+    "cons": [
+     "무료 픽업 지역이 아니면 유료"
+    ],
+    "extra": [
+     "팁 60분 2,600원 / 50,000동",
+     "팁 90분 3,600~5,200원 / 70,000~100,000동(후기 기준)",
+     "압이 약하면 세게 해 달라고 요청"
+    ],
+    "map_query": "Sora Spa Waterfront Đường Bào Phú Quốc",
+    "map_note": "",
+    "home": [],
+    "reviews": {
+     "pos": [
+      {
+       "t": "시간 연장하고 다음날 또 갈 만큼 만족",
+       "u": "https://blog.naver.com/poi09890/224456017649"
+      },
+      {
+       "t": "바다 앞 분위기, 소라 시그니처 90분 추천",
+       "u": "https://blog.naver.com/hi-netty/224392306033"
+      },
+      {
+       "t": "친절하고 깔끔해 이틀 연속 방문",
+       "u": "https://blog.naver.com/gogh1021/224234793799"
+      },
+      {
+       "t": "2인 프라이빗 룸",
+       "u": "https://blog.naver.com/hey_deen/224132809429"
+      }
+     ],
+     "neg": [
+      {
+       "t": "60분 코스는 루틴이 다소 급함",
+       "u": "https://blog.naver.com/hi-netty/224392306033"
+      },
+      {
+       "t": "마사지사에 따라 만족도 차이",
+       "u": "https://blog.naver.com/gogh1021/224234793799"
+      },
+      {
+       "t": "찾기 어렵고 대기 공간 좁음, 픽업 없음",
+       "u": "https://blog.naver.com/hey_deen/224132809429"
+      }
+     ],
+     "basis": "광고·AI 제외 후기 4건(장소명이 제목에 들어간 글 8건 중 최근 8건 검토, 광고 4·AI 0건 제외)"
+    },
+    "photo": {
+     "file": "photos/소라_스파.jpg",
+     "src": "https://blog.naver.com/poi09890/224456017649"
+    }
+   },
+   {
+    "name": "망고 스파",
+    "region": "확인필요",
+    "aliases": [
+     "망고스파",
+     "망고 스파"
+    ],
+    "lat": null,
+    "lon": null,
+    "coord_note": "",
+    "desc": "지점 위치는 예약 시 확인",
+    "price": [
+     "아로마 60분 30,700원 / 590,000동",
+     "아로마 90분 38,000~40,000원 / 730,000~770,000동",
+     "아로마 스톤 90분 48,900원 / 940,000동",
+     "어린이 60분 19,200원 / 370,000동",
+     "네일 손 기본 7,800원 / 150,000동",
+     "젤 원컬러 손 20,800원 / 400,000동",
+     "젤 원컬러 발 23,400원 / 450,000동"
+    ],
+    "pros": [
+     "가족 단위 가성비(6명 약 120,000원 / 약 2,310,000동 사례)",
+     "네일 같이 가능"
+    ],
+    "cons": [
+     "블로그마다 위치 표기가 달라 확인 필요"
+    ],
+    "extra": [
+     "예약 시 지점 위치 확인"
+    ],
+    "map_query": "Mango spa and nail 143 Đường Trần Hưng Đạo Phú Quốc",
+    "map_note": "",
+    "home": [
+     {
+      "label": "홈페이지",
+      "url": "https://mangospaphuquoc.com/"
+     }
+    ],
+    "reviews": {
+     "pos": [
+      {
+       "t": "재방문 의사 있음",
+       "u": "https://blog.naver.com/owniii/224464526618"
+      },
+      {
+       "t": "픽업 가능, 강도 선택, 중부 숙소면 강추",
+       "u": "https://blog.naver.com/h_app_yyy/224462111172"
+      },
+      {
+       "t": "프라이빗하게 받을 수 있음",
+       "u": "https://blog.naver.com/ruelharmonie/224457172057"
+      },
+      {
+       "t": "전지역 픽업, 대인원 동시 이용 가능",
+       "u": "https://blog.naver.com/dinblah/224407439328"
+      },
+      {
+       "t": "키즈마사지, 독채 가족룸, 좋은 위치",
+       "u": "https://blog.naver.com/mps36162/224383904795"
+      },
+      {
+       "t": "샌딩 서비스 편리",
+       "u": "https://blog.naver.com/ameliee__/224265955166"
+      },
+      {
+       "t": "짐 보관, 예쁜 방, 오일 닦아줌",
+       "u": "https://blog.naver.com/wo_22/224242776483"
+      }
+     ],
+     "neg": [
+      {
+       "t": "로컬보다 비싸고 마사지 만족도 그저 그럼",
+       "u": "https://blog.naver.com/ruelharmonie/224457172057"
+      },
+      {
+       "t": "카드결제 수수료 5%",
+       "u": "https://blog.naver.com/mps36162/224383904795"
+      },
+      {
+       "t": "가격이 꽤 비쌈, 문자 예약 안 됨",
+       "u": "https://blog.naver.com/ameliee__/224265955166"
+      },
+      {
+       "t": "마사지는 무난, 수건·샤워용품 없음",
+       "u": "https://blog.naver.com/wo_22/224242776483"
+      }
+     ],
+     "basis": "광고·AI 제외 후기 10건(장소명이 제목에 들어간 글 22건 중 최근 20건 검토, 광고 10·AI 0건 제외)"
+    },
+    "photo": {
+     "file": "photos/망고_스파.jpg",
+     "src": "https://blog.naver.com/owniii/224464526618"
+    }
+   },
+   {
+    "name": "크라운 스파",
+    "region": "북부",
+    "aliases": [
+     "크라운"
+    ],
+    "lat": 10.3235,
+    "lon": 103.86,
+    "coord_note": "근사(지역 기준)",
+    "desc": "그랜드월드 도보 5분",
+    "price": [
+     "가격 미확인(광고가 아닌 후기에서 확인 못 함)"
+    ],
+    "pros": [
+     "짐 보관",
+     "공항 샌딩(추가 6,500원 / 125,000동)"
+    ],
+    "cons": [
+     "중부·남부 숙소에서 멂"
+    ],
+    "extra": [],
+    "map_query": "Crown Spa Grand World Phu Quoc",
+    "map_note": "검색 목록에서 선택",
+    "home": [],
+    "reviews": {
+     "pos": [
+      {
+       "t": "마사지 시원함",
+       "u": "https://blog.naver.com/tjsdn9965/224463884560"
+      },
+      {
+       "t": "픽업·짐보관 편리",
+       "u": "https://blog.naver.com/moreyangee/224458989820"
+      },
+      {
+       "t": "고급스러운 분위기, 섬세하고 시원한 발마사지",
+       "u": "https://blog.naver.com/mutnhssl891240_tp/224457315860"
+      },
+      {
+       "t": "그랜드월드 위치로 동선 좋고 마사지 만족",
+       "u": "https://blog.naver.com/heui616_/224392511330"
+      },
+      {
+       "t": "접근성 좋고 밝고 깨끗, 가족 3인실, 할인",
+       "u": "https://blog.naver.com/hi_tomoya/224345311985"
+      }
+     ],
+     "neg": [
+      {
+       "t": "화장실 냄새가 너무 심함",
+       "u": "https://blog.naver.com/tjsdn9965/224463884560"
+      },
+      {
+       "t": "마사지는 쏘쏘였음",
+       "u": "https://blog.naver.com/moreyangee/224458989820"
+      },
+      {
+       "t": "내부가 오래된 느낌",
+       "u": "https://blog.naver.com/hi_tomoya/224345311985"
+      }
+     ],
+     "basis": "광고·AI 제외 후기 14건(장소명이 제목에 들어간 글 55건 중 최근 25건 검토, 광고 10·AI 1건 제외)"
+    },
+    "photo": {
+     "file": "photos/크라운_스파.jpg",
+     "src": "https://blog.naver.com/tjsdn9965/224463884560"
+    }
+   },
+   {
+    "name": "웨일 스파",
+    "region": "북부",
+    "aliases": [
+     "웨일"
+    ],
+    "lat": 10.3249,
+    "lon": 103.8581,
+    "coord_note": "근사(지역 기준)",
+    "desc": "그랜드월드 Shanghai 구역(SA-03-37)",
+    "price": [
+     "아로마 60분 31,200원 / 600,000동",
+     "아로마 90분 39,000원 / 750,000동",
+     "아로마 120분 46,800원 / 900,000동",
+     "90분 VIP 코스 35,900원 / 690,000동"
+    ],
+    "pros": [
+     "05~08시 도착편 공항 무료 픽업",
+     "빈펄 지역 무료 픽업",
+     "아오자이 무료 대여",
+     "4인 룸·룸 샤워",
+     "선호·비선호 부위 확인"
+    ],
+    "cons": [
+     "\"발바닥보다 종아리만 훑었다\"는 후기",
+     "네일은 비추(다음날 떨어짐)"
+    ],
+    "extra": [
+     "영업 06:00(07:00)~21:00. 시즌 20% 할인 이벤트 사례"
+    ],
+    "map_query": "Whale spa&nail Grand world Phú Quốc",
+    "map_note": "",
+    "home": [],
+    "reviews": {
+     "pos": [
+      {
+       "t": "빠른 카톡 회신, 당일 예약, 20% 할인, 선호부위 확인",
+       "u": "https://blog.naver.com/xilala/224461860937"
+      },
+      {
+       "t": "근골격계 전문가 같은 마사지 실력",
+       "u": "https://blog.naver.com/mini__lily/224457073361"
+      },
+      {
+       "t": "밤비행기 피로 풀기 좋음, 오일 선택, 20% 할인",
+       "u": "https://blog.naver.com/bo1026/224454000777"
+      },
+      {
+       "t": "3번 방문, 픽업 무료·20% 할인, 룸별 샤워 가능",
+       "u": "https://blog.naver.com/dodolim112/224453455138"
+      },
+      {
+       "t": "도착·출국 전 이용, 공항픽업 서비스 만족",
+       "u": "https://blog.naver.com/ssomizzal/224451238008"
+      },
+      {
+       "t": "오일 선택 가능, 관광 중 쉬어가기 좋음",
+       "u": "https://blog.naver.com/juddy-_-/224446589733"
+      },
+      {
+       "t": "아이와 네일 함께 가능, 마사지 괜찮아 재방문",
+       "u": "https://blog.naver.com/dabledablejj/224445858012"
+      }
+     ],
+     "neg": [
+      {
+       "t": "키즈네일 오래 걸림, 썬번마사지는 자극적",
+       "u": "https://blog.naver.com/dabledablejj/224445858012"
+      }
+     ],
+     "basis": "광고·AI 제외 후기 24건(장소명이 제목에 들어간 글 43건 중 최근 27건 검토, 광고 3·AI 0건 제외)"
+    },
+    "photo": {
+     "file": "photos/웨일_스파.jpg",
+     "src": "https://blog.naver.com/xilala/224461860937"
+    }
+   },
+   {
+    "name": "럭스 스파 (LUXE SPA)",
+    "region": "북부",
+    "aliases": [
+     "럭스스파",
+     "럭스 스파",
+     "LUXE"
+    ],
+    "lat": 10.3245,
+    "lon": 103.8585,
+    "coord_note": "근사(지역 기준)",
+    "desc": "그랜드월드 안",
+    "price": [
+     "전신 아로마 90분 36,300원 / 699,000동",
+     "현장 5% 할인 시 34,500원 / 664,050동",
+     "2인 2시간 약 70,000원 / 약 1,350,000동 사례"
+    ],
+    "pros": [
+     "중부에서 북부까지 30km 무료 픽업"
+    ],
+    "cons": [],
+    "extra": [
+     "무료 픽업 조건은 방문 전 확인"
+    ],
+    "map_query": "Luxe Spa Grand World Phu Quoc",
+    "map_note": "검색 목록에서 선택",
+    "home": [],
+    "reviews": {
+     "pos": [
+      {
+       "t": "넓은 무료 픽업 범위, 2인 2시간 약 7만원",
+       "u": "https://www.youtube.com/watch?v=OqnN0VI6RI4"
+      },
+      {
+       "t": "온찜질이 좋았음",
+       "u": "https://blog.naver.com/sororo9/224426131197"
+      }
+     ],
+     "neg": [
+      {
+       "t": "방이 오픈·커튼식이라 어수선, 직원 출입 잦음",
+       "u": "https://blog.naver.com/sororo9/224426131197"
+      }
+     ],
+     "basis": "광고·AI 제외 후기 1건(장소명이 제목에 들어간 글 3건 중 최근 3건 검토, 광고 2·AI 0건 제외)"
+    },
+    "photo": {
+     "file": "photos/럭스_스파_LUXE_SPA.jpg",
+     "src": "https://blog.naver.com/sororo9/224426131197"
+    }
+   },
+   {
+    "name": "코코 스파",
+    "region": "중부",
+    "aliases": [
+     "코코스파",
+     "코코 스파",
+     "COCO SPA"
+    ],
+    "lat": 10.13,
+    "lon": 103.9886,
+    "coord_note": "근사(지역 기준)",
+    "desc": "소나시 SS08-S10",
+    "price": [
+     "아로마 60분+헤어워시 30분 콤보 33,800원 / 650,000동(정상가 40,000원 / 770,000동)"
+    ],
+    "pros": [
+     "무료 픽업",
+     "주변 상점과 가까움"
+    ],
+    "cons": [
+     "\"강도 중을 골랐는데 약했다\"는 후기"
+    ],
+    "extra": [
+     "영업 09:00~23:00"
+    ],
+    "map_query": "COCO SPA Phu Quoc Đường Bào",
+    "map_note": "",
+    "home": [],
+    "reviews": {
+     "pos": [
+      {
+       "t": "취향별 콤보 선택 가능, 야시장 초입 위치",
+       "u": "https://blog.naver.com/dndsns/224465892644"
+      },
+      {
+       "t": "이틀 연속 방문할 만큼 만족",
+       "u": "https://blog.naver.com/chzhtbzm/224464482554"
+      },
+      {
+       "t": "원하는 강도로 세심한 관리, 몸이 가뿐",
+       "u": "https://blog.naver.com/tjdal6461/224463836986"
+      },
+      {
+       "t": "한글 메뉴, 합리적 가격, 90분 콤보 만족",
+       "u": "https://blog.naver.com/victor4224/224462071295"
+      },
+      {
+       "t": "한글 메뉴와 상담표, 바디+헤어워시 콤보",
+       "u": "https://blog.naver.com/hyunjh1003/224459328799"
+      },
+      {
+       "t": "내부 가장 깔끔, 계좌이체 가능, 족욕",
+       "u": "https://blog.naver.com/hate0317/224458155619"
+      },
+      {
+       "t": "위치 좋고 찾기 쉬움",
+       "u": "https://blog.naver.com/hj2307/224456813457"
+      },
+      {
+       "t": "워크인 가능",
+       "u": "https://blog.naver.com/yihyunaa/224456549575"
+      }
+     ],
+     "neg": [
+      {
+       "t": "마사지사 불친절, 헤어워시 중 얼굴에 물",
+       "u": "https://blog.naver.com/yihyunaa/224456549575"
+      }
+     ],
+     "basis": "광고·AI 제외 후기 20건(장소명이 제목에 들어간 글 43건 중 최근 21건 검토, 광고 1·AI 0건 제외)"
+    },
+    "photo": {
+     "file": "photos/코코_스파.jpg",
+     "src": "https://blog.naver.com/dndsns/224465892644"
+    }
+   },
+   {
+    "name": "유주 스파 & 네일",
+    "region": "중부",
+    "aliases": [
+     "유주"
+    ],
+    "lat": 10.196,
+    "lon": 103.9678,
+    "coord_note": "근사(지역 기준)",
+    "desc": "즈엉동 99A Tran Hung Dao(킹콩마트 부근)",
+    "price": [
+     "90분 39,000원 / 750,000동",
+     "120분 46,800원 / 900,000동",
+     "젤네일 약 30,000원대 / 약 577,000동대"
+    ],
+    "pros": [
+     "캐리어 보관",
+     "마사지 후 샤워",
+     "깨끗함",
+     "새벽~자정 영업"
+    ],
+    "cons": [
+     "남성 요금이 약간 더 비쌈"
+    ],
+    "extra": [
+     "영업 06:00~24:00. 마지막 날 체크아웃 후 이용 추천"
+    ],
+    "map_query": "Yuju Spa 99A Đường Trần Hưng Đạo Phú Quốc",
+    "map_note": "",
+    "home": [
+     {
+      "label": "카카오톡 채널(접속 확인: 푸꾸옥마사지 by YUJU SPA)",
+      "url": "https://pf.kakao.com/_wlqxgxj"
+     }
+    ],
+    "reviews": {
+     "pos": [
+      {
+       "t": "캐리어 보관, 팁 포함 가격, 밤 12시까지",
+       "u": "https://blog.naver.com/xluxuryx/224466228553"
+      },
+      {
+       "t": "쾌적하고 럭셔리, 원화 이체 가능",
+       "u": "https://blog.naver.com/suzzang010/224454062066"
+      },
+      {
+       "t": "스파와 네일 한 동선, 2층 카페 휴식",
+       "u": "https://blog.naver.com/asdfghjk2738/224452960438"
+      },
+      {
+       "t": "공항 픽업, 수박주스 웰컴드링크, 넓은 매장",
+       "u": "https://blog.naver.com/asdfghjk2738/224452251997"
+      },
+      {
+       "t": "푸꾸옥 1등 마사지샵, 중부 픽드랍 무료",
+       "u": "https://blog.naver.com/tonglab_/224450230389"
+      },
+      {
+       "t": "새벽 공항 픽업, 깨끗한 내부, 적당한 압",
+       "u": "https://blog.naver.com/xilala/224449962551"
+      },
+      {
+       "t": "전지역 픽업 1회 무료, 간단한 메뉴",
+       "u": "https://blog.naver.com/csn324/224421260251"
+      },
+      {
+       "t": "깔끔하고 넓은 가게, 맛있는 수박주스",
+       "u": "https://blog.naver.com/moon-bly/224408712053"
+      }
+     ],
+     "neg": [
+      {
+       "t": "네일 디자인은 미리 찾아가야 함",
+       "u": "https://blog.naver.com/asdfghjk2738/224452960438"
+      },
+      {
+       "t": "마사지는 그냥 그랬음, 로컬샵이 더 시원",
+       "u": "https://blog.naver.com/moon-bly/224408712053"
+      }
+     ],
+     "basis": "광고·AI 제외 후기 15건(장소명이 제목에 들어간 글 44건 중 최근 20건 검토, 광고 5·AI 0건 제외)"
+    },
+    "photo": {
+     "file": "photos/유주_스파_네일.jpg",
+     "src": "https://blog.naver.com/xluxuryx/224466228553"
+    }
+   },
+   {
+    "name": "디나 스파",
+    "region": "중부",
+    "aliases": [
+     "디나"
+    ],
+    "lat": 10.13,
+    "lon": 103.9886,
+    "coord_note": "근사(지역 기준)",
+    "desc": "소나시 일대(남부·중부 픽업)",
+    "price": [
+     "가격 미확인(블로그 본문에서 확인 못 함)"
+    ],
+    "pros": [
+     "짐 보관",
+     "픽업",
+     "원화 결제 가능"
+    ],
+    "cons": [
+     "가격 정보 부족"
+    ],
+    "extra": [
+     "마지막 날 일정용으로 추천"
+    ],
+    "map_query": "Dina Spa Phu Quoc",
+    "map_note": "검색 목록에서 선택",
+    "home": [],
+    "reviews": {
+     "pos": [
+      {
+       "t": "압 요청 가능, 픽업 서비스",
+       "u": "https://blog.naver.com/ybckd/224460285119"
+      },
+      {
+       "t": "픽업 서비스, 한화 결제 가능",
+       "u": "https://blog.naver.com/so1r8ovoff1e/224460268450"
+      },
+      {
+       "t": "픽업 서비스, 한화 결제, 편안한 분위기",
+       "u": "https://blog.naver.com/qysjcdcmsepyr/224459059053"
+      },
+      {
+       "t": "팁 포함 금액, 아이 마사지 가능",
+       "u": "https://blog.naver.com/siyoung9870/224435174264"
+      }
+     ],
+     "neg": [
+      {
+       "t": "찾기 어려움, 어린이 마사지는 문지르는 수준",
+       "u": "https://blog.naver.com/siyoung9870/224435174264"
+      }
+     ],
+     "basis": "광고·AI 제외 후기 4건(장소명이 제목에 들어간 글 37건 중 최근 22건 검토, 광고 4·AI 14건 제외)"
+    },
+    "photo": {
+     "file": "photos/디나_스파.jpg",
+     "src": "https://blog.naver.com/ybckd/224460285119"
+    }
+   },
+   {
+    "name": "라라 스파",
+    "region": "중부",
+    "aliases": [
+     "라라스파",
+     "라라 스파",
+     "Lara"
+    ],
+    "lat": 10.13,
+    "lon": 103.9886,
+    "coord_note": "근사(지역 기준)",
+    "desc": "소나시 S07",
+    "price": [
+     "발마사지 10,400원 / 200,000동",
+     "할인 시 9,400원 / 180,000동"
+    ],
+    "pros": [
+     "괄사로 발바닥을 눌러 시원",
+     "차 제공"
+    ],
+    "cons": [],
+    "extra": [
+     "영업 08:00~23:00"
+    ],
+    "map_query": "Lara Spa Chợ đêm Bãi Trường Phú Quốc",
+    "map_note": "",
+    "home": [],
+    "reviews": {
+     "pos": [
+      {
+       "t": "가족 별도 방, 웰컴티·쿠키, 피로 해소",
+       "u": "https://blog.naver.com/juddy-_-/224463172343"
+      },
+      {
+       "t": "족욕부터 압 체크, 부드러운 발 관리",
+       "u": "https://blog.naver.com/moon1159/224458194984"
+      },
+      {
+       "t": "워크인 가능, 웰컴티 맛있음, 발마사지 강추",
+       "u": "https://blog.naver.com/yihyunaa/224448855964"
+      },
+      {
+       "t": "쇼핑 후 시원한 하체 마사지",
+       "u": "https://blog.naver.com/kms4835/224302070163"
+      },
+      {
+       "t": "친절하고 만족스러워 재방문",
+       "u": "https://blog.naver.com/kbg04096/224250715077"
+      },
+      {
+       "t": "야시장 접근성, 저렴, 망고·안대 서비스",
+       "u": "https://blog.naver.com/eunha1310/224216872224"
+      },
+      {
+       "t": "가격 대비 가장 만족, 시원하고 부드러움",
+       "u": "https://blog.naver.com/yabgi_/224202509392"
+      }
+     ],
+     "neg": [
+      {
+       "t": "대기 손님 있고 밖 대기 공간 더움",
+       "u": "https://blog.naver.com/kbg04096/224250715077"
+      },
+      {
+       "t": "아쉬운 점 있음, 유사 상호 많아 혼동",
+       "u": "https://blog.naver.com/eunha1310/224216872224"
+      },
+      {
+       "t": "픽업 기사 착오로 20분 지연",
+       "u": "https://blog.naver.com/yabgi_/224202509392"
+      },
+      {
+       "t": "압이 너무 약하고 가격 메리트 없음, 독립룸 없음",
+       "u": "https://blog.naver.com/yunyj3288/223750136665"
+      }
+     ],
+     "basis": "광고·AI 제외 후기 8건(장소명이 제목에 들어간 글 16건 중 최근 16건 검토, 광고 8·AI 0건 제외)"
+    },
+    "photo": {
+     "file": "photos/라라_스파.jpg",
+     "src": "https://blog.naver.com/juddy-_-/224463172343"
+    }
+   },
+   {
+    "name": "그웬 스파",
+    "region": "중부",
+    "aliases": [
+     "그웬",
+     "GWEN"
+    ],
+    "lat": 10.13,
+    "lon": 103.9886,
+    "coord_note": "근사(지역 기준)",
+    "desc": "소나시 로컬 마사지샵",
+    "price": [
+     "가격 미확인(광고가 아닌 후기에서 확인 못 함)"
+    ],
+    "pros": [
+     "친절",
+     "발마사지가 시원하다는 평"
+    ],
+    "cons": [
+     "\"다른 샵보다 2,600원 / 50,000동 비싸다\"는 후기"
+    ],
+    "extra": [],
+    "map_query": "GWEN SPA Sonasea Phú Quốc",
+    "map_note": "",
+    "home": [
+     {
+      "label": "페이스북",
+      "url": "https://www.facebook.com/p/GWEN-SPA-100083504192978/"
+     }
+    ],
+    "reviews": {
+     "pos": [
+      {
+       "t": "저렴한 가격, 깨끗한 시설, 한국어 잘하는 직원",
+       "u": "https://blog.naver.com/apunis323/224455007259"
+      },
+      {
+       "t": "야시장 내 가성비 최고, 카드결제 가능",
+       "u": "https://blog.naver.com/chuu517/224392497817"
+      },
+      {
+       "t": "타이마사지는 인생 마사지급",
+       "u": "https://blog.naver.com/reddevil22/224235923089"
+      },
+      {
+       "t": "깔끔하고 가성비 좋아 재방문, 밤 11시까지 운영",
+       "u": "https://blog.naver.com/greenart_/224224503668"
+      }
+     ],
+     "neg": [
+      {
+       "t": "마사지사 복불복, 압·자세가 불편했던 날도",
+       "u": "https://blog.naver.com/chuu517/224392497817"
+      },
+      {
+       "t": "담당 마사지사 압이 너무 약함, 타이는 비쌈",
+       "u": "https://blog.naver.com/reddevil22/224235923089"
+      }
+     ],
+     "basis": "광고·AI 제외 후기 4건(장소명이 제목에 들어간 글 7건 중 최근 7건 검토, 광고 3·AI 0건 제외)"
+    },
+    "photo": {
+     "file": "photos/그웬_스파.jpg",
+     "src": "https://blog.naver.com/apunis323/224455007259"
+    }
+   },
+   {
+    "name": "더 노블 살롱 & 스파",
+    "region": "중부",
+    "aliases": [
+     "노블"
+    ],
+    "lat": 10.13,
+    "lon": 103.9886,
+    "coord_note": "근사(지역 기준)",
+    "desc": "소나시 Duong Bao(4XJM+623)",
+    "price": [
+     "아로마 90분 40,000원 / 770,000동",
+     "아로마 스톤 90분 41,600원 / 800,000동",
+     "키즈 90분 26,500원 / 510,000동"
+    ],
+    "pros": [
+     "이발소(남성 케어) 겸 스파",
+     "압 적당",
+     "키즈 스톤 만족"
+    ],
+    "cons": [],
+    "extra": [
+     "영업 08:00~22:00"
+    ],
+    "map_query": "The Noble Salon & Spa 4XJM+623 Phú Quốc",
+    "map_note": "",
+    "home": [],
+    "reviews": {
+     "pos": [
+      {
+       "t": "야시장 근처, 샤워·짐보관 가능",
+       "u": "https://blog.naver.com/zxpp2000/224465666124"
+      },
+      {
+       "t": "신식 깔끔한 로비, 웰컴 선물",
+       "u": "https://blog.naver.com/aej8912/224449756290"
+      },
+      {
+       "t": "깔끔한 내부, 접근성 좋은 위치",
+       "u": "https://blog.naver.com/moreyoung_k/224429865471"
+      },
+      {
+       "t": "신상 깔끔한 시설, 세련된 분위기, 친절",
+       "u": "https://blog.naver.com/hyejn2/224387869594"
+      },
+      {
+       "t": "명품샵 같은 고급스러운 인테리어",
+       "u": "https://blog.naver.com/ejaqh98/224362984254"
+      },
+      {
+       "t": "새 시설 깨끗, 친절, 한국어 응대",
+       "u": "https://blog.naver.com/dndzid1/224347872324"
+      },
+      {
+       "t": "야시장 접근성, 픽드랍 서비스",
+       "u": "https://blog.naver.com/beauty_nme/224288496965"
+      },
+      {
+       "t": "오픈 50% 할인, 깔끔한 타올",
+       "u": "https://blog.naver.com/chohakkal/224141937070"
+      }
+     ],
+     "neg": [
+      {
+       "t": "마사지는 불만족",
+       "u": "https://blog.naver.com/ejaqh98/224362984254"
+      },
+      {
+       "t": "마사지룸 에어컨이 너무 세서 추움",
+       "u": "https://blog.naver.com/dndzid1/224347872324"
+      },
+      {
+       "t": "응대가 친절하지 않음, 지역별 픽드랍 추가금",
+       "u": "https://blog.naver.com/beauty_nme/224288496965"
+      }
+     ],
+     "basis": "광고·AI 제외 후기 10건(장소명이 제목에 들어간 글 13건 중 최근 13건 검토, 광고 2·AI 1건 제외)"
+    },
+    "photo": {
+     "file": "photos/더_노블_살롱_스파.jpg",
+     "src": "https://blog.naver.com/zxpp2000/224465666124"
+    }
+   },
+   {
+    "name": "서울 스파",
+    "region": "중부",
+    "aliases": [
+     "서울스파",
+     "서울 스파"
+    ],
+    "lat": 10.196,
+    "lon": 103.9678,
+    "coord_note": "근사(지역 기준)",
+    "desc": "즈엉동 126A Tran Hung Dao(킹콩마트 부근)",
+    "price": [
+     "아로마 60분 30,200원 / 580,000동(할인 시 23,900원 / 460,000동)",
+     "아로마 90분 39,000원 / 750,000동(할인 시 29,100원 / 560,000동)",
+     "풋 60분 28,600원 / 550,000동"
+    ],
+    "pros": [
+     "카카오톡 오픈채팅 \"서울스파 푸꾸옥\"으로 한국어 예약",
+     "\"한 번 갔다가 다음 날 또 예약\""
+    ],
+    "cons": [
+     "네일은 비쌈(33,800원 / 650,000동)"
+    ],
+    "extra": [
+     "영업 06:00~24:00"
+    ],
+    "map_query": "seoul spa 126a Đường Trần Hưng Đạo Phú Quốc",
+    "map_note": "",
+    "home": [],
+    "reviews": {
+     "pos": [
+      {
+       "t": "넓고 깨끗한 픽업 차량, 재방문",
+       "u": "https://blog.naver.com/chzhkiss/224443416259"
+      },
+      {
+       "t": "짐 보관, 최고의 마사지, 친절한 사장님",
+       "u": "https://blog.naver.com/alfo0584/224442422101"
+      },
+      {
+       "t": "북부 픽드랍 가능, 아이 네일 예쁨",
+       "u": "https://blog.naver.com/ayjia55/224427546143"
+      },
+      {
+       "t": "리클라이너 편안, 차 제공",
+       "u": "https://blog.naver.com/ljld/224438463815"
+      },
+      {
+       "t": "쾌적하고 깔끔한 내부",
+       "u": "https://blog.naver.com/hjklog/224397146327"
+      },
+      {
+       "t": "친절한 사장님, 시원한 마사지, 이동 편의",
+       "u": "https://blog.naver.com/sooyeon9587/224340907248"
+      }
+     ],
+     "neg": [
+      {
+       "t": "네일 가격 비쌈",
+       "u": "https://blog.naver.com/ayjia55/224427546143"
+      }
+     ],
+     "basis": "광고·AI 제외 후기 6건(장소명이 제목에 들어간 글 7건 중 최근 7건 검토, 광고 1·AI 0건 제외)"
+    },
+    "photo": {
+     "file": "photos/서울_스파.jpg",
+     "src": "https://blog.naver.com/chzhkiss/224443416259"
+    }
+   },
+   {
+    "name": "리틀 윈 스파",
+    "region": "중부",
+    "aliases": [
+     "리틀윈",
+     "리틀 윈",
+     "Little Win"
+    ],
+    "lat": 10.196,
+    "lon": 103.9678,
+    "coord_note": "근사(지역 기준)",
+    "desc": "즈엉동 114 Tran Hung Dao(선셋타운 지점도 있음)",
+    "price": [
+     "발 60분 15,600원 / 300,000동(할인 14,000원 / 270,000동)",
+     "전신 60분 18,200~25,000원 / 350,000~480,000동"
+    ],
+    "pros": [
+     "저렴함",
+     "마사지 후 간식"
+    ],
+    "cons": [
+     "관리사 편차(\"너무 어린 관리사·압 없는 분\" 후기)"
+    ],
+    "extra": [
+     "영업 07:00~23:00"
+    ],
+    "map_query": "Little WIN SPA - MASSAGE 114 Đường Trần Hưng Đạo Phú Quốc",
+    "map_note": "",
+    "home": [],
+    "reviews": {
+     "pos": [
+      {
+       "t": "카카오톡 한국어 예약, 사전예약 할인",
+       "u": "https://blog.naver.com/yobly_run/224444908971"
+      },
+      {
+       "t": "저렴한 가격, 친절, 수준 높은 마사지",
+       "u": "https://blog.naver.com/ssolssol_trip/224377994175"
+      },
+      {
+       "t": "풋스파 시간 맞춰주는 센스, 족욕",
+       "u": "https://blog.naver.com/chuuny_eunn/224275536503"
+      },
+      {
+       "t": "중부라 북부보다 저렴",
+       "u": "https://blog.naver.com/i_like_something/224234084049"
+      }
+     ],
+     "neg": [
+      {
+       "t": "로컬샵이라 고급스러운 분위기는 아님",
+       "u": "https://blog.naver.com/ssolssol_trip/224377994175"
+      },
+      {
+       "t": "임산부 요금이 더 비쌈, 호객 영업",
+       "u": "https://blog.naver.com/i_like_something/224234084049"
+      }
+     ],
+     "basis": "광고·AI 제외 후기 4건(장소명이 제목에 들어간 글 6건 중 최근 6건 검토, 광고 2·AI 0건 제외)"
+    },
+    "photo": {
+     "file": "photos/리틀_윈_스파.jpg",
+     "src": "https://blog.naver.com/ssolssol_trip/224377994175"
+    }
+   },
+   {
+    "name": "라센타 스파",
+    "region": "중부",
+    "aliases": [
+     "라센타"
+    ],
+    "lat": 10.2135,
+    "lon": 103.9618,
+    "coord_note": "근사(지역 기준)",
+    "desc": "즈엉동 58 Tran Hung Dao(그랜드월드 Beachfront 지점도 있음)",
+    "price": [
+     "아로마 90분 41,100~41,600원 / 790,000~800,000동",
+     "타이 90분 41,600원 / 800,000동",
+     "키즈 60분 18,700~20,800원 / 360,000~400,000동"
+    ],
+    "pros": [
+     "시설 좋음",
+     "카페 추천 후기 많음"
+    ],
+    "cons": [
+     "\"마사지 자체는 아쉬웠다\"",
+     "음료 서비스 없음",
+     "북부 픽업 20달러"
+    ],
+    "extra": [
+     "영업 08:00(10:00)~22:00"
+    ],
+    "map_query": "Lasenta Spa & Laundry Grand World Phú Quốc",
+    "map_note": "",
+    "home": [],
+    "reviews": {
+     "pos": [
+      {
+       "t": "다리 마사지 압 최고, 망고 서비스, 무료 픽업",
+       "u": "https://blog.naver.com/wherewego365/224453707775"
+      },
+      {
+       "t": "남편 인생 마사지, 원하는 세기로 조절",
+       "u": "https://blog.naver.com/ehddn3305/224372795331"
+      },
+      {
+       "t": "위치 좋고 친절, 망고·음료 서비스, 샤워 가능",
+       "u": "https://blog.naver.com/our_space_official/224271404759"
+      },
+      {
+       "t": "깔끔한 매장, 압 일정 유지, 픽업샌딩",
+       "u": "https://blog.naver.com/qnzo__/224233959501"
+      },
+      {
+       "t": "무료 픽업, 한인 운영으로 위생 신뢰",
+       "u": "https://blog.naver.com/ssayumisky/224217496792"
+      },
+      {
+       "t": "만족해서 재방문, 빠른 한국어 응대, 무료 픽업",
+       "u": "https://blog.naver.com/gpdnjs5278/224194785212"
+      }
+     ],
+     "neg": [
+      {
+       "t": "기대보다 덜 고급스럽고 좁음, 샤워실 없음",
+       "u": "https://blog.naver.com/wherewego365/224453707775"
+      },
+      {
+       "t": "한인스파라 가격대 있음, 유미스파보다 덜 시원",
+       "u": "https://blog.naver.com/ehddn3305/224372795331"
+      }
+     ],
+     "basis": "광고·AI 제외 후기 6건(장소명이 제목에 들어간 글 7건 중 최근 7건 검토, 광고 1·AI 0건 제외)"
+    },
+    "photo": {
+     "file": "photos/라센타_스파.jpg",
+     "src": "https://blog.naver.com/wherewego365/224453707775"
+    }
+   },
+   {
+    "name": "로즈 스파",
+    "region": "중부",
+    "aliases": [
+     "로즈스파",
+     "로즈 스파"
+    ],
+    "lat": 10.196,
+    "lon": 103.9678,
+    "coord_note": "근사(지역 기준)",
+    "desc": "즈엉동 106 Tran Hung Dao",
+    "price": [
+     "아로마 60분 18,200원 / 350,000동",
+     "키즈 60분 16,400원 / 315,000동",
+     "발 60분 약 10,000원 / 약 192,000동"
+    ],
+    "pros": [
+     "매우 저렴",
+     "공항→스파→호텔 픽업 18,200원 / 350,000동"
+    ],
+    "cons": [
+     "\"위생이 별로\" 후기",
+     "오일 때문에 두드러기 난 사례"
+    ],
+    "extra": [
+     "영업 07:00~23:00"
+    ],
+    "map_query": "Rose Spa 106 Đường Trần Hưng Đạo Phú Quốc",
+    "map_note": "",
+    "home": [],
+    "reviews": {
+     "pos": [
+      {
+       "t": "로컬 감성, 활짝 웃는 환대",
+       "u": "https://blog.naver.com/rlagkssk0084/224194669143"
+      },
+      {
+       "t": "픽업·드랍, 갓성비 네일",
+       "u": "https://blog.naver.com/zzangsoh/224107229195"
+      },
+      {
+       "t": "저렴하고 마사지 시원, 서비스 좋음",
+       "u": "https://blog.naver.com/babybean2025/223740987872"
+      }
+     ],
+     "neg": [
+      {
+       "t": "위생에 민감하면 비추",
+       "u": "https://blog.naver.com/zzangsoh/224107229195"
+      },
+      {
+       "t": "오일 때문에 두드러기, 추천은 안 함",
+       "u": "https://blog.naver.com/babybean2025/223740987872"
+      }
+     ],
+     "basis": "광고·AI 제외 후기 3건(장소명이 제목에 들어간 글 4건 중 최근 4건 검토, 광고 1·AI 0건 제외)"
+    },
+    "photo": {
+     "file": "photos/로즈_스파.jpg",
+     "src": "https://blog.naver.com/rlagkssk0084/224194669143"
+    }
+   },
+   {
+    "name": "베르사유 머드 스파",
+    "region": "중부",
+    "aliases": [
+     "머드"
+    ],
+    "lat": 10.1871,
+    "lon": 103.971,
+    "coord_note": "근사(지역 기준)",
+    "desc": "Cửa Lấp, Tran Hung Dao(공항에서 가까움)",
+    "price": [
+     "머드 목욕+마사지 패키지(가격은 상품별로 다름)"
+    ],
+    "pros": [
+     "머드 후 피부가 매끈",
+     "도착일·출국일 일정에 넣기 좋음"
+    ],
+    "cons": [
+     "샤워실·탈의실이 아쉬움"
+    ],
+    "extra": [
+     "영업 08:00~22:00"
+    ],
+    "map_query": "Versailles Mud Bath Phú Quốc",
+    "map_note": "",
+    "home": [
+     {
+      "label": "홈페이지",
+      "url": "https://versaillesspa.vn"
+     },
+     {
+      "label": "페이스북",
+      "url": "https://www.facebook.com/Versailles.MudBath.TamBun/"
+     }
+    ],
+    "reviews": {
+     "pos": [
+      {
+       "t": "머드스파와 마사지 프로그램 만족",
+       "u": "https://blog.naver.com/dawnjinmo/224458593169"
+      },
+      {
+       "t": "머드배스 외 사우나·식사·마사지 옵션 다양",
+       "u": "https://blog.naver.com/yejjuri/224396962956"
+      }
+     ],
+     "neg": [
+      {
+       "t": "세부 시설이 오래됨, 얼음이 커서 마시기 불편",
+       "u": "https://blog.naver.com/dawnjinmo/224458593169"
+      }
+     ],
+     "basis": "광고·AI 제외 후기 8건(장소명이 제목에 들어간 글 16건 중 최근 16건 검토, 광고 6·AI 0건 제외)"
+    },
+    "photo": {
+     "file": "photos/베르사유_머드_스파.jpg",
+     "src": "https://blog.naver.com/dawnjinmo/224458593169"
+    }
+   },
+   {
+    "name": "블랙 스파",
+    "region": "남부",
+    "aliases": [
+     "블랙스파",
+     "블랙 스파"
+    ],
+    "lat": 10.029,
+    "lon": 104.0075,
+    "coord_note": "근사(지역 기준)",
+    "desc": "선셋타운 62 Venice(Sun Premier Village)",
+    "price": [
+     "60분 28,100원 / 540,000동(정가 46,800원 / 900,000동)",
+     "90분 34,300원 / 660,000동(정가 57,200원 / 1,100,000동)",
+     "120분 40,600원 / 780,000동(정가 67,600원 / 1,300,000동)"
+    ],
+    "pros": [
+     "핫스톤 만족도 높음",
+     "신규 매장"
+    ],
+    "cons": [
+     "\"직원이 불친절해서 바로 나왔다\"는 후기",
+     "프리미엄 오일 +5,200원 / 100,000동"
+    ],
+    "extra": [
+     "영업 10:00~22:00. 팁은 결제 시 포함 가능"
+    ],
+    "map_query": "Blackspa Phuquoc 62 Đường Venice Phú Quốc",
+    "map_note": "",
+    "home": [],
+    "reviews": {
+     "pos": [
+      {
+       "t": "멍들 것처럼 아프면서 시원, 가장 만족",
+       "u": "https://blog.naver.com/rbfxod93/224462124549"
+      },
+      {
+       "t": "인생 핫스톤, 쾌적하고 뽀송한 시설",
+       "u": "https://blog.naver.com/hanzzang2_/224432303303"
+      },
+      {
+       "t": "청결, 한국인 사장, 당일 픽업 수락",
+       "u": "https://blog.naver.com/dizzy_life/224431943348"
+      },
+      {
+       "t": "재방문할 만큼 실력·시설·서비스 만족",
+       "u": "https://blog.naver.com/heydmood/224427420320"
+      },
+      {
+       "t": "깔끔한 내부, 한국어 설명, 마사지 굿",
+       "u": "https://blog.naver.com/ifjqbjin/224419506586"
+      },
+      {
+       "t": "가장 럭셔리, 프라이빗 룸, 한국어 소통",
+       "u": "https://blog.naver.com/yuyura_97/224398894659"
+      },
+      {
+       "t": "한국어 잘하는 직원, 서비스 최고",
+       "u": "https://blog.naver.com/wkatnv/224381433636"
+      },
+      {
+       "t": "어깨·목 마사지 손맛 최고",
+       "u": "https://blog.naver.com/mindrich1004/224377211649"
+      }
+     ],
+     "neg": [
+      {
+       "t": "가격과 팁이 다소 높음",
+       "u": "https://blog.naver.com/dizzy_life/224431943348"
+      }
+     ],
+     "basis": "광고·AI 제외 후기 16건(장소명이 제목에 들어간 글 28건 중 최근 22건 검토, 광고 4·AI 2건 제외)"
+    },
+    "photo": {
+     "file": "photos/블랙_스파.jpg",
+     "src": "https://blog.naver.com/hanzzang2_/224432303303"
+    }
+   },
+   {
+    "name": "스파 더 엘 (Spa The L)",
+    "region": "남부",
+    "aliases": [
+     "스파더엘",
+     "스파 더 엘",
+     "Spa The L"
+    ],
+    "lat": 10.029,
+    "lon": 104.0075,
+    "coord_note": "근사(지역 기준)",
+    "desc": "선셋타운, 라페스타 힐튼 맞은편",
+    "price": [
+     "1인 28,800원 / 553,000동(2인 정가 82,200원 / 1,580,000동 → 57,500원 / 1,106,000동)"
+    ],
+    "pros": [
+     "개별 보관함",
+     "아픈 부위 피해 줌"
+    ],
+    "cons": [
+     "관리사 편차",
+     "공사 소음",
+     "족욕 불가했던 날도 있음"
+    ],
+    "extra": [
+     "영업 08:00~22:00. 팁 2,100~2,600원 / 40,000~50,000동"
+    ],
+    "map_query": "SPA THE - L Sunset Town Phú Quốc",
+    "map_note": "",
+    "home": [],
+    "reviews": {
+     "pos": [
+      {
+       "t": "공항 픽업 편리, 전반적 서비스 좋음",
+       "u": "https://blog.naver.com/homi519/224466774284"
+      },
+      {
+       "t": "개별 룸 샤워실, 깔끔, 일행 모두 만족",
+       "u": "https://blog.naver.com/dltjgua618/224452324106"
+      },
+      {
+       "t": "깔끔한 시설, 한국어 소통, 짐보관 샌딩",
+       "u": "https://blog.naver.com/leeribon/224451211648"
+      },
+      {
+       "t": "룸 넓고 쾌적, 무료 짐보관, 아오자이 대여",
+       "u": "https://blog.naver.com/wonaya_/224450929820"
+      },
+      {
+       "t": "크고 쾌적, 카톡 예약 편리, 할인 다양",
+       "u": "https://blog.naver.com/j_uyr/224447322668"
+      },
+      {
+       "t": "가장 마음에 든 마사지, 공연 후 호텔 샌딩",
+       "u": "https://blog.naver.com/miyeon8476/224421039394"
+      },
+      {
+       "t": "무료 픽업, 무료 아오자이 체험",
+       "u": "https://blog.naver.com/ssororong_/224419403039"
+      },
+      {
+       "t": "케이블카 근처, 짐보관, 마사지 전 샤워",
+       "u": "https://blog.naver.com/bellajoy0514/224418321038"
+      }
+     ],
+     "neg": [
+      {
+       "t": "관광지라 가격 비싼 편, 샤워 사전예약 필수",
+       "u": "https://blog.naver.com/dltjgua618/224452324106"
+      },
+      {
+       "t": "드라이기 없음, 차량통제로 샌딩 시간 주의",
+       "u": "https://blog.naver.com/wonaya_/224450929820"
+      },
+      {
+       "t": "시원하지만 감동까지는 아닌 쏘쏘한 수준",
+       "u": "https://blog.naver.com/ssororong_/224419403039"
+      }
+     ],
+     "basis": "광고·AI 제외 후기 13건(장소명이 제목에 들어간 글 45건 중 최근 20건 검토, 광고 7·AI 0건 제외)"
+    },
+    "photo": {
+     "file": "photos/스파_더_엘_Spa_The_L.jpg",
+     "src": "https://blog.naver.com/homi519/224466774284"
+    }
+   },
+   {
+    "name": "한즈 선셋 스파",
+    "region": "남부",
+    "aliases": [
+     "한즈"
+    ],
+    "lat": 10.029,
+    "lon": 104.0075,
+    "coord_note": "근사(지역 기준)",
+    "desc": "선셋타운 56 Venice",
+    "price": [
+     "코스 1인 45,800원 / 880,000동(2026-11 카톡 메뉴판 기준)",
+     "발 60분 15,600원 / 300,000동"
+    ],
+    "pros": [
+     "카카오톡 한국어 문의",
+     "\"이번 여행 마사지 중 최고\"",
+     "출국일 이용 추천"
+    ],
+    "cons": [
+     "첫 방문 때 아팠다는 후기"
+    ],
+    "extra": [
+     "영업 09:00~23:00"
+    ],
+    "map_query": "Hanz Sunset Spa Phu Quoc Massage",
+    "map_note": "",
+    "home": [
+     {
+      "label": "홈페이지(블로그 기재)",
+      "url": "https://hanzsunsetspa.com"
+     }
+    ],
+    "reviews": {
+     "pos": [
+      {
+       "t": "이번 여행 최고, 압이 좋고 짐보관 샤워",
+       "u": "https://blog.naver.com/gayeseul/224461633598"
+      },
+      {
+       "t": "버기로 다른 지점 이동 안내",
+       "u": "https://blog.naver.com/yobly_run/224444908971"
+      },
+      {
+       "t": "한국어 응대, 시원한 음료",
+       "u": "https://blog.naver.com/wooridlesoon/224442868234"
+      },
+      {
+       "t": "깨끗하고 쾌적, 손맛 좋음",
+       "u": "https://blog.naver.com/cjddk0206/224424028478"
+      },
+      {
+       "t": "선셋타운 중심 위치, 다양한 프로그램",
+       "u": "https://blog.naver.com/like-u-/224392917367"
+      },
+      {
+       "t": "낮 시간 20% 할인, 무료 픽업 샌딩",
+       "u": "https://blog.naver.com/33ehddks/224392465519"
+      },
+      {
+       "t": "마사지 퀄리티 좋음, 픽업 샌딩",
+       "u": "https://blog.naver.com/moonnim27/224392165618"
+      },
+      {
+       "t": "한가한 시간 할인, 짐보관과 와이파이",
+       "u": "https://blog.naver.com/konari33/224342163899"
+      }
+     ],
+     "neg": [
+      {
+       "t": "정전으로 지점 이동해야 했음",
+       "u": "https://blog.naver.com/yobly_run/224444908971"
+      },
+      {
+       "t": "중부 샌딩 15만동 추가, 카드 수수료",
+       "u": "https://blog.naver.com/wooridlesoon/224442868234"
+      },
+      {
+       "t": "저녁 6시 이후 손님 몰림, 호객",
+       "u": "https://blog.naver.com/konari33/224342163899"
+      }
+     ],
+     "basis": "광고·AI 제외 후기 11건(장소명이 제목에 들어간 글 13건 중 최근 13건 검토, 광고 1·AI 1건 제외)"
+    },
+    "photo": {
+     "file": "photos/한즈_선셋_스파.jpg",
+     "src": "https://blog.naver.com/cjddk0206/224424028478"
+    }
+   },
+   {
+    "name": "허브 스파 (Herbal Spa & Nail)",
+    "region": "남부",
+    "aliases": [
+     "허브스파",
+     "허브 스파",
+     "Herbs",
+     "Herbal"
+    ],
+    "lat": 10.029,
+    "lon": 104.0075,
+    "coord_note": "근사(지역 기준)",
+    "desc": "선셋타운 Positano 02",
+    "price": [
+     "60분 18,700원 / 360,000동",
+     "90분 25,500원 / 490,000동",
+     "시그니처·딥티슈·아로마·태교 90분 39,000원 / 750,000동"
+    ],
+    "pros": [
+     "선셋타운 야시장 도보 4분",
+     "프라이빗 룸·위생"
+    ],
+    "cons": [],
+    "extra": [
+     "영업 09:00~23:00"
+    ],
+    "map_query": "Herbal Spa & Nail Positano Sunset Town Phú Quốc",
+    "map_note": "",
+    "home": [],
+    "reviews": {
+     "pos": [
+      {
+       "t": "호텔 픽업, 마사지·네일·헤어 한번에",
+       "u": "https://blog.naver.com/ttinker__bell/224459504976"
+      },
+      {
+       "t": "가족 모두 마사지·네일 편하게",
+       "u": "https://blog.naver.com/ottina/224446367683"
+      },
+      {
+       "t": "깔끔한 내부, 한국어 메뉴, 숙소 드랍",
+       "u": "https://blog.naver.com/osj4561/224357404136"
+      },
+      {
+       "t": "강한 압, 간식·망고 후식, 무료 드랍",
+       "u": "https://blog.naver.com/tao_xoxo/224122753810"
+      },
+      {
+       "t": "마사지와 네일을 한 번에 받을 수 있음",
+       "u": "https://blog.naver.com/ottina/224453509772"
+      },
+      {
+       "t": "인기 많은 곳, 다른 날로 예약 옮겨줌",
+       "u": "https://blog.naver.com/ottina/224440190220"
+      },
+      {
+       "t": "빠른 픽업, 찜질팩 허브 마사지, 망고 서비스",
+       "u": "https://blog.naver.com/what-a-lovelyday/224437959278"
+      },
+      {
+       "t": "주변 비교 시 가장 저렴, 흥정 가능",
+       "u": "https://blog.naver.com/young350438/224379844318"
+      },
+      {
+       "t": "카톡 한국어 친절 응대, 픽업 서비스",
+       "u": "https://blog.naver.com/analyzing_mom/224353200716"
+      },
+      {
+       "t": "강한 압의 딥티슈, 마사지 맛집",
+       "u": "https://blog.naver.com/jkm_617/224337837204"
+      }
+     ],
+     "neg": [
+      {
+       "t": "선셋타운 지점이라 가격대가 다소 높음",
+       "u": "https://blog.naver.com/mimidays/224433414354"
+      }
+     ],
+     "basis": "광고·AI 제외 후기 5건(장소명이 제목에 들어간 글 9건 중 최근 9건 검토, 광고 3·AI 1건 제외)"
+    },
+    "photo": {
+     "file": "photos/허브_스파_Herbal_Spa_Nail.jpg",
+     "src": "https://blog.naver.com/ttinker__bell/224459504976"
+    }
+   },
+   {
+    "name": "미스 티엔 스파",
+    "region": "남부",
+    "aliases": [
+     "미스티엔",
+     "Miss Tiên",
+     "Miss Tien"
+    ],
+    "lat": 10.029,
+    "lon": 104.0075,
+    "coord_note": "근사(지역 기준)",
+    "desc": "선셋타운(홈스테이 겸)",
+    "price": [
+     "핫스톤 90분 42,600원 / 820,000동",
+     "발 60분 23,400원 / 450,000동",
+     "2인 56,200원 / 1,080,000동 사례"
+    ],
+    "pros": [
+     "08~11시 해피아워 40% 할인",
+     "구글 4.8(66건)",
+     "발마사지 만족"
+    ],
+    "cons": [],
+    "extra": [
+     "인스타그램 DM 예약",
+     "영업 08:00~22:00"
+    ],
+    "map_query": "Miss Tiên Spa & Homestay Phu Quốc Sunset Town",
+    "map_note": "",
+    "home": [],
+    "reviews": {
+     "pos": [
+      {
+       "t": "발마사지 최고, 세심한 케어, 할인 가성비",
+       "u": "https://blog.naver.com/dltjgua618/224452324106"
+      },
+      {
+       "t": "조용하고 프라이빗, 룸 내 샤워실",
+       "u": "https://blog.naver.com/ddung0804/224378604981"
+      },
+      {
+       "t": "카톡 예약, 추가비용 없는 카드결제",
+       "u": "https://blog.naver.com/lhi1223/224359907783"
+      },
+      {
+       "t": "저렴한 가격, 시원한 발마사지",
+       "u": "https://blog.naver.com/heidipark88/224155035533"
+      },
+      {
+       "t": "마사지 받고 개운함",
+       "u": "https://blog.naver.com/lovelyhot/224139787936"
+      }
+     ],
+     "neg": [
+      {
+       "t": "무료 픽업 안 해줌",
+       "u": "https://blog.naver.com/dltjgua618/224452324106"
+      },
+      {
+       "t": "픽업 시 차번호를 안 알려줌",
+       "u": "https://blog.naver.com/lhi1223/224359907783"
+      }
+     ],
+     "basis": "광고·AI 제외 후기 5건(장소명이 제목에 들어간 글 5건 중 최근 5건 검토, 광고 0·AI 0건 제외)"
+    },
+    "photo": {
+     "file": "photos/미스_티엔_스파.jpg",
+     "src": "https://blog.naver.com/dltjgua618/224452324106"
+    }
+   },
+   {
+    "name": "페퍼 스파",
+    "region": "남부",
+    "aliases": [
+     "페퍼"
+    ],
+    "lat": 10.029,
+    "lon": 104.0075,
+    "coord_note": "근사(지역 기준)",
+    "desc": "선셋타운 A58",
+    "price": [
+     "아로마 전신 60분 29,900원 / 약 575,000동(예약가)"
+    ],
+    "pros": [
+     "친절하고 조용함"
+    ],
+    "cons": [
+     "실내가 조금 추움"
+    ],
+    "extra": [
+     "팁은 1달러 정도가 적당하다는 후기"
+    ],
+    "map_query": "Pepper Spa A58 Sunset Town Phú Quốc",
+    "map_note": "",
+    "home": [],
+    "reviews": {
+     "pos": [
+      {
+       "t": "가족 모두 만족, 더 시원한 마사지, 공항 5분 거리",
+       "u": "https://blog.naver.com/qlrtmwjdfpdh4/224223243503"
+      }
+     ],
+     "neg": [],
+     "basis": "광고·AI 제외 후기 1건(장소명이 제목에 들어간 글 5건 중 최근 5건 검토, 광고 4·AI 0건 제외)",
+     "neg_note": "광고가 아닌 후기를 추가로 찾아봤지만 부정 평가를 찾지 못함(후기 수가 적음)"
+    }
+   },
+   {
+    "name": "파라리아 스파",
+    "region": "남부",
+    "aliases": [
+     "파라리아"
+    ],
+    "lat": 10.036,
+    "lon": 104.03,
+    "coord_note": "근사(지역 기준)",
+    "desc": "켐비치 D133 Sun Premier Village",
+    "price": [
+     "120분 62,400원 / 1,200,000동",
+     "발 60분 23,400원 / 450,000동",
+     "엄마&아이 130분 51,500원 / 990,000동"
+    ],
+    "pros": [
+     "프라이빗 룸과 전용 샤워",
+     "조용함",
+     "커플 코스"
+    ],
+    "cons": [
+     "비싼 편",
+     "예약 필수"
+    ],
+    "extra": [
+     "영업 09:00~23:00"
+    ],
+    "map_query": "Paralia Spa D133 Sun Premier Village Khem Beach",
+    "map_note": "",
+    "home": [
+     {
+      "label": "인스타그램(접속 확인: 게시물 8개)",
+      "url": "https://www.instagram.com/paraliaspa_phuquoc_vn"
+     }
+    ],
+    "reviews": {
+     "pos": [
+      {
+       "t": "켐비치 근처, 깔끔하고 차분한 인테리어",
+       "u": "https://blog.naver.com/easyhyxn/224455593194"
+      },
+      {
+       "t": "청결, 세심한 서비스, 합리적 가격",
+       "u": "https://blog.naver.com/thefarsideof/224451340766"
+      },
+      {
+       "t": "숙소와 가깝고 부모님 만족",
+       "u": "https://blog.naver.com/hxxxo7/224434144367"
+      },
+      {
+       "t": "아늑한 분위기, 허브 찜질팩 케어",
+       "u": "https://blog.naver.com/hkh_music/224354055327"
+      },
+      {
+       "t": "가족 프로그램, 스팀룸 등 케어 구성",
+       "u": "https://blog.naver.com/wls0109146/224343644340"
+      },
+      {
+       "t": "캠비치 무료 픽업, 호텔급 시설",
+       "u": "https://blog.naver.com/iloveu30o0/224341595468"
+      },
+      {
+       "t": "조용·깔끔, 프라이빗 공간, 친절한 설명",
+       "u": "https://blog.naver.com/such5432/224348589653"
+      },
+      {
+       "t": "무료 픽업, 깔끔하고 차분한 분위기",
+       "u": "https://blog.naver.com/otherwise13434/224342546190"
+      }
+     ],
+     "neg": [],
+     "basis": "광고·AI 제외 후기 6건(장소명이 제목에 들어간 글 6건 중 최근 6건 검토, 광고 0·AI 0건 제외)",
+     "neg_note": "광고가 아닌 후기를 추가로 찾아봤지만 부정 평가를 찾지 못함(후기 수가 적음)"
+    },
+    "photo": {
+     "file": "photos/파라리아_스파.jpg",
+     "src": "https://blog.naver.com/easyhyxn/224455593194"
+    }
+   },
+   {
+    "name": "메르 스파 (Mer Spa)",
+    "region": "북부",
+    "aliases": [
+     "메르스파",
+     "메르 스파",
+     "Mer Spa"
+    ],
+    "lat": 10.3249,
+    "lon": 103.8581,
+    "coord_note": "근사(지역 기준)",
+    "desc": "그랜드월드 TH2-09(Thượng Hải 2)",
+    "price": [
+     "60분 30,700원 / 590,000동",
+     "90분 40,000원 / 770,000동",
+     "120분 46,300원 / 890,000동"
+    ],
+    "pros": [
+     "친절",
+     "대기 중 아로마 시향",
+     "디저트(푸딩) 제공"
+    ],
+    "cons": [],
+    "extra": [
+     "영업 10:00~23:00"
+    ],
+    "map_query": "Mer Spa Phu Quoc Grand World Đường Thượng Hải 2",
+    "map_note": "",
+    "home": [
+     {
+      "label": "페이스북",
+      "url": "https://www.facebook.com/merspaphuquoc/"
+     }
+    ],
+    "reviews": {
+     "pos": [
+      {
+       "t": "친절한 직원, 웰컴티와 푸딩 맛있음",
+       "u": "https://blog.naver.com/iluv_-/224464167797"
+      },
+      {
+       "t": "그랜드월드 내 위치, 강도 사전 체크 가능",
+       "u": "https://blog.naver.com/dooneylog/224437474727"
+      },
+      {
+       "t": "위생 만족, 조용하고 꼼꼼한 관리",
+       "u": "https://blog.naver.com/annie_land/224423135252"
+      },
+      {
+       "t": "그랜드월드 내 위치, 무료 픽업 샌딩",
+       "u": "https://blog.naver.com/dalkom408/224418545083"
+      },
+      {
+       "t": "체크지로 원하는 관리 선택, 두피 관리",
+       "u": "https://blog.naver.com/ljld/224424137762"
+      },
+      {
+       "t": "북부 무료 픽업 드롭오프, 위치 편리",
+       "u": "https://blog.naver.com/lisa2824/224411024944"
+      },
+      {
+       "t": "발 씻겨줌, 마사지 후 망고 맛있음",
+       "u": "https://blog.naver.com/parksuny1010/224404611141"
+      },
+      {
+       "t": "깔끔한 외관, 샤워시설 편리, 픽드랍",
+       "u": "https://blog.naver.com/tiami98/224396020439"
+      },
+      {
+       "t": "인생 마사지",
+       "u": "https://blog.naver.com/dalkom408/224427999660"
+      },
+      {
+       "t": "카톡 한국어 예약, 택시 정보 공유",
+       "u": "https://blog.naver.com/gagagu0406/224420953322"
+      }
+     ],
+     "neg": [
+      {
+       "t": "마사지 압이 그리 시원하지 않음",
+       "u": "https://blog.naver.com/blooming-yn/224413024236"
+      },
+      {
+       "t": "그냥 쏘쏘(평범)",
+       "u": "https://blog.naver.com/ji___ye/224405228241"
+      },
+      {
+       "t": "받은 마사지 중 제일 별로였음",
+       "u": "https://blog.naver.com/jitory12/224395708469"
+      }
+     ],
+     "basis": "광고·AI 제외 후기 14건(장소명이 제목에 들어간 글 23건 중 최근 20건 검토, 광고 6·AI 0건 제외)"
+    },
+    "photo": {
+     "file": "photos/메르_스파_Mer_Spa.jpg",
+     "src": "https://blog.naver.com/iluv_-/224464167797"
+    }
+   },
+   {
+    "name": "라이온 스파",
+    "region": "북부",
+    "aliases": [
+     "라이온",
+     "라이언"
+    ],
+    "lat": 10.3249,
+    "lon": 103.8581,
+    "coord_note": "근사(지역 기준)",
+    "desc": "그랜드월드 안",
+    "price": [
+     "발마사지 25,000원 / 480,000동",
+     "코스 33,800~52,000원 / 650,000~1,000,000동"
+    ],
+    "pros": [
+     "해피아워 할인(발마사지 2인 20% 할인 사례)",
+     "깨끗",
+     "관리사 실력 좋음"
+    ],
+    "cons": [],
+    "extra": [],
+    "map_query": "LION SPA - Massage & Nails - Grandworld Phú Quốc",
+    "map_note": "",
+    "home": [],
+    "reviews": {
+     "pos": [
+      {
+       "t": "요청 부위 집중 마사지, 깨끗하고 친절",
+       "u": "https://blog.naver.com/mnjtour82/224452982383"
+      },
+      {
+       "t": "당일예약, 공항 픽업, 짐 보관 편리",
+       "u": "https://blog.naver.com/tmddn9287/224421308661"
+      },
+      {
+       "t": "답답하지 않은 대기 공간, 편한 휴식",
+       "u": "https://blog.naver.com/ljld/224418117575"
+      },
+      {
+       "t": "친절, 괜찮은 압, 할인과 샌딩",
+       "u": "https://blog.naver.com/gs1812/224408116452"
+      },
+      {
+       "t": "깨끗한 내부, 시원하고 완벽한 발 케어",
+       "u": "https://blog.naver.com/kokkiri_log/224397841877"
+      },
+      {
+       "t": "위생 깨끗, 친절, 픽드랍",
+       "u": "https://blog.naver.com/ri_j00/224394949534"
+      },
+      {
+       "t": "넓고 쾌적, 프라이빗, 세심한 서비스",
+       "u": "https://blog.naver.com/wkatnv/224368252495"
+      },
+      {
+       "t": "가격 부담 적고 시설 서비스 만족",
+       "u": "https://blog.naver.com/dahye2662/224357253596"
+      }
+     ],
+     "neg": [
+      {
+       "t": "시원하지 않고 조물조물, 카드수수료 5%",
+       "u": "https://blog.naver.com/ri_j00/224394949534"
+      }
+     ],
+     "basis": "광고·AI 제외 후기 17건(장소명이 제목에 들어간 글 26건 중 최근 20건 검토, 광고 3·AI 0건 제외)"
+    },
+    "photo": {
+     "file": "photos/라이온_스파.jpg",
+     "src": "https://blog.naver.com/mnjtour82/224452982383"
+    }
+   },
+   {
+    "name": "조아 스파",
+    "region": "북부",
+    "aliases": [
+     "조아"
+    ],
+    "lat": 10.3249,
+    "lon": 103.8581,
+    "coord_note": "근사(지역 기준)",
+    "desc": "그랜드월드 Shanghai SA-03-37",
+    "price": [
+     "아로마 30,700원 / 590,000동",
+     "타이 60분 36,400원 / 700,000동",
+     "핫스톤 90분 41,600원 / 800,000동",
+     "아로마 120분 46,800원 / 900,000동",
+     "키즈 60분 18,200원 / 350,000동"
+    ],
+    "pros": [
+     "시설·서비스 대비 가성비"
+    ],
+    "cons": [],
+    "extra": [
+     "영업 10:00~23:30"
+    ],
+    "map_query": "JOA SPA Grand World Phú Quốc",
+    "map_note": "",
+    "home": [],
+    "reviews": {
+     "pos": [
+      {
+       "t": "무료 픽업, 아이와 가족 마사지 가능",
+       "u": "https://blog.naver.com/sic6212/224407266323"
+      },
+      {
+       "t": "시설 대비 가성비, 깨끗, 현금 20% 할인",
+       "u": "https://blog.naver.com/km2887/224230281273"
+      },
+      {
+       "t": "한인 사장 깨끗한 운영, 일행 전용 방",
+       "u": "https://blog.naver.com/love_thelifeyoulive/224163330431"
+      },
+      {
+       "t": "프라이빗한 방, 향 좋은 족욕",
+       "u": "https://blog.naver.com/dahey525/223732766037"
+      }
+     ],
+     "neg": [
+      {
+       "t": "족욕이 너무 짧아 아쉬움",
+       "u": "https://blog.naver.com/dahey525/223732766037"
+      }
+     ],
+     "basis": "광고·AI 제외 후기 4건(장소명이 제목에 들어간 글 5건 중 최근 5건 검토, 광고 0·AI 1건 제외)"
+    },
+    "photo": {
+     "file": "photos/조아_스파.jpg",
+     "src": "https://blog.naver.com/sic6212/224407266323"
+    }
+   },
+   {
+    "name": "더베이 스파",
+    "region": "중부",
+    "aliases": [
+     "더베이"
+    ],
+    "lat": 10.13,
+    "lon": 103.9886,
+    "coord_note": "근사(지역 기준)",
+    "desc": "소나시 야시장 쪽(선셋타운 63 Venice 지점도 있음)",
+    "price": [
+     "60분 41,100~46,800원 / 790,000~900,000동(블로그 후기 작성 시 20% 할인)",
+     "발 등 28,600원 / 550,000동부터"
+    ],
+    "pros": [
+     "접근성 좋고 친절"
+    ],
+    "cons": [
+     "\"압이 살짝 아쉬웠다\"",
+     "세 곳 비교 중 가장 아쉬웠다는 후기"
+    ],
+    "extra": [
+     "영업 08:00(09:00)~22:00"
+    ],
+    "map_query": "The Bay Spa & Hanoi Nail Phu Quoc",
+    "map_note": "검색 목록에서 선택",
+    "home": [
+     {
+      "label": "홈페이지(블로그 기재)",
+      "url": "http://www.thebayspannail.com"
+     },
+     {
+      "label": "인스타그램(접속 확인: 게시물 1,456개)",
+      "url": "https://www.instagram.com/thebayspa_phuquoc_vn"
+     }
+    ],
+    "reviews": {
+     "pos": [
+      {
+       "t": "깔끔·조용, 친절, 포핸즈 마사지",
+       "u": "https://blog.naver.com/jieunee_247/224461401528"
+      },
+      {
+       "t": "카톡 예약 간편, 한국어 매니저, 리뷰 할인",
+       "u": "https://blog.naver.com/alghk9406211/224460046090"
+      },
+      {
+       "t": "잠드는 편안한 마사지, 키즈마사지",
+       "u": "https://blog.naver.com/wkdalqmdl/224455912914"
+      },
+      {
+       "t": "공항 샌딩·랜딩 무료, 한국인 사장 예약",
+       "u": "https://blog.naver.com/mps36162/224449543780"
+      },
+      {
+       "t": "아이와 함께 베이비마사지, 할인",
+       "u": "https://blog.naver.com/yeeu/224362243390"
+      },
+      {
+       "t": "내부 깔끔·고급, 시원한 마사지",
+       "u": "https://blog.naver.com/kdy2867/224362583823"
+      },
+      {
+       "t": "유일한 시터 서비스, 넓은 대기공간",
+       "u": "https://blog.naver.com/dpwlsdpthf/224349969966"
+      },
+      {
+       "t": "깨끗한 차량과 친절한 픽업, 내부 청결",
+       "u": "https://blog.naver.com/byhaxoxx0309/224185011456"
+      }
+     ],
+     "neg": [
+      {
+       "t": "압이 약함",
+       "u": "https://blog.naver.com/wkdalqmdl/224455912914"
+      },
+      {
+       "t": "입구 지저분, 베트남치고 다소 비쌈",
+       "u": "https://blog.naver.com/kdy2867/224362583823"
+      },
+      {
+       "t": "가격 비쌈, 웰컴티 맛 그저 그럼",
+       "u": "https://blog.naver.com/dpwlsdpthf/224349969966"
+      },
+      {
+       "t": "야시장 다른 샵보다 2배 정도 비쌈",
+       "u": "https://blog.naver.com/byhaxoxx0309/224185011456"
+      }
+     ],
+     "basis": "광고·AI 제외 후기 10건(장소명이 제목에 들어간 글 18건 중 최근 18건 검토, 광고 7·AI 1건 제외)"
+    },
+    "photo": {
+     "file": "photos/더베이_스파.jpg",
+     "src": "https://blog.naver.com/wkdalqmdl/224455912914"
+    }
+   }
+  ],
+  "맛집": [
+   {
+    "name": "메오키친",
+    "region": "중부",
+    "aliases": [
+     "메오키친",
+     "메오 키친",
+     "MEO Kitchen"
+    ],
+    "lat": 10.2105,
+    "lon": 103.9625,
+    "coord_note": "근사(지역 기준)",
+    "desc": "즈엉동 로컬 베트남 식당",
+    "price": [
+     "반쎄오(대표 메뉴)",
+     "키조개 모닝글로리",
+     "2인 식사 37,400원 / 720,000동 사례"
+    ],
+    "pros": [
+     "\"가장 만족한 식당\"이라는 후기가 많음",
+     "아침 식사 가능"
+    ],
+    "cons": [
+     "웨이팅",
+     "\"쌀국수는 별로\"라는 후기"
+    ],
+    "extra": [],
+    "map_query": "MEO Kitchen 126 Đường Trần Hưng Đạo Phú Quốc",
+    "map_note": "",
+    "home": [],
+    "reviews": {
+     "pos": [
+      {
+       "t": "깔끔한 가게, 짜조와 껌땀 맛있음",
+       "u": "https://blog.naver.com/myans/224464753482"
+      },
+      {
+       "t": "반쎄오·모닝글로리 양 많고 맛있음, 창가 뷰",
+       "u": "https://blog.naver.com/wlsgmlgpwls/224463550310"
+      },
+      {
+       "t": "시원한 실내, 맛조개 모닝글로리·해산물볶음밥 맛있음",
+       "u": "https://blog.naver.com/jooyeang110/224463546409"
+      },
+      {
+       "t": "오션뷰, 에어컨 시원, 반쎄오 필수",
+       "u": "https://www.youtube.com/watch?v=okaWtzLbw5I"
+      },
+      {
+       "t": "반쎄오 외 전부 맛있음, 10% 쿠폰",
+       "u": "https://blog.naver.com/clavie55/224462849756"
+      },
+      {
+       "t": "할아버지 맥주와 맛있는 점심",
+       "u": "https://blog.naver.com/zhzhekthf/224462716676"
+      },
+      {
+       "t": "매우 만족스러운 식사, 옆 건물 대기 공간",
+       "u": "https://blog.naver.com/ksky54/224462265023"
+      }
+     ],
+     "neg": [
+      {
+       "t": "쌀국수 간이 좀 셈",
+       "u": "https://blog.naver.com/wlsgmlgpwls/224463550310"
+      },
+      {
+       "t": "이른 시간에도 손님 가득",
+       "u": "https://blog.naver.com/jooyeang110/224463546409"
+      },
+      {
+       "t": "점심시간 지나서도 웨이팅",
+       "u": "https://blog.naver.com/tjsduddl7342/224465262799"
+      },
+      {
+       "t": "반쎄오와 할아버지 맥주는 평범",
+       "u": "https://blog.naver.com/clavie55/224462849756"
+      },
+      {
+       "t": "웨이팅 꽤 함",
+       "u": "https://blog.naver.com/ksky54/224462265023"
+      }
+     ],
+     "basis": "광고·AI 제외 후기 23건(장소명이 제목에 들어간 글 176건 중 최근 29건 검토, 광고 4·AI 2건 제외)"
+    },
+    "photo": {
+     "file": "photos/메오키친.jpg",
+     "src": "https://blog.naver.com/myans/224464753482"
+    }
+   },
+   {
+    "name": "빈산",
+    "region": "중부",
+    "aliases": [
+     "빈산"
+    ],
+    "lat": 10.214,
+    "lon": 103.9615,
+    "coord_note": "근사(지역 기준)",
+    "desc": "즈엉동 야시장(40·43 Tran Hung Dao) 해산물 식당",
+    "price": [
+     "마늘치즈 랍스터 54,600원 / 1,050,000동",
+     "해물라면 9,600원 / 185,000동",
+     "맛조개 모닝글로리 7,500원 / 145,000동",
+     "칠리소금 오징어구이 7,500원 / 145,000동",
+     "치즈 가리비 10,900원 / 210,000동",
+     "계란마늘볶음밥 4,900원 / 95,000동"
+    ],
+    "pros": [
+     "\"해산물 한 곳만 고른다면 여기\""
+    ],
+    "cons": [
+     "kg 단위 시가라 비쌈"
+    ],
+    "extra": [],
+    "map_query": "43 Đường Trần Hưng Đạo, Khu 1, Phú Quốc",
+    "map_note": "주소 위치로 이동(가게 이름이 구글맵에 다르게 등록됨)",
+    "home": [],
+    "reviews": {
+     "pos": [
+      {
+       "t": "오션뷰, 깨끗한 수족관과 오픈 주방",
+       "u": "https://blog.naver.com/4bubuss/224451437607"
+      },
+      {
+       "t": "마늘치즈 랍스터 소스 맛있음",
+       "u": "https://blog.naver.com/ggyullife_/224466433150"
+      },
+      {
+       "t": "한국인 입맛에 잘 맞음",
+       "u": "https://blog.naver.com/gakkudabungee-/224464188602"
+      },
+      {
+       "t": "후회 없는 맛집, 자리 여유",
+       "u": "https://blog.naver.com/b868___/224460526068"
+      },
+      {
+       "t": "마늘치즈 크레이피쉬, 오션뷰 선셋",
+       "u": "https://blog.naver.com/ashi8888/224454203410"
+      },
+      {
+       "t": "오션뷰, 랍스터 잘라줌, 맛있음",
+       "u": "https://blog.naver.com/jiyeon750/224453414399"
+      }
+     ],
+     "neg": [
+      {
+       "t": "특대형 랍스터가 생각보다 작음",
+       "u": "https://blog.naver.com/ggyullife_/224466433150"
+      },
+      {
+       "t": "마늘버터새우 소스 별로, 오징어튀김 비림",
+       "u": "https://blog.naver.com/gakkudabungee-/224464188602"
+      }
+     ],
+     "basis": "광고·AI 제외 후기 17건(장소명이 제목에 들어간 글 71건 중 최근 24건 검토, 광고 5·AI 2건 제외)"
+    },
+    "photo": {
+     "file": "photos/빈산.jpg",
+     "src": "https://blog.naver.com/4bubuss/224451437607"
+    }
+   },
+   {
+    "name": "블루씨푸드",
+    "region": "중부",
+    "aliases": [
+     "블루씨푸드",
+     "블루 씨푸드",
+     "Blue seafood"
+    ],
+    "lat": 10.2155,
+    "lon": 103.9608,
+    "coord_note": "근사(지역 기준)",
+    "desc": "34 Nguyen Trai, 즈엉동 야시장. 한국인 운영 해산물 식당",
+    "price": [
+     "해산물 100g당 약 15,600원 / 300,000동(시가)",
+     "생새우회",
+     "2인 배불리 약 50,000원 / 약 962,000동 사례"
+    ],
+    "pros": [
+     "한국인 운영",
+     "해산물 신선"
+    ],
+    "cons": [
+     "시가라 계산 전 무게 확인 필요",
+     "야시장 주변 청결이 아쉬움"
+    ],
+    "extra": [],
+    "map_query": "Blue seafood restaurant 34 Đường Nguyễn Trãi Phú Quốc",
+    "map_note": "",
+    "home": [],
+    "reviews": {
+     "pos": [
+      {
+       "t": "커플세트 모두 맛있음, 할아버지 맥주",
+       "u": "https://blog.naver.com/playerez_25/224466811091"
+      },
+      {
+       "t": "맛있고 저렴, 시원, 친절, 깔끔",
+       "u": "https://blog.naver.com/kko2589/224466096729"
+      },
+      {
+       "t": "깔끔한 외관과 내부",
+       "u": "https://blog.naver.com/jiyeon750/224456594224"
+      },
+      {
+       "t": "픽업 가능, 한국 소주 판매, 한국어 안내",
+       "u": "https://blog.naver.com/jinsil_0216/224430357158"
+      },
+      {
+       "t": "한국어 가능, 아이 식기, 할아버지 맥주",
+       "u": "https://blog.naver.com/playerez_25/224399743040"
+      },
+      {
+       "t": "위생 관리 깔끔, 플레이팅 예쁨, 망고 후식",
+       "u": "https://blog.naver.com/osj4561/224387800666"
+      }
+     ],
+     "neg": [
+      {
+       "t": "크레이피쉬 싯가 100g 30만동 부담",
+       "u": "https://blog.naver.com/delight__cha/224466701144"
+      },
+      {
+       "t": "할아버지 맥주 10만동 비싼 편",
+       "u": "https://blog.naver.com/playerez_25/224399743040"
+      }
+     ],
+     "basis": "광고·AI 제외 후기 10건(장소명이 제목에 들어간 글 37건 중 최근 20건 검토, 광고 9·AI 1건 제외)"
+    }
+   },
+   {
+    "name": "분꿔이 끼엔써이",
+    "region": "중부",
+    "aliases": [
+     "끼엔써이",
+     "끼엔싸이",
+     "끼엔-써이",
+     "껜자이",
+     "Kiến Xây"
+    ],
+    "lat": 10.21,
+    "lon": 103.9628,
+    "coord_note": "근사(지역 기준)",
+    "desc": "71A Tran Hung Dao, 즈엉동 로컬 국숫집",
+    "price": [
+     "어묵·오징어 쌀국수 풀토핑 5,100원 / 98,000동"
+    ],
+    "pros": [
+     "첫 끼나 해장으로 좋음",
+     "깔끔한 국물",
+     "카드 수수료 없음"
+    ],
+    "cons": [
+     "로컬 식당이라 혼잡"
+    ],
+    "extra": [],
+    "map_query": "Bún Quậy Kiến Xây 71A Trần Hưng Đạo Phú Quốc",
+    "map_note": "",
+    "home": [
+     {
+      "label": "페이스북",
+      "url": "https://www.facebook.com/bunquaykienxay/"
+     }
+    ],
+    "reviews": {
+     "pos": [
+      {
+       "t": "맑고 담백한 오징어 쌀국수, 카드수수료 없음",
+       "u": "https://blog.naver.com/dada-22/224434131798"
+      },
+      {
+       "t": "호텔에서 가까운 위치, 해산물 쌀국수",
+       "u": "https://blog.naver.com/soj1006200/224463943300"
+      },
+      {
+       "t": "넓은 실내와 에어컨, 2층 좌석",
+       "u": "https://blog.naver.com/op3uj5-nm6e/224454600631"
+      },
+      {
+       "t": "담백한 맛에 아이도 잘 먹음, 조리 구경",
+       "u": "https://blog.naver.com/depp911/224438448239"
+      },
+      {
+       "t": "한글 메뉴판, 넓고 시원한 실내",
+       "u": "https://blog.naver.com/uzaxrwk/224425622871"
+      },
+      {
+       "t": "소스 직접 만드는 찐 현지 음식 경험",
+       "u": "https://blog.naver.com/gyurri/224423449712"
+      },
+      {
+       "t": "소스를 직접 만드는 로컬 경험",
+       "u": "https://blog.naver.com/applek5/224398597202"
+      },
+      {
+       "t": "선셋타운 산책과 이어지는 위치",
+       "u": "https://blog.naver.com/travelcollector/224376667495"
+      }
+     ],
+     "neg": [
+      {
+       "t": "에어컨이 없어 더움, 아주 저렴하진 않음",
+       "u": "https://blog.naver.com/dada-22/224434131798"
+      },
+      {
+       "t": "카운터 선주문 방식을 몰라 한참 기다림",
+       "u": "https://blog.naver.com/op3uj5-nm6e/224454600631"
+      },
+      {
+       "t": "해산물 향이 살짝 비릿하고 낯선 맛",
+       "u": "https://blog.naver.com/gyurri/224423449712"
+      },
+      {
+       "t": "아침 저녁 피크시간 줄 서서 주문",
+       "u": "https://blog.naver.com/travelcollector/224376667495"
+      }
+     ],
+     "basis": "광고·AI 제외 후기 13건(장소명이 제목에 들어간 글 15건 중 최근 15건 검토, 광고 2·AI 0건 제외)"
+    },
+    "photo": {
+     "file": "photos/분꿔이_끼엔써이.jpg",
+     "src": "https://blog.naver.com/dada-22/224434131798"
+    }
+   },
+   {
+    "name": "신짜오 씨푸드",
+    "region": "중부",
+    "aliases": [
+     "신짜오"
+    ],
+    "lat": 10.205,
+    "lon": 103.9625,
+    "coord_note": "근사(지역 기준)",
+    "desc": "즈엉동 해변 해산물 식당",
+    "price": [
+     "랍스터 M 72,300원 / 1,390,000동",
+     "랍스터 시가 60,000원대 / 약 1,150,000동대부터",
+     "중간 크기 70,000원대 / 약 1,350,000동대"
+    ],
+    "pros": [
+     "수조 해산물",
+     "바다 보며 식사",
+     "아이와 가기 좋음"
+    ],
+    "cons": [
+     "서비스 요금 10% 별도",
+     "2025년 8월 후기 \"비싸고 양이 적다\""
+    ],
+    "extra": [],
+    "map_query": "Xin Chao Seafood Restaurant Phu Quoc",
+    "map_note": "",
+    "home": [
+     {
+      "label": "페이스북",
+      "url": "https://www.facebook.com/nhahangxinchaophuquoc/"
+     },
+     {
+      "label": "인스타그램",
+      "url": "https://www.instagram.com/xinchao.phuquoc.restaurant/"
+     }
+    ],
+    "reviews": {
+     "pos": [
+      {
+       "t": "수조에서 꺼낸 신선한 해산물",
+       "u": "https://www.tripadvisor.com/Restaurant_Review-g1184679-d10629874-Reviews-Xin_Chao_Seafood_Restaurant-Duong_Dong_Phu_Quoc_Island_Kien_Giang_Province.html"
+      },
+      {
+       "t": "바다 보며 식사, 가족 방문 괜찮음",
+       "u": "https://blog.naver.com/depp911/224433519680"
+      },
+      {
+       "t": "바다 앞 뷰, 맛은 재방문 의사",
+       "u": "https://blog.naver.com/rudwls4454/224326817817"
+      },
+      {
+       "t": "일몰이 예쁘고 해산물 맛있음",
+       "u": "https://blog.naver.com/kongdu7115/224305164541"
+      },
+      {
+       "t": "오션뷰 테라스, 적당한 가격",
+       "u": "https://blog.naver.com/yoonchoice/224201236150"
+      },
+      {
+       "t": "노을 뷰 테라스 분위기 좋음",
+       "u": "https://blog.naver.com/higaq4545/224186576246"
+      },
+      {
+       "t": "선셋뷰, 새우가 오동통하고 저렴",
+       "u": "https://blog.naver.com/bjakdgms/224137480907"
+      }
+     ],
+     "neg": [
+      {
+       "t": "비싸고 양 적고 신선하지 않다는 최근 평",
+       "u": "https://www.tripadvisor.com/Restaurant_Review-g1184679-d10629874-Reviews-Xin_Chao_Seafood_Restaurant-Duong_Dong_Phu_Quoc_Island_Kien_Giang_Province.html"
+      },
+      {
+       "t": "4인 테이블 위주라 혼밥 시 직원 당황",
+       "u": "https://blog.naver.com/rudwls4454/224326817817"
+      },
+      {
+       "t": "라이브 해산물 시가 변동, 금액 확인 필요",
+       "u": "https://blog.naver.com/higaq4545/224186576246"
+      },
+      {
+       "t": "낮엔 창가 햇빛 뜨거움, 물티슈 유료",
+       "u": "https://blog.naver.com/bjakdgms/224137480907"
+      }
+     ],
+     "basis": "광고·AI 제외 후기 8건(장소명이 제목에 들어간 글 8건 중 최근 8건 검토, 광고 0·AI 0건 제외)"
+    },
+    "photo": {
+     "file": "photos/신짜오_씨푸드.jpg",
+     "src": "https://blog.naver.com/depp911/224433519680"
+    }
+   },
+   {
+    "name": "라커이 (Ra Khoi)",
+    "region": "중부",
+    "aliases": [
+     "라커이",
+     "라코이",
+     "Ra Khoi"
+    ],
+    "lat": 10.216,
+    "lon": 103.9612,
+    "coord_note": "근사(지역 기준)",
+    "desc": "즈엉동 로컬 해산물 식당",
+    "price": [
+     "타이거새우 7,800원 / 150,000동(단일가)",
+     "일반 메뉴 5,200~7,800원 / 100,000~150,000동",
+     "생선 500g 약 31,200원 / 600,000동"
+    ],
+    "pros": [
+     "가성비 해산물"
+    ],
+    "cons": [
+     "메뉴판에 시가·손글씨 표기"
+    ],
+    "extra": [],
+    "map_query": "Ra Khơi Phu Quoc",
+    "map_note": "검색 목록에서 선택",
+    "home": [],
+    "reviews": {
+     "pos": [
+      {
+       "t": "넓은 홀, 아이 동반 편함, 수조 구경",
+       "u": "https://blog.naver.com/jbhno2/224434942264"
+      },
+      {
+       "t": "매우 넓어 웨이팅 없음, 깨끗한 화장실",
+       "u": "https://blog.naver.com/miyo_ni/224408299976"
+      },
+      {
+       "t": "해산물볶음밥 맛있음",
+       "u": "https://blog.naver.com/christyeji1/224266620576"
+      },
+      {
+       "t": "푸짐한 세트, 한국어 메뉴판, 합리적 가격",
+       "u": "https://blog.naver.com/poohpoo22/224192723735"
+      },
+      {
+       "t": "크고 쾌적한 매장, 무료 김치, 다양한 해산물",
+       "u": "https://blog.naver.com/hyunmin1304/224184037974"
+      },
+      {
+       "t": "생새우회·부채새우 최애, 에어컨룸 생김",
+       "u": "https://blog.naver.com/by_eun21/224107808500"
+      }
+     ],
+     "neg": [
+      {
+       "t": "시끌벅적해 조용한 식사엔 부적합",
+       "u": "https://blog.naver.com/jbhno2/224434942264"
+      },
+      {
+       "t": "모닝글로리 평범하고 싱거움",
+       "u": "https://blog.naver.com/miyo_ni/224408299976"
+      },
+      {
+       "t": "부채새우 짜고 맛없음, 비싸고 직원 불친절",
+       "u": "https://blog.naver.com/christyeji1/224266620576"
+      },
+      {
+       "t": "예전엔 에어컨 없어 더웠음",
+       "u": "https://blog.naver.com/by_eun21/224107808500"
+      }
+     ],
+     "basis": "광고·AI 제외 후기 6건(장소명이 제목에 들어간 글 8건 중 최근 8건 검토, 광고 2·AI 0건 제외)"
+    },
+    "photo": {
+     "file": "photos/라커이_Ra_Khoi.jpg",
+     "src": "https://blog.naver.com/jbhno2/224434942264"
+    }
+   },
+   {
+    "name": "부이상",
+    "region": "중부",
+    "aliases": [
+     "부이상"
+    ],
+    "lat": 10.1955,
+    "lon": 103.968,
+    "coord_note": "근사(지역 기준)",
+    "desc": "즈엉동 Tran Hung Dao(킹콩마트 부근) 베트남 식당",
+    "price": [
+     "갈비쌀국수",
+     "베트남 요리(가격 미확인)"
+    ],
+    "pros": [
+     "에어컨",
+     "깔끔",
+     "아기 동반 좋음"
+    ],
+    "cons": [
+     "한식 메뉴가 비쌈(김치볶음밥 14달러)"
+    ],
+    "extra": [],
+    "map_query": "Buổi Sáng Phu Quoc Tran Hung Dao",
+    "map_note": "검색 목록에서 선택",
+    "home": [],
+    "reviews": {
+     "pos": [
+      {
+       "t": "한글 메뉴판, 부담 없는 가격",
+       "u": "https://blog.naver.com/v992800/224410973934"
+      },
+      {
+       "t": "가성비 좋고 갈비쌀국수 최고",
+       "u": "https://blog.naver.com/hand4444/224457162570"
+      },
+      {
+       "t": "분짜 가장 맛있고 모닝글로리·망고샐러드 좋음",
+       "u": "https://blog.naver.com/yxxn418/224445324410"
+      },
+      {
+       "t": "갈비쌀국수 국물 진하고 반쎄오 큼직",
+       "u": "https://blog.naver.com/daisukitokyo/224384733055"
+      },
+      {
+       "t": "갈비쌀국수 국물·고기 괜찮음, 깔끔한 노란 인테리어",
+       "u": "https://blog.naver.com/nanjjang0808/224283794272"
+      },
+      {
+       "t": "친절한 직원, 시원한 내부, 깔끔한 갈비쌀국수",
+       "u": "https://blog.naver.com/yeoniess/224265155156"
+      },
+      {
+       "t": "불향 분짜, 킹콩마트 근처 접근성",
+       "u": "https://blog.naver.com/ggamanglee/224160835655"
+      },
+      {
+       "t": "깔끔한 가정식, 시원한 에어컨",
+       "u": "https://blog.naver.com/keai1016/224134302252"
+      }
+     ],
+     "neg": [
+      {
+       "t": "가게 안 너무 더움, 현금도 8% 부가세, 재방문할 맛은 아님",
+       "u": "https://blog.naver.com/nanjjang0808/224283794272"
+      }
+     ],
+     "basis": "광고·AI 제외 후기 8건(장소명이 제목에 들어간 글 13건 중 최근 13건 검토, 광고 5·AI 0건 제외)"
+    },
+    "photo": {
+     "file": "photos/부이상.jpg",
+     "src": "https://blog.naver.com/v992800/224410973934"
+    }
+   },
+   {
+    "name": "선셋비치바",
+    "region": "중부",
+    "aliases": [
+     "선셋비치바",
+     "썬셋비치바",
+     "Sunset Beach Bar"
+    ],
+    "lat": 10.1945,
+    "lon": 103.9668,
+    "coord_note": "근사(지역 기준)",
+    "desc": "킹콩마트 근처 해변 비치바 & 레스토랑",
+    "price": [
+     "크랩피자 16,600원 / 319,000동",
+     "버거·스파게티 11,400원 / 219,000동",
+     "하이네켄 3,100원 / 60,000동"
+    ],
+    "pros": [
+     "석양 오션뷰",
+     "분위기 대비 가성비"
+    ],
+    "cons": [
+     "서비스 요금·세금 별도"
+    ],
+    "extra": [
+     "일몰 시간 맞춰 방문"
+    ],
+    "map_query": "Sunset Beach Bar & Restaurant 100C/2 Đường Trần Hưng Đạo Phú Quốc",
+    "map_note": "",
+    "home": [],
+    "reviews": {
+     "pos": [
+      {
+       "t": "분위기 대비 가성비, 맥주 프로모션",
+       "u": "https://blog.naver.com/suzzang010/224454256331"
+      },
+      {
+       "t": "아름다운 선셋, 타코 추천",
+       "u": "https://blog.naver.com/rim_traveler/224463235176"
+      },
+      {
+       "t": "환상적인 노을과 라이브 공연, 착한 가격",
+       "u": "https://blog.naver.com/jiny-15/224459477809"
+      },
+      {
+       "t": "오션뷰, 피자가 기대 이상",
+       "u": "https://blog.naver.com/dbtjdrud96/224454170047"
+      },
+      {
+       "t": "바다 앞 선셋 분위기, 피자·스테이크",
+       "u": "https://blog.naver.com/yunni_gongbang/224452155473"
+      },
+      {
+       "t": "선셋 뷰가 너무 예쁨",
+       "u": "https://blog.naver.com/luvuu-/224449948631"
+      },
+      {
+       "t": "디제잉·불쇼 등 클럽 같은 분위기",
+       "u": "https://blog.naver.com/etwt6235/224449248871"
+      }
+     ],
+     "neg": [
+      {
+       "t": "서비스차지·세금 별도",
+       "u": "https://blog.naver.com/suzzang010/224454256331"
+      },
+      {
+       "t": "공연 잘 보이는 자리는 예약 필요",
+       "u": "https://blog.naver.com/jiny-15/224459477809"
+      },
+      {
+       "t": "VAT·서비스요금 별도",
+       "u": "https://blog.naver.com/dbtjdrud96/224454170047"
+      },
+      {
+       "t": "도로에서 안쪽이라 찾기 헷갈림",
+       "u": "https://blog.naver.com/yunni_gongbang/224452155473"
+      },
+      {
+       "t": "안쪽이라 택시 회차 어렵고 매우 더움",
+       "u": "https://blog.naver.com/luvuu-/224449948631"
+      }
+     ],
+     "basis": "광고·AI 제외 후기 20건(장소명이 제목에 들어간 글 41건 중 최근 21건 검토, 광고 1·AI 0건 제외)"
+    },
+    "photo": {
+     "file": "photos/선셋비치바.jpg",
+     "src": "https://blog.naver.com/suzzang010/224454256331"
+    }
+   },
+   {
+    "name": "미스터씨푸드",
+    "region": "중부",
+    "aliases": [
+     "미스터씨푸드",
+     "미스터 씨푸드",
+     "Mr seafood"
+    ],
+    "lat": 10.129,
+    "lon": 103.988,
+    "coord_note": "근사(지역 기준)",
+    "desc": "소나시 야시장 해산물 식당",
+    "price": [
+     "랍스터(치즈·마늘버터) 마리당 46,800원 / 900,000동",
+     "큰 랍스터 88,400원 / 1,700,000동",
+     "해산물 메뉴 16,100~26,000원 / 310,000~500,000동",
+     "마늘볶음밥",
+     "모닝글로리"
+    ],
+    "pros": [
+     "분위기 좋음",
+     "랍스터 소스 선택"
+    ],
+    "cons": [
+     "해산물 시가(가격 미공개)"
+    ],
+    "extra": [
+     "영업 11:00~23:00"
+    ],
+    "map_query": "Mr Seafood chợ đêm Sonasea Phú Quốc",
+    "map_note": "",
+    "home": [],
+    "reviews": {
+     "pos": [
+      {
+       "t": "신선한 해산물, 가성비, 서비스 메뉴",
+       "u": "https://blog.naver.com/jhyoon6246/224463969737"
+      },
+      {
+       "t": "다양한 해산물과 소스 선택",
+       "u": "https://blog.naver.com/ssong_ok/224459953110"
+      },
+      {
+       "t": "짭조름 고소한 맛",
+       "u": "https://blog.naver.com/cjsrnr81/224460227814"
+      },
+      {
+       "t": "야외 분위기 좋고 공간 넓음, 식기 깔끔",
+       "u": "https://blog.naver.com/ksski_91/224459340018"
+      },
+      {
+       "t": "새우가 계속 생각날 만큼 맛있음",
+       "u": "https://blog.naver.com/poi09890/224457156142"
+      },
+      {
+       "t": "무료 차량, 황치즈새우 최고",
+       "u": "https://blog.naver.com/bbjay94/224457416874"
+      },
+      {
+       "t": "치즈 가리비 구이, 무료 사이드",
+       "u": "https://blog.naver.com/orientalcats/224458311696"
+      }
+     ],
+     "neg": [
+      {
+       "t": "오징어튀김은 무난한 수준",
+       "u": "https://blog.naver.com/jhyoon6246/224463969737"
+      },
+      {
+       "t": "대기 1시간, 카드 수수료 5%",
+       "u": "https://blog.naver.com/cjsrnr81/224460227814"
+      },
+      {
+       "t": "카드결제 수수료 3%",
+       "u": "https://blog.naver.com/ksski_91/224459340018"
+      },
+      {
+       "t": "모닝글로리는 그냥 그랬음",
+       "u": "https://blog.naver.com/bbjay94/224457416874"
+      },
+      {
+       "t": "영혼 없는 응대, 음료 늦게 나옴, 살 퍽퍽",
+       "u": "https://blog.naver.com/orientalcats/224458311696"
+      }
+     ],
+     "basis": "광고·AI 제외 후기 16건(장소명이 제목에 들어간 글 52건 중 최근 23건 검토, 광고 5·AI 2건 제외)"
+    },
+    "photo": {
+     "file": "photos/미스터씨푸드.jpg",
+     "src": "https://blog.naver.com/jhyoon6246/224463969737"
+    }
+   },
+   {
+    "name": "39k Seafood & BBQ",
+    "region": "중부",
+    "aliases": [
+     "39k"
+    ],
+    "lat": 10.1288,
+    "lon": 103.9878,
+    "coord_note": "근사(지역 기준)",
+    "desc": "소나시 야시장 안 해산물·BBQ",
+    "price": [
+     "마늘버터새우",
+     "오징어튀김",
+     "망고스무디(가격 미확인)"
+    ],
+    "pros": [
+     "친절",
+     "해산물 맛 좋음"
+    ],
+    "cons": [],
+    "extra": [],
+    "map_query": "39k Seafood &BBQ Chợ đêm bãi trường Phú Quốc",
+    "map_note": "",
+    "home": [],
+    "reviews": {
+     "pos": [
+      {
+       "t": "신선한 해산물, 저렴한 볶음밥, 서비스 메뉴",
+       "u": "https://blog.naver.com/sweetieee_yom/224450614379"
+      },
+      {
+       "t": "싱가포르새우구이 소스가 맛있음",
+       "u": "https://blog.naver.com/longtimenossi/224448908699"
+      },
+      {
+       "t": "해산물과 바비큐, 현지인 많은 로컬맛집",
+       "u": "https://blog.naver.com/jinsil_0216/224432891308"
+      },
+      {
+       "t": "붐비지 않고 쾌적한 실내",
+       "u": "https://blog.naver.com/chppsr/224459978766"
+      },
+      {
+       "t": "크고 탱글한 새우, 서비스 제공",
+       "u": "https://blog.naver.com/soo_oo8/224432277065"
+      },
+      {
+       "t": "픽업 요청 가능, 테이블마다 샤오커우",
+       "u": "https://blog.naver.com/pergle/224417055946"
+      },
+      {
+       "t": "가성비 좋고 직원 친절, 한국어 소통",
+       "u": "https://blog.naver.com/le_hyjin/224416234786"
+      },
+      {
+       "t": "39k부터 시작하는 가성비, 큰 새우",
+       "u": "https://blog.naver.com/yam04048/224409974955"
+      }
+     ],
+     "neg": [
+      {
+       "t": "재방문은 100%는 아님, 무게 주문이 헷갈림",
+       "u": "https://blog.naver.com/le_hyjin/224416234786"
+      },
+      {
+       "t": "비슷한 간판이 많아 헷갈림",
+       "u": "https://blog.naver.com/yam04048/224409974955"
+      }
+     ],
+     "basis": "광고·AI 제외 후기 15건(장소명이 제목에 들어간 글 18건 중 최근 18건 검토, 광고 2·AI 1건 제외)"
+    },
+    "photo": {
+     "file": "photos/39k_Seafood_BBQ.jpg",
+     "src": "https://blog.naver.com/jinsil_0216/224432891308"
+    }
+   },
+   {
+    "name": "냐항센 (SEN)",
+    "region": "중부",
+    "aliases": [
+     "냐항센",
+     "센 레스토랑"
+    ],
+    "lat": 10.1292,
+    "lon": 103.9882,
+    "coord_note": "근사(지역 기준)",
+    "desc": "소나시 야시장 베트남 식당",
+    "price": [
+     "쌀국수(가격 미확인)"
+    ],
+    "pros": [
+     "이창섭 추천 식당으로 소개"
+    ],
+    "cons": [],
+    "extra": [],
+    "map_query": "SEN Restaurant Sonasea Villas & Resort Phú Quốc",
+    "map_note": "",
+    "home": [],
+    "reviews": {
+     "pos": [
+      {
+       "t": "깔끔 쾌적, 아이들도 잘 먹음",
+       "u": "https://blog.naver.com/pieulim/224463526473"
+      },
+      {
+       "t": "음식 만족도 높음, 삿포로 생맥주",
+       "u": "https://blog.naver.com/asdfghjk2738/224462255128"
+      },
+      {
+       "t": "저렴하고 맛있고 서비스 좋음",
+       "u": "https://blog.naver.com/yihyunaa/224462275740"
+      },
+      {
+       "t": "깔끔한 맛, 쾌적한 분위기",
+       "u": "https://blog.naver.com/jhyoon6246/224459440669"
+      },
+      {
+       "t": "피로 풀리는 맛",
+       "u": "https://blog.naver.com/cjsrnr81/224455909769"
+      },
+      {
+       "t": "에어컨 빵빵, 매우 깔끔, 소스 다양",
+       "u": "https://blog.naver.com/ehdgml0617/224452866073"
+      },
+      {
+       "t": "베트남풍 인테리어, 적당한 규모",
+       "u": "https://blog.naver.com/kiki7058/224452301149"
+      },
+      {
+       "t": "맛없는 메뉴 없음, 청결, 합리적 가격",
+       "u": "https://blog.naver.com/saravuu/224451594139"
+      }
+     ],
+     "neg": [
+      {
+       "t": "할아버지 맥주 가격이 꽤 비쌈",
+       "u": "https://blog.naver.com/asdfghjk2738/224462255128"
+      },
+      {
+       "t": "예약 많아 재방문 못 함",
+       "u": "https://blog.naver.com/yihyunaa/224462275740"
+      },
+      {
+       "t": "강렬한 맛은 아님",
+       "u": "https://blog.naver.com/jhyoon6246/224459440669"
+      },
+      {
+       "t": "카드 결제 수수료 8%",
+       "u": "https://blog.naver.com/cjsrnr81/224455909769"
+      },
+      {
+       "t": "쌀국수는 평범한 정도",
+       "u": "https://blog.naver.com/saravuu/224451594139"
+      }
+     ],
+     "basis": "광고·AI 제외 후기 15건(장소명이 제목에 들어간 글 23건 중 최근 20건 검토, 광고 3·AI 2건 제외)"
+    },
+    "photo": {
+     "file": "photos/냐항센_SEN.jpg",
+     "src": "https://blog.naver.com/pieulim/224463526473"
+    }
+   },
+   {
+    "name": "껌자딘",
+    "region": "남부",
+    "aliases": [
+     "껌자딘"
+    ],
+    "lat": 10.03,
+    "lon": 104.008,
+    "coord_note": "근사(지역 기준)",
+    "desc": "선셋타운 베트남 가정식",
+    "price": [
+     "반쎄오 8,300원 / 160,000동",
+     "곱창쌀국수"
+    ],
+    "pros": [
+     "양이 많고 국물이 시원함",
+     "아이와 가기 좋음"
+    ],
+    "cons": [],
+    "extra": [],
+    "map_query": "Cơm Gia Đình Ama 17 Amarine Phú Quốc",
+    "map_note": "",
+    "home": [],
+    "reviews": {
+     "pos": [
+      {
+       "t": "에어컨 시원, 유아의자, 아이 메뉴 많음",
+       "u": "https://blog.naver.com/youn_dh/224462435265"
+      },
+      {
+       "t": "선셋타운 유명 로컬 맛집",
+       "u": "https://blog.naver.com/hohoj1/224456210489"
+      },
+      {
+       "t": "쌀국수 맛집, 깔끔한 내부",
+       "u": "https://blog.naver.com/nayaamm/224451542173"
+      },
+      {
+       "t": "케이블카 초입이라 찾기 쉬움",
+       "u": "https://blog.naver.com/minnie25/224465495863"
+      },
+      {
+       "t": "향 세지 않고 양 많음, 반쎄오 최애",
+       "u": "https://blog.naver.com/bosul101/224450700657"
+      },
+      {
+       "t": "남부 갈 때마다 들르는 맛집",
+       "u": "https://blog.naver.com/jangrose5932/224443200879"
+      },
+      {
+       "t": "위생·에어컨, 생수·물티슈 무료, 저렴",
+       "u": "https://blog.naver.com/leelee9707/224442926750"
+      }
+     ],
+     "neg": [
+      {
+       "t": "비슷한 간판 식당과 혼동 주의",
+       "u": "https://blog.naver.com/hohoj1/224456210489"
+      },
+      {
+       "t": "웨이팅 있음, 옆집이 더 맛있다는 평",
+       "u": "https://blog.naver.com/chaedam-table/224456526427"
+      },
+      {
+       "t": "오후 1시 넘어도 사람 많음",
+       "u": "https://blog.naver.com/nayaamm/224451542173"
+      },
+      {
+       "t": "저녁 시간 줄 서기도 함",
+       "u": "https://blog.naver.com/minnie25/224465495863"
+      },
+      {
+       "t": "비슷한 식당이 있어 헷갈림",
+       "u": "https://blog.naver.com/bosul101/224450700657"
+      },
+      {
+       "t": "같은 이름 가게가 있어 헷갈림",
+       "u": "https://blog.naver.com/jangrose5932/224443200879"
+      }
+     ],
+     "basis": "광고·AI 제외 후기 21건(장소명이 제목에 들어간 글 54건 중 최근 22건 검토, 광고 0·AI 1건 제외)"
+    },
+    "photo": {
+     "file": "photos/껌자딘.jpg",
+     "src": "https://blog.naver.com/youn_dh/224462435265"
+    }
+   },
+   {
+    "name": "껌메 (ComME)",
+    "region": "남부",
+    "aliases": [
+     "껌메",
+     "ComME"
+    ],
+    "lat": 10.029,
+    "lon": 104.0075,
+    "coord_note": "근사(지역 기준)",
+    "desc": "선셋타운(신상) 가정식·해산물",
+    "price": [
+     "메뉴 3,600~6,200원 / 70,000~120,000동",
+     "크레이피시 약 50,000원 / 약 962,000동"
+    ],
+    "pros": [
+     "직원 친절",
+     "위치 좋음"
+    ],
+    "cons": [],
+    "extra": [
+     "영업 09:00~21:00"
+    ],
+    "map_query": "Com Me Sunset Town Phu Quoc",
+    "map_note": "검색 목록에서 선택",
+    "home": [],
+    "reviews": {
+     "pos": [
+      {
+       "t": "친절, 쾌적한 실내, 해산물 쌀국수 맛·가격 만족",
+       "u": "https://blog.naver.com/danzzak78/224463662854"
+      },
+      {
+       "t": "시원하고 넓은 실내, 빠른 서빙, 가정식 맛있음",
+       "u": "https://blog.naver.com/bo1026/224463991127"
+      },
+      {
+       "t": "예쁜 창가 좌석, 맛있음, 키즈·한국 메뉴",
+       "u": "https://blog.naver.com/everything91/224461705921"
+      },
+      {
+       "t": "3층 대규모 좌석 여유, 키즈밀·한식 메뉴",
+       "u": "https://blog.naver.com/dreaminguth/224445604560"
+      },
+      {
+       "t": "밝고 깔끔한 실내, 유아의자, 메뉴 다양",
+       "u": "https://blog.naver.com/dlwndud1974/224429836240"
+      },
+      {
+       "t": "가정식과 해산물을 한자리에서",
+       "u": "https://blog.naver.com/ggamanglee/224408514202"
+      },
+      {
+       "t": "큰 규모, 위치 편리, 메뉴 다양",
+       "u": "https://blog.naver.com/misspark365/224406590451"
+      },
+      {
+       "t": "접근성, 통유리 뷰, 실패없는 식사",
+       "u": "https://blog.naver.com/cjh3445/224406534600"
+      },
+      {
+       "t": "음식 깔끔·맛있음, 오토바이 주차 편함",
+       "u": "https://blog.naver.com/zhzhekthf/224463907512"
+      },
+      {
+       "t": "쌀국수·분짜 맛있음",
+       "u": "https://blog.naver.com/bone02/224463735804"
+      }
+     ],
+     "neg": [
+      {
+       "t": "입장 시 식당 내 담배 냄새",
+       "u": "https://blog.naver.com/bone02/224463735804"
+      },
+      {
+       "t": "기대보다 별로, 양이 적음",
+       "u": "https://blog.naver.com/merryding/224453421261"
+      },
+      {
+       "t": "카드기 고장으로 현금만, 달러 환전수수료 3달러",
+       "u": "https://blog.naver.com/jess3366/224446409428"
+      }
+     ],
+     "basis": "광고·AI 제외 후기 15건(장소명이 제목에 들어간 글 22건 중 최근 21건 검토, 광고 4·AI 2건 제외)"
+    },
+    "photo": {
+     "file": "photos/껌메_ComME.jpg",
+     "src": "https://blog.naver.com/danzzak78/224463662854"
+    }
+   },
+   {
+    "name": "마담칸",
+    "region": "북부",
+    "aliases": [
+     "마담칸",
+     "마담콴"
+    ],
+    "lat": 10.3249,
+    "lon": 103.8581,
+    "coord_note": "근사(지역 기준)",
+    "desc": "그랜드월드 TH1-45(선셋타운 지점도 있음) 베트남 식당",
+    "price": [
+     "갈비쌀국수",
+     "반쎄오",
+     "메뉴 4,200~8,300원 / 80,000~160,000동"
+    ],
+    "pros": [
+     "선셋타운점은 공연·불꽃놀이를 보며 식사 가능"
+    ],
+    "cons": [],
+    "extra": [
+     "영업 10:00~23:00"
+    ],
+    "map_query": "TH1-45 Grand World Phú Quốc",
+    "map_note": "주소 위치로 이동",
+    "home": [],
+    "reviews": {
+     "pos": [
+      {
+       "t": "해산물볶음면 간이 딱 맞음",
+       "u": "https://blog.naver.com/gullcouple/224466036687"
+      },
+      {
+       "t": "양이 많음",
+       "u": "https://blog.naver.com/sheerday/224464494907"
+      },
+      {
+       "t": "마늘새우 탱글하고 풍미 좋음",
+       "u": "https://blog.naver.com/daeunami/224456442894"
+      },
+      {
+       "t": "깔끔·친절, 갈비쌀국수 국물 진함",
+       "u": "https://blog.naver.com/dlgkssktkfkd/224441533789"
+      },
+      {
+       "t": "그루퍼 생선 맛있고 kg당 가격 표시",
+       "u": "https://blog.naver.com/trip_tory/224418060895"
+      },
+      {
+       "t": "무난한 맛, 에어컨 실내석",
+       "u": "https://blog.naver.com/hiemmong/224416153928"
+      },
+      {
+       "t": "갈비쌀국수 왕추천",
+       "u": "https://blog.naver.com/ddungnyanya/224411790837"
+      },
+      {
+       "t": "갈비쌀국수·갈릭버터새우, 쇠통 맥주",
+       "u": "https://blog.naver.com/jjany_trip/224407403446"
+      }
+     ],
+     "neg": [
+      {
+       "t": "다른 음식은 중간 정도",
+       "u": "https://blog.naver.com/ddungnyanya/224411790837"
+      }
+     ],
+     "basis": "광고·AI 제외 후기 15건(장소명이 제목에 들어간 글 21건 중 최근 20건 검토, 광고 3·AI 2건 제외)"
+    },
+    "photo": {
+     "file": "photos/마담칸.jpg",
+     "src": "https://blog.naver.com/gullcouple/224466036687"
+    }
+   },
+   {
+    "name": "마담 타오",
+    "region": "북부",
+    "aliases": [
+     "마담 타오",
+     "마담타오"
+    ],
+    "lat": 10.325,
+    "lon": 103.8583,
+    "coord_note": "근사(지역 기준)",
+    "desc": "그랜드월드 베트남 가정식",
+    "price": [
+     "버터갈릭새우·오징어 메뉴당 약 18,000원 / 약 346,000동",
+     "메뉴 3개+맥주 약 35,000원 / 약 673,000동"
+    ],
+    "pros": [
+     "무난한 베트남 가정식"
+    ],
+    "cons": [
+     "\"생각보다 저렴하지 않다\""
+    ],
+    "extra": [],
+    "map_query": "Madam Thảo Grand World Phú Quốc",
+    "map_note": "",
+    "home": [],
+    "reviews": {
+     "pos": [
+      {
+       "t": "불향 숯불구이와 새콤달콤 소스 분짜",
+       "u": "https://blog.naver.com/daisukitokyo/224465548967"
+      },
+      {
+       "t": "볶음밥과 반쎄오 맛있음, 깔끔한 인테리어",
+       "u": "https://blog.naver.com/jowalee723/224452134770"
+      },
+      {
+       "t": "분짜 맛있음, 포탐보다 저렴",
+       "u": "https://blog.naver.com/hjjoo0801/224436703782"
+      },
+      {
+       "t": "새콤한 분짜 소스, 깔끔하고 시원한 내부",
+       "u": "https://blog.naver.com/from-luna/224391061267"
+      },
+      {
+       "t": "푸짐한 분짜, 깨끗하고 친절, 한국어 메뉴",
+       "u": "https://blog.naver.com/ramon35/224171892048"
+      },
+      {
+       "t": "치킨·오징어튀김·매운쌀국수 맛있음",
+       "u": "https://blog.naver.com/dlwndud1974/224464558208"
+      },
+      {
+       "t": "한국인 입맛에 맞는 퓨전 메뉴",
+       "u": "https://blog.naver.com/misspark365/224456035778"
+      },
+      {
+       "t": "분짜·반쎄오 맛집",
+       "u": "https://blog.naver.com/jiyeon750/224454579259"
+      },
+      {
+       "t": "가족 식사하기 좋은 메뉴 다양",
+       "u": "https://blog.naver.com/dlwndud1974/224450742938"
+      },
+      {
+       "t": "오징어튀김 맛있어 추가 주문",
+       "u": "https://blog.naver.com/juddy-_-/224450289336"
+      }
+     ],
+     "neg": [
+      {
+       "t": "음식이 단독으로 먹기엔 좀 짬",
+       "u": "https://blog.naver.com/himehara/224434004080"
+      },
+      {
+       "t": "고수가 없어 아쉬움",
+       "u": "https://blog.naver.com/jhsjhs0405/224432031989"
+      }
+     ],
+     "basis": "광고·AI 제외 후기 5건(장소명이 제목에 들어간 글 8건 중 최근 8건 검토, 광고 3·AI 0건 제외)"
+    },
+    "photo": {
+     "file": "photos/마담_타오.jpg",
+     "src": "https://blog.naver.com/jowalee723/224452134770"
+    }
+   },
+   {
+    "name": "껌냐",
+    "region": "북부",
+    "aliases": [
+     "껌냐"
+    ],
+    "lat": 10.324,
+    "lon": 103.859,
+    "coord_note": "근사(지역 기준)",
+    "desc": "그랜드월드 인근 베트남 가정식",
+    "price": [
+     "패밀리세트 46,800원 / 900,000동(6가지 메뉴)",
+     "볶음밥"
+    ],
+    "pros": [
+     "깔끔하고 볶음밥 강추"
+    ],
+    "cons": [
+     "\"반미는 아쉬웠다\""
+    ],
+    "extra": [],
+    "map_query": "Cơm Nhà Phú Quốc Grand World",
+    "map_note": "",
+    "home": [],
+    "reviews": {
+     "pos": [
+      {
+       "t": "향신료 부담 없는 가정식, 정갈한 식기",
+       "u": "https://blog.naver.com/minzip-log/224457198381"
+      },
+      {
+       "t": "넓고 깔끔, 분짜 맛있고 가족 모두 만족",
+       "u": "https://blog.naver.com/saiee22/224464492929"
+      },
+      {
+       "t": "고슬고슬한 볶음밥이 특히 맛있음",
+       "u": "https://blog.naver.com/gpshddl1018/224454326999"
+      },
+      {
+       "t": "북부 식당 중 1순위, 얼큰한 곱창쌀국수",
+       "u": "https://blog.naver.com/seize_the_/224435025771"
+      },
+      {
+       "t": "돼지고기 계란조림 인기, 고스트 할인",
+       "u": "https://blog.naver.com/iriwarai/224447927597"
+      },
+      {
+       "t": "호이안 분위기 외관, 좋은 동선",
+       "u": "https://blog.naver.com/dawnjinmo/224446116757"
+      },
+      {
+       "t": "예쁜 인테리어와 포토존",
+       "u": "https://blog.naver.com/travel_btmc/224428836555"
+      },
+      {
+       "t": "깔끔한 쌀국수 국물, 한글 메뉴판",
+       "u": "https://blog.naver.com/fmn636/224407117059"
+      }
+     ],
+     "neg": [
+      {
+       "t": "곱창쌀국수가 기대만큼 맵지 않음",
+       "u": "https://blog.naver.com/gpshddl1018/224454326999"
+      },
+      {
+       "t": "시계탑 쪽 숙소에서 걷기엔 거리",
+       "u": "https://blog.naver.com/travel_btmc/224428836555"
+      },
+      {
+       "t": "바닥이 많이 미끄러움, 1층 붐빔",
+       "u": "https://blog.naver.com/fmn636/224407117059"
+      }
+     ],
+     "basis": "광고·AI 제외 후기 13건(장소명이 제목에 들어간 글 33건 중 최근 22건 검토, 광고 9·AI 0건 제외)"
+    },
+    "photo": {
+     "file": "photos/껌냐.jpg",
+     "src": "https://blog.naver.com/minzip-log/224457198381"
+    }
+   },
+   {
+    "name": "꼬어이 (COOI)",
+    "region": "북부",
+    "aliases": [
+     "꼬어이",
+     "꼬오이",
+     "COOI"
+    ],
+    "lat": 10.3248,
+    "lon": 103.8578,
+    "coord_note": "근사(지역 기준)",
+    "desc": "그랜드월드 베트남 식당",
+    "price": [
+     "반쎄오 8,800원 / 170,000동",
+     "소고기 쌀국수 6,800원 / 130,000동",
+     "모닝글로리 4,700원 / 90,000동",
+     "타이거 맥주 2,100원 / 40,000동"
+    ],
+    "pros": [
+     "에어컨",
+     "아침 도착편 공항 무료 픽업"
+    ],
+    "cons": [],
+    "extra": [
+     "영업 10:00~22:00. 짐 보관 무료(06:00~20:00)"
+    ],
+    "map_query": "CO OI Vietnamese restaurant Grand World Phú Quốc",
+    "map_note": "",
+    "home": [],
+    "reviews": {
+     "pos": [
+      {
+       "t": "껌승 맛집, 넓고 에어컨 시원",
+       "u": "https://blog.naver.com/newvixen/224413762961"
+      },
+      {
+       "t": "메뉴 다양, 큰 반쎄오, 아침 일찍 영업",
+       "u": "https://blog.naver.com/daisukitokyo/224465548967"
+      },
+      {
+       "t": "할아버지 맥주 판매",
+       "u": "https://blog.naver.com/ehdgml0617/224455992978"
+      },
+      {
+       "t": "메뉴 다 맛있고 양 푸짐",
+       "u": "https://blog.naver.com/bo1026/224454000777"
+      },
+      {
+       "t": "한국인에게 유명, 스파 근처",
+       "u": "https://blog.naver.com/happysawol96/224440272182"
+      },
+      {
+       "t": "반쎄오가 가장 맛있음, 한국어 메뉴",
+       "u": "https://blog.naver.com/finder_550/224438086287"
+      },
+      {
+       "t": "화사한 분위기, 바삭한 반쎄오",
+       "u": "https://blog.naver.com/misspark365/224411685988"
+      },
+      {
+       "t": "깔끔한 내부, 한적함",
+       "u": "https://blog.naver.com/try1130/224410102518"
+      }
+     ],
+     "neg": [
+      {
+       "t": "기대보다 실망이 큼, 간판이 눈에 안 띔",
+       "u": "https://blog.naver.com/ehdgml0617/224455992978"
+      },
+      {
+       "t": "야외석이 차도 바로 옆",
+       "u": "https://blog.naver.com/happysawol96/224440272182"
+      },
+      {
+       "t": "현금만 가능, 좌석이 많지 않음",
+       "u": "https://blog.naver.com/finder_550/224438086287"
+      }
+     ],
+     "basis": "광고·AI 제외 후기 17건(장소명이 제목에 들어간 글 31건 중 최근 21건 검토, 광고 4·AI 0건 제외)"
+    },
+    "photo": {
+     "file": "photos/꼬어이_COOI.jpg",
+     "src": "https://blog.naver.com/newvixen/224413762961"
+    }
+   },
+   {
+    "name": "마이흐엉",
+    "region": "북부",
+    "aliases": [
+     "마이흐엉",
+     "Mai Huong"
+    ],
+    "lat": 10.3252,
+    "lon": 103.8575,
+    "coord_note": "근사(지역 기준)",
+    "desc": "그랜드월드 분수광장 근처 해산물 식당",
+    "price": [
+     "랍스터·새우구이",
+     "메뉴 33,300~46,800원 / 640,000~900,000동",
+     "4인 약 127,300원 / 2,447,500동 사례"
+    ],
+    "pros": [
+     "식사 뒤 야경 보기 좋음"
+    ],
+    "cons": [
+     "비쌈"
+    ],
+    "extra": [],
+    "map_query": "Mai Hương Beachfront Grand World Phú Quốc",
+    "map_note": "",
+    "home": [
+     {
+      "label": "페이스북",
+      "url": "https://www.facebook.com/MaiHuongRestaurant"
+     }
+    ],
+    "reviews": {
+     "pos": [
+      {
+       "t": "싱싱한 해산물 직접 선택, 분수광장 인접",
+       "u": "https://blog.naver.com/minzip-log/224459274310"
+      },
+      {
+       "t": "부드러운 오징어튀김, 파 가리비 추천",
+       "u": "https://blog.naver.com/asdfghjk2738/224463895972"
+      },
+      {
+       "t": "깨끗한 수족관, 야외석 야경 분위기",
+       "u": "https://blog.naver.com/wlgusl92/224462071341"
+      },
+      {
+       "t": "비치프론트 분위기, 새우돼지볶음 최고",
+       "u": "https://blog.naver.com/happysawol96/224440272182"
+      },
+      {
+       "t": "오징어튀김·모닝글로리 1등, 갯가재",
+       "u": "https://blog.naver.com/sororo9/224440423917"
+      },
+      {
+       "t": "그랜드월드 야장 분위기 해산물",
+       "u": "https://blog.naver.com/eksalrhd/224420219801"
+      },
+      {
+       "t": "오징어튀김·맛조개 공심채 맛있음",
+       "u": "https://blog.naver.com/jaeyoung371/224390455106"
+      }
+     ],
+     "neg": [
+      {
+       "t": "가리비가 베트남 물가치고 비싼 편",
+       "u": "https://blog.naver.com/asdfghjk2738/224463895972"
+      },
+      {
+       "t": "랍스터 2시간 대기, 짜고 눅눅, 비쌈(비치프론트)",
+       "u": "https://blog.naver.com/obino84755/224455117215"
+      },
+      {
+       "t": "내부는 평범한 현지 식당",
+       "u": "https://blog.naver.com/wlgusl92/224462071341"
+      },
+      {
+       "t": "그랜드월드점은 간이 센 편",
+       "u": "https://blog.naver.com/happysawol96/224440272182"
+      }
+     ],
+     "basis": "광고·AI 제외 후기 12건(장소명이 제목에 들어간 글 14건 중 최근 14건 검토, 광고 2·AI 0건 제외)"
+    },
+    "photo": {
+     "file": "photos/마이흐엉.jpg",
+     "src": "https://blog.naver.com/minzip-log/224459274310"
+    }
+   },
+   {
+    "name": "티라 (Thì Là)",
+    "region": "중부",
+    "aliases": [
+     "티라",
+     "Thì Là"
+    ],
+    "lat": 10.2135,
+    "lon": 103.9618,
+    "coord_note": "근사(지역 기준)",
+    "desc": "즈엉동 43 Tran Hung Dao 베트남 식당",
+    "price": [
+     "곱창쌀국수 7,500원 / 145,000동",
+     "반쎄오 7,000원 / 135,000동",
+     "에피타이저 세트 10,100원 / 195,000동",
+     "모닝글로리 4,900원 / 95,000동",
+     "볶음밥 5,500원 / 105,000동",
+     "망고스무디 3,500원 / 68,000동"
+    ],
+    "pros": [
+     "에어컨",
+     "한국어 메뉴판",
+     "창가석 추천"
+    ],
+    "cons": [],
+    "extra": [
+     "영업 10:30~22:30"
+    ],
+    "map_query": "Nhà hàng Thì Là 43 Đường Trần Hưng Đạo Phú Quốc",
+    "map_note": "",
+    "home": [],
+    "reviews": {
+     "pos": [
+      {
+       "t": "한국어 메뉴판, 한국인 입맛, 휴양지 분위기",
+       "u": "https://blog.naver.com/available_1940/224463679245"
+      },
+      {
+       "t": "곱창쌀국수 최고, 깔끔하고 쾌적",
+       "u": "https://blog.naver.com/thing-gle/224455668436"
+      },
+      {
+       "t": "한국어 메뉴판, 수제맥주 맛있음",
+       "u": "https://blog.naver.com/thing-gle/224454325611"
+      },
+      {
+       "t": "반쎄오 최고, 넓고 쾌적한 내부",
+       "u": "https://blog.naver.com/yam04048/224429302298"
+      },
+      {
+       "t": "깔끔·시원한 내부, 진하고 깔끔한 쌀국수",
+       "u": "https://blog.naver.com/aanway/224416933907"
+      },
+      {
+       "t": "리조트 정원 같은 인테리어, 칼칼한 국물",
+       "u": "https://blog.naver.com/akasia602/224353501622"
+      }
+     ],
+     "neg": [
+      {
+       "t": "곱창쌀국수 양이 적은 편",
+       "u": "https://blog.naver.com/thing-gle/224455668436"
+      },
+      {
+       "t": "메오키친이 더 맛있었음",
+       "u": "https://blog.naver.com/thing-gle/224454325611"
+      },
+      {
+       "t": "유명한 곱창쌀국수는 아쉬움",
+       "u": "https://blog.naver.com/yam04048/224429302298"
+      }
+     ],
+     "basis": "광고·AI 제외 후기 12건(장소명이 제목에 들어간 글 19건 중 최근 19건 검토, 광고 7·AI 0건 제외)"
+    },
+    "photo": {
+     "file": "photos/티라_Th_L.jpg",
+     "src": "https://blog.naver.com/available_1940/224463679245"
+    }
+   },
+   {
+    "name": "똠하우스 (Tom House)",
+    "region": "중부",
+    "aliases": [
+     "똠하우스",
+     "똠 하우스",
+     "TÔM HOUSE",
+     "Tom House"
+    ],
+    "lat": 10.2165,
+    "lon": 103.96,
+    "coord_note": "근사(지역 기준)",
+    "desc": "즈엉동 1D Vo Thi Sau 해산물 식당",
+    "price": [
+     "콤보4(2인) 46,300원 / 890,000동",
+     "새우 갈릭버터 15,300원 / 295,000동",
+     "가리비치즈 13,000원 / 250,000동",
+     "맛조개 모닝글로리 7,800원 / 150,000동",
+     "해산물 라면 7,800원 / 150,000동",
+     "할아버지 맥주 6,200원 / 120,000동"
+    ],
+    "pros": [
+     "해산물 콤보 구성",
+     "입구에 수조"
+    ],
+    "cons": [
+     "메뉴마다 만족도 차이(생새우회 아쉬움)"
+    ],
+    "extra": [
+     "영업 07:00~22:00"
+    ],
+    "map_query": "Tôm House 1D Võ Thị Sáu Dương Đông Phú Quốc",
+    "map_note": "",
+    "home": [],
+    "reviews": {
+     "pos": [
+      {
+       "t": "해산물 고민되면 추천, 한국어 메뉴",
+       "u": "https://blog.naver.com/michellesnote/224450487202"
+      },
+      {
+       "t": "깔끔한 매장, 야시장 근접",
+       "u": "https://blog.naver.com/joyfuldailly/224441125670"
+      },
+      {
+       "t": "지인 추천 맛집",
+       "u": "https://blog.naver.com/s_sol96/224370199086"
+      },
+      {
+       "t": "한국어 메뉴판 편리",
+       "u": "https://blog.naver.com/citrontea413/224362482919"
+      },
+      {
+       "t": "야시장 도보 3분 접근성",
+       "u": "https://blog.naver.com/a_moment_of_joy_/224337750035"
+      },
+      {
+       "t": "랍스타 맛있고 기념일에 적합",
+       "u": "https://blog.naver.com/joy3345/224304973141"
+      },
+      {
+       "t": "진한 라면, 가리비치즈 맛있음",
+       "u": "https://blog.naver.com/dawnjinmo/224223819631"
+      },
+      {
+       "t": "모닝글로리·볶음밥 맛있음, 접근성",
+       "u": "https://blog.naver.com/gyurri/224209215531"
+      }
+     ],
+     "neg": [
+      {
+       "t": "가격이 저렴하진 않고 메뉴별 만족도 차이",
+       "u": "https://blog.naver.com/joyfuldailly/224441125670"
+      },
+      {
+       "t": "내부가 넓지 않음",
+       "u": "https://blog.naver.com/s_sol96/224370199086"
+      },
+      {
+       "t": "서비스가 가장 불친절했음",
+       "u": "https://blog.naver.com/joy3345/224304973141"
+      },
+      {
+       "t": "카드결제 시 부가세 10% 추가",
+       "u": "https://blog.naver.com/dawnjinmo/224223819631"
+      },
+      {
+       "t": "한국인 타깃이라 가격이 싸지 않음",
+       "u": "https://blog.naver.com/gyurri/224209215531"
+      }
+     ],
+     "basis": "광고·AI 제외 후기 11건(장소명이 제목에 들어간 글 21건 중 최근 20건 검토, 광고 8·AI 1건 제외)"
+    },
+    "photo": {
+     "file": "photos/똠하우스_Tom_House.jpg",
+     "src": "https://blog.naver.com/michellesnote/224450487202"
+    }
+   },
+   {
+    "name": "씀모이 가든",
+    "region": "중부",
+    "aliases": [
+     "씀모이"
+    ],
+    "lat": 10.196,
+    "lon": 103.9678,
+    "coord_note": "근사(지역 기준)",
+    "desc": "즈엉동 114 Tran Hung Dao(킹콩마트 부근) 정원형 베트남 식당",
+    "price": [
+     "해산물 반쎄오 11,700원 / 225,000동",
+     "게살수프 4,900원 / 95,000동",
+     "마늘 모닝글로리 5,500원 / 105,000동",
+     "소고기쌀국수 L 6,500원 / 125,000동"
+    ],
+    "pros": [
+     "가성비(3인 28,600원 / 550,000동 사례)",
+     "넓은 정원 분위기"
+    ],
+    "cons": [],
+    "extra": [
+     "영업 10:00~22:30"
+    ],
+    "map_query": "Xóm Mới Garden 114 Trần Hưng Đạo Phú Quốc",
+    "map_note": "",
+    "home": [],
+    "reviews": {
+     "pos": [
+      {
+       "t": "킹콩마트 맞은편, 속 꽉 찬 짜조",
+       "u": "https://blog.naver.com/bravesquirrel/224461021958"
+      },
+      {
+       "t": "넓고 쾌적, 양 많고 메뉴 모두 맛있음",
+       "u": "https://blog.naver.com/cloolv/224458008556"
+      },
+      {
+       "t": "친절한 한국인 사장님, 깨끗하고 시원",
+       "u": "https://blog.naver.com/dada-22/224434098521"
+      },
+      {
+       "t": "최애 맛집, 반쎄오 분짜 맛조개 모닝글로리",
+       "u": "https://blog.naver.com/jiyeon750/224455737023"
+      },
+      {
+       "t": "야채 많은 반쎄오, 다양한 메뉴",
+       "u": "https://blog.naver.com/zipsunibo/224450710430"
+      },
+      {
+       "t": "순두부튀김 코코넛볶음밥 맛있음, 한국어 주문",
+       "u": "https://blog.naver.com/peanut2023/224449195955"
+      }
+     ],
+     "neg": [
+      {
+       "t": "음식 맛은 무난, 기대보다 아쉬움",
+       "u": "https://blog.naver.com/dada-22/224434098521"
+      },
+      {
+       "t": "오징어 요리 늦게 나오고 식은 상태",
+       "u": "https://blog.naver.com/peanut2023/224449195955"
+      }
+     ],
+     "basis": "광고·AI 제외 후기 16건(장소명이 제목에 들어간 글 39건 중 최근 22건 검토, 광고 3·AI 3건 제외)"
+    },
+    "photo": {
+     "file": "photos/씀모이_가든.jpg",
+     "src": "https://blog.naver.com/bravesquirrel/224461021958"
+    }
+   },
+   {
+    "name": "카페 그린 (Cafe Green)",
+    "region": "중부",
+    "aliases": [
+     "카페그린",
+     "카페 그린",
+     "그린카페",
+     "CAFE GREEN"
+    ],
+    "lat": 10.2168,
+    "lon": 103.9575,
+    "coord_note": "근사(지역 기준)",
+    "desc": "즈엉동 1 Tran Hung Dao 카페(그랜드월드 지점도 있음)",
+    "price": [
+     "망고빙수 10,400원 / 200,000동",
+     "아메리카노 3,100원 / 60,000동"
+    ],
+    "pros": [
+     "망고빙수 맛집",
+     "통유리 뷰"
+    ],
+    "cons": [
+     "망고가 달아 호불호"
+    ],
+    "extra": [
+     "영업 09:00~22:00"
+    ],
+    "map_query": "CAFE GREEN 1 Đường Trần Hưng Đạo Phú Quốc",
+    "map_note": "",
+    "home": [],
+    "reviews": {
+     "pos": [
+      {
+       "t": "통유리창 뷰, 쾌적하고 넓은 매장",
+       "u": "https://blog.naver.com/happy-soomile/224466304860"
+      },
+      {
+       "t": "양 많은 망고빙수, 한글 메뉴판",
+       "u": "https://blog.naver.com/saiee22/224464492929"
+      },
+      {
+       "t": "망고빙수 비주얼 만족",
+       "u": "https://blog.naver.com/gpshddl1018/224465196404"
+      },
+      {
+       "t": "망고빙수와 크로플이 최고",
+       "u": "https://blog.naver.com/wlsgmlgpwls/224465036411"
+      },
+      {
+       "t": "큼직한 망고 듬뿍, 넓은 매장, 저렴",
+       "u": "https://blog.naver.com/hari3014/224464808107"
+      },
+      {
+       "t": "한국보다 훨씬 저렴한 망고빙수",
+       "u": "https://blog.naver.com/dltjgua618/224463939724"
+      },
+      {
+       "t": "망고가 맛있음",
+       "u": "https://blog.naver.com/mini__lily/224462463304"
+      },
+      {
+       "t": "웨이팅 없음, 한글 메뉴판, 시원함",
+       "u": "https://blog.naver.com/ehdgml0617/224461670122"
+      }
+     ],
+     "neg": [
+      {
+       "t": "실내가 습하고 화장실 아쉬움, 현금만 가능",
+       "u": "https://blog.naver.com/saiee22/224464492929"
+      },
+      {
+       "t": "빙수가 싸지 않고 대기시간 김",
+       "u": "https://blog.naver.com/gpshddl1018/224465196404"
+      },
+      {
+       "t": "자리가 많지 않음",
+       "u": "https://blog.naver.com/ehdgml0617/224461670122"
+      }
+     ],
+     "basis": "광고·AI 제외 후기 15건(장소명이 제목에 들어간 글 58건 중 최근 26건 검토, 광고 11·AI 0건 제외)"
+    },
+    "photo": {
+     "file": "photos/카페_그린_Cafe_Green.jpg",
+     "src": "https://blog.naver.com/happy-soomile/224466304860"
+    }
+   },
+   {
+    "name": "옥센 비치바",
+    "region": "중부",
+    "aliases": [
+     "옥센",
+     "Ocsen"
+    ],
+    "lat": 10.1975,
+    "lon": 103.966,
+    "coord_note": "근사(지역 기준)",
+    "desc": "즈엉동 Hẻm 124 Tran Hung Dao 해변 비치바",
+    "price": [
+     "피자 11,400~16,600원 / 220,000~320,000동",
+     "버거 12,500~13,500원 / 240,000~260,000동",
+     "감자튀김 4,200원 / 80,000동"
+    ],
+    "pros": [
+     "해변 일몰과 파이어쇼"
+    ],
+    "cons": [
+     "20시 이후 입장료 1인 4,200원 / 80,000동"
+    ],
+    "extra": [
+     "영업 11:00~02:00"
+    ],
+    "map_query": "Ocsen Beach Bar & Club 124 Trần Hưng Đạo Phú Quốc",
+    "map_note": "",
+    "home": [
+     {
+      "label": "홈페이지",
+      "url": "https://www.ocsenbeachbar.com/"
+     }
+    ],
+    "reviews": {
+     "pos": [
+      {
+       "t": "불쇼가 불꽃놀이보다 재밌음",
+       "u": "https://blog.naver.com/moreyoung_k/224465866587"
+      },
+      {
+       "t": "화려한 불쇼, 선셋 감상",
+       "u": "https://blog.naver.com/pinkmom1005/224464606355"
+      },
+      {
+       "t": "일몰과 빈백 물멍, 감성 조명",
+       "u": "https://blog.naver.com/sukbae2325/224460534266"
+      },
+      {
+       "t": "숙소 가까움, 한국어 메뉴",
+       "u": "https://blog.naver.com/sooglow_/224456111982"
+      },
+      {
+       "t": "바다 앞에서 맥주와 불쇼 여유",
+       "u": "https://blog.naver.com/tonglab_/224446406521"
+      },
+      {
+       "t": "불쇼 재미, 물담배 체험",
+       "u": "https://blog.naver.com/finder_550/224441855594"
+      },
+      {
+       "t": "바다 앞 1열에서 불쇼 관람",
+       "u": "https://blog.naver.com/chaedam-table/224421797873"
+      },
+      {
+       "t": "바다 앞 선셋 최고, 여유",
+       "u": "https://blog.naver.com/young2world_/224408816060"
+      }
+     ],
+     "neg": [
+      {
+       "t": "불쇼 없이 갔을 땐 별로였음",
+       "u": "https://blog.naver.com/moreyoung_k/224465866587"
+      },
+      {
+       "t": "불쇼가 밤 10시라 아이와는 늦음",
+       "u": "https://blog.naver.com/pinkmom1005/224464606355"
+      },
+      {
+       "t": "조금 더움",
+       "u": "https://blog.naver.com/sukbae2325/224460534266"
+      },
+      {
+       "t": "골목 입구라 찾기 애매, 예약해도 자리 지정 없음",
+       "u": "https://blog.naver.com/sooglow_/224456111982"
+      },
+      {
+       "t": "골목길이라 밤에 조금 무서움, 음악 소리 큼",
+       "u": "https://blog.naver.com/tonglab_/224446406521"
+      },
+      {
+       "t": "입장료 있고 술값이 꽤 나옴",
+       "u": "https://blog.naver.com/finder_550/224441855594"
+      },
+      {
+       "t": "예약해도 의미 없음, 불쇼 때 붐빔",
+       "u": "https://blog.naver.com/chaedam-table/224421797873"
+      }
+     ],
+     "basis": "광고·AI 제외 후기 19건(장소명이 제목에 들어간 글 50건 중 최근 21건 검토, 광고 2·AI 0건 제외)"
+    },
+    "photo": {
+     "file": "photos/옥센_비치바.jpg",
+     "src": "https://blog.naver.com/moreyoung_k/224465866587"
+    }
+   },
+   {
+    "name": "안바 카페 (ANBA)",
+    "region": "중부",
+    "aliases": [
+     "안바",
+     "ANBA"
+    ],
+    "lat": 10.196,
+    "lon": 103.9678,
+    "coord_note": "근사(지역 기준)",
+    "desc": "즈엉동 131 Tran Hung Dao 카페(소나시 지점도 있음)",
+    "price": [
+     "코코넛커피 4,200원 / 80,000동",
+     "연유커피 2,900원 / 55,000동",
+     "라테 3,100원 / 60,000동",
+     "코코넛아이스크림 4,200원 / 80,000동"
+    ],
+    "pros": [
+     "스무디볼 맛있음",
+     "아침 일찍 영업"
+    ],
+    "cons": [
+     "아메리카노가 진함"
+    ],
+    "extra": [
+     "영업 07:30~21:30"
+    ],
+    "map_query": "ANBA COFFEE 131 Đường Trần Hưng Đạo Phú Quốc",
+    "map_note": "",
+    "home": [],
+    "reviews": {
+     "pos": [
+      {
+       "t": "아보카도블루베리 스무디볼 맛있음",
+       "u": "https://blog.naver.com/zhzhekthf/224464947413"
+      },
+      {
+       "t": "아늑하고 예쁨, 코코넛커피·아사이볼 맛있음",
+       "u": "https://blog.naver.com/alohani_/224464370142"
+      },
+      {
+       "t": "넓은 정원과 큰 나무, 숲속 휴양지 감성",
+       "u": "https://blog.naver.com/fanifani11/224464574086"
+      },
+      {
+       "t": "에어컨 빵빵, 정글 감성, 맛·비주얼 좋음",
+       "u": "https://blog.naver.com/ehdgml0617/224460669006"
+      },
+      {
+       "t": "정글 같은 정원 분위기, 과일빙수",
+       "u": "https://blog.naver.com/jess3366/224447929241"
+      },
+      {
+       "t": "푸릇한 정원 분위기, 고스트 할인",
+       "u": "https://blog.naver.com/lulee-/224427151171"
+      },
+      {
+       "t": "예쁜 야외석, 친절한 직원, 한국어 메뉴판",
+       "u": "https://blog.naver.com/briller_ete/224425386545"
+      }
+     ],
+     "neg": [
+      {
+       "t": "아메리카노 너무 진함, 실내 특색 없음",
+       "u": "https://blog.naver.com/zhzhekthf/224464947413"
+      },
+      {
+       "t": "맥주는 그럭저럭",
+       "u": "https://blog.naver.com/alohani_/224464370142"
+      },
+      {
+       "t": "한국인 90%, 실내자리 없어 대기",
+       "u": "https://blog.naver.com/ehdgml0617/224460669006"
+      },
+      {
+       "t": "한국인 많아 자리 부족, 물가 대비 비쌈",
+       "u": "https://blog.naver.com/jess3366/224447929241"
+      },
+      {
+       "t": "야외가 너무 더움",
+       "u": "https://blog.naver.com/lulee-/224427151171"
+      }
+     ],
+     "basis": "광고·AI 제외 후기 20건(장소명이 제목에 들어간 글 33건 중 최근 24건 검토, 광고 4·AI 0건 제외)"
+    },
+    "photo": {
+     "file": "photos/안바_카페_ANBA.jpg",
+     "src": "https://blog.naver.com/fanifani11/224464574086"
+    }
+   },
+   {
+    "name": "분짜 99",
+    "region": "중부",
+    "aliases": [
+     "99분짜",
+     "분짜99",
+     "분짜 99"
+    ],
+    "lat": 10.196,
+    "lon": 103.9678,
+    "coord_note": "근사(지역 기준)",
+    "desc": "즈엉동 126A Tran Hung Dao(킹콩마트 근처) 분짜 식당",
+    "price": [
+     "분짜 5,100원 / 99,000동",
+     "다른 메뉴 7,800원 / 150,000동대"
+    ],
+    "pros": [
+     "오픈키친",
+     "시원한 실내",
+     "쇼핑 전후 들르기 좋음"
+    ],
+    "cons": [
+     "\"현지 기준으로는 비싸다\"는 평"
+    ],
+    "extra": [],
+    "map_query": "99 BÚN CHẢ Phú Quốc",
+    "map_note": "",
+    "home": [],
+    "reviews": {
+     "pos": [
+      {
+       "t": "저렴한 가격, 불향 고기, 바삭한 오징어튀김",
+       "u": "https://blog.naver.com/chuuny_eunn/224316040117"
+      },
+      {
+       "t": "메오키친 계열 맛집",
+       "u": "https://blog.naver.com/soy_note/224298413175"
+      },
+      {
+       "t": "메오키친 대안",
+       "u": "https://blog.naver.com/dlsdkl/224209142682"
+      },
+      {
+       "t": "에어컨·청결, 웨이팅 없음, 분짜 최고",
+       "u": "https://blog.naver.com/kuk530/224205769522"
+      },
+      {
+       "t": "훈연 가득 분짜, 압도적인 양",
+       "u": "https://blog.naver.com/about_krou/224195090295"
+      },
+      {
+       "t": "메오키친과 같은 맛, 사람 적어 쾌적",
+       "u": "https://blog.naver.com/pluslee1215/224192016424"
+      }
+     ],
+     "neg": [
+      {
+       "t": "화장실이 밖에 있고 위생 별로, 계단 가파름",
+       "u": "https://blog.naver.com/dlsdkl/224209142682"
+      }
+     ],
+     "basis": "광고·AI 제외 후기 17건(장소명이 제목에 들어간 글 36건 중 최근 20건 검토, 광고 3·AI 0건 제외)"
+    },
+    "photo": {
+     "file": "photos/분짜_99.jpg",
+     "src": "https://blog.naver.com/chuuny_eunn/224316040117"
+    }
+   },
+   {
+    "name": "분짜 하노이",
+    "region": "중부",
+    "aliases": [
+     "분짜하노이",
+     "분짜 하노이"
+    ],
+    "lat": 10.2135,
+    "lon": 103.9618,
+    "coord_note": "근사(지역 기준)",
+    "desc": "즈엉동 분짜 식당",
+    "price": [
+     "특별한 분짜 6,200원 / 120,000동",
+     "VIP 분짜 5,200원 / 100,000동",
+     "타이거 맥주 1,600원 / 30,000동"
+    ],
+    "pros": [
+     "한국인 입맛에 맞음",
+     "사장 친절",
+     "아침 식사 가능"
+    ],
+    "cons": [],
+    "extra": [
+     "영업 06:00~21:00"
+    ],
+    "map_query": "Bún Chả Hà Nội 26A 30 Tháng 4 Phú Quốc",
+    "map_note": "",
+    "home": [],
+    "reviews": {
+     "pos": [
+      {
+       "t": "한국인 입맛, 사장님 친절",
+       "u": "https://blog.naver.com/kko2589/224446560818"
+      },
+      {
+       "t": "모든 메뉴 맛있음, 소소한 친절",
+       "u": "https://blog.naver.com/zozal_e/224444507637"
+      },
+      {
+       "t": "맛·위생·합리적 가격, 재방문 의사",
+       "u": "https://blog.naver.com/trip_nomad01/224424121421"
+      },
+      {
+       "t": "맛있어서 재방문",
+       "u": "https://blog.naver.com/eenu1993/224398144485"
+      },
+      {
+       "t": "여러 메뉴 나눠 먹기 좋음",
+       "u": "https://blog.naver.com/applek5/224398597202"
+      },
+      {
+       "t": "위생 깨끗, 불향 고기 가득, 사장님 친절",
+       "u": "https://blog.naver.com/mjdjmjdj/224391096237"
+      },
+      {
+       "t": "저렴한 가격, 일행 모두 만족",
+       "u": "https://blog.naver.com/yyeun0828/224378590240"
+      }
+     ],
+     "neg": [
+      {
+       "t": "구글에 임시휴업 표시",
+       "u": "https://blog.naver.com/kko2589/224446560818"
+      },
+      {
+       "t": "에어컨을 켜지 않음",
+       "u": "https://blog.naver.com/trip_nomad01/224424121421"
+      },
+      {
+       "t": "도로 공사로 가게에 먼지 많음",
+       "u": "https://blog.naver.com/eenu1993/224398144485"
+      }
+     ],
+     "basis": "광고·AI 제외 후기 19건(장소명이 제목에 들어간 글 22건 중 최근 20건 검토, 광고 1·AI 0건 제외)"
+    },
+    "photo": {
+     "file": "photos/분짜_하노이.jpg",
+     "src": "https://blog.naver.com/kko2589/224446560818"
+    }
+   },
+   {
+    "name": "벱비엔",
+    "region": "중부",
+    "aliases": [
+     "벱비엔"
+    ],
+    "lat": 10.196,
+    "lon": 103.9678,
+    "coord_note": "근사(지역 기준)",
+    "desc": "즈엉동(중부) 베트남·해산물 식당",
+    "price": [
+     "2인 BBQ 세트 93,100원 / 1,790,000동",
+     "4인 130,300원 / 2,505,000동(할인 후 117,200원 / 2,254,500동) 사례"
+    ],
+    "pros": [
+     "에어컨",
+     "위생적",
+     "한국어 소통",
+     "볶음밥·면 요리도 맛있음"
+    ],
+    "cons": [
+     "공휴일 휴업 사례"
+    ],
+    "extra": [
+     "영업 11:00~22:00"
+    ],
+    "map_query": "Bếp Biển seafood Restaurant Phú Quốc",
+    "map_note": "",
+    "home": [],
+    "reviews": {
+     "pos": [
+      {
+       "t": "해산물 맛집으로 기분 좋은 한끼",
+       "u": "https://www.youtube.com/watch?v=PU0TtVQ8bmY"
+      },
+      {
+       "t": "해산물 요리 배부르게 먹음",
+       "u": "https://blog.naver.com/chadior20/224448698547"
+      },
+      {
+       "t": "웨이팅 없이 여유, 놀이방, 재방문할 만큼 만족",
+       "u": "https://blog.naver.com/deokdeok22_/224413466920"
+      },
+      {
+       "t": "오픈 주방, 수족관 관리 깔끔, 푸짐한 세트",
+       "u": "https://blog.naver.com/hyejn2/224386969173"
+      },
+      {
+       "t": "오픈 키친, 넓은 내부, 가족여행에 좋음",
+       "u": "https://blog.naver.com/love6792love/224331059647"
+      },
+      {
+       "t": "생새우회 맛있음, 오픈 주방으로 신뢰",
+       "u": "https://blog.naver.com/hjej37/224303960667"
+      },
+      {
+       "t": "랍스터 신선, 사이드까지 맛있음",
+       "u": "https://blog.naver.com/yhwon9696/224163077753"
+      }
+     ],
+     "neg": [
+      {
+       "t": "해산물 볶음밥 맛없음, 해산물 작고 감칠맛 부족",
+       "u": "https://blog.naver.com/hjej37/224303960667"
+      },
+      {
+       "t": "관광지 가격, 카드결제 수수료",
+       "u": "https://blog.naver.com/yhwon9696/224163077753"
+      }
+     ],
+     "basis": "광고·AI 제외 후기 6건(장소명이 제목에 들어간 글 13건 중 최근 13건 검토, 광고 7·AI 0건 제외)"
+    },
+    "photo": {
+     "file": "photos/벱비엔.jpg",
+     "src": "https://blog.naver.com/deokdeok22_/224413466920"
+    }
+   },
+   {
+    "name": "더한식",
+    "region": "중부",
+    "aliases": [
+     "더한식"
+    ],
+    "lat": 10.196,
+    "lon": 103.9678,
+    "coord_note": "근사(지역 기준)",
+    "desc": "즈엉동 139 Tran Hung Dao 한식당",
+    "price": [
+     "한식 2인 31,200원 / 600,000동 사례"
+    ],
+    "pros": [
+     "깔끔",
+     "반찬"
+    ],
+    "cons": [
+     "\"김치찌개·순두부는 별로\"라는 후기"
+    ],
+    "extra": [],
+    "map_query": "THE HANSIK 139 Đường Trần Hưng Đạo Phú Quốc",
+    "map_note": "",
+    "home": [],
+    "reviews": {
+     "pos": [
+      {
+       "t": "가게 깔끔, 반찬이 맛있어 보임",
+       "u": "https://blog.naver.com/qoo0007/224463560041"
+      },
+      {
+       "t": "웬만한 한식 메뉴 다 있고 내부 깔끔",
+       "u": "https://blog.naver.com/lhm381/224425649071"
+      },
+      {
+       "t": "가성비 쌈밥정식, 찰진 한국쌀 밥",
+       "u": "https://blog.naver.com/0547383/224322039811"
+      },
+      {
+       "t": "청결, 에어컨, 한국쌀과 고춧가루로 찐 한식",
+       "u": "https://blog.naver.com/nncwmpuqo/224290128170"
+      },
+      {
+       "t": "킹콩마트 옆 위치, 넓고 쾌적",
+       "u": "https://blog.naver.com/1_nly/224280150971"
+      },
+      {
+       "t": "깔끔한 매장, 시원한 김치찌개",
+       "u": "https://blog.naver.com/sinhan111/224263773154"
+      }
+     ],
+     "neg": [
+      {
+       "t": "맛이 없어서 비추천",
+       "u": "https://blog.naver.com/qoo0007/224463560041"
+      },
+      {
+       "t": "밥이 아쉬움",
+       "u": "https://blog.naver.com/sinhan111/224263773154"
+      }
+     ],
+     "basis": "광고·AI 제외 후기 6건(장소명이 제목에 들어간 글 12건 중 최근 12건 검토, 광고 6·AI 0건 제외)"
+    },
+    "photo": {
+     "file": "photos/더한식.jpg",
+     "src": "https://blog.naver.com/lhm381/224425649071"
+    }
+   },
+   {
+    "name": "반미앤코",
+    "region": "중부",
+    "aliases": [
+     "반미앤코"
+    ],
+    "lat": 10.13,
+    "lon": 103.9886,
+    "coord_note": "근사(지역 기준)",
+    "desc": "소나시 S07 SS20 반미 가게",
+    "price": [
+     "반미 3,100~6,200원 / 60,000~120,000동",
+     "코코넛커피 3,600원 / 70,000동",
+     "아메리카노 3,100원 / 60,000동"
+    ],
+    "pros": [
+     "푸짐하고 빵이 부드러움",
+     "공항 가기 전 포장 추천"
+    ],
+    "cons": [],
+    "extra": [
+     "영업 08:30~21:00(22:00)"
+    ],
+    "map_query": "Bánh Mì & Co SS20 Sonasea Phú Quốc",
+    "map_note": "",
+    "home": [],
+    "reviews": {
+     "pos": [
+      {
+       "t": "깔끔한 매장, 청결한 화장실, 맛있는 반미",
+       "u": "https://blog.naver.com/taeng-ji/224466780369"
+      },
+      {
+       "t": "예쁜 외관, 에어컨, 생망고 빙수",
+       "u": "https://blog.naver.com/mkje201/224466091867"
+      },
+      {
+       "t": "반미가 일등, 디저트 메뉴 다양",
+       "u": "https://blog.naver.com/iluv_-/224465307646"
+      },
+      {
+       "t": "깨끗한 매장, 넓은 테이블",
+       "u": "https://blog.naver.com/castle_min83/224464062462"
+      },
+      {
+       "t": "시원 쾌적, 친절, 높은 맛 퀄리티",
+       "u": "https://blog.naver.com/shubiru/224461830161"
+      },
+      {
+       "t": "예쁜 인테리어, 에어컨, 저렴한 가격",
+       "u": "https://blog.naver.com/susu0_2/224462787793"
+      },
+      {
+       "t": "망고스무디 일등, 깔끔한 운영",
+       "u": "https://blog.naver.com/xilala/224458963408"
+      },
+      {
+       "t": "깔끔 쾌적, 반미 크기 큼",
+       "u": "https://blog.naver.com/etwt6235/224451551943"
+      }
+     ],
+     "neg": [
+      {
+       "t": "창가 자리에 담배 냄새 들어옴",
+       "u": "https://blog.naver.com/taeng-ji/224466780369"
+      },
+      {
+       "t": "음식이 생각보다 늦게 나옴",
+       "u": "https://blog.naver.com/castle_min83/224464062462"
+      },
+      {
+       "t": "비프모짜 고기가 살짝 질김",
+       "u": "https://blog.naver.com/xilala/224458963408"
+      },
+      {
+       "t": "로컬 반미보다 가격 높음",
+       "u": "https://blog.naver.com/etwt6235/224451551943"
+      }
+     ],
+     "basis": "광고·AI 제외 후기 16건(장소명이 제목에 들어간 글 17건 중 최근 17건 검토, 광고 0·AI 1건 제외)"
+    },
+    "photo": {
+     "file": "photos/반미앤코.jpg",
+     "src": "https://blog.naver.com/taeng-ji/224466780369"
+    }
+   },
+   {
+    "name": "로로 베이커리 (LOLO)",
+    "region": "중부",
+    "aliases": [
+     "로로",
+     "LOLO"
+    ],
+    "lat": 10.13,
+    "lon": 103.9886,
+    "coord_note": "근사(지역 기준)",
+    "desc": "소나시 야시장 근처 베이커리 카페",
+    "price": [
+     "망고빙수 M 10,400원 / 200,000동",
+     "망고빙수 L 13,000원 / 250,000동",
+     "아메리카노 3,100원 / 60,000동",
+     "소금커피 3,600원 / 70,000동",
+     "치아바타 3,100원 / 60,000동"
+    ],
+    "pros": [
+     "망고빙수가 맛있음",
+     "20~22시 베이커리 50% 할인"
+    ],
+    "cons": [],
+    "extra": [
+     "영업 11:00~22:00"
+    ],
+    "map_query": "LOLO BAKERY & CAFE Sonasea Phú Quốc",
+    "map_note": "",
+    "home": [],
+    "reviews": {
+     "pos": [
+      {
+       "t": "팥빙수가 한국보다 맛있음, 빵 해피아워",
+       "u": "https://blog.naver.com/hyosan0424/224463559353"
+      },
+      {
+       "t": "연유와 팥이 따로 나옴",
+       "u": "https://blog.naver.com/mini__lily/224462463304"
+      },
+      {
+       "t": "넓은 매장, 다양한 빵, GLN 5% 할인",
+       "u": "https://blog.naver.com/alghk9406211/224462517754"
+      },
+      {
+       "t": "망고 큼직, 푸꾸옥 최고 망고빙수",
+       "u": "https://blog.naver.com/ehdgml0617/224453698759"
+      },
+      {
+       "t": "시원한 망고스무디, 시간 보내기 좋음",
+       "u": "https://blog.naver.com/aej8912/224450470534"
+      },
+      {
+       "t": "망고 달고 내부 시원·깨끗",
+       "u": "https://blog.naver.com/jdaaa15/224439525515"
+      }
+     ],
+     "neg": [
+      {
+       "t": "망고가 맛없고 크게 썰려 먹기 불편",
+       "u": "https://blog.naver.com/mini__lily/224462463304"
+      },
+      {
+       "t": "카드 수수료 8%",
+       "u": "https://blog.naver.com/ehdgml0617/224453698759"
+      }
+     ],
+     "basis": "광고·AI 제외 후기 14건(장소명이 제목에 들어간 글 19건 중 최근 19건 검토, 광고 3·AI 2건 제외)"
+    },
+    "photo": {
+     "file": "photos/로로_베이커리_LOLO.jpg",
+     "src": "https://blog.naver.com/alghk9406211/224462517754"
+    }
+   },
+   {
+    "name": "리꼬르도",
+    "region": "중부",
+    "aliases": [
+     "리꼬르도"
+    ],
+    "lat": 10.13,
+    "lon": 103.9886,
+    "coord_note": "근사(지역 기준)",
+    "desc": "소나시(Mojo Boutique Hotel) 이탈리안·카페",
+    "price": [
+     "화덕피자",
+     "망고·허니빙수 M 6,200원 / 120,000동",
+     "망고·허니빙수 L 9,400원 / 180,000동",
+     "코코넛커피 3,900원 / 75,000동"
+    ],
+    "pros": [
+     "화덕피자 맛있음",
+     "시원"
+    ],
+    "cons": [],
+    "extra": [],
+    "map_query": "Ricordo Restaurant Mojo Boutique Hotel Phú Quốc",
+    "map_note": "",
+    "home": [
+     {
+      "label": "홈페이지",
+      "url": "https://ricordovn.com/"
+     },
+     {
+      "label": "페이스북",
+      "url": "https://www.facebook.com/ricordopq"
+     }
+    ],
+    "reviews": {
+     "pos": [
+      {
+       "t": "깨끗하고 시원한 실내, 생망고 망고빙수",
+       "u": "https://blog.naver.com/newvixen/224459211168"
+      },
+      {
+       "t": "쫄깃한 화덕 피자, 망고빙수, 메뉴 다양",
+       "u": "https://blog.naver.com/cjddk0206/224424133121"
+      },
+      {
+       "t": "망고빙수에 빠져 3번 방문, 김치볶음밥 한국 맛",
+       "u": "https://blog.naver.com/skdud7123/224405686796"
+      },
+      {
+       "t": "피자·파스타 맛있고 양 푸짐, 가족 외식에 완벽",
+       "u": "https://blog.naver.com/apunis323/224388978249"
+      },
+      {
+       "t": "망고빙수 만족",
+       "u": "https://blog.naver.com/osj4561/224380387410"
+      },
+      {
+       "t": "예쁜 야외석 조명, 망고빙수 유명",
+       "u": "https://blog.naver.com/ellie_ran_/224355982326"
+      },
+      {
+       "t": "피자·파스타 잘 나옴, 쿠폰 5% 할인",
+       "u": "https://blog.naver.com/hyejung0531/224313750030"
+      },
+      {
+       "t": "한국어 응대, 화덕 피자",
+       "u": "https://blog.naver.com/yeonininna/224466652095"
+      },
+      {
+       "t": "크림 파스타·양념치킨 맛있음",
+       "u": "https://blog.naver.com/happy_iddm/224465852489"
+      },
+      {
+       "t": "고급·깔끔한 분위기, 쫄깃한 화덕피자·리조또",
+       "u": "https://blog.naver.com/ej_ne/224465342346"
+      }
+     ],
+     "neg": [
+      {
+       "t": "카톡 배달 문의에 답이 없음",
+       "u": "https://blog.naver.com/happy_iddm/224465852489"
+      },
+      {
+       "t": "치킨은 그냥 쏘쏘",
+       "u": "https://blog.naver.com/bone02/224462664661"
+      },
+      {
+       "t": "망고빙수는 쏘쏘",
+       "u": "https://blog.naver.com/uni_zzazang/224456031861"
+      }
+     ],
+     "basis": "광고·AI 제외 후기 10건(장소명이 제목에 들어간 글 14건 중 최근 14건 검토, 광고 2·AI 2건 제외)"
+    },
+    "photo": {
+     "file": "photos/리꼬르도.jpg",
+     "src": "https://blog.naver.com/newvixen/224459211168"
+    }
+   },
+   {
+    "name": "오케이 비스트로",
+    "region": "중부",
+    "aliases": [
+     "오케이",
+     "OK 비스트로"
+    ],
+    "lat": 10.13,
+    "lon": 103.9886,
+    "coord_note": "근사(지역 기준)",
+    "desc": "소나시 베트남 비스트로",
+    "price": [
+     "메뉴 2,600~5,200원 / 50,000~100,000동",
+     "쌀국수·반쎄오·분짜+맥주 약 30,000원 / 약 577,000동 사례"
+    ],
+    "pros": [
+     "가성비",
+     "친절",
+     "3번 방문 후기"
+    ],
+    "cons": [],
+    "extra": [
+     "영업 07:00~23:00"
+    ],
+    "map_query": "Okei Bistro 1 - Sonasea Phú Quốc",
+    "map_note": "",
+    "home": [],
+    "reviews": {
+     "pos": [
+      {
+       "t": "친절하고 저렴함",
+       "u": "https://blog.naver.com/traveler_nyyoon/224465967612"
+      },
+      {
+       "t": "점심 2번 재방문할 만큼 맛있음",
+       "u": "https://blog.naver.com/sweetieee_yom/224465495856"
+      },
+      {
+       "t": "3년 만에도 여전히 만족, 두 번 방문",
+       "u": "https://blog.naver.com/subling1020/224464409940"
+      },
+      {
+       "t": "선풍기로 덥지 않음",
+       "u": "https://blog.naver.com/chuck0703/224461315776"
+      },
+      {
+       "t": "음식 맛있고 서비스 과일, 사장님 친절",
+       "u": "https://blog.naver.com/yihyunaa/224459054761"
+      },
+      {
+       "t": "반쎄오·분짜 맛있음",
+       "u": "https://blog.naver.com/daeunami/224455246222"
+      },
+      {
+       "t": "가성비 좋은 현지식, 망고주스",
+       "u": "https://blog.naver.com/chppsr/224455155264"
+      }
+     ],
+     "neg": [
+      {
+       "t": "에어컨 없고 식탁에 개미",
+       "u": "https://blog.naver.com/traveler_nyyoon/224465967612"
+      },
+      {
+       "t": "블랙커피가 너무 달고 씀",
+       "u": "https://blog.naver.com/chuck0703/224461315776"
+      },
+      {
+       "t": "2호점 실내도 그리 시원하진 않음",
+       "u": "https://blog.naver.com/yihyunaa/224459054761"
+      },
+      {
+       "t": "에어컨 없어 먹다 보면 더움",
+       "u": "https://blog.naver.com/daeunami/224455246222"
+      },
+      {
+       "t": "에어컨 없이 야외 선풍기만",
+       "u": "https://blog.naver.com/chppsr/224455155264"
+      }
+     ],
+     "basis": "광고·AI 제외 후기 16건(장소명이 제목에 들어간 글 22건 중 최근 20건 검토, 광고 3·AI 1건 제외)"
+    },
+    "photo": {
+     "file": "photos/오케이_비스트로.jpg",
+     "src": "https://blog.naver.com/subling1020/224464409940"
+    }
+   },
+   {
+    "name": "식객 (한식)",
+    "region": "중부",
+    "aliases": [
+     "식객"
+    ],
+    "lat": 10.13,
+    "lon": 103.9886,
+    "coord_note": "근사(지역 기준)",
+    "desc": "소나시 한식당",
+    "price": [
+     "김치찌개 9,400원 / 180,000동",
+     "돌솥비빔밥 10,900원 / 210,000동"
+    ],
+    "pros": [
+     "한식이 그리울 때"
+    ],
+    "cons": [
+     "\"소맥은 별로\""
+    ],
+    "extra": [
+     "영업 11:00~22:00"
+    ],
+    "map_query": "Sikgaek Korean Restaurant Sonasea Phu Quoc",
+    "map_note": "검색 목록에서 선택",
+    "home": [],
+    "reviews": {
+     "pos": [
+      {
+       "t": "반찬 맛있음, 돌솥비빔밥 푸짐",
+       "u": "https://blog.naver.com/alohani_/224464370142"
+      },
+      {
+       "t": "한국 삼겹살집 이상으로 맛있음",
+       "u": "https://blog.naver.com/realreviewerrr/224426379855"
+      },
+      {
+       "t": "설렁탕 김치찌개 맛있고 밥 양 만족",
+       "u": "https://blog.naver.com/hanzzang2_/224425300870"
+      },
+      {
+       "t": "정갈하고 다양한 밑반찬, 설렁탕",
+       "u": "https://blog.naver.com/sukbae2325/224423338643"
+      },
+      {
+       "t": "돌솥비빔밥 최고, 깔끔하고 친절",
+       "u": "https://blog.naver.com/ddungnyanya/224421323614"
+      },
+      {
+       "t": "대가족 테이블, 시원한 에어컨",
+       "u": "https://blog.naver.com/fanyjky/224415461397"
+      },
+      {
+       "t": "푸꾸옥 일등 한식집, 갈비, 할인권 제공",
+       "u": "https://blog.naver.com/dbsqhrud26/224414291790"
+      },
+      {
+       "t": "직접 기른 채소, 정갈한 밑반찬",
+       "u": "https://blog.naver.com/apunis323/224388978249"
+      }
+     ],
+     "neg": [
+      {
+       "t": "원하던 무늬오징어 재료 없음",
+       "u": "https://blog.naver.com/alohani_/224464370142"
+      },
+      {
+       "t": "제육덮밥 단맛이 강해 별로",
+       "u": "https://blog.naver.com/hanzzang2_/224425300870"
+      },
+      {
+       "t": "김치찌개 맛이 다소 아쉬움",
+       "u": "https://blog.naver.com/ddungnyanya/224421323614"
+      }
+     ],
+     "basis": "광고·AI 제외 후기 17건(장소명이 제목에 들어간 글 20건 중 최근 20건 검토, 광고 2·AI 1건 제외)"
+    },
+    "photo": {
+     "file": "photos/식객_한식.jpg",
+     "src": "https://blog.naver.com/realreviewerrr/224426379855"
+    }
+   },
+   {
+    "name": "껌디디",
+    "region": "중부",
+    "aliases": [
+     "껌디디"
+    ],
+    "lat": 10.13,
+    "lon": 103.9886,
+    "coord_note": "근사(지역 기준)",
+    "desc": "소나시 SS03 TM1 베트남 식당",
+    "price": [
+     "오징어튀김 15,600원 / 300,000동"
+    ],
+    "pros": [],
+    "cons": [
+     "\"양이 적고 맛도 아쉬워 완전 비추\" 후기"
+    ],
+    "extra": [
+     "영업 08:00~22:00"
+    ],
+    "map_query": "Cơm Đi Đi Sonasea Phú Quốc",
+    "map_note": "",
+    "home": [],
+    "reviews": {
+     "pos": [
+      {
+       "t": "넓은 매장, 등불 분위기",
+       "u": "https://blog.naver.com/alghk9406211/224462679304"
+      },
+      {
+       "t": "넓고 시원한 매장, 분짜 고기와 소스 최고",
+       "u": "https://blog.naver.com/juddy-_-/224458910662"
+      },
+      {
+       "t": "기본을 잘하는 맛, 웨이팅 없고 할인",
+       "u": "https://blog.naver.com/newvixen/224455141649"
+      },
+      {
+       "t": "무난하게 먹음, 소나시에서 가까움",
+       "u": "https://blog.naver.com/j_uyr/224445961244"
+      },
+      {
+       "t": "반쎄오 추천, 사진 찍기 좋은 분위기",
+       "u": "https://blog.naver.com/jinsil_0216/224430299632"
+      },
+      {
+       "t": "시원하고 깔끔한 인테리어",
+       "u": "https://blog.naver.com/sukbae2325/224408726618"
+      },
+      {
+       "t": "볶음 쌀국수 탑3급, 넓고 쾌적",
+       "u": "https://blog.naver.com/ssororong_/224403187773"
+      }
+     ],
+     "neg": [
+      {
+       "t": "자리 안내 없고 인사 대충, 불친절",
+       "u": "https://blog.naver.com/alghk9406211/224462679304"
+      },
+      {
+       "t": "분짜 양이 적은 편",
+       "u": "https://blog.naver.com/juddy-_-/224458910662"
+      },
+      {
+       "t": "카드결제 수수료",
+       "u": "https://blog.naver.com/newvixen/224455141649"
+      },
+      {
+       "t": "특별히 맛있다 정도는 아님",
+       "u": "https://blog.naver.com/ksky54/224447662214"
+      },
+      {
+       "t": "그렇게까지 맛집은 아님",
+       "u": "https://blog.naver.com/j_uyr/224445961244"
+      },
+      {
+       "t": "양이 애매함, 이국적 느낌은 덜함",
+       "u": "https://blog.naver.com/ssororong_/224403187773"
+      }
+     ],
+     "basis": "광고·AI 제외 후기 14건(장소명이 제목에 들어간 글 24건 중 최근 20건 검토, 광고 6·AI 0건 제외)"
+    },
+    "photo": {
+     "file": "photos/껌디디.jpg",
+     "src": "https://blog.naver.com/alghk9406211/224462679304"
+    }
+   },
+   {
+    "name": "블루 테이블",
+    "region": "남부",
+    "aliases": [
+     "블루테이블"
+    ],
+    "lat": 10.029,
+    "lon": 104.0075,
+    "coord_note": "근사(지역 기준)",
+    "desc": "선셋타운 Amalfi 136(Positano 48 지점) 레스토랑",
+    "price": [
+     "파스타 등 메뉴 8,800~20,800원 / 170,000~400,000동"
+    ],
+    "pros": [
+     "파스타 맛있음",
+     "바다색 인테리어로 사진 잘 나옴"
+    ],
+    "cons": [
+     "브레이크타임 15:00~17:00"
+    ],
+    "extra": [
+     "영업 10:30~22:00"
+    ],
+    "map_query": "Blue Table Italian Restaurant Amafi 136 Sunset Town",
+    "map_note": "",
+    "home": [],
+    "reviews": {
+     "pos": [
+      {
+       "t": "버섯리조또·봉골레 맛있음",
+       "u": "https://blog.naver.com/jjemmys/224427653244"
+      },
+      {
+       "t": "선셋타운 내 위치, 이국적 분위기",
+       "u": "https://blog.naver.com/fabrunch/224418527503"
+      },
+      {
+       "t": "가성비 좋고 한국 양식집보다 맛있음",
+       "u": "https://blog.naver.com/tiami98/224403700886"
+      },
+      {
+       "t": "분위기 좋고 깨끗, 에어컨 쾌적",
+       "u": "https://blog.naver.com/juyaandmi/224379557563"
+      },
+      {
+       "t": "깨끗한 매장, 에어컨, 메뉴 다양",
+       "u": "https://blog.naver.com/yoochun0260/224362905653"
+      },
+      {
+       "t": "깔끔한 인테리어, 시원한 생맥주",
+       "u": "https://blog.naver.com/chuu517/224355203644"
+      },
+      {
+       "t": "동선 편함, 해피아워, 넓은 좌석",
+       "u": "https://blog.naver.com/1_nly/224335672905"
+      },
+      {
+       "t": "가성비, 양 푸짐, 유럽풍 분위기",
+       "u": "https://blog.naver.com/buong00/224296952859"
+      }
+     ],
+     "neg": [
+      {
+       "t": "VAT 8% 별도",
+       "u": "https://blog.naver.com/jjemmys/224427653244"
+      },
+      {
+       "t": "맛은 무난, 전체적으로 별로",
+       "u": "https://blog.naver.com/chuu517/224355203644"
+      }
+     ],
+     "basis": "광고·AI 제외 후기 8건(장소명이 제목에 들어간 글 17건 중 최근 17건 검토, 광고 9·AI 0건 제외)"
+    },
+    "photo": {
+     "file": "photos/블루_테이블.jpg",
+     "src": "https://blog.naver.com/fabrunch/224418527503"
+    }
+   },
+   {
+    "name": "수라 (한식)",
+    "region": "남부",
+    "aliases": [
+     "수라"
+    ],
+    "lat": 10.029,
+    "lon": 104.0075,
+    "coord_note": "근사(지역 기준)",
+    "desc": "선셋타운 71 Amalfi 한식당(Cửa Lấp 지점도 있음)",
+    "price": [
+     "세트 2인분 44,200~54,600원 / 850,000~1,050,000동",
+     "3인분 54,600~65,000원 / 1,050,000~1,250,000동",
+     "4인분 67,100~80,600원 / 1,290,000~1,550,000동"
+    ],
+    "pros": [
+     "김치찌개 맛있고 양이 많음"
+    ],
+    "cons": [],
+    "extra": [
+     "영업 11:00~22:00"
+    ],
+    "map_query": "SURA Korean Restaurant 71 Amalfi Sunset Town",
+    "map_note": "",
+    "home": [],
+    "reviews": {
+     "pos": [
+      {
+       "t": "한국 웬만한 식당보다 맛있는 한식",
+       "u": "https://blog.naver.com/boyoon_nail/224465109541"
+      },
+      {
+       "t": "반가운 기본찬, 할아버지맥주 있음",
+       "u": "https://blog.naver.com/jowalee723/224450085130"
+      },
+      {
+       "t": "다양한 한식 세트, 부모님과 든든한 식사",
+       "u": "https://blog.naver.com/inkongja333/224443739330"
+      },
+      {
+       "t": "가장 깨끗, 친절한 사장님, 해물라면 최고",
+       "u": "https://blog.naver.com/hamcheese_/224426385547"
+      },
+      {
+       "t": "후기 좋은 한식, 다양한 세트 메뉴",
+       "u": "https://blog.naver.com/qhfk2n/224446865941"
+      },
+      {
+       "t": "정갈한 밑반찬, 계란찜",
+       "u": "https://blog.naver.com/ifjqbjin/224419506586"
+      },
+      {
+       "t": "김치찌개 맛있고 사장님 친절",
+       "u": "https://blog.naver.com/ahdzmtm1124/224412310349"
+      }
+     ],
+     "neg": [
+      {
+       "t": "제육볶음이 떡볶이 맛, 그럭저럭",
+       "u": "https://blog.naver.com/ifjqbjin/224419506586"
+      }
+     ],
+     "basis": "광고·AI 제외 후기 16건(장소명이 제목에 들어간 글 16건 중 최근 16건 검토, 광고 0·AI 0건 제외)"
+    },
+    "photo": {
+     "file": "photos/수라_한식.jpg",
+     "src": "https://blog.naver.com/boyoon_nail/224465109541"
+    }
+   },
+   {
+    "name": "뚱보집 (한식 삼겹살)",
+    "region": "남부",
+    "aliases": [
+     "뚱보집"
+    ],
+    "lat": 10.029,
+    "lon": 104.0075,
+    "coord_note": "근사(지역 기준)",
+    "desc": "선셋타운 Amalfi 한식 삼겹살집",
+    "price": [
+     "삼겹살·돼지 모둠(가격 미확인)"
+    ],
+    "pros": [
+     "위생 깔끔",
+     "한식이 그리울 때"
+    ],
+    "cons": [],
+    "extra": [
+     "영업 11:00~22:00"
+    ],
+    "map_query": "푸꾸옥 뚱보집 선셋타운 Amalfi Phú Quốc",
+    "map_note": "",
+    "home": [],
+    "reviews": {
+     "pos": [
+      {
+       "t": "다양한 메뉴, 선셋타운 가면 꼭 추천",
+       "u": "https://blog.naver.com/iriwarai/224450282184"
+      },
+      {
+       "t": "오겹살·된장찌개 맛있어 여러 번 재방문",
+       "u": "https://blog.naver.com/youn_dh/224445010775"
+      },
+      {
+       "t": "뼈해장국 맛있음",
+       "u": "https://blog.naver.com/j_uyr/224436074953"
+      },
+      {
+       "t": "마지막 날 속풀이 한식으로 강력 추천",
+       "u": "https://blog.naver.com/whit1120/224422256842"
+      },
+      {
+       "t": "실패 없는 맛, 저렴한 가격, 다양한 밑반찬",
+       "u": "https://blog.naver.com/leelee9707/224421215847"
+      },
+      {
+       "t": "다양한 메뉴로 가족이 각자 주문하기 좋음",
+       "u": "https://blog.naver.com/minnie25/224418081307"
+      },
+      {
+       "t": "간 세지 않은 한국 맛 그대로",
+       "u": "https://blog.naver.com/youn_dh/224415175257"
+      },
+      {
+       "t": "시원한 생맥주와 라면, 맛·양 합격",
+       "u": "https://blog.naver.com/minnie25/224352560700"
+      }
+     ],
+     "neg": [
+      {
+       "t": "직접 굽는 방식이 아니라 당황할 수 있음",
+       "u": "https://blog.naver.com/youn_dh/224445010775"
+      },
+      {
+       "t": "직원이 한국어를 못함",
+       "u": "https://blog.naver.com/minnie25/224418081307"
+      }
+     ],
+     "basis": "광고·AI 제외 후기 13건(장소명이 제목에 들어간 글 16건 중 최근 16건 검토, 광고 1·AI 2건 제외)"
+    },
+    "photo": {
+     "file": "photos/뚱보집_한식_삼겹살.jpg",
+     "src": "https://blog.naver.com/iriwarai/224450282184"
+    }
+   },
+   {
+    "name": "선셋분식",
+    "region": "남부",
+    "aliases": [
+     "선셋분식"
+    ],
+    "lat": 10.029,
+    "lon": 104.0075,
+    "coord_note": "근사(지역 기준)",
+    "desc": "선셋타운 분식집",
+    "price": [
+     "선셋세트(떡볶이+미니치킨+김밥) 15,600원 / 300,000동(라볶이 +1,000원 / 20,000동)",
+     "계란라면 5,200원 / 100,000동",
+     "부대찌개 9,400원 / 180,000동",
+     "김치말이국수 7,300원 / 140,000동",
+     "생맥주 1L 5,200원 / 100,000동"
+    ],
+    "pros": [
+     "\"한국보다 맛있다\"",
+     "부모님과 가기 좋음"
+    ],
+    "cons": [],
+    "extra": [
+     "영업 11:00~23:00"
+    ],
+    "map_query": "Sunset bunsik A56 sunset town Phú Quốc",
+    "map_note": "",
+    "home": [],
+    "reviews": {
+     "pos": [
+      {
+       "t": "파김치 맛있고 가족 모두 최고의 맛",
+       "u": "https://blog.naver.com/juddy-_-/224454078191"
+      },
+      {
+       "t": "아이 입맛 맞는 한식, 케이블카 근처",
+       "u": "https://blog.naver.com/onlyu48624/224418062025"
+      },
+      {
+       "t": "맛·가성비·위생 삼박자",
+       "u": "https://blog.naver.com/qhfk372/224370879476"
+      },
+      {
+       "t": "선셋타운 분위기, 청결",
+       "u": "https://blog.naver.com/everythingwithbebe/224349473325"
+      },
+      {
+       "t": "얼큰한 김치찌개, 에어컨 빵빵",
+       "u": "https://blog.naver.com/fancy3187/224289601701"
+      },
+      {
+       "t": "아이가 좋아함, 호불호 없는 메뉴",
+       "u": "https://blog.naver.com/lazynana1/224289905698"
+      }
+     ],
+     "neg": [
+      {
+       "t": "부가세 8% 별도",
+       "u": "https://blog.naver.com/juddy-_-/224454078191"
+      },
+      {
+       "t": "고급 한식당 느낌은 아님",
+       "u": "https://blog.naver.com/fancy3187/224289601701"
+      }
+     ],
+     "basis": "광고·AI 제외 후기 6건(장소명이 제목에 들어간 글 10건 중 최근 10건 검토, 광고 4·AI 0건 제외)"
+    },
+    "photo": {
+     "file": "photos/선셋분식.jpg",
+     "src": "https://blog.naver.com/juddy-_-/224454078191"
+    }
+   },
+   {
+    "name": "하이봇 (Hai Bột Eatery)",
+    "region": "남부",
+    "aliases": [
+     "하이봇",
+     "Hai Bột"
+    ],
+    "lat": 10.029,
+    "lon": 104.0075,
+    "coord_note": "근사(지역 기준)",
+    "desc": "선셋타운 54 Venice 식당",
+    "price": [
+     "소고기누들 4,400원 / 85,000동",
+     "스테이크 400g 42,100원 / 810,000동",
+     "4인 55,900원 / 1,075,200동 사례"
+    ],
+    "pros": [
+     "스테이크·볶음라면 맛있음",
+     "양 넉넉"
+    ],
+    "cons": [
+     "남부 물가가 비싼 편"
+    ],
+    "extra": [
+     "영업 07:00~21:00",
+     "휴무 없음"
+    ],
+    "map_query": "Hai Bột Eatery & Homestay 54 Đường Venice Phú Quốc",
+    "map_note": "",
+    "home": [
+     {
+      "label": "인스타그램",
+      "url": "https://www.instagram.com/haiboteatery/"
+     },
+     {
+      "label": "페이스북",
+      "url": "https://www.facebook.com/HaiBotEatery/"
+     }
+    ],
+    "reviews": {
+     "pos": [
+      {
+       "t": "스테이크 익힘 좋고 양 넉넉, 가성비",
+       "u": "https://blog.naver.com/chppsr/224464765721"
+      },
+      {
+       "t": "창가 자리 분위기 예쁨",
+       "u": "https://blog.naver.com/young2world_/224420919034"
+      },
+      {
+       "t": "다양한 누들 메뉴, 선셋타운 위치",
+       "u": "https://blog.naver.com/heydmood/224428549928"
+      },
+      {
+       "t": "스테이크 부드럽고 육즙 가득, 부담 없는 가격",
+       "u": "https://blog.naver.com/ttomeok_dani/224419639207"
+      },
+      {
+       "t": "분위기 좋은 외관, 현지에서도 인기",
+       "u": "https://blog.naver.com/pengyou118/224401048656"
+      }
+     ],
+     "neg": [
+      {
+       "t": "세금 18% 추가로 다소 비쌈",
+       "u": "https://blog.naver.com/chppsr/224464765721"
+      },
+      {
+       "t": "7시 웨이팅, 스테이크 외 메뉴는 그저 그럼",
+       "u": "https://blog.naver.com/j-bonny/224442724338"
+      },
+      {
+       "t": "한국어 메뉴 없고 영어 소통 어려움",
+       "u": "https://blog.naver.com/young2world_/224420919034"
+      },
+      {
+       "t": "방문 시 이터리 스테이크 주문 불가 안내",
+       "u": "https://blog.naver.com/dandanhan_haru/224426578855"
+      },
+      {
+       "t": "볶음밥 간이 슴슴함",
+       "u": "https://blog.naver.com/ttomeok_dani/224419639207"
+      },
+      {
+       "t": "사람이 많아 북적임",
+       "u": "https://blog.naver.com/pengyou118/224401048656"
+      }
+     ],
+     "basis": "광고·AI 제외 후기 17건(장소명이 제목에 들어간 글 20건 중 최근 20건 검토, 광고 3·AI 0건 제외)"
+    },
+    "photo": {
+     "file": "photos/하이봇_Hai_B_t_Eatery.jpg",
+     "src": "https://blog.naver.com/chppsr/224464765721"
+    }
+   },
+   {
+    "name": "서울식당 (한식)",
+    "region": "북부",
+    "aliases": [
+     "서울식당"
+    ],
+    "lat": 10.3006,
+    "lon": 103.8836,
+    "coord_note": "근사(지역 기준)",
+    "desc": "북부 빈펄 근처(Cửa Cạn·Vũng Bầu) 한식당",
+    "price": [
+     "김치찌개 10,400원 / 200,000동",
+     "제육볶음 정식 13,000원 / 250,000동",
+     "수제돈까스 14,000원 / 270,000동"
+    ],
+    "pros": [
+     "청결한 오픈주방",
+     "푸짐"
+    ],
+    "cons": [],
+    "extra": [
+     "영업 10:30~23:30"
+    ],
+    "map_query": "서울식당 Phu Quoc",
+    "map_note": "검색 목록에서 선택",
+    "home": [],
+    "reviews": {
+     "pos": [
+      {
+       "t": "깔끔 청결, 다양한 메뉴, 신선한 쌈 채소",
+       "u": "https://blog.naver.com/rim_traveler/224466562779"
+      },
+      {
+       "t": "카톡 포장 예약, 넉넉한 반찬, 넓고 쾌적",
+       "u": "https://blog.naver.com/bu509/224466355340"
+      },
+      {
+       "t": "북부 한식 배달 맛집, 친절한 사장님",
+       "u": "https://blog.naver.com/eunak1183/224431154827"
+      },
+      {
+       "t": "넓고 깔끔, 아이 의자, 생수로 식재료 세척",
+       "u": "https://blog.naver.com/kkang__s2/224420344206"
+      },
+      {
+       "t": "넓고 쾌적, 다양한 테이블과 메뉴",
+       "u": "https://blog.naver.com/dalkom408/224418600266"
+      },
+      {
+       "t": "빠른 배달과 꼼꼼한 포장, 푸짐한 양",
+       "u": "https://blog.naver.com/wlgml5205/224412769650"
+      },
+      {
+       "t": "빈버스 정류장 앞, 푸짐한 밑반찬",
+       "u": "https://blog.naver.com/seelee7830/224384571281"
+      },
+      {
+       "t": "마늘향 모닝글로리, 밥다운 밥, 배달 가능",
+       "u": "https://blog.naver.com/654321su/224381194582"
+      },
+      {
+       "t": "맛있는 한식",
+       "u": "https://blog.naver.com/oneontwoonwinner/224463530555"
+      },
+      {
+       "t": "깔끔, 제육쌈밥 맛있음, 친절한 사장님",
+       "u": "https://blog.naver.com/ulsan8748/224428208152"
+      }
+     ],
+     "neg": [],
+     "basis": "광고·AI 제외 후기 18건(장소명이 제목에 들어간 글 18건 중 최근 18건 검토, 광고 0·AI 0건 제외)",
+     "neg_note": "광고가 아닌 후기를 추가로 찾아봤지만 부정 평가를 찾지 못함(후기 수가 적음)"
+    },
+    "photo": {
+     "file": "photos/서울식당_한식.jpg",
+     "src": "https://blog.naver.com/rim_traveler/224466562779"
+    }
+   }
+  ],
+  "가볼만한 곳": [
+   {
+    "name": "혼똔섬 케이블카 (썬월드)",
+    "region": "남부",
+    "aliases": [
+     "케이블카"
+    ],
+    "lat": 10.03,
+    "lon": 104.005,
+    "coord_note": "근사(지역 기준)",
+    "desc": "선셋타운 출발 세계 최장 해상 케이블카(7.9km). 워터파크(아쿠아토피아)·키스브릿지 입장 포함",
+    "price": [
+     "기본 왕복 성인 44,200원 / 850,000동",
+     "기본 왕복 아동(1~1.4m) 36,400원 / 700,000동",
+     "1m 미만 무료",
+     "상위 패키지 성인 59,800원 / 1,150,000동",
+     "상위 패키지 아동 46,800원 / 900,000동"
+    ],
+    "pros": [
+     "워터파크(아쿠아토피아)·키스브릿지 입장 포함"
+    ],
+    "cons": [
+     "공휴일 추가 요금",
+     "락커 5,200원 / 100,000동(보증금 50,000)",
+     "수건 2,600원 / 50,000동(보증금 100,000)"
+    ],
+    "extra": [
+     "09:00~17:00. 즈엉동에서 케이블카역까지 썬월드 무료 버스 하루 56회"
+    ],
+    "map_query": "Sunworld Hòn Thơm - Hon Thom Cable Car Phu Quoc",
+    "map_note": "",
+    "home": [
+     {
+      "label": "공식 사이트",
+      "url": "https://sunworld.vn/en/hon-thom"
+     }
+    ],
+    "reviews": {
+     "pos": [
+      {
+       "t": "케이블카·워터파크 등 즐길거리 다양",
+       "u": "https://blog.naver.com/eleyam/224386012821"
+      },
+      {
+       "t": "세계 최장 케이블카, 기념품샵",
+       "u": "https://blog.naver.com/alghk9406211/224466631298"
+      },
+      {
+       "t": "바다 풍경 환상적, 대기 10분",
+       "u": "https://blog.naver.com/kidandme/224466505280"
+      },
+      {
+       "t": "에메랄드 바다 풍경에 감탄",
+       "u": "https://blog.naver.com/hkhk712/224462196126"
+      },
+      {
+       "t": "높은 곳에서 바다 풍경 감상",
+       "u": "https://blog.naver.com/blockblock/224464216177"
+      },
+      {
+       "t": "혼똔섬 예쁜 비치",
+       "u": "https://blog.naver.com/everything91/224461705921"
+      },
+      {
+       "t": "바다 경치, 워터파크·뷔페 한곳에",
+       "u": "https://blog.naver.com/kwonakong/224459409269"
+      }
+     ],
+     "neg": [
+      {
+       "t": "단체관광객 북적, 케이블카가 무서움",
+       "u": "https://blog.naver.com/alghk9406211/224466631298"
+      },
+      {
+       "t": "일부 놀이기구 미운행",
+       "u": "https://blog.naver.com/kidandme/224466505280"
+      }
+     ],
+     "basis": "광고·AI 제외 후기 17건(장소명이 제목에 들어간 글 212건 중 최근 39건 검토, 광고 14·AI 7건 제외)"
+    },
+    "photo": {
+     "file": "photos/혼똔섬_케이블카_썬월드.jpg",
+     "src": "https://blog.naver.com/eleyam/224386012821"
+    }
+   },
+   {
+    "name": "키스 오브 더 씨 (공연)",
+    "region": "남부",
+    "aliases": [
+     "키스오브더씨",
+     "키스 오브 더 씨",
+     "Kiss of the Sea"
+    ],
+    "lat": 10.0285,
+    "lon": 104.004,
+    "coord_note": "근사(지역 기준)",
+    "desc": "선셋타운 해상 불꽃·레이저 쇼",
+    "price": [
+     "공식 안내 1인 52,000원 / 1,000,000동",
+     "사전 구매 시 약 36,000원 / 약 692,000동"
+    ],
+    "pros": [
+     "공연 뒤 불꽃놀이 7분"
+    ],
+    "cons": [
+     "화요일 휴무"
+    ],
+    "extra": [
+     "매일 21:00~21:30",
+     "화요일 휴무",
+     "키스브릿지 입장권에 포함된다는 후기도 있어 구매 전 확인"
+    ],
+    "map_query": "Kiss of the Sea show - Nụ hôn của Biển Cả Sunset Town",
+    "map_note": "",
+    "home": [
+     {
+      "label": "공식 사이트",
+      "url": "https://sunworld.vn/en/hon-thom"
+     }
+    ],
+    "reviews": {
+     "pos": [
+      {
+       "t": "스케일 크고 화려한 불꽃",
+       "u": "https://blog.naver.com/chppsr/224465929624"
+      },
+      {
+       "t": "스토리 있는 공연, 2층 앞자리 잘 보임",
+       "u": "https://blog.naver.com/bo1026/224463991127"
+      },
+      {
+       "t": "페이스ID 입장으로 빠름",
+       "u": "https://blog.naver.com/myans/224463892928"
+      },
+      {
+       "t": "분수·조명·불꽃 어우러진 화려한 공연",
+       "u": "https://blog.naver.com/kiki7058/224463780866"
+      },
+      {
+       "t": "충분히 볼만해 추천",
+       "u": "https://blog.naver.com/i044235/224459304417"
+      }
+     ],
+     "neg": [
+      {
+       "t": "내용·퍼포먼스는 호이안쇼보다 약함",
+       "u": "https://blog.naver.com/chppsr/224465929624"
+      },
+      {
+       "t": "뒤쪽에 앉아도 물이 튐",
+       "u": "https://blog.naver.com/i044235/224459304417"
+      }
+     ],
+     "basis": "광고·AI 제외 후기 8건(장소명이 제목에 들어간 글 72건 중 최근 27건 검토, 광고 16·AI 2건 제외)"
+    },
+    "photo": {
+     "file": "photos/키스_오브_더_씨_공연.jpg",
+     "src": "https://blog.naver.com/chppsr/224465929624"
+    }
+   },
+   {
+    "name": "키스브릿지 & 선셋타운",
+    "region": "남부",
+    "aliases": [
+     "키스브릿지",
+     "키스 브릿지"
+    ],
+    "lat": 10.0283,
+    "lon": 104.0042,
+    "coord_note": "근사(지역 기준)",
+    "desc": "지중해풍 리조트 타운과 사진 명소",
+    "price": [
+     "선셋타운 입장 무료",
+     "키스브릿지 일반 입장권 약 5,200원 / 100,000동"
+    ],
+    "pros": [
+     "사진 명소",
+     "선셋타운 야시장(즈엉동보다 깨끗)"
+    ],
+    "cons": [
+     "해 질 무렵~20:15에 다리 출입 통제"
+    ],
+    "extra": [
+     "다리 사진은 17:30 전에"
+    ],
+    "map_query": "Cầu Hôn Kiss Bridge Phú Quốc",
+    "map_note": "",
+    "home": [
+     {
+      "label": "공식 사이트",
+      "url": "https://sunparadiseland.com/en/SunParadiseLandPhuQuoc"
+     }
+    ],
+    "reviews": {
+     "pos": [
+      {
+       "t": "유럽풍 분위기, 키스브릿지 일몰",
+       "u": "https://blog.naver.com/dandipapalab/224458285324"
+      },
+      {
+       "t": "노을과 예쁜 산책로, 인생샷",
+       "u": "https://blog.naver.com/hwanheem_m/224454262747"
+      },
+      {
+       "t": "수채화 같은 노을, 사진 찍기 좋음",
+       "u": "https://blog.naver.com/h_h_h_-/224453122108"
+      },
+      {
+       "t": "입장료 없는 지중해풍 마을",
+       "u": "https://blog.naver.com/windol93/224441080140"
+      },
+      {
+       "t": "알록달록 유럽 휴양지 건물, 사진 잘 나옴",
+       "u": "https://blog.naver.com/seoyunya/224395302460"
+      },
+      {
+       "t": "입장권에 음료 쿠폰 포함, 전망 좋은 스팟",
+       "u": "https://blog.naver.com/young350438/224391534057"
+      }
+     ],
+     "neg": [
+      {
+       "t": "넓어서 걷기 무리, 일몰 시간대 입장권 비쌈",
+       "u": "https://blog.naver.com/dandipapalab/224458285324"
+      },
+      {
+       "t": "한낮 햇볕이 너무 뜨거움",
+       "u": "https://blog.naver.com/windol93/224441080140"
+      },
+      {
+       "t": "남부 햇빛이 강하고 뜨거움",
+       "u": "https://blog.naver.com/seoyunya/224395302460"
+      }
+     ],
+     "basis": "광고·AI 제외 후기 11건(장소명이 제목에 들어간 글 33건 중 최근 20건 검토, 광고 9·AI 0건 제외)"
+    },
+    "photo": {
+     "file": "photos/키스브릿지_선셋타운.jpg",
+     "src": "https://blog.naver.com/dandipapalab/224458285324"
+    }
+   },
+   {
+    "name": "사오비치",
+    "region": "남부",
+    "aliases": [
+     "사오비치",
+     "사오 비치",
+     "Bai Sao"
+    ],
+    "lat": 10.0525,
+    "lon": 104.0352,
+    "coord_note": "근사(지역 기준)",
+    "desc": "남동부 해변",
+    "price": [
+     "입장 무료",
+     "선베드 2인 2,600~5,200원 / 50,000~100,000동",
+     "샤워·탈의 1,000~1,600원 / 20,000~30,000동",
+     "그네 사진 이용료 약 2,100원 / 40,000동"
+    ],
+    "pros": [
+     "하얀 모래와 맑은 물"
+    ],
+    "cons": [
+     "정오 무렵부터 혼잡"
+    ],
+    "extra": [
+     "추천 시간대 09:00~11:30"
+    ],
+    "map_query": "Bãi Sao Phú Quốc",
+    "map_note": "",
+    "home": [],
+    "reviews": {
+     "pos": [
+      {
+       "t": "야자수와 바다의 이국적 풍경, 그네 포토존",
+       "u": "https://blog.naver.com/jess3366/224457960160"
+      },
+      {
+       "t": "하얀 고운 모래, 맑고 얕은 바다",
+       "u": "https://blog.naver.com/pavilion777/224436657837"
+      },
+      {
+       "t": "동남아 해변 느낌",
+       "u": "https://blog.naver.com/wizzland/224418443497"
+      },
+      {
+       "t": "투명한 에메랄드빛 바다, 고운 모래",
+       "u": "https://blog.naver.com/soko3067/224408411240"
+      },
+      {
+       "t": "해변의 낭만, 백사장",
+       "u": "https://blog.naver.com/sukbae2325/224411520157"
+      },
+      {
+       "t": "휴양지 느낌, 그네 포토존, 부드러운 모래",
+       "u": "https://blog.naver.com/yeonhuidongnana/224387829204"
+      }
+     ],
+     "neg": [
+      {
+       "t": "너무 더움, 그네 유료",
+       "u": "https://blog.naver.com/jess3366/224457960160"
+      },
+      {
+       "t": "흐려서 감동 덜함, 구경만 하면 할 게 없음",
+       "u": "https://blog.naver.com/wizzland/224418443497"
+      },
+      {
+       "t": "시내와 멀리 떨어짐",
+       "u": "https://blog.naver.com/soko3067/224408411240"
+      },
+      {
+       "t": "입장료 생김, 물빛이 기대 이하",
+       "u": "https://blog.naver.com/sukbae2325/224411520157"
+      }
+     ],
+     "basis": "광고·AI 제외 후기 12건(장소명이 제목에 들어간 글 45건 중 최근 25건 검토, 광고 7·AI 6건 제외)"
+    },
+    "photo": {
+     "file": "photos/사오비치.jpg",
+     "src": "https://blog.naver.com/jess3366/224457960160"
+    }
+   },
+   {
+    "name": "남부 4섬 호핑투어",
+    "region": "남부",
+    "aliases": [
+     "호핑"
+    ],
+    "lat": 10.02,
+    "lon": 104.013,
+    "coord_note": "근사(지역 기준)",
+    "desc": "안터이항 출발, 몽타이·감기·메이룻 섬 스노클링",
+    "price": [
+     "보물섬 호핑 성인 63,900원 / 약 1,230,000동(2026-10 예약 기준)",
+     "보물섬 호핑 아동 31,900원 / 약 613,000동",
+     "수건 1,600원 / 30,000동",
+     "팁 2달러"
+    ],
+    "pros": [
+     "스노클링과 섬 투어",
+     "한국인 가이드 상품 있음"
+    ],
+    "cons": [
+     "5~10월 우기에는 취소될 수 있음"
+    ],
+    "extra": [
+     "팁 2달러",
+     "수건 1,600원 / 30,000동",
+     "업체마다 구성이 다름"
+    ],
+    "map_query": "Cảng An Thới Phú Quốc",
+    "map_note": "출발지(안터이항) 검색",
+    "home": [],
+    "reviews": {
+     "pos": [
+      {
+       "t": "장비 제공으로 수영 못해도 즐길 수 있음",
+       "u": "https://www.youtube.com/watch?v=AoTGrN5OqGQ"
+      },
+      {
+       "t": "한국인 가이드 케어, 깨끗한 시야, 인생샷",
+       "u": "https://blog.naver.com/ghosttour/224286695176"
+      },
+      {
+       "t": "건기에 즐기기 좋은 해양 액티비티",
+       "u": "https://blog.naver.com/zinizio/224464675225"
+      },
+      {
+       "t": "좋은 시야로 산호초 열대어 구경, 장비 제공",
+       "u": "https://blog.naver.com/roadeat-/224464992753"
+      },
+      {
+       "t": "장비, 촬영, 가이드 팁 포함으로 추가비용 없음",
+       "u": "https://blog.naver.com/my50cent/224370937790"
+      }
+     ],
+     "neg": [
+      {
+       "t": "짧게 여러 섬 들르는 상품 주의",
+       "u": "https://www.youtube.com/watch?v=AoTGrN5OqGQ"
+      },
+      {
+       "t": "햇빛 강해 자외선 대비 필요",
+       "u": "https://blog.naver.com/roadeat-/224464992753"
+      },
+      {
+       "t": "호핑투어 장소가 멀고 이동 시간 소요",
+       "u": "https://blog.naver.com/my50cent/224370937790"
+      }
+     ],
+     "basis": "광고·AI 제외 후기 7건(장소명이 제목에 들어간 글 237건 중 최근 32건 검토, 광고 18·AI 6건 제외)"
+    },
+    "photo": {
+     "file": "photos/남부_4섬_호핑투어.jpg",
+     "src": "https://blog.naver.com/ghosttour/224286695176"
+    }
+   },
+   {
+    "name": "즈엉동 야시장",
+    "region": "중부",
+    "aliases": [
+     "즈엉동 야시장",
+     "즈엉동야시장"
+    ],
+    "lat": 10.216,
+    "lon": 103.9604,
+    "coord_note": "정확(OSM)",
+    "desc": "즈엉동 중심 야시장",
+    "price": [
+     "입장 무료(음식값만)"
+    ],
+    "pros": [
+     "해산물",
+     "길거리 음식",
+     "코코넛 아이스크림"
+    ],
+    "cons": [
+     "관광객 가격",
+     "청결이 아쉬움",
+     "현금 위주"
+    ],
+    "extra": [
+     "17:00~23:00"
+    ],
+    "map_query": "Chợ đêm Phú Quốc Dương Đông",
+    "map_note": "",
+    "home": [],
+    "reviews": {
+     "pos": [
+      {
+       "t": "북적이는 분위기, 하루 즐기기 충분",
+       "u": "https://blog.naver.com/delight__cha/224466701144"
+      },
+      {
+       "t": "활기와 볼거리, 신선한 과일과 주스",
+       "u": "https://blog.naver.com/chicagoman9/224457533637"
+      },
+      {
+       "t": "폐쇄 소문과 달리 사람 많고 정상 운영",
+       "u": "https://blog.naver.com/poi09890/224457168595"
+      },
+      {
+       "t": "과일 해산물 닭날개 등 다양한 먹거리",
+       "u": "https://blog.naver.com/thing-gle/224454325611"
+      },
+      {
+       "t": "주변 상권은 남아 있음",
+       "u": "https://blog.naver.com/trip_nomad01/224455964554"
+      },
+      {
+       "t": "숙소에서 먹을 망고와 망고스틴 구매",
+       "u": "https://blog.naver.com/or71baer/224465316248"
+      }
+     ],
+     "neg": [
+      {
+       "t": "예전보다 규모가 줄어듦",
+       "u": "https://blog.naver.com/delight__cha/224466701144"
+      },
+      {
+       "t": "노점 해산물은 위생이 검증 안 됨",
+       "u": "https://blog.naver.com/chicagoman9/224457533637"
+      },
+      {
+       "t": "가짜 티 나는 상품이 많음",
+       "u": "https://blog.naver.com/thing-gle/224454325611"
+      },
+      {
+       "t": "기존 노점 운영 중단, 대체 야시장 위치 불편",
+       "u": "https://blog.naver.com/trip_nomad01/224455964554"
+      },
+      {
+       "t": "북부에서 그랩 40분, 왕복 약 3만원",
+       "u": "https://blog.naver.com/or71baer/224465316248"
+      }
+     ],
+     "basis": "광고·AI 제외 후기 42건(장소명이 제목에 들어간 글 204건 중 최근 64건 검토, 광고 19·AI 3건 제외)"
+    },
+    "photo": {
+     "file": "photos/즈엉동_야시장.jpg",
+     "src": "https://blog.naver.com/delight__cha/224466701144"
+    }
+   },
+   {
+    "name": "딘까우 사원",
+    "region": "중부",
+    "aliases": [
+     "딘까우"
+    ],
+    "lat": 10.2172,
+    "lon": 103.9564,
+    "coord_note": "정확(OSM)",
+    "desc": "바다 옆 작은 사원",
+    "price": [
+     "입장 무료"
+    ],
+    "pros": [
+     "일몰 명소",
+     "야시장과 가까움"
+    ],
+    "cons": [
+     "규모가 작음"
+    ],
+    "extra": [],
+    "map_query": "Dinh Cậu Phú Quốc",
+    "map_note": "",
+    "home": [],
+    "reviews": {
+     "pos": [
+      {
+       "t": "바다 끝에 있는 예쁜 풍경",
+       "u": "https://blog.naver.com/jiyeon750/224456594224"
+      },
+      {
+       "t": "해질녘 노을이 아름다움",
+       "u": "https://blog.naver.com/mnjtour82/224453398460"
+      },
+      {
+       "t": "멋진 노을과 야경, 파도 소리",
+       "u": "https://blog.naver.com/sukbae2325/224450658150"
+      },
+      {
+       "t": "일몰 감상, 가볍게 가기 좋음",
+       "u": "https://blog.naver.com/trip_nomad01/224426455464"
+      },
+      {
+       "t": "노을 풍경 완벽, 포토스팟",
+       "u": "https://blog.naver.com/sukbae2325/224424091886"
+      },
+      {
+       "t": "독특한 분위기의 포토스팟",
+       "u": "https://blog.naver.com/kooni/224416328464"
+      },
+      {
+       "t": "사원에서 보는 바다 뷰",
+       "u": "https://blog.naver.com/rimu609/224419085224"
+      },
+      {
+       "t": "노을 명소, 접근성 좋음",
+       "u": "https://blog.naver.com/trip_nomad01/224414166589"
+      }
+     ],
+     "neg": [
+      {
+       "t": "바람이 엄청 심함",
+       "u": "https://blog.naver.com/jiyeon750/224456594224"
+      },
+      {
+       "t": "생각보다 정말 조그맣다",
+       "u": "https://blog.naver.com/rimu609/224419085224"
+      }
+     ],
+     "basis": "광고·AI 제외 후기 16건(장소명이 제목에 들어간 글 28건 중 최근 20건 검토, 광고 2·AI 2건 제외)"
+    },
+    "photo": {
+     "file": "photos/딘까우_사원.jpg",
+     "src": "https://blog.naver.com/sukbae2325/224450658150"
+    }
+   },
+   {
+    "name": "소나시 야시장",
+    "region": "중부",
+    "aliases": [
+     "소나시 야시장",
+     "소나시야시장"
+    ],
+    "lat": 10.129,
+    "lon": 103.988,
+    "coord_note": "근사(지역 기준)",
+    "desc": "소나시(베스트웨스턴 소나시 일대) 야시장",
+    "price": [
+     "입장 무료(음식값만)"
+    ],
+    "pros": [
+     "즈엉동보다 깨끗",
+     "해산물 식당 많음"
+    ],
+    "cons": [],
+    "extra": [],
+    "map_query": "Chợ đêm Sonasea Bãi Trường Phú Quốc",
+    "map_note": "",
+    "home": [],
+    "reviews": {
+     "pos": [
+      {
+       "t": "야시장 환전소 환율 좋음",
+       "u": "https://blog.naver.com/simsj0929/224466358240"
+      },
+      {
+       "t": "베트남 느낌 전등장식 분위기",
+       "u": "https://blog.naver.com/seolyiii/224466028603"
+      },
+      {
+       "t": "활기찬 분위기, 숙소 근처 저녁 장소",
+       "u": "https://blog.naver.com/sinhan111/224464883428"
+      },
+      {
+       "t": "시내 야시장보다 덜 번잡하고 깔끔",
+       "u": "https://blog.naver.com/wlsgkalwjd/224462889504"
+      },
+      {
+       "t": "구경과 마사지를 한 동선에",
+       "u": "https://blog.naver.com/zxpp2000/224465666124"
+      },
+      {
+       "t": "작아도 있을 것 다 있음",
+       "u": "https://blog.naver.com/tjsgml6199/224467006700"
+      },
+      {
+       "t": "해산물·과일·간식 사기 좋음",
+       "u": "https://blog.naver.com/woon_92/224467142468"
+      },
+      {
+       "t": "애용한 해산물 맛집 있음",
+       "u": "https://blog.naver.com/hi_pp_o/224467051096"
+      },
+      {
+       "t": "심한 바가지 없고 상인 친절",
+       "u": "https://blog.naver.com/happy_iddm/224465852489"
+      },
+      {
+       "t": "주변 로컬 마사지숍 선택지 다양",
+       "u": "https://blog.naver.com/black_fm/224466532769"
+      }
+     ],
+     "neg": [
+      {
+       "t": "물가가 비싸고 흥정이 잘 안 됨",
+       "u": "https://blog.naver.com/tjsgml6199/224467006700"
+      }
+     ],
+     "basis": "광고·AI 제외 후기 91건(장소명이 제목에 들어간 글 292건 중 최근 116건 검토, 광고 19·AI 6건 제외)"
+    },
+    "photo": {
+     "file": "photos/소나시_야시장.jpg",
+     "src": "https://blog.naver.com/seolyiii/224466028603"
+    }
+   },
+   {
+    "name": "그랜드월드",
+    "region": "북부",
+    "aliases": [
+     "그랜드월드",
+     "그랜드 월드"
+    ],
+    "lat": 10.3249,
+    "lon": 103.8581,
+    "coord_note": "정확(OSM)",
+    "desc": "북부 베네치아풍 운하 테마 거리(24시간 개방)",
+    "price": [
+     "입장 무료",
+     "수상택시(곤돌라) 현장가 성인 10,400원 / 200,000동",
+     "수상택시 현장가 어린이 7,800원 / 150,000동",
+     "수상택시 예약가 10,400원 / 약 200,000동",
+     "수상택시 패스트트랙 20,800원 / 약 400,000동"
+    ],
+    "pros": [
+     "베네치아풍 운하",
+     "낮 시간 무료 공연"
+    ],
+    "cons": [
+     "\"인공적이고 한산하다\"는 평",
+     "남부에서 멂"
+    ],
+    "extra": [
+     "저녁 분수쇼·공연 시간은 방문일에 확인"
+    ],
+    "map_query": "Grand World Phú Quốc",
+    "map_note": "",
+    "home": [
+     {
+      "label": "공식 사이트",
+      "url": "https://vinwonders.com/en/grand-world-phu-quoc/"
+     }
+    ],
+    "reviews": {
+     "pos": [
+      {
+       "t": "베네치아 느낌 야경, 전동카 투어 편함",
+       "u": "https://blog.naver.com/youn_dh/224465728083"
+      },
+      {
+       "t": "유럽풍 건물과 운하, 화려한 야경",
+       "u": "https://blog.naver.com/gabogomeogobogo/224459561077"
+      },
+      {
+       "t": "이탈리아 느낌, 무료 입장",
+       "u": "https://blog.naver.com/s_y0114/224462454361"
+      },
+      {
+       "t": "이국적이고 화려한 운하 야경",
+       "u": "https://blog.naver.com/sukbae2325/224461502914"
+      },
+      {
+       "t": "낮밤 각기 다른 매력, 사진 잘 나옴",
+       "u": "https://blog.naver.com/happy-soomile/224459427904"
+      },
+      {
+       "t": "식당이 모여 있어 동선 편리",
+       "u": "https://blog.naver.com/daisukitokyo/224465548967"
+      },
+      {
+       "t": "저녁 조명 켜진 운하 분위기",
+       "u": "https://blog.naver.com/gullcouple/224466036687"
+      }
+     ],
+     "neg": [
+      {
+       "t": "수상택시 줄 길고 기사 불성실, 굳이 안 탈 것",
+       "u": "https://blog.naver.com/s_y0114/224462454361"
+      },
+      {
+       "t": "마땅한 맛집이 없음, 중부에서 멀다",
+       "u": "https://blog.naver.com/sukbae2325/224461502914"
+      },
+      {
+       "t": "낮엔 햇빛이 뜨거워 오래 못 있음",
+       "u": "https://blog.naver.com/happy-soomile/224459427904"
+      }
+     ],
+     "basis": "광고·AI 제외 후기 133건(장소명이 제목에 들어간 글 652건 중 최근 179건 검토, 광고 41·AI 5건 제외)"
+    },
+    "photo": {
+     "file": "photos/그랜드월드.jpg",
+     "src": "https://blog.naver.com/gabogomeogobogo/224459561077"
+    }
+   },
+   {
+    "name": "빈원더스",
+    "region": "북부",
+    "aliases": [
+     "빈원더스"
+    ],
+    "lat": 10.3384,
+    "lon": 103.8547,
+    "coord_note": "정확(OSM)",
+    "desc": "테마파크·워터파크·아쿠아리움",
+    "price": [
+     "성인 49,400원 / 950,000동",
+     "아동 36,900원 / 710,000동",
+     "빈펄 사파리 묶음 78,000원 / 1,500,000동"
+    ],
+    "pros": [
+     "가족 여행에 좋음"
+    ],
+    "cons": [
+     "비쌈",
+     "락커 비용 별도"
+    ],
+    "extra": [
+     "운영 09:00~19:30. 인어쇼(입구 기준 가장 안쪽)",
+     "\"컬러 오브 베니스\" 분수쇼 21:30. 사파리 버스는 왼쪽 자리 추천"
+    ],
+    "map_query": "VinWonders Phú Quốc",
+    "map_note": "",
+    "home": [
+     {
+      "label": "홈페이지",
+      "url": "https://vinwonders.com"
+     }
+    ],
+    "reviews": {
+     "pos": [
+      {
+       "t": "인어공주 공연, 해저터널 포토존",
+       "u": "https://blog.naver.com/playerez_25/224466811091"
+      },
+      {
+       "t": "아쿠아리움이 볼 만함",
+       "u": "https://blog.naver.com/bbukkubbukku/224465395070"
+      },
+      {
+       "t": "버기카로 이동 편리",
+       "u": "https://blog.naver.com/myans/224464878300"
+      },
+      {
+       "t": "아쿠아리움 구경 재미, 워터파크 줄 없음",
+       "u": "https://blog.naver.com/chadior20/224463442126"
+      },
+      {
+       "t": "아쿠아리움·워터파크 알차게 즐김",
+       "u": "https://blog.naver.com/gabogomeogobogo/224459561077"
+      },
+      {
+       "t": "시원한 아쿠아리움, 상어 뷰",
+       "u": "https://blog.naver.com/ryusunny1222/224464789501"
+      }
+     ],
+     "neg": [
+      {
+       "t": "공연 1시간 전부터 대기 인파",
+       "u": "https://blog.naver.com/playerez_25/224466811091"
+      },
+      {
+       "t": "에버랜드·롯데월드 수준은 아님",
+       "u": "https://blog.naver.com/bbukkubbukku/224465395070"
+      },
+      {
+       "t": "놀이기구 적음, 원스쇼 인파·좁은 자리",
+       "u": "https://blog.naver.com/myans/224464878300"
+      },
+      {
+       "t": "펭귄존 냄새, 워터파크 계단과 뜨거운 바닥",
+       "u": "https://blog.naver.com/chadior20/224463442126"
+      },
+      {
+       "t": "오픈런에도 붐비고 줄 서야 함, 더움",
+       "u": "https://blog.naver.com/gabogomeogobogo/224459561077"
+      }
+     ],
+     "basis": "광고·AI 제외 후기 22건(장소명이 제목에 들어간 글 179건 중 최근 40건 검토, 광고 14·AI 3건 제외)"
+    },
+    "photo": {
+     "file": "photos/빈원더스.jpg",
+     "src": "https://blog.naver.com/playerez_25/224466811091"
+    }
+   },
+   {
+    "name": "빈펄 사파리",
+    "region": "북부",
+    "aliases": [
+     "빈펄사파리",
+     "빈펄 사파리"
+    ],
+    "lat": 10.3394,
+    "lon": 103.895,
+    "coord_note": "정확(OSM)",
+    "desc": "사파리 공원",
+    "price": [
+     "빈원더스 묶음권 78,000원 / 1,500,000동으로 많이 구매",
+     "VIP 차량 1대(1~5인) 78,000~130,000원 / 1,500,000~2,500,000동(후기마다 다름)"
+    ],
+    "pros": [
+     "기린·코끼리 먹이 주기"
+    ],
+    "cons": [
+     "한낮 더위",
+     "VIP는 5인 단위 예약"
+    ],
+    "extra": [
+     "VIP 동행은 네이버 카페에서 구하기도 함"
+    ],
+    "map_query": "Vinpearl Safari Phú Quốc",
+    "map_note": "",
+    "home": [
+     {
+      "label": "공식 사이트",
+      "url": "https://vinwonders.com/en/vinpearl-safari-phu-quoc/"
+     }
+    ],
+    "reviews": {
+     "pos": [
+      {
+       "t": "기린 먹이주기 체험",
+       "u": "https://blog.naver.com/syu89/224466642451"
+      },
+      {
+       "t": "기린 가까이, 원숭이 체험 재미",
+       "u": "https://blog.naver.com/hoodol_e/224466272558"
+      },
+      {
+       "t": "기린 코끼리 먹이주기, 동물이 가까이",
+       "u": "https://blog.naver.com/or71baer/224465316248"
+      },
+      {
+       "t": "VIP 투어로 버기카 편하게 이동",
+       "u": "https://blog.naver.com/joyho2ho2/224466569536"
+      },
+      {
+       "t": "기린 식당 인생사진, 몰입감 있는 버스 투어",
+       "u": "https://blog.naver.com/icechoco5/224466531233"
+      },
+      {
+       "t": "버스 사파리, 기린 먹이주기",
+       "u": "https://blog.naver.com/ksyksyk/224466072851"
+      },
+      {
+       "t": "트램 자유 승하차, 한국어 방송, 에버랜드보다 만족",
+       "u": "https://blog.naver.com/ssomizzal/224466606548"
+      },
+      {
+       "t": "비 와도 버스 관람 괜찮음, 기린 눈앞",
+       "u": "https://blog.naver.com/kko2589/224466096729"
+      }
+     ],
+     "neg": [
+      {
+       "t": "에어컨 없을 땐 너무 더움, 먹이 유료",
+       "u": "https://blog.naver.com/hoodol_e/224466272558"
+      },
+      {
+       "t": "너무 더움, VIP 별도 요금, 온라인 예약 실패",
+       "u": "https://blog.naver.com/joyho2ho2/224466569536"
+      },
+      {
+       "t": "덥고 에어컨 없는 야외에서 긴 줄",
+       "u": "https://blog.naver.com/icechoco5/224466531233"
+      },
+      {
+       "t": "빈버스 종점에서 멀어 찾아가기 어려움",
+       "u": "https://blog.naver.com/kko2589/224466096729"
+      }
+     ],
+     "basis": "광고·AI 제외 후기 27건(장소명이 제목에 들어간 글 250건 중 최근 50건 검토, 광고 18·AI 5건 제외)"
+    },
+    "photo": {
+     "file": "photos/빈펄_사파리.jpg",
+     "src": "https://blog.naver.com/syu89/224466642451"
+    }
+   },
+   {
+    "name": "스타피쉬 비치 (Rach Vem)",
+    "region": "북부",
+    "aliases": [
+     "스타피쉬",
+     "불가사리 해변",
+     "Rach Vem"
+    ],
+    "lat": 10.3661,
+    "lon": 103.9323,
+    "coord_note": "정확(OSM)",
+    "desc": "북부 해변, 얕은 바다에서 불가사리 관찰",
+    "price": [
+     "입장 무료"
+    ],
+    "pros": [
+     "얕은 바다에서 불가사리를 볼 수 있음"
+    ],
+    "cons": [
+     "멂(즈엉동에서 약 25km)"
+    ],
+    "extra": [
+     "불가사리를 물 밖으로 꺼내지 말 것"
+    ],
+    "map_query": "Rạch Vẹm Phú Quốc",
+    "map_note": "",
+    "home": [],
+    "reviews": {
+     "pos": [
+      {
+       "t": "얕고 맑은 바다의 불가사리, 한적한 어촌",
+       "u": "https://blog.naver.com/taroong/224408421250"
+      },
+      {
+       "t": "에메랄드빛 바다, 인생샷, 아이와 특별한 경험",
+       "u": "https://blog.naver.com/12tmfrl21/224290662059"
+      }
+     ],
+     "neg": [
+      {
+       "t": "북부에서도 30~40분 이동, 작고 소박함",
+       "u": "https://blog.naver.com/taroong/224408421250"
+      },
+      {
+       "t": "보트비 저렴하지 않고 샤워시설 간이, 더움",
+       "u": "https://blog.naver.com/12tmfrl21/224290662059"
+      }
+     ],
+     "basis": "광고·AI 제외 후기 2건(장소명이 제목에 들어간 글 3건 중 최근 3건 검토, 광고 1·AI 0건 제외)"
+    },
+    "photo": {
+     "file": "photos/스타피쉬_비치_Rach_Vem.jpg",
+     "src": "https://blog.naver.com/taroong/224408421250"
+    }
+   },
+   {
+    "name": "부이페스트 야시장 (Vui-Fest Bazaar)",
+    "region": "남부",
+    "aliases": [
+     "부이페스트",
+     "Vui-Fest",
+     "Vui Fest"
+    ],
+    "lat": 10.029,
+    "lon": 104.0075,
+    "coord_note": "근사(지역 기준)",
+    "desc": "선셋타운 바닷가 쪽 야시장",
+    "price": [
+     "입장 무료",
+     "꼬치구이 1,300원 / 25,000동",
+     "오징어머리구이 3,600원 / 70,000동",
+     "14가지 먹고 20,700원 / 399,000동 사례"
+    ],
+    "pros": [
+     "즈엉동 야시장보다 깨끗",
+     "공연 전후로 들르기 좋음"
+    ],
+    "cons": [
+     "관광지 가격"
+    ],
+    "extra": [
+     "영업 16:00~24:00"
+    ],
+    "map_query": "Chợ đêm Vui-Fest Bazaar Sunset Town",
+    "map_note": "",
+    "home": [
+     {
+      "label": "페이스북",
+      "url": "https://www.facebook.com/VuiFest.Bazaar/"
+     }
+    ],
+    "reviews": {
+     "pos": [
+      {
+       "t": "셀렉트마트 과일 저렴, 저녁 산책 코스",
+       "u": "https://blog.naver.com/hsyunju/224466736792"
+      },
+      {
+       "t": "과일 노점 가득",
+       "u": "https://blog.naver.com/alwayshappyquokka/224418053943"
+      },
+      {
+       "t": "다양한 먹거리, 무료 셔틀, 화려한 조명",
+       "u": "https://blog.naver.com/ladyndeok/224462007596"
+      },
+      {
+       "t": "가장 깔끔하고 현대식, 바다 산책",
+       "u": "https://blog.naver.com/s_y0114/224461158934"
+      },
+      {
+       "t": "활기찬 분위기, 구경 재미",
+       "u": "https://blog.naver.com/hwanheem_m/224454262747"
+      },
+      {
+       "t": "화려한 입구, 비와도 낭만",
+       "u": "https://blog.naver.com/octoberv/224452756925"
+      },
+      {
+       "t": "깔끔한 야시장, 마트, 공연장",
+       "u": "https://blog.naver.com/masicvocal/224451567553"
+      },
+      {
+       "t": "유럽 같은 예쁜 분위기, 볼거리 많음",
+       "u": "https://blog.naver.com/kkkkk6697/224447487963"
+      }
+     ],
+     "neg": [
+      {
+       "t": "야시장 취향이 아니었음",
+       "u": "https://blog.naver.com/alwayshappyquokka/224418053943"
+      },
+      {
+       "t": "불꽃놀이 장소까지 걷는 길이 김",
+       "u": "https://blog.naver.com/hwanheem_m/224454262747"
+      },
+      {
+       "t": "사탕수수 주스 별로, 사람 붐빔",
+       "u": "https://blog.naver.com/kkkkk6697/224447487963"
+      }
+     ],
+     "basis": "광고·AI 제외 후기 20건(장소명이 제목에 들어간 글 39건 중 최근 21건 검토, 광고 0·AI 1건 제외)"
+    },
+    "photo": {
+     "file": "photos/부이페스트_야시장_Vui_Fest_Bazaar.jpg",
+     "src": "https://blog.naver.com/hsyunju/224466736792"
+    }
+   },
+   {
+    "name": "심포니 오브 더 씨 (공연)",
+    "region": "남부",
+    "aliases": [
+     "심포니"
+    ],
+    "lat": 10.029,
+    "lon": 104.0075,
+    "coord_note": "근사(지역 기준)",
+    "desc": "선셋타운 해상 공연",
+    "price": [
+     "일반 관람권 28,600~33,300원 / 550,000~640,000동",
+     "디너 쇼 패키지 약 52,000원 / 1,000,000동"
+    ],
+    "pros": [
+     "키스 오브 더 씨와 묶음 상품(48,800원 / 약 938,000동) 있음"
+    ],
+    "cons": [],
+    "extra": [
+     "공연 19:45~20:15(후기 기준)"
+    ],
+    "map_query": "Symphony of the Sea Sunset Town Phu Quoc",
+    "map_note": "검색 목록에서 선택",
+    "home": [
+     {
+      "label": "공식 사이트",
+      "url": "https://sunworld.vn/en/hon-thom"
+     }
+    ],
+    "reviews": {
+     "pos": [
+      {
+       "t": "숙소에서 무료로 70% 관람, 화려한 불꽃",
+       "u": "https://blog.naver.com/chppsr/224465929624"
+      },
+      {
+       "t": "조명·수상 퍼포먼스·불꽃 화려",
+       "u": "https://blog.naver.com/19enmkx1/224456789662"
+      },
+      {
+       "t": "불꽃이 정말 아름다움",
+       "u": "https://blog.naver.com/bibian9753/224464379619"
+      },
+      {
+       "t": "여의도 불꽃축제급, 기대 이상",
+       "u": "https://blog.naver.com/dandipapalab/224460870693"
+      },
+      {
+       "t": "제트스키·플라이보드 화려한 해상쇼",
+       "u": "https://blog.naver.com/hsyunju/224460794134"
+      },
+      {
+       "t": "선바바리아에서 식사와 관람",
+       "u": "https://blog.naver.com/geukaseyo/224463581110"
+      },
+      {
+       "t": "선셋타운에서 놓칠 수 없는 공연",
+       "u": "https://blog.naver.com/grace_gogo/224465993290"
+      },
+      {
+       "t": "야경과 어우러진 화려한 퍼포먼스",
+       "u": "https://blog.naver.com/ttinker__bell/224459605705"
+      }
+     ],
+     "neg": [
+      {
+       "t": "스토리가 없음",
+       "u": "https://blog.naver.com/chppsr/224465929624"
+      },
+      {
+       "t": "해변이 인산인해",
+       "u": "https://blog.naver.com/grace_gogo/224465993290"
+      }
+     ],
+     "basis": "광고·AI 제외 후기 12건(장소명이 제목에 들어간 글 64건 중 최근 30건 검토, 광고 18·AI 0건 제외)"
+    },
+    "photo": {
+     "file": "photos/심포니_오브_더_씨_공연.jpg",
+     "src": "https://blog.naver.com/chppsr/224465929624"
+    }
+   },
+   {
+    "name": "선셋타운 버기투어",
+    "region": "남부",
+    "aliases": [
+     "버기"
+    ],
+    "lat": 10.029,
+    "lon": 104.0075,
+    "coord_note": "근사(지역 기준)",
+    "desc": "선셋타운을 전동 버기로 도는 투어(약 45분)",
+    "price": [
+     "버기 1대 15,600원 / 300,000동",
+     "오후권 1대 38,000원 / 약 731,000동(예약가) 사례"
+    ],
+    "pros": [
+     "더운 날 편하게 구경",
+     "사진 포인트 정차"
+    ],
+    "cons": [],
+    "extra": [
+     "운행 08:30~23:00. 오후권 1대 38,000원 / 약 731,000동(예약가) 사례"
+    ],
+    "map_query": "Sunset Town Phu Quoc",
+    "map_note": "선셋타운 전체 검색",
+    "home": [
+     {
+      "label": "공식 사이트",
+      "url": "https://sunparadiseland.com/en/SunParadiseLandPhuQuoc"
+     }
+    ],
+    "reviews": {
+     "pos": [
+      {
+       "t": "포토존 내려주고 사진 촬영, 볼거리 많음",
+       "u": "https://blog.naver.com/grace_gogo/224465993290"
+      },
+      {
+       "t": "한국어 예약, 인생샷, 무조건 추천",
+       "u": "https://blog.naver.com/homi519/224465785615"
+      },
+      {
+       "t": "편하게 둘러보고 사진 결과물 만족, 친절한 기사",
+       "u": "https://blog.naver.com/cuffee618/224464862424"
+      },
+      {
+       "t": "편하고 시원하게 둘러보며 커플사진",
+       "u": "https://blog.naver.com/hannah8020/224463964664"
+      },
+      {
+       "t": "체력 소모 줄이고 가족 스냅, 아이가 좋아함",
+       "u": "https://blog.naver.com/sinhan111/224463629909"
+      }
+     ],
+     "neg": [
+      {
+       "t": "낮에는 햇볕이 강렬함",
+       "u": "https://blog.naver.com/grace_gogo/224465993290"
+      },
+      {
+       "t": "다른 기사들 호객행위, 인기 기사 조기 마감",
+       "u": "https://blog.naver.com/homi519/224465785615"
+      },
+      {
+       "t": "덥고 도로가 복잡해 정신없음",
+       "u": "https://blog.naver.com/cuffee618/224464862424"
+      },
+      {
+       "t": "기사 사진 실력에 따라 만족도 차이",
+       "u": "https://blog.naver.com/hannah8020/224463964664"
+      }
+     ],
+     "basis": "광고·AI 제외 후기 18건(장소명이 제목에 들어간 글 194건 중 최근 24건 검토, 광고 6·AI 0건 제외)"
+    },
+    "photo": {
+     "file": "photos/선셋타운_버기투어.jpg",
+     "src": "https://blog.naver.com/grace_gogo/224465993290"
+    }
+   },
+   {
+    "name": "선 바바리아 (비어홀)",
+    "region": "남부",
+    "aliases": [
+     "선바바리아",
+     "Sun Bavaria"
+    ],
+    "lat": 10.029,
+    "lon": 104.0075,
+    "coord_note": "근사(지역 기준)",
+    "desc": "선셋타운 독일식 비어홀",
+    "price": [
+     "테라스 1열 1인 최소주문 52,000원 / 1,000,000동",
+     "테라스 2열 1인 최소주문 36,400원 / 700,000동"
+    ],
+    "pros": [
+     "키스 오브 더 씨·불꽃놀이를 보며 맥주"
+    ],
+    "cons": [
+     "좌석별 최소 주문 금액"
+    ],
+    "extra": [
+     "일~목 16:00~24:00. 토·일 12:00~24:00. 이메일 좌석 예약"
+    ],
+    "map_query": "Sun Bavaria GastroPub Venice Phú Quốc",
+    "map_note": "",
+    "home": [
+     {
+      "label": "공식 사이트",
+      "url": "https://sunparadiseland.com/en/SunParadiseLandPhuQuoc/an-uong"
+     }
+    ],
+    "reviews": {
+     "pos": [
+      {
+       "t": "노을 감상, 즉석 방문에도 좋은 자리",
+       "u": "https://blog.naver.com/bibian9753/224464379619"
+      },
+      {
+       "t": "명당 자리, 식사와 공연 함께",
+       "u": "https://blog.naver.com/ttinker__bell/224459605705"
+      },
+      {
+       "t": "불꽃놀이 손꼽히게 좋음",
+       "u": "https://blog.naver.com/starkanking/224450802806"
+      },
+      {
+       "t": "분위기와 공연 만족",
+       "u": "https://blog.naver.com/jbhno2/224434964137"
+      },
+      {
+       "t": "직원 추천 생맥주 종류별로 맛봄",
+       "u": "https://blog.naver.com/geukaseyo/224463581110"
+      },
+      {
+       "t": "맥주 무제한, 식사·공연 한 번에",
+       "u": "https://blog.naver.com/uju3408/224394994223"
+      },
+      {
+       "t": "맥주 무제한, 공연 멋짐",
+       "u": "https://blog.naver.com/sim_a-ri_/224322535875"
+      }
+     ],
+     "neg": [
+      {
+       "t": "입장 줄 길고 예약번호 요구",
+       "u": "https://blog.naver.com/starkanking/224450802806"
+      },
+      {
+       "t": "음식 완성도는 평가가 갈림",
+       "u": "https://blog.naver.com/jbhno2/224434964137"
+      },
+      {
+       "t": "최소 주문금액·공연료·VAT 별도",
+       "u": "https://blog.naver.com/geukaseyo/224463581110"
+      },
+      {
+       "t": "긴 줄, 뒷자리 배정, 덥고 정신없음",
+       "u": "https://blog.naver.com/uju3408/224394994223"
+      },
+      {
+       "t": "뷔페는 먹을 게 별로 없음, 초반 붐빔",
+       "u": "https://blog.naver.com/sim_a-ri_/224322535875"
+      }
+     ],
+     "basis": "광고·AI 제외 후기 7건(장소명이 제목에 들어간 글 17건 중 최근 17건 검토, 광고 10·AI 0건 제외)"
+    },
+    "photo": {
+     "file": "photos/선_바바리아_비어홀.jpg",
+     "src": "https://blog.naver.com/bibian9753/224464379619"
+    }
+   },
+   {
+    "name": "켐비치 (Bai Khem)",
+    "region": "남부",
+    "aliases": [
+     "켐비치",
+     "캠비치",
+     "바이켐",
+     "Khem"
+    ],
+    "lat": 10.0358,
+    "lon": 104.0306,
+    "coord_note": "근사(지역 기준)",
+    "desc": "남부 해변, 5성급 리조트 앞",
+    "price": [
+     "입장 무료",
+     "비치바 칵테일 2잔 10,400원 / 200,000동 사례"
+    ],
+    "pros": [
+     "에메랄드빛 바다와 백사장(최상급)",
+     "5성급 리조트 앞"
+    ],
+    "cons": [
+     "주변이 리조트 위주"
+    ],
+    "extra": [
+     "켐비치 버스 08:30~21:00 운행"
+    ],
+    "map_query": "Bãi Khem Phú Quốc",
+    "map_note": "",
+    "home": [],
+    "reviews": {
+     "pos": [
+      {
+       "t": "예쁜 해변, 무료 카누 대여",
+       "u": "https://blog.naver.com/monnani_story/224461147811"
+      },
+      {
+       "t": "무료 카약 패들보트, 일몰 예쁨",
+       "u": "https://blog.naver.com/luvbittt/224459334956"
+      },
+      {
+       "t": "고운 모래, 잔잔한 물, 해먹",
+       "u": "https://blog.naver.com/hesiatate6397/224454428268"
+      },
+      {
+       "t": "아이스크림 모래, 잔잔하고 얕은 바다, 깨끗함",
+       "u": "https://blog.naver.com/songi2412/224435756030"
+      },
+      {
+       "t": "부드러운 모래, 잔잔한 파도, 얕은 수심",
+       "u": "https://blog.naver.com/ashi8888/224413845640"
+      }
+     ],
+     "neg": [
+      {
+       "t": "너무 더움, 주변 식당 적고 붐빔",
+       "u": "https://blog.naver.com/monnani_story/224461147811"
+      },
+      {
+       "t": "선베드 이용 시 현금 필요",
+       "u": "https://blog.naver.com/ashi8888/224413845640"
+      },
+      {
+       "t": "모래 때문에 걷기 불편",
+       "u": "https://blog.naver.com/jehr0601/224459496767"
+      }
+     ],
+     "basis": "광고·AI 제외 후기 15건(장소명이 제목에 들어간 글 40건 중 최근 25건 검토, 광고 2·AI 7건 제외)"
+    },
+    "photo": {
+     "file": "photos/켐비치_Bai_Khem.jpg",
+     "src": "https://blog.naver.com/monnani_story/224461147811"
+    }
+   },
+   {
+    "name": "호국사 (Ho Quoc Pagoda)",
+    "region": "중부",
+    "aliases": [
+     "호국사"
+    ],
+    "lat": 10.1035,
+    "lon": 104.044,
+    "coord_note": "근사(지역 기준)",
+    "desc": "남동부 해안의 대형 사원",
+    "price": [
+     "입장 무료"
+    ],
+    "pros": [
+     "바다를 내려다보는 경치",
+     "걷기 좋음"
+    ],
+    "cons": [
+     "시내에서 멂"
+    ],
+    "extra": [
+     "운영 06:00~18:00"
+    ],
+    "map_query": "Chùa Hộ Quốc Phú Quốc",
+    "map_note": "",
+    "home": [],
+    "reviews": {
+     "pos": [
+      {
+       "t": "웅장한 해수관음상과 바다 풍경, 고요함",
+       "u": "https://blog.naver.com/hkhk712/224462196126"
+      },
+      {
+       "t": "바다가 내려다보이는 사찰",
+       "u": "https://blog.naver.com/jee8326/224464776214"
+      },
+      {
+       "t": "무료 입장, 화려한 사찰, 오전엔 덜 더움",
+       "u": "https://blog.naver.com/ks_jangmi/224461424783"
+      },
+      {
+       "t": "꼭대기에서 보는 아름다운 바다, 무료",
+       "u": "https://blog.naver.com/hkjwow/224455972748"
+      },
+      {
+       "t": "산과 바다 어우러진 풍경, 웅장한 건축",
+       "u": "https://blog.naver.com/muk_kong_/224437411959"
+      },
+      {
+       "t": "바닷바람과 풍경, 무료, 넓은 주차장",
+       "u": "https://blog.naver.com/pavilion777/224436657837"
+      },
+      {
+       "t": "생각보다 큰 규모, 바다와 어우러진 풍경",
+       "u": "https://blog.naver.com/ljld/224431025218"
+      },
+      {
+       "t": "현장 규모감, 인상적인 금빛 불상",
+       "u": "https://blog.naver.com/sufeel97/224427318549"
+      }
+     ],
+     "neg": [
+      {
+       "t": "강렬한 햇살",
+       "u": "https://blog.naver.com/hkhk712/224462196126"
+      },
+      {
+       "t": "자유여행이면 안 갈 구색 맞추기 일정",
+       "u": "https://blog.naver.com/jee8326/224464776214"
+      },
+      {
+       "t": "계단이 많아 숨이 참, 복장 제한",
+       "u": "https://blog.naver.com/ks_jangmi/224461424783"
+      },
+      {
+       "t": "오래된 고찰은 아님",
+       "u": "https://blog.naver.com/hkjwow/224455972748"
+      },
+      {
+       "t": "민소매 반바지 피해야 함",
+       "u": "https://blog.naver.com/pavilion777/224436657837"
+      },
+      {
+       "t": "역사가 짧은 절, 한 번 정도만 추천",
+       "u": "https://blog.naver.com/sufeel97/224427318549"
+      }
+     ],
+     "basis": "광고·AI 제외 후기 16건(장소명이 제목에 들어간 글 50건 중 최근 22건 검토, 광고 4·AI 2건 제외)"
+    },
+    "photo": {
+     "file": "photos/호국사_Ho_Quoc_Pagoda.jpg",
+     "src": "https://blog.naver.com/ks_jangmi/224461424783"
+    }
+   },
+   {
+    "name": "킹콩마트 (쇼핑)",
+    "region": "중부",
+    "aliases": [
+     "킹콩"
+    ],
+    "lat": 10.1952,
+    "lon": 103.9682,
+    "coord_note": "근사(지역 기준)",
+    "desc": "즈엉동 141A Tran Hung Dao 본점, 기념품 쇼핑",
+    "price": [
+     "쌀과자 1,300원 / 25,000동",
+     "양념소금 1,000원 / 20,000동",
+     "커피 5,200~10,400원 / 100,000~200,000동",
+     "현지 맥주 500~1,000원 / 10,000~20,000동"
+    ],
+    "pros": [
+     "한국인 쇼핑 리스트 상품이 다 있음",
+     "넓고 시원"
+    ],
+    "cons": [],
+    "extra": [
+     "영업 08:00~22:30"
+    ],
+    "map_query": "Kingkong Mart 141A Trần Hưng Đạo Phú Quốc",
+    "map_note": "",
+    "home": [
+     {
+      "label": "홈페이지",
+      "url": "https://www.kingkongmart.vn/"
+     }
+    ],
+    "reviews": {
+     "pos": [
+      {
+       "t": "저렴해서 선물 부담 없음",
+       "u": "https://blog.naver.com/ssomizzal/224466606548"
+      },
+      {
+       "t": "크고 깨끗, 쇼핑리스트 다 있음",
+       "u": "https://blog.naver.com/traveler_nyyoon/224465967612"
+      },
+      {
+       "t": "옆 환전소 환율 좋고 할인 쿠폰 제공",
+       "u": "https://blog.naver.com/simsj0929/224466358240"
+      },
+      {
+       "t": "맛집·스파와 가까워 동선 편리",
+       "u": "https://blog.naver.com/dkfkfldkek/224466026776"
+      },
+      {
+       "t": "쇼핑 후 킹콩커피 20% 할인 쿠폰",
+       "u": "https://blog.naver.com/growingmango/224466042497"
+      },
+      {
+       "t": "기념품 한번에 쇼핑",
+       "u": "https://blog.naver.com/4bubuss/224465657516"
+      },
+      {
+       "t": "마트 구경 재미",
+       "u": "https://blog.naver.com/meowxloo/224465374343"
+      }
+     ],
+     "neg": [
+      {
+       "t": "캐리어에 붙인 스티커가 안 떨어짐",
+       "u": "https://blog.naver.com/meowxloo/224465374343"
+      }
+     ],
+     "basis": "광고·AI 제외 후기 55건(장소명이 제목에 들어간 글 249건 중 최근 77건 검토, 광고 19·AI 3건 제외)"
+    }
+   },
+   {
+    "name": "바구니배 체험",
+    "region": "북부",
+    "aliases": [
+     "바구니배"
+    ],
+    "lat": 10.315,
+    "lon": 103.865,
+    "coord_note": "근사(지역 기준)",
+    "desc": "북부(래디슨 블루 리조트 근처) 강의 맹그로브 숲 바구니배",
+    "price": [
+     "약 10,400원 / 200,000동"
+    ],
+    "pros": [
+     "맹그로브 숲 풍경",
+     "직원이 안전하게 안내"
+    ],
+    "cons": [
+     "비 오는 날은 아쉬움"
+    ],
+    "extra": [],
+    "map_query": "Basket boat mangrove Phu Quoc",
+    "map_note": "지역 검색(정확한 위치 미확인)",
+    "home": [],
+    "reviews": {
+     "pos": [
+      {
+       "t": "안전에 신경, 숙련된 노젓기, 맹그로브",
+       "u": "https://blog.naver.com/storypeechup/224464294557"
+      },
+      {
+       "t": "안정감 있고 뱅글뱅글 신남",
+       "u": "https://blog.naver.com/akasia602/224370928382"
+      },
+      {
+       "t": "맹그로브 숲 힐링, 한국어 가이드",
+       "u": "https://blog.naver.com/soko3067/224197012118"
+      },
+      {
+       "t": "현지 어촌 분위기, 참여형 체험",
+       "u": "https://blog.naver.com/doyoido/224461390871"
+      },
+      {
+       "t": "투어로 이용하니 편함",
+       "u": "https://blog.naver.com/soko3067/224335612375"
+      }
+     ],
+     "neg": [
+      {
+       "t": "비 와서 흙탕물, 맑은 날 추천",
+       "u": "https://blog.naver.com/storypeechup/224464294557"
+      },
+      {
+       "t": "그늘이 없음",
+       "u": "https://blog.naver.com/soko3067/224197012118"
+      }
+     ],
+     "basis": "광고·AI 제외 후기 8건(장소명이 제목에 들어간 글 23건 중 최근 20건 검토, 광고 11·AI 1건 제외)"
+    },
+    "photo": {
+     "file": "photos/바구니배_체험.jpg",
+     "src": "https://blog.naver.com/storypeechup/224464294557"
+    }
+   },
+   {
+    "name": "옹랑비치",
+    "region": "중부",
+    "aliases": [
+     "옹랑"
+    ],
+    "lat": 10.2574,
+    "lon": 103.9367,
+    "coord_note": "근사(지역 기준)",
+    "desc": "서부의 조용한 해변",
+    "price": [
+     "입장 무료"
+    ],
+    "pros": [
+     "조용하고 소박한 분위기",
+     "부티크 리조트"
+    ],
+    "cons": [
+     "편의시설이 적음"
+    ],
+    "extra": [],
+    "map_query": "Bãi Ông Lang Phú Quốc",
+    "map_note": "",
+    "home": [],
+    "reviews": {
+     "pos": [
+      {
+       "t": "해변 선베드에서 정면 노을 감상",
+       "u": "https://blog.naver.com/maponest/224443842357"
+      },
+      {
+       "t": "선베드·해수욕 즐기며 이틀 연속 방문",
+       "u": "https://blog.naver.com/genius_seri/224292825920"
+      },
+      {
+       "t": "섬에서 손꼽히게 예쁜 해변, 일몰 감상",
+       "u": "https://blog.naver.com/lovely_weekday/224449497930"
+      }
+     ],
+     "neg": [
+      {
+       "t": "캠비치보다 덜 한적함",
+       "u": "https://blog.naver.com/bsr3232/224354732761"
+      }
+     ],
+     "basis": "광고·AI 제외 후기 4건(장소명이 제목에 들어간 글 11건 중 최근 11건 검토, 광고 3·AI 4건 제외)"
+    },
+    "photo": {
+     "file": "photos/옹랑비치.jpg",
+     "src": "https://blog.naver.com/lovely_weekday/224449497930"
+    }
+   }
+  ]
+ }
+}

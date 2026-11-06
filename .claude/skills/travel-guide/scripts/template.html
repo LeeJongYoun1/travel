@@ -1,0 +1,173 @@
+<title>__TITLE__</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Do+Hyeon&family=Noto+Sans+KR:wght@400;500;700&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: 섬 지도처럼 위에서 아래로 — 헤더(숙소·환율) → 탭 → 필터 → 장소 카드 목록 */
+:root{
+  --bg:#F2F6F5; --surface:#FFFFFF; --ink:#132E2C; --muted:#5B706D; --line:#D5E2DF;
+  --lagoon:#0B7A75; --lagoon-soft:#DDF0EE; --dusk:#C2561A;
+  --good:#1F7A3E; --good-soft:#E3F2E7; --bad:#B3322B; --bad-soft:#FBE7E5;
+  --display:"Do Hyeon","Noto Sans KR",system-ui,sans-serif;
+  --body:"Noto Sans KR",system-ui,-apple-system,"Apple SD Gothic Neo",sans-serif;
+  --mono:"IBM Plex Mono",ui-monospace,Menlo,monospace;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#0E1A19; --surface:#152523; --ink:#E4EFED; --muted:#93AAA6; --line:#26403C;
+  --lagoon:#4FC3BA; --lagoon-soft:#173A37; --dusk:#F0915A;
+  --good:#6FD08F; --good-soft:#163024; --bad:#F08A82; --bad-soft:#3A1C1A; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#0E1A19; --surface:#152523; --ink:#E4EFED; --muted:#93AAA6; --line:#26403C;
+  --lagoon:#4FC3BA; --lagoon-soft:#173A37; --dusk:#F0915A;
+  --good:#6FD08F; --good-soft:#163024; --bad:#F08A82; --bad-soft:#3A1C1A; color-scheme:dark}
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--ink);font-family:var(--body);font-size:15px;line-height:1.6}
+.wrap{max-width:1080px;margin:0 auto;padding-block:28px 64px;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));display:grid;gap:20px}
+header{display:grid;gap:14px}
+h1{font-family:var(--display);font-weight:400;font-size:clamp(30px,6vw,44px);line-height:1.1;margin:0;text-wrap:balance}
+h1 span{color:var(--lagoon)}
+.lede{margin:0;color:var(--muted);max-width:65ch}
+.facts{display:flex;flex-wrap:wrap;gap:10px}
+.fact{background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:10px 14px;display:grid;gap:2px;min-width:0}
+.fact b{font-size:12px;letter-spacing:.04em;color:var(--muted);font-weight:500}
+.fact span{font-weight:500}
+.conv{display:flex;gap:8px;align-items:center;flex-wrap:wrap}
+.conv input{width:9.5em;font:inherit;font-family:var(--mono);padding:4px 8px;border:1px solid var(--line);border-radius:6px;background:var(--bg);color:var(--ink)}
+.conv output{font-family:var(--mono);color:var(--lagoon)}
+nav.tabs{display:flex;gap:6px;border-bottom:1px solid var(--line);position:sticky;top:env(safe-area-inset-top,0px);background:var(--bg);z-index:5;padding-top:6px;overflow-x:auto}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:10;background:var(--bg)}
+.tab{font:inherit;font-family:var(--display);font-size:20px;background:none;border:0;border-bottom:3px solid transparent;color:var(--muted);padding:8px 14px;cursor:pointer;white-space:nowrap}
+.tab[aria-selected="true"]{color:var(--ink);border-color:var(--lagoon)}
+.tab small{font-family:var(--mono);font-size:12px;margin-left:4px}
+.tools{display:flex;flex-wrap:wrap;gap:10px;align-items:center}
+.chips{display:flex;gap:6px;flex-wrap:wrap}
+.chip{font:inherit;font-size:13px;border:1px solid var(--line);background:var(--surface);color:var(--ink);border-radius:999px;padding:4px 12px;cursor:pointer}
+.chip[aria-pressed="true"]{background:var(--lagoon);border-color:var(--lagoon);color:var(--bg)}
+.tools select,.tools input[type=search]{font:inherit;font-size:14px;padding:6px 10px;border:1px solid var(--line);border-radius:8px;background:var(--surface);color:var(--ink)}
+.tools input[type=search]{flex:1 1 180px;min-width:0}
+:focus-visible{outline:2px solid var(--lagoon);outline-offset:2px}
+.count{font-size:13px;color:var(--muted)}
+.list{display:grid;gap:14px}
+.photo{margin:0;display:grid;gap:4px}.photo img{width:100%;max-width:100%;aspect-ratio:4/3;object-fit:cover;border-radius:8px;background:var(--lagoon-soft);display:block}.photo figcaption{font-size:11.5px;color:var(--muted);word-break:break-all}.photo figcaption a{color:inherit}
+.card-body{display:grid;grid-template-columns:minmax(0,260px) minmax(0,1fr);gap:16px;align-items:start}.card-body.nophoto{grid-template-columns:minmax(0,1fr)}
+@media (max-width:640px){.card-body{grid-template-columns:minmax(0,1fr)}}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:16px 18px;display:grid;gap:12px;min-width:0}
+.card-head{display:flex;flex-wrap:wrap;gap:8px 14px;align-items:baseline;justify-content:space-between}
+.card h2{font-family:var(--display);font-weight:400;font-size:24px;margin:0;line-height:1.2}
+.region{font-size:12px;letter-spacing:.06em;color:var(--lagoon);font-weight:700;margin-right:8px}
+.dist{display:flex;flex-wrap:wrap;gap:6px;font-family:var(--mono);font-size:12.5px;font-variant-numeric:tabular-nums}
+.dist span{border:1px solid var(--line);border-radius:6px;padding:2px 8px;color:var(--muted)}
+.dist span b{color:var(--ink);font-weight:500}
+.desc{margin:0;color:var(--muted)}
+.home{display:flex;flex-wrap:wrap;gap:6px}.home a{font-size:13px;color:var(--lagoon);border:1px solid var(--line);border-radius:999px;padding:2px 10px;text-decoration:none}.home a:hover{border-color:var(--lagoon)}.home a.map{background:var(--lagoon-soft)}
+.cols{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:12px 22px}
+.blk{min-width:0}
+.blk h3{font-size:12px;letter-spacing:.06em;color:var(--muted);margin:0 0 4px;font-weight:700}
+.blk ul{margin:0;padding-left:1.1em;display:grid;gap:2px}
+.price li{font-variant-numeric:tabular-nums}
+.price .won{font-family:var(--mono);font-weight:500}
+.price .vnd{font-family:var(--mono);color:var(--muted);font-size:13px}
+details{border-top:1px solid var(--line);padding-top:10px}
+summary{cursor:pointer;font-size:14px;font-weight:500;display:flex;gap:10px;flex-wrap:wrap;align-items:center}
+.tally{font-family:var(--mono);font-size:12px;border-radius:999px;padding:1px 9px}
+.tally.g{background:var(--good-soft);color:var(--good)} .tally.b{background:var(--bad-soft);color:var(--bad)}
+.rev{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:14px;margin-top:10px}
+.rev ol{margin:0;padding:0;list-style:none;display:grid;gap:8px}
+.rev li{border-left:3px solid var(--line);padding:2px 0 2px 10px;min-width:0}
+.rev .pos li{border-color:var(--good)} .rev .neg li{border-color:var(--bad)}
+.rev a{font-size:12px;color:var(--lagoon);word-break:break-all}
+.rev h4{margin:0 0 6px;font-size:13px}
+.pos h4{color:var(--good)} .neg h4{color:var(--bad)}
+.none{color:var(--muted);font-size:13px}
+.empty{padding:28px;text-align:center;color:var(--muted);border:1px dashed var(--line);border-radius:12px}
+footer{font-size:12.5px;color:var(--muted);display:grid;gap:4px;max-width:80ch}
+@media (prefers-reduced-motion:no-preference){.card{transition:border-color .15s}.card:hover{border-color:var(--lagoon)}}
+</style>
+<div class="wrap">
+<header>
+  <h1>__TITLE__ <span>__SUBTITLE__</span></h1>
+  <p class="lede">__LEDE__</p>
+  <div class="facts" id="facts"></div>
+</header>
+<nav class="tabs" role="tablist" id="tabs"></nav>
+<div class="tools">
+  <div class="chips" id="regions" aria-label="지역"></div>
+  <label for="sort" class="count">정렬</label>
+  <select id="sort"></select>
+  <input type="search" id="q" placeholder="이름·메뉴·특징 검색">
+</div>
+<p class="count" id="count"></p>
+<div class="list" id="list"></div>
+<footer><div id="foot"></div><div>가격과 영업시간은 후기 작성 시점 기준이라 바뀌었을 수 있습니다. 사진의 저작권은 각 블로거에게 있으며 개인적인 여행 준비용으로만 사용해 주세요. 작성일 <span id="built"></span></div></footer>
+</div>
+<script>
+const DATA=__DATA__;
+const RATE=DATA.rate, UNIT=DATA.unit;
+const fmt=n=>Math.round(n).toLocaleString('ko-KR');
+const $=s=>document.querySelector(s);
+const esc=s=>String(s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+let state={tab:Object.keys(DATA.sheets)[0],region:'전체',sort:'d0',q:''};
+try{const t=localStorage.getItem('pq-tab'); if(t&&DATA.sheets[t]) state.tab=t;}catch(e){}
+$('#facts').innerHTML=DATA.hotels.map(h=>`<div class="fact"><b>${esc(h.short)} 숙소</b><span>${esc(h.label)}</span></div>`).join('')+`<div class="fact"><b>환율 가정</b><span class="conv"><label for="vnd">${esc(UNIT)}</label><input id="vnd" inputmode="numeric" value="${esc(DATA.sample)}"><output id="won" for="vnd"></output></span></div>`;
+$('#foot').textContent=DATA.footer;
+$('#sort').innerHTML=DATA.hotels.map((h,i)=>`<option value="d${i}">${esc(h.short)} 숙소에서 가까운 순</option>`).join('')+'<option value="reviews">후기 많은 순</option><option value="name">이름순</option>';
+state.sort='d0';
+function conv(){const v=Number($('#vnd').value.replace(/[^\d]/g,''))||0; const w=v*RATE; $('#won').textContent='≈ '+fmt(w>=1000?Math.round(w/100)*100:w)+'원';}
+$('#vnd').addEventListener('input',conv); conv();
+$('#built').textContent=DATA.built;
+function tabs(){
+  $('#tabs').innerHTML=Object.keys(DATA.sheets).map(k=>`<button class="tab" role="tab" aria-selected="${k===state.tab}" data-t="${k}">${k}<small>${DATA.sheets[k].length}</small></button>`).join('');
+  $('#tabs').querySelectorAll('.tab').forEach(b=>b.onclick=()=>{state.tab=b.dataset.t;state.region='전체';try{localStorage.setItem('pq-tab',state.tab)}catch(e){};tabs();render();});
+}
+function regions(){
+  const rs=['전체',...DATA.regions.filter(r=>DATA.sheets[state.tab].some(x=>x.region===r))];
+  $('#regions').innerHTML=rs.map(r=>`<button class="chip" aria-pressed="${r===state.region}" data-r="${r}">${r}</button>`).join('');
+  $('#regions').querySelectorAll('.chip').forEach(b=>b.onclick=()=>{state.region=b.dataset.r;render();});
+}
+function priceLi(t){
+  const m=t.match(/^(.*?)(\d[\d,~]*원(?:대)?)\s\/\s(약\s)?(\d[\d,~]*동(?:대)?)(.*)$/);
+  if(!m) return `<li>${esc(t)}</li>`;
+  return `<li>${esc(m[1])}<span class="won">${esc(m[2])}</span> <span class="vnd">${esc((m[3]||'')+m[4])}</span>${esc(m[5])}</li>`;
+}
+const ul=(arr,cls)=>arr.length?`<ul class="${cls||''}">${arr.map(cls==='price'?priceLi:t=>`<li>${esc(t)}</li>`).join('')}</ul>`:'<p class="none">–</p>';
+function revList(arr,kind,note){
+  if(!arr.length) return `<p class="none">${note||(kind==='pos'?'검토한 후기에서 긍정 평가를 찾지 못했어요':'검토한 후기에서 부정 평가를 찾지 못했어요')}</p>`;
+  return `<ol>${arr.map(r=>`<li>${esc(r.t)}<br><a href="${esc(r.u)}" target="_blank" rel="noopener">${esc(r.u.replace(/^https?:\/\/(www\.)?/,''))}</a></li>`).join('')}</ol>`;
+}
+function render(){
+  regions();
+  document.querySelectorAll('.tab').forEach(b=>b.setAttribute('aria-selected',b.dataset.t===state.tab));
+  const q=state.q.trim().toLowerCase();
+  let items=DATA.sheets[state.tab].filter(x=>(state.region==='전체'||x.region===state.region)&&(!q||JSON.stringify(x).toLowerCase().includes(q)));
+  const key=Object.assign({reviews:x=>-x.reviews,name:x=>x.name},...DATA.hotels.map((h,i)=>({['d'+i]:x=>x.dist[i]?.km??1e9})));
+  items.sort((a,b)=>{const ka=key[state.sort](a),kb=key[state.sort](b);return typeof ka==='string'?ka.localeCompare(kb,'ko'):ka-kb;});
+  $('#count').textContent=`${items.length}곳`;
+  const priceLabel=DATA.priceLabel[state.tab]||'가격';
+  $('#list').innerHTML=items.length?items.map(x=>`
+  <article class="card">
+    <div class="card-head">
+      <div><span class="region">${esc(x.region)}</span><h2 style="display:inline">${esc(x.name)}</h2></div>
+      <div class="dist">${DATA.hotels.map((h,i)=>`<span>${esc(h.short)} 숙소 <b>${x.dist[i]?.km!=null?x.dist[i].km.toFixed(1)+'km':'–'}</b>${x.dist[i]?.t?' · '+esc(x.dist[i].t):''}</span>`).join('')}</div>
+    </div>
+    <div class="card-body ${x.img?'':'nophoto'}">
+    ${x.img?`<figure class="photo"><img loading="lazy" src="data:image/jpeg;base64,${x.img}" alt="${esc(x.name)} 사진"><figcaption>사진: <a href="${esc(x.imgsrc)}" target="_blank" rel="noopener">${esc(x.imgsrc.replace(/^https?:\/\/(www\.)?/,''))}</a></figcaption></figure>`:''}
+    <div style="display:grid;gap:12px;min-width:0">
+    <p class="desc">${esc(x.desc)}</p>
+    <div class="home"><a class="map" href="${esc(x.gmap)}" target="_blank" rel="noopener">구글맵 ↗${x.gnote?` <small>(${esc(x.gnote)})</small>`:''}</a>${(x.home||[]).map(hm=>`<a href="${esc(hm.u)}" target="_blank" rel="noopener">${esc(hm.l)} ↗</a>`).join('')}</div>
+    <div class="cols">
+      <div class="blk"><h3>${priceLabel}</h3>${ul(x.price,'price')}</div>
+      <div class="blk"><h3>장점</h3>${ul(x.pro)}</div>
+      <div class="blk"><h3>단점</h3>${ul(x.con)}</div>
+      <div class="blk"><h3>추가 정보</h3>${ul(x.extra)}</div>
+    </div>
+    </div></div>
+    <details>
+      <summary>후기 평가 보기 <span class="tally g">긍정 ${x.pos.length}</span><span class="tally b">부정 ${x.neg.length}</span><span class="count">${esc(x.basis)}</span></summary>
+      <div class="rev"><div class="pos"><h4>좋았던 점</h4>${revList(x.pos,'pos')}</div><div class="neg"><h4>아쉬웠던 점</h4>${revList(x.neg,'neg',x.negnote)}</div></div>
+    </details>
+  </article>`).join(''):'<div class="empty">조건에 맞는 곳이 없어요. 지역을 “전체”로 바꾸거나 검색어를 지워 보세요.</div>';
+}
+$('#sort').onchange=e=>{state.sort=e.target.value;render();};
+$('#q').oninput=e=>{state.q=e.target.value;render();};
+tabs(); render();
+</script>
