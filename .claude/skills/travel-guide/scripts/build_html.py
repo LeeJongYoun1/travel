@@ -29,7 +29,7 @@ for sname, rows in P['sheets'].items():
             'gmap': 'https://www.google.com/maps/search/?api=1&query=' + urllib.parse.quote(p.get('map_query') or p['name'] + ' ' + cfg.get('destination_en', '')), 'gnote': p.get('map_note', '')})
     S[sname] = out
 order = [r for r in cfg.get('region_order', []) if r in regions] + [r for r in regions if r not in cfg.get('region_order', [])]
-data = {'built': cfg.get('built', ''), 'sheets': S, 'hotels': [{'short': h['short'], 'label': h['label']} for h in cfg['hotels']], 'rate': cfg['currency']['krw_per_unit'],
+data = {'built': cfg.get('built', ''), 'sheets': S, 'hotels': [{'short': h['short'], 'label': h['label'], 'html': h.get('html', '')} for h in cfg['hotels']], 'rate': cfg['currency']['krw_per_unit'],
         'unit': cfg['currency']['unit'], 'sample': cfg['currency'].get('sample', '100,000'), 'regions': order,
         'priceLabel': {k: v.get('price_label', '가격') for k, v in cfg['categories'].items()}, 'footer': cfg.get('footer', '')}
 t = open(os.path.join(here, 'template.html'), encoding='utf-8').read()

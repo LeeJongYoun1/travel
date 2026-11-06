@@ -63,14 +63,16 @@
    "label": "중부숙소 (솔 바이 멜리아)",
    "lat": 10.1461223,
    "lon": 103.9766385,
-   "note": "Sol by Meliá Phu Quoc · Bai Truong(Truong Beach), Duong To"
+   "note": "Sol by Meliá Phu Quoc · Bai Truong(Truong Beach), Duong To",
+   "html": "중부 숙소"
   },
   {
    "short": "남숙",
    "label": "남부숙소 (로지 힐사이드)",
    "lat": 10.0294252,
    "lon": 104.0083142,
-   "note": "Burano Street, Sunset Town, An Thoi (선셋타운 단지 좌표 사용)"
+   "note": "Burano Street, Sunset Town, An Thoi (선셋타운 단지 좌표 사용)",
+   "html": "남부 숙소"
   }
  ],
  "travel": {

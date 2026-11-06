@@ -108,9 +108,9 @@ const $=s=>document.querySelector(s);
 const esc=s=>String(s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
 let state={tab:Object.keys(DATA.sheets)[0],region:'전체',sort:'d0',q:''};
 try{const t=localStorage.getItem('pq-tab'); if(t&&DATA.sheets[t]) state.tab=t;}catch(e){}
-$('#facts').innerHTML=DATA.hotels.map(h=>`<div class="fact"><b>${esc(h.short)} 숙소</b><span>${esc(h.label)}</span></div>`).join('')+`<div class="fact"><b>환율 가정</b><span class="conv"><label for="vnd">${esc(UNIT)}</label><input id="vnd" inputmode="numeric" value="${esc(DATA.sample)}"><output id="won" for="vnd"></output></span></div>`;
+$('#facts').innerHTML=DATA.hotels.map(h=>`<div class="fact"><b>${esc(h.html||h.short+' 숙소')}</b><span>${esc(h.label)}</span></div>`).join('')+`<div class="fact"><b>환율 가정</b><span class="conv"><label for="vnd">${esc(UNIT)}</label><input id="vnd" inputmode="numeric" value="${esc(DATA.sample)}"><output id="won" for="vnd"></output></span></div>`;
 $('#foot').textContent=DATA.footer;
-$('#sort').innerHTML=DATA.hotels.map((h,i)=>`<option value="d${i}">${esc(h.short)} 숙소에서 가까운 순</option>`).join('')+'<option value="reviews">후기 많은 순</option><option value="name">이름순</option>';
+$('#sort').innerHTML=DATA.hotels.map((h,i)=>`<option value="d${i}">${esc(h.html||h.short+' 숙소')}에서 가까운 순</option>`).join('')+'<option value="reviews">후기 많은 순</option><option value="name">이름순</option>';
 state.sort='d0';
 function conv(){const v=Number($('#vnd').value.replace(/[^\d]/g,''))||0; const w=v*RATE; $('#won').textContent='≈ '+fmt(w>=1000?Math.round(w/100)*100:w)+'원';}
 $('#vnd').addEventListener('input',conv); conv();
@@ -147,7 +147,7 @@ function render(){
   <article class="card">
     <div class="card-head">
       <div><span class="region">${esc(x.region)}</span><h2 style="display:inline">${esc(x.name)}</h2></div>
-      <div class="dist">${DATA.hotels.map((h,i)=>`<span>${esc(h.short)} 숙소 <b>${x.dist[i]?.km!=null?x.dist[i].km.toFixed(1)+'km':'–'}</b>${x.dist[i]?.t?' · '+esc(x.dist[i].t):''}</span>`).join('')}</div>
+      <div class="dist">${DATA.hotels.map((h,i)=>`<span>${esc(h.html||h.short+' 숙소')} <b>${x.dist[i]?.km!=null?x.dist[i].km.toFixed(1)+'km':'–'}</b>${x.dist[i]?.t?' · '+esc(x.dist[i].t):''}</span>`).join('')}</div>
     </div>
     <div class="card-body ${x.img?'':'nophoto'}">
     ${x.img?`<figure class="photo"><img loading="lazy" src="data:image/jpeg;base64,${x.img}" alt="${esc(x.name)} 사진"><figcaption>사진: <a href="${esc(x.imgsrc)}" target="_blank" rel="noopener">${esc(x.imgsrc.replace(/^https?:\/\/(www\.)?/,''))}</a></figcaption></figure>`:''}
