@@ -116,6 +116,9 @@ const fmt=n=>Math.round(n).toLocaleString('ko-KR');
 const $=s=>document.querySelector(s);
 const esc=s=>String(s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
 const NEW='__new';
+const norm=t=>String(t).toLowerCase().replace(/[\s\-_.,·()&'"\/]+/g,'');   // 띄어쓰기·기호 무시(델루나스파 = 델루나 스파)
+const hay=x=>x._h||(x._h=norm([x.name,...(x.aliases||[]),x.region,x.desc,...x.price,...x.pro,...x.con,...x.extra,...x.pos.map(r=>r.t),...x.neg.map(r=>r.t)].join(' ')));
+const nameHit=(x,nq)=>[x.name,...(x.aliases||[])].some(n=>norm(n).includes(nq));
 const pad=n=>String(n).padStart(2,'0'), ymd=d=>d.getFullYear()+'-'+pad(d.getMonth()+1)+'-'+pad(d.getDate());
 const CUT=ymd(new Date(Date.now()-7*864e5));
 const recent=x=>(x.posts||[]).filter(p=>p.d>=CUT);
@@ -151,9 +154,9 @@ function revList(arr,kind,note){
 }
 function renderNew(){
   const cats=['전체',...Object.keys(DATA.sheets)];
-  const q=state.q.trim().toLowerCase(); let base=[];
+  const q=norm(state.q); let base=[];
   for(const s of Object.keys(DATA.sheets)){ if(state.cat!=='전체'&&state.cat!==s) continue;
-    for(const x of DATA.sheets[s]){const ps=recent(x); if(ps.length&&(!q||(x.name+x.desc+ps.map(p=>p.t).join(' ')).toLowerCase().includes(q))) base.push({x,s,ps});}}
+    for(const x of DATA.sheets[s]){const ps=recent(x); if(ps.length&&(!q||hay(x).includes(q)||norm(ps.map(p=>p.t).join(' ')).includes(q))) base.push({x,s,ps});}}
   const rcount=r=>base.filter(b=>r==='전체'||b.x.region===r).length;
   const regs=['전체',...DATA.regions.filter(r=>base.some(b=>b.x.region===r))];
   if(!regs.includes(state.nreg)) state.nreg='전체';
@@ -164,7 +167,7 @@ function renderNew(){
   $('#regions').querySelectorAll('.chip[data-r]').forEach(b=>b.onclick=()=>{state.nreg=b.dataset.r;render();});
   $('#sort').style.display='none'; document.querySelector('label[for=sort]').style.display='none';
   let rows=base.filter(b=>state.nreg==='전체'||b.x.region===state.nreg);
-  rows.sort((a,b)=>b.ps[0].d.localeCompare(a.ps[0].d)||b.ps.length-a.ps.length);
+  rows.sort((a,b)=>(q?nameHit(b.x,q)-nameHit(a.x,q):0)||b.ps[0].d.localeCompare(a.ps[0].d)||b.ps.length-a.ps.length);
   const total=rows.reduce((n,r)=>n+r.ps.length,0);
   $('#count').textContent=`최근 7일(${CUT.slice(5).replace('-','.')} 이후) 새로 올라온 후기 ${total}건 · ${rows.length}곳 — 자료 수집일 ${DATA.built}`;
   $('#list').innerHTML=rows.length?rows.map(({x,s,ps})=>{
@@ -183,11 +186,14 @@ function render(){
   document.querySelectorAll('.tab').forEach(b=>b.setAttribute('aria-selected',b.dataset.t===state.tab));
   if(isNew) return renderNew();
   regions();
-  const q=state.q.trim().toLowerCase();
-  let items=DATA.sheets[state.tab].filter(x=>(state.region==='전체'||x.region===state.region)&&(!q||JSON.stringify(x).toLowerCase().includes(q)));
+  const q=norm(state.q);
+  let items=DATA.sheets[state.tab].filter(x=>(state.region==='전체'||x.region===state.region)&&(!q||hay(x).includes(q)));
+  if(q) items.sort((a,b)=>nameHit(b,q)-nameHit(a,q));   // 장소명이 맞는 곳을 맨 위로
+  const other=q?Object.keys(DATA.sheets).filter(k=>k!==state.tab).map(k=>[k,DATA.sheets[k].filter(x=>hay(x).includes(q)).length]).filter(a=>a[1]):[];
   const key=Object.assign({reviews:x=>-x.reviews,name:x=>x.name},...DATA.hotels.map((h,i)=>({['d'+i]:x=>x.dist[i]?.km??1e9})));
-  items.sort((a,b)=>{const ka=key[state.sort](a),kb=key[state.sort](b);return typeof ka==='string'?ka.localeCompare(kb,'ko'):ka-kb;});
-  $('#count').textContent=`${items.length}곳`;
+  items.sort((a,b)=>{if(q){const d=nameHit(b,q)-nameHit(a,q);if(d)return d;}const ka=key[state.sort](a),kb=key[state.sort](b);return typeof ka==='string'?ka.localeCompare(kb,'ko'):ka-kb;});
+  $('#count').innerHTML=`${items.length}곳`+(other.length?` · 다른 탭에서도 찾았어요: ${other.map(([k,n])=>`<button class="chip" data-k="${esc(k)}">${esc(k)} ${n}곳</button>`).join(' ')}`:'');
+  $('#count').querySelectorAll('[data-k]').forEach(b=>b.onclick=()=>{state.tab=b.dataset.k;state.region='전체';tabs();render();window.scrollTo(0,0);});
   const priceLabel=DATA.priceLabel[state.tab]||'가격';
   $('#list').innerHTML=items.length?items.map(x=>`
   <article class="card">

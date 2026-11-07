@@ -30,7 +30,7 @@ for sname, rows in P['sheets'].items():
         rv = p.get('reviews', {}); ph = p.get('photo')
         img = base64.b64encode(open(os.path.join(base, ph['file']), 'rb').read()).decode() if ph and os.path.exists(os.path.join(base, ph['file'])) else None
         if p['region'] not in regions: regions.append(p['region'])
-        out.append({'region': p['region'], 'name': p['name'], 'desc': p.get('desc', ''), 'price': lst(p.get('price', [])), 'pro': lst(p.get('pros', [])),
+        out.append({'region': p['region'], 'name': p['name'], 'aliases': p.get('aliases', []) + ([p['map_query']] if p.get('map_query') else []), 'desc': p.get('desc', ''), 'price': lst(p.get('price', [])), 'pro': lst(p.get('pros', [])),
             'con': lst(p.get('cons', [])), 'extra': lst(p.get('extra', [])), 'basis': rv.get('basis', ''), 'reviews': int(''.join(c for c in rv.get('basis', '0').split('건')[0] if c.isdigit()) or 0),
             'pos': [r | {'d': dd(r['u'])} for r in rv.get('pos', [])], 'neg': [r | {'d': dd(r['u'])} for r in rv.get('neg', [])],
             'posts': sorted([{'u': l, 'd': dd(l), 't': BL[l]['title']} for l in CSRC.get(p['name'], {}).get('clean', []) if l in BL and dd(l) >= POST_FROM], key=lambda x: x['d'], reverse=True), 'negnote': rv.get('neg_note', ''), 'dist': [dist(p, h) for h in cfg['hotels']],
