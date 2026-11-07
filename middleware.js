@@ -2,7 +2,8 @@
 // 비밀번호는 Vercel 프로젝트 환경변수 SITE_PASSWORD 에 넣는다(저장소에 적지 않음).
 // 로그인하면 30일 동안 쿠키로 기억한다. 비밀번호를 바꾸면 기존 로그인은 모두 풀린다.
 
-export const config = { matcher: '/:path*' };
+// 홈 화면 아이콘·매니페스트는 휴대폰이 쿠키 없이 가져가므로 비밀번호 없이 열어 둔다.
+export const config = { matcher: '/((?!icons/|apple-touch-icon|manifest\\.webmanifest|favicon\\.ico).*)' };
 
 const COOKIE = 'tg_auth';
 const LOGIN = '/__login';
@@ -27,7 +28,8 @@ const esc = s => s.replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&
 function page(next, msg, status) {
   const html = `<!doctype html><html lang="ko"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex">
-<title>여행 노트</title><style>
+<title>여행 노트</title>
+<link rel="icon" href="/icons/icon.svg" type="image/svg+xml"><link rel="apple-touch-icon" href="/apple-touch-icon.png"><link rel="manifest" href="/manifest.webmanifest"><meta name="theme-color" content="#0B7A75"><meta name="apple-mobile-web-app-title" content="여행 노트"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="mobile-web-app-capable" content="yes"><style>
 :root{--bg:#F2F6F5;--surface:#fff;--ink:#132E2C;--muted:#5B706D;--line:#D5E2DF;--accent:#0B7A75;--bad:#B3322B}
 @media (prefers-color-scheme: dark){:root{--bg:#0E1A19;--surface:#152523;--ink:#E4EFED;--muted:#93AAA6;--line:#26403C;--accent:#4FC3BA;--bad:#F08A82}}
 *{box-sizing:border-box}body{margin:0;min-height:100vh;display:grid;place-items:center;background:var(--bg);color:var(--ink);
