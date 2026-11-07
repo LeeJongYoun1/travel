@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex"><title>쏙여행</title>
+__HEAD__<style>
+:root{--bg:#F2F6F5;--surface:#fff;--ink:#132E2C;--muted:#5B706D;--line:#D5E2DF;--accent:#0B7A75;--accent-soft:#DDF0EE;--dusk:#C2561A;--bad:#B3322B;--good:#1F7A3E}
+@media (prefers-color-scheme: dark){:root{--bg:#0E1A19;--surface:#152523;--ink:#E4EFED;--muted:#93AAA6;--line:#26403C;--accent:#4FC3BA;--accent-soft:#173A37;--dusk:#F0915A;--bad:#F08A82;--good:#6FD08F}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:system-ui,-apple-system,"Apple SD Gothic Neo","Noto Sans KR",sans-serif;line-height:1.5}
+main{max-width:720px;margin:0 auto;padding:32px 16px 64px;display:grid;gap:16px}
+h1{margin:0;font-size:28px}p{margin:0;color:var(--muted)}
+.list{display:grid;gap:12px}
+.card{display:grid;gap:2px;padding:18px;border:1px solid var(--line);border-radius:14px;background:var(--surface);color:inherit;text-decoration:none}
+a.card:hover{border-color:var(--accent)}
+.name{font-size:20px;font-weight:700}.en{color:var(--muted);font-size:14px}
+.meta{color:var(--accent);font-size:14px;margin-top:6px}.date{color:var(--muted);font-size:13px}
+.card.wait{border-style:dashed;background:transparent}
+.card.wait .name{color:var(--muted)}
+.st{justify-self:start;font-size:12px;font-weight:700;border-radius:999px;padding:1px 10px;margin-top:6px;background:var(--accent-soft);color:var(--accent)}
+.st.collecting{background:var(--dusk);color:#fff}
+button{font:inherit;cursor:pointer}
+.add{border:2px dashed var(--line);border-radius:14px;background:transparent;color:var(--accent);font-size:16px;font-weight:700;padding:18px}
+.add:hover{border-color:var(--accent)}
+form{display:grid;gap:16px;padding:18px;border:1px solid var(--line);border-radius:14px;background:var(--surface)}
+form[hidden]{display:none}
+fieldset{border:0;margin:0;padding:0;display:grid;gap:8px;min-width:0}
+legend{font-weight:700;padding:0;margin-bottom:4px}
+label{display:grid;gap:4px;font-size:13px;color:var(--muted)}
+label b{color:var(--bad);font-weight:400}
+input[type=text],input[type=url],input[type=month]{font:inherit;font-size:16px;padding:10px 12px;border:1px solid var(--line);border-radius:10px;background:var(--bg);color:var(--ink);width:100%;min-width:0}
+input:focus-visible,button:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.hotel{display:grid;gap:8px;padding:12px;border:1px solid var(--line);border-radius:12px}
+.hotel .two{display:grid;grid-template-columns:minmax(0,1fr) 7em;gap:8px}
+.hotel h3{margin:0;font-size:14px;display:flex;justify-content:space-between;align-items:center}
+.link{background:none;border:0;color:var(--accent);padding:0;font-size:13px}
+.chips{display:flex;flex-wrap:wrap;gap:6px}
+.chip{border:1px solid var(--line);background:var(--surface);color:var(--ink);border-radius:999px;padding:6px 14px;font-size:14px}
+.chip[aria-pressed="true"]{background:var(--accent);border-color:var(--accent);color:#fff}
+.hint{font-size:12.5px;color:var(--muted)}
+.hp{position:absolute;left:-9999px;width:1px;height:1px;opacity:0}
+.row{display:flex;gap:8px;flex-wrap:wrap}
+.go{background:var(--accent);color:#fff;border:0;border-radius:10px;padding:12px 18px;font-weight:700;flex:1}
+.go:disabled{opacity:.5;cursor:not-allowed}
+.cancel{background:transparent;border:1px solid var(--line);color:var(--ink);border-radius:10px;padding:12px 18px}
+.msg{padding:10px 12px;border-radius:10px;font-size:14px}
+.msg.err{background:color-mix(in srgb,var(--bad) 14%,transparent);color:var(--bad)}
+.msg.ok{background:color-mix(in srgb,var(--good) 14%,transparent);color:var(--good)}
+.msg[hidden]{display:none}
+</style></head><body><main>
+<h1>쏙여행</h1><p>2025년 이후 후기에서 광고·AI 글을 걸러 정리한 여행지별 마사지·맛집·가볼만한 곳. 개인 여행 준비용(사진 저작권은 각 블로거에게 있음).</p>
+<div class="list" id="trips">
+__CARDS__
+</div>
+<div class="list" id="waiting" aria-live="polite"></div>
+<button class="add" id="open" type="button">＋ 여행지 추가</button>
+<form id="form" hidden novalidate>
+  <p>가고 싶은 여행지와 숙소를 알려 주세요. 접수되면 확인 후 수집을 시작하고, 완료되면 여기에 나타나요(보통 하루 이상 걸려요).</p>
+  <fieldset><legend>여행지 <b style="color:var(--bad)">*</b></legend>
+    <label><span>여행지 이름</span><input type="text" id="dest" maxlength="30" required placeholder="예: 다낭" autocomplete="off"></label></fieldset>
+  <fieldset><legend>숙소 <b style="color:var(--bad)">*</b> <span class="hint">(1~3곳, 거리·이동시간 계산에 써요)</span></legend>
+    <div id="hotels"></div>
+    <button type="button" class="link" id="addHotel">＋ 숙소 추가</button>
+    <p class="hint">구글맵 앱에서 숙소를 열고 공유 → 링크 복사로 붙여넣어 주세요.</p></fieldset>
+  <fieldset><legend>동행자 <span class="hint">(선택)</span></legend><div class="chips" id="comp"></div></fieldset>
+  <fieldset><legend>여행 시기 <span class="hint">(선택)</span></legend>
+    <input type="month" id="season" aria-label="여행 시기" placeholder="2026-12"></fieldset>
+  <fieldset><legend>관심 분야 추가 <span class="hint">(선택, 최대 2개)</span></legend>
+    <p class="hint">마사지·맛집·가볼만한 곳은 기본으로 들어가요. 카페, 쇼핑, 야경처럼 더 보고 싶은 분야를 적어 주세요.</p>
+    <input type="text" class="cat" maxlength="12" list="catlist" placeholder="예: 카페" aria-label="관심 분야 1" autocomplete="off">
+    <input type="text" class="cat" maxlength="12" list="catlist" placeholder="예: 쇼핑" aria-label="관심 분야 2" autocomplete="off">
+    <datalist id="catlist"><option value="카페"><option value="쇼핑"><option value="야경"><option value="디저트"><option value="시장"></datalist></fieldset>
+  <input class="hp" type="text" id="website" tabindex="-1" autocomplete="off" aria-hidden="true">
+  <div class="msg err" id="err" hidden role="alert"></div>
+  <div class="msg ok" id="ok" hidden role="status"></div>
+  <div class="row"><button class="go" id="send" type="submit">요청 보내기</button><button class="cancel" id="close" type="button">닫기</button></div>
+</form>
+</main>
+<script>
+(()=>{
+const $=s=>document.querySelector(s);
+const esc=s=>String(s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const norm=t=>String(t).toLowerCase().replace(/[\s\-_.,·()&'"\/]+/g,'');
+const ST={pending:'수집 대기',approved:'승인됨 · 곧 시작',collecting:'수집 중'};
+const COMP=['혼자','커플','친구','아이 동반','부모님'];
+let configured=true, hv=[['','','','']], sel=new Set(), waiting=[];   // hv: 숙소별 [이름, 짧은 이름, 주소, 구글맵 링크]
+const have=()=>[...document.querySelectorAll('#trips .card')].flatMap(c=>[c.dataset.name,c.dataset.en]).concat(waiting.map(w=>w.destination)).filter(Boolean).map(norm);
+
+function hotelHtml(i){return `<div class="hotel" data-i="${i}"><h3>숙소 ${i+1}${i?'<button type="button" class="link rm">삭제</button>':''}</h3>
+ <div class="two"><label><span>숙소 이름${i?'':' <b>*</b>'}</span><input type="text" class="h-name" maxlength="60" placeholder="예: 솔 바이 멜리아"></label><label><span>짧은 이름</span><input type="text" class="h-short" maxlength="8" placeholder="예: 중숙"></label></div>
+ <label><span>주소${i?'':' <b>*</b>'}</span><input type="text" class="h-addr" maxlength="150" placeholder="호텔 주소"></label>
+ <label><span>구글맵 링크${i?'':' <b>*</b>'}</span><input type="url" class="h-map" maxlength="500" placeholder="https://maps.app.goo.gl/..." inputmode="url"></label></div>`;}
+function drawHotels(){
+  $('#hotels').innerHTML=hv.map((_,i)=>hotelHtml(i)).join('');
+  document.querySelectorAll('.hotel').forEach((h,i)=>{
+    h.querySelectorAll('input').forEach((x,k)=>{x.value=hv[i][k];x.addEventListener('input',()=>{hv[i][k]=x.value;});});
+    h.querySelector('.rm')?.addEventListener('click',()=>{hv.splice(i,1);drawHotels();});
+  });
+  $('#addHotel').hidden=hv.length>=3;
+}
+function drawChips(){$('#comp').innerHTML=COMP.map(c=>`<button type="button" class="chip" aria-pressed="${sel.has(c)}" data-c="${c}">${c}</button>`).join('');
+  $('#comp').querySelectorAll('.chip').forEach(b=>b.onclick=()=>{sel.has(b.dataset.c)?sel.delete(b.dataset.c):sel.add(b.dataset.c);drawChips();});}
+function drawWaiting(){$('#waiting').innerHTML=waiting.map(w=>`<div class="card wait"><span class="name">${esc(w.destination)}</span><span class="st ${w.status}">${ST[w.status]||'수집 대기'}</span><span class="date">${esc(String(w.createdAt||'').slice(0,10))} 접수</span></div>`).join('');}
+async function load(){
+  try{const r=await fetch('/api/requests',{credentials:'same-origin',cache:'no-store'});if(!r.ok)return;const j=await r.json();
+    configured=j.configured!==false;waiting=j.requests||[];drawWaiting();
+    if(!configured){$('#open').textContent='＋ 여행지 추가 (준비 중)';$('#open').disabled=true;$('#open').title='접수 기능이 아직 설정되지 않았어요';}
+  }catch(e){}
+}
+function show(id,t){const e=$(id);e.hidden=!t;e.textContent=t||'';}
+function open(v){$('#form').hidden=!v;$('#open').hidden=v;if(v){show('#err');show('#ok');$('#dest').focus();}}
+$('#open').onclick=()=>open(true);$('#close').onclick=()=>open(false);
+$('#addHotel').onclick=()=>{if(hv.length<3){hv.push(['','','','']);drawHotels();}};
+$('#form').addEventListener('submit',async e=>{
+  e.preventDefault();show('#err');show('#ok');
+  const dest=$('#dest').value.trim();
+  if(have().includes(norm(dest))){show('#err',`"${dest}"은(는) 이미 있거나 접수돼 있어요.`);return;}
+  const body={destination:dest,website:$('#website').value,companions:[...sel],season:$('#season').value,
+    interests:[...document.querySelectorAll('.cat')].map(x=>x.value.trim()).filter(Boolean),
+    hotels:hv.map(([name,short,address,mapUrl])=>({name,short,address,mapUrl}))};
+  $('#send').disabled=true;$('#send').textContent='보내는 중…';
+  try{
+    const r=await fetch('/api/request',{method:'POST',credentials:'same-origin',headers:{'content-type':'application/json'},body:JSON.stringify(body)});
+    const j=await r.json().catch(()=>({}));
+    if(r.ok){show('#ok',`접수됐어요 (#${j.number}). 확인 후 수집을 시작하면 여기에 상태가 표시돼요.`);$('#form').reset();sel=new Set();hv=[['','','','']];drawChips();drawHotels();load();}
+    else show('#err',j.error||'접수하지 못했어요. 잠시 뒤에 다시 시도해 주세요.');
+  }catch(err){show('#err','네트워크 오류예요. 연결을 확인하고 다시 시도해 주세요.');}
+  $('#send').disabled=false;$('#send').textContent='요청 보내기';
+});
+drawHotels();drawChips();load();
+})();
+</script></body></html>

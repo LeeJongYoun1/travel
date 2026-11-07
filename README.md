@@ -21,3 +21,14 @@
 4. `https://<프로젝트>.vercel.app` 접속 → 비밀번호 입력(30일 동안 기억)
 
 새 여행지는 `publish_site.py` 로 `public/` 에 추가하고 메인에 푸시하면 자동 배포됩니다. 비밀번호를 바꾸면 기존 로그인은 모두 풀립니다.
+
+### 여행지 추가 요청 폼 (1단계)
+
+첫 화면의 "＋ 여행지 추가"로 받은 요청은 서버 함수(`api/request.js`)가 GitHub 이슈(라벨 `trip-request`)로 만들고, 열린 요청은 `api/requests.js`가 첫 화면에 "수집 대기" 카드로 보여줍니다. 기획은 `docs/add-destination-plan.md`.
+
+1. GitHub → Settings → Developer settings → **Fine-grained personal access tokens** 에서 이 저장소 한 곳만 선택하고 **Issues: Read and write** 권한만 주어 토큰 생성
+2. Vercel → Settings → Environment Variables 에 `GITHUB_TOKEN` 으로 추가(저장소를 바꾸려면 `GITHUB_REPO` = `소유자/이름`) → Redeploy
+3. 토큰이 없으면 폼 버튼이 "준비 중"으로 비활성화됩니다.
+
+시험: `npm test` (GitHub 는 가짜로 대체).
+

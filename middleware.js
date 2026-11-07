@@ -63,5 +63,6 @@ export default async function middleware(req) {
     } });
   }
   if (cookie(req, COOKIE) === good) return; // 통과: 정적 파일 그대로 제공
+  if (url.pathname.startsWith('/api/')) return new Response(JSON.stringify({ ok: false, error: '로그인이 풀렸어요. 새로고침해 주세요.' }), { status: 401, headers: { 'content-type': 'application/json; charset=utf-8', 'cache-control': 'no-store' } });
   return page(url.pathname + url.search, '', 401);
 }
