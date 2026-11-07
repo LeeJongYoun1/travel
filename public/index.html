@@ -103,7 +103,8 @@ function drawWaiting(){$('#waiting').innerHTML=waiting.map(w=>`<div class="card 
 async function load(){
   try{const r=await fetch('/api/requests',{credentials:'same-origin',cache:'no-store'});if(!r.ok)return;const j=await r.json();
     configured=j.configured!==false;waiting=j.requests||[];drawWaiting();
-    if(!configured){$('#open').textContent='＋ 여행지 추가 (준비 중)';$('#open').disabled=true;$('#open').title='접수 기능이 아직 설정되지 않았어요';}
+    // 상태를 양방향으로 맞춘다(예전에 '준비 중'으로 바뀐 화면이 남아 있어도 다시 켜진다)
+    $('#open').textContent=configured?'＋ 여행지 추가':'＋ 여행지 추가 (준비 중)';$('#open').disabled=!configured;$('#open').title=configured?'':'접수 기능이 아직 설정되지 않았어요';
   }catch(e){}
 }
 function show(id,t){const e=$(id);e.hidden=!t;e.textContent=t||'';}
@@ -127,5 +128,8 @@ $('#form').addEventListener('submit',async e=>{
   $('#send').disabled=false;$('#send').textContent='요청 보내기';
 });
 drawHotels();drawChips();load();
+// 모바일은 탭·홈 화면 앱을 되돌릴 때 예전 화면을 그대로 살려 두므로, 다시 보일 때마다 상태를 새로 불러온다
+addEventListener('pageshow',e=>{if(e.persisted)load();});
+document.addEventListener('visibilitychange',()=>{if(!document.hidden)load();});
 })();
 </script></body></html>
