@@ -119,7 +119,7 @@ const pad=n=>String(n).padStart(2,'0'), ymd=d=>d.getFullYear()+'-'+pad(d.getMont
 const CUT=ymd(new Date(Date.now()-7*864e5));
 const recent=x=>(x.posts||[]).filter(p=>p.d>=CUT);
 const newCount=name=>{for(const k in DATA.sheets){const x=DATA.sheets[k].find(y=>y.name===name);if(x)return recent(x).length}return 0};
-let state={tab:Object.keys(DATA.sheets)[0],region:'전체',sort:'d0',q:'',cat:'전체'};
+let state={tab:Object.keys(DATA.sheets)[0],region:'전체',sort:'d0',q:'',cat:'전체',nreg:'전체'};
 try{const t=localStorage.getItem('pq-tab'); if(t&&DATA.sheets[t]) state.tab=t;}catch(e){}
 $('#facts').innerHTML=DATA.hotels.map(h=>`<div class="fact"><b>${esc(h.html||h.short+' 숙소')}</b><span>${esc(h.label)}</span></div>`).join('')+`<div class="fact"><b>환율 가정</b><span class="conv"><label for="vnd">${esc(UNIT)}</label><input id="vnd" inputmode="numeric" value="${esc(DATA.sample)}"><output id="won" for="vnd"></output></span></div>`;
 $('#foot').textContent=DATA.footer;
@@ -131,7 +131,7 @@ $('#built').textContent=DATA.built;
 function tabs(){
   const nplaces=Object.values(DATA.sheets).reduce((n,l)=>n+l.filter(x=>recent(x).length).length,0);
   $('#tabs').innerHTML=Object.keys(DATA.sheets).map(k=>`<button class="tab" role="tab" aria-selected="${k===state.tab}" data-t="${k}">${k}<small>${DATA.sheets[k].length}</small></button>`).join('')+`<button class="tab new" role="tab" aria-selected="${state.tab===NEW}" data-t="${NEW}">새 소식<small>${nplaces}</small></button>`;
-  $('#tabs').querySelectorAll('.tab').forEach(b=>b.onclick=()=>{state.tab=b.dataset.t;state.region='전체';state.cat='전체';state.q='';$('#q').value='';try{if(state.tab!==NEW)localStorage.setItem('pq-tab',state.tab)}catch(e){};tabs();render();});
+  $('#tabs').querySelectorAll('.tab').forEach(b=>b.onclick=()=>{state.tab=b.dataset.t;state.region='전체';state.cat='전체';state.nreg='전체';state.q='';$('#q').value='';try{if(state.tab!==NEW)localStorage.setItem('pq-tab',state.tab)}catch(e){};tabs();render();});
 }
 function regions(){
   const rs=['전체',...DATA.regions.filter(r=>DATA.sheets[state.tab].some(x=>x.region===r))];
@@ -150,12 +150,18 @@ function revList(arr,kind,note){
 }
 function renderNew(){
   const cats=['전체',...Object.keys(DATA.sheets)];
-  $('#regions').innerHTML=cats.map(c=>`<button class="chip" aria-pressed="${c===state.cat}" data-c="${c}">${c}</button>`).join('');
-  $('#regions').querySelectorAll('.chip').forEach(b=>b.onclick=()=>{state.cat=b.dataset.c;render();});
-  $('#sort').style.display='none'; document.querySelector('label[for=sort]').style.display='none';
-  const q=state.q.trim().toLowerCase(); let rows=[];
+  const q=state.q.trim().toLowerCase(); let base=[];
   for(const s of Object.keys(DATA.sheets)){ if(state.cat!=='전체'&&state.cat!==s) continue;
-    for(const x of DATA.sheets[s]){const ps=recent(x); if(ps.length&&(!q||(x.name+x.desc+ps.map(p=>p.t).join(' ')).toLowerCase().includes(q))) rows.push({x,s,ps});}}
+    for(const x of DATA.sheets[s]){const ps=recent(x); if(ps.length&&(!q||(x.name+x.desc+ps.map(p=>p.t).join(' ')).toLowerCase().includes(q))) base.push({x,s,ps});}}
+  const rcount=r=>base.filter(b=>r==='전체'||b.x.region===r).length;
+  const regs=['전체',...DATA.regions.filter(r=>base.some(b=>b.x.region===r))];
+  if(!regs.includes(state.nreg)) state.nreg='전체';
+  $('#regions').innerHTML='<span class="count">분류</span>'+cats.map(c=>`<button class="chip" aria-pressed="${c===state.cat}" data-c="${c}">${c}</button>`).join('')
+    +'<span style="flex-basis:100%;height:0"></span><span class="count">지역</span>'+regs.map(r=>`<button class="chip" aria-pressed="${r===state.nreg}" data-r="${r}">${r} ${rcount(r)}</button>`).join('');
+  $('#regions').querySelectorAll('.chip[data-c]').forEach(b=>b.onclick=()=>{state.cat=b.dataset.c;render();});
+  $('#regions').querySelectorAll('.chip[data-r]').forEach(b=>b.onclick=()=>{state.nreg=b.dataset.r;render();});
+  $('#sort').style.display='none'; document.querySelector('label[for=sort]').style.display='none';
+  let rows=base.filter(b=>state.nreg==='전체'||b.x.region===state.nreg);
   rows.sort((a,b)=>b.ps[0].d.localeCompare(a.ps[0].d)||b.ps.length-a.ps.length);
   const total=rows.reduce((n,r)=>n+r.ps.length,0);
   $('#count').textContent=`최근 7일(${CUT.slice(5).replace('-','.')} 이후) 새로 올라온 후기 ${total}건 · ${rows.length}곳 — 자료 수집일 ${DATA.built}`;
@@ -168,7 +174,7 @@ function renderNew(){
       ${ps.length>5?`<p class="count">그 밖에 ${ps.length-5}건 더 있어요</p>`:''}
       <button class="go" data-s="${esc(s)}" data-n="${esc(x.name)}">전체 정보 보기 →</button></article>`;}).join('')
    :`<div class="empty">최근 7일(${CUT} 이후) 새로 올라온 후기가 없어요.<br>이 자료는 ${DATA.built}에 수집한 것이라, 새 글을 보려면 다시 수집해야 해요.</div>`;
-  $('#list').querySelectorAll('.go').forEach(b=>b.onclick=()=>{state.tab=b.dataset.s;state.region='전체';state.q=b.dataset.n;$('#q').value=b.dataset.n;tabs();render();window.scrollTo(0,0);});
+  $('#list').querySelectorAll('.go').forEach(b=>b.onclick=()=>{state.tab=b.dataset.s;state.region='전체';state.nreg='전체';state.q=b.dataset.n;$('#q').value=b.dataset.n;tabs();render();window.scrollTo(0,0);});
 }
 function render(){
   const isNew=state.tab===NEW; $('#sort').style.display=isNew?'none':''; document.querySelector('label[for=sort]').style.display=isNew?'none':'';
