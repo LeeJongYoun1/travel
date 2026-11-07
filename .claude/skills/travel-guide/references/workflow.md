@@ -44,3 +44,9 @@ python3 <xlsx 스킬>/scripts/recalc.py out/<여행지>_여행정보.xlsx 180   
 python3 $SK/build_html.py config.json places.json out out/<여행지>_여행정보.xlsx
 ```
 마지막으로 Playwright 로 공유용 HTML 을 한 번 열어 오류·가로 스크롤이 없는지 보고, `out/<여행지>_여행노트.html` 을 Artifact 로 게시, 엑셀·공유용 HTML·zip 을 SendUserFile(attach)로 보낸다.
+
+웹사이트(Vercel) 게시:
+```bash
+python3 $SK/publish_site.py config.json places.json out   # → <저장소>/public/<영문이름>/index.html, public/index.html 목록 갱신
+git add public && git commit -m "Publish <여행지> to site" && git push   # Vercel 자동 배포(메인 브랜치 기준)
+```

@@ -28,6 +28,8 @@ description: 여행지 하나의 마사지·맛집·가볼만한 곳 정보를 2
 6. 홈페이지: 서브에이전트로 장소별 구글 검색 확인(criteria.md 규칙), 블로그 기재 링크는 직접 접속해 확인. 구글맵: 블로그의 구글맵 카드 등록명·주소로 map_query 설정, 못 찾은 곳은 map_note 표시.
 7. 빌드: `scripts/build_xlsx.py` → xlsx 스킬의 `recalc.py`(오류 0 확인) → `scripts/build_html.py`. HTML은 한 번 화면 확인 후 Artifact 로 게시하고, 엑셀·공유용 HTML·zip 을 SendUserFile 로 전달.
 
+8. 웹사이트(Vercel) 게시: `scripts/publish_site.py` 로 공유용 HTML 을 저장소 `public/<영문이름>/` 에 넣고 첫 화면 목록을 갱신 → 커밋·푸시하면 Vercel 이 자동 배포. 사이트 전체는 루트 `middleware.js` 가 비밀번호(Vercel 환경변수 `SITE_PASSWORD`)로 보호한다.
+
 ## 지켜야 할 기준 (references/criteria.md)
 - 2025-01-01 이후 글만. 네이버 카페는 작성일이 없어 출처로 쓰지 않음(언급 빈도 참고만).
 - 광고(협찬·체험단·원고료·수수료 고지, 제휴·할인코드·예약 링크, 제작지원 유튜브, 여행사·예약플랫폼·호텔 페이지)와 AI 생성 의심 글 제외.
