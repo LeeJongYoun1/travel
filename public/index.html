@@ -27,7 +27,7 @@ fieldset{border:0;margin:0;padding:0;display:grid;gap:8px;min-width:0}
 legend{font-weight:700;padding:0;margin-bottom:4px}
 label{display:grid;gap:4px;font-size:13px;color:var(--muted)}
 label b{color:var(--bad);font-weight:400}
-input[type=text],input[type=url],input[type=month]{font:inherit;font-size:16px;padding:10px 12px;border:1px solid var(--line);border-radius:10px;background:var(--bg);color:var(--ink);width:100%;min-width:0}
+input[type=text],input[type=url],input[type=month],input[type=search]{font:inherit;font-size:16px;padding:10px 12px;border:1px solid var(--line);border-radius:10px;background:var(--bg);color:var(--ink);width:100%;min-width:0}
 input:focus-visible,button:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
 .hotel{display:grid;gap:8px;padding:12px;border:1px solid var(--line);border-radius:12px}
 .hotel .two{display:grid;grid-template-columns:minmax(0,1fr) 7em;gap:8px}
@@ -37,6 +37,14 @@ input:focus-visible,button:focus-visible{outline:2px solid var(--accent);outline
 .chip{border:1px solid var(--line);background:var(--surface);color:var(--ink);border-radius:999px;padding:6px 14px;font-size:14px}
 .chip[aria-pressed="true"]{background:var(--accent);border-color:var(--accent);color:#fff}
 .hint{font-size:12.5px;color:var(--muted)}
+.picked{display:grid;gap:2px;padding:10px 12px;border-radius:10px;background:var(--accent-soft)}
+.picked b{color:var(--accent)}.picked span{font-size:13px;color:var(--muted)}.picked .link{justify-self:start;margin-top:4px}
+.sugg{list-style:none;margin:0;padding:0;display:grid;border:1px solid var(--line);border-radius:10px;overflow:hidden;background:var(--surface)}
+.sugg:empty{display:none}
+.sugg button{text-align:left;width:100%;border:0;border-bottom:1px solid var(--line);background:none;color:var(--ink);padding:10px 12px;font-size:15px}
+.sugg li:last-child button{border-bottom:0}.sugg button:hover,.sugg button:focus-visible{background:var(--accent-soft)}
+.sugg small{display:block;color:var(--muted);font-size:12.5px}
+details.manual{display:grid;gap:8px}details.manual summary{font-size:13px;color:var(--accent);cursor:pointer}
 .hp{position:absolute;left:-9999px;width:1px;height:1px;opacity:0}
 .row{display:flex;gap:8px;flex-wrap:wrap}
 .go{background:var(--accent);color:#fff;border:0;border-radius:10px;padding:12px 18px;font-weight:700;flex:1}
@@ -56,11 +64,11 @@ input:focus-visible,button:focus-visible{outline:2px solid var(--accent);outline
 <form id="form" hidden novalidate>
   <p>가고 싶은 여행지와 숙소를 알려 주세요. 접수되면 확인 후 수집을 시작하고, 완료되면 여기에 나타나요(보통 하루 이상 걸려요).</p>
   <fieldset><legend>여행지 <b style="color:var(--bad)">*</b></legend>
-    <label><span>여행지 이름</span><input type="text" id="dest" maxlength="30" required placeholder="예: 다낭" autocomplete="off"></label></fieldset>
+    <label><span>여행지 이름</span><input type="text" id="dest" maxlength="30" required placeholder="예: 다낭" autocomplete="off"></label><p class="hint" id="destHint" hidden></p></fieldset>
   <fieldset><legend>숙소 <b style="color:var(--bad)">*</b> <span class="hint">(1~3곳, 거리·이동시간 계산에 써요)</span></legend>
     <div id="hotels"></div>
     <button type="button" class="link" id="addHotel">＋ 숙소 추가</button>
-    <p class="hint">구글맵 앱에서 숙소를 열고 공유 → 링크 복사로 붙여넣어 주세요.</p></fieldset>
+    <p class="hint" id="hotelHint"></p></fieldset>
   <fieldset><legend>동행자 <span class="hint">(선택)</span></legend><div class="chips" id="comp"></div></fieldset>
   <fieldset><legend>여행 시기 <span class="hint">(선택)</span></legend>
     <input type="month" id="season" aria-label="여행 시기" placeholder="2026-12"></fieldset>
@@ -82,20 +90,80 @@ const esc=s=>String(s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;',
 const norm=t=>String(t).toLowerCase().replace(/[\s\-_.,·()&'"\/]+/g,'');
 const ST={pending:'수집 대기',approved:'승인됨 · 곧 시작',collecting:'수집 중'};
 const COMP=['혼자','커플','친구','아이 동반','부모님'];
-let configured=true, hv=[['','','','']], sel=new Set(), waiting=[];   // hv: 숙소별 [이름, 짧은 이름, 주소, 구글맵 링크]
+const newHotel=()=>({name:'',short:'',address:'',mapUrl:'',placeId:'',lat:null,lng:null,token:null,seq:0});
+let configured=true, KEY=null, hv=[newHotel()], sel=new Set(), waiting=[];   // KEY: 구글 장소 검색용 브라우저 키(없으면 링크 직접 입력만)
 const have=()=>[...document.querySelectorAll('#trips .card')].flatMap(c=>[c.dataset.name,c.dataset.en]).concat(waiting.map(w=>w.destination)).filter(Boolean).map(norm);
 
-function hotelHtml(i){return `<div class="hotel" data-i="${i}"><h3>숙소 ${i+1}${i?'<button type="button" class="link rm">삭제</button>':''}</h3>
- <div class="two"><label><span>숙소 이름${i?'':' <b>*</b>'}</span><input type="text" class="h-name" maxlength="60" placeholder="예: 솔 바이 멜리아"></label><label><span>짧은 이름</span><input type="text" class="h-short" maxlength="8" placeholder="예: 중숙"></label></div>
+// ---- 구글 장소 검색(Places API New, 브라우저에서 직접 호출) ----
+const PLACES='https://places.googleapis.com/v1/';
+const uuid=()=>crypto.randomUUID?crypto.randomUUID():String(Math.random()).slice(2)+Date.now();
+const LODGING=['lodging','hotel','resort_hotel','guest_house','hostel'];
+async function autocomplete(input,hot){
+  hot.token=hot.token||uuid();
+  const call=types=>fetch(PLACES+'places:autocomplete',{method:'POST',headers:{'Content-Type':'application/json','X-Goog-Api-Key':KEY},body:JSON.stringify({input,sessionToken:hot.token,languageCode:'ko',...(types?{includedPrimaryTypes:types}:{})})});
+  let r=await call(LODGING);
+  if(r.status===400) r=await call(null);   // 숙소 종류 필터를 못 쓰면 필터 없이 다시
+  if(!r.ok) throw new Error('places '+r.status);
+  const j=await r.json();
+  return (j.suggestions||[]).map(x=>x.placePrediction).filter(Boolean).slice(0,5).map(p=>({placeId:p.placeId,name:p.structuredFormat?.mainText?.text||p.text?.text||'',secondary:p.structuredFormat?.secondaryText?.text||''}));
+}
+async function details(placeId,token){
+  const r=await fetch(PLACES+'places/'+encodeURIComponent(placeId)+'?languageCode=ko&sessionToken='+encodeURIComponent(token||''),{headers:{'X-Goog-Api-Key':KEY,'X-Goog-FieldMask':'id,formattedAddress,location,addressComponents'}});
+  if(!r.ok) throw new Error('places '+r.status);
+  return r.json();
+}
+function suggestDest(comps){
+  if($('#dest').value.trim()) return;
+  const c=['locality','administrative_area_level_2','administrative_area_level_1'].map(t=>(comps||[]).find(x=>(x.types||[]).includes(t))).find(Boolean);
+  if(c?.longText){$('#dest').value=c.longText;const h=$('#destHint');h.hidden=false;h.textContent='숙소 위치에서 추천했어요. 바꿀 수 있어요.';}
+}
+async function pick(hot,sug,msg){
+  msg.textContent='불러오는 중…';
+  try{
+    const d=await details(sug.placeId,hot.token);
+    if(!hv.includes(hot)||!d.location) return;
+    Object.assign(hot,{placeId:sug.placeId,name:sug.name,address:d.formattedAddress||sug.secondary||sug.name,lat:d.location.latitude,lng:d.location.longitude,mapUrl:'',token:null});
+    suggestDest(d.addressComponents);drawHotels();
+  }catch(e){msg.textContent='숙소 정보를 가져오지 못했어요. 다시 시도하거나 아래에서 직접 입력해 주세요.';}
+}
+function bindSearch(box,hot){
+  const q=box.querySelector('.h-q');if(!q)return;
+  const list=box.querySelector('.sugg'),msg=box.querySelector('.h-msg');let timer;
+  q.addEventListener('input',()=>{
+    clearTimeout(timer);const v=q.value.trim();
+    if(v.length<2){list.innerHTML='';msg.textContent='';return;}
+    timer=setTimeout(async()=>{
+      const seq=++hot.seq;
+      try{
+        const items=await autocomplete(v,hot);if(hot.seq!==seq||!hv.includes(hot))return;
+        list.innerHTML=items.map((x,k)=>`<li><button type="button" data-k="${k}">${esc(x.name)}<small>${esc(x.secondary)}</small></button></li>`).join('');
+        list.querySelectorAll('button').forEach(b=>b.onclick=()=>pick(hot,items[+b.dataset.k],msg));
+        msg.textContent=items.length?'':'검색 결과가 없어요. 이름을 바꿔 보거나 아래 "직접 입력"을 이용해 주세요.';
+      }catch(e){list.innerHTML='';msg.textContent='검색을 쓸 수 없어요. 아래에서 직접 입력해 주세요.';box.querySelector('details.manual')?.setAttribute('open','');}
+    },300);
+  });
+}
+
+function hotelHtml(i){const h=hv[i];
+  const manualFields=`<label><span>숙소 이름${i?'':' <b>*</b>'}</span><input type="text" class="h-name" maxlength="60" placeholder="예: 솔 바이 멜리아"></label>
  <label><span>주소${i?'':' <b>*</b>'}</span><input type="text" class="h-addr" maxlength="150" placeholder="호텔 주소"></label>
- <label><span>구글맵 링크${i?'':' <b>*</b>'}</span><input type="url" class="h-map" maxlength="500" placeholder="https://maps.app.goo.gl/..." inputmode="url"></label></div>`;}
+ <label><span>구글맵 링크${i?'':' <b>*</b>'}</span><input type="url" class="h-map" maxlength="500" placeholder="https://maps.app.goo.gl/..." inputmode="url"></label>`;
+  const picked=h.placeId?`<div class="picked"><b>✓ ${esc(h.name)}</b><span>${esc(h.address)}</span><button type="button" class="link again">다시 검색</button></div>`:'';
+  const search=KEY&&!h.placeId?`<label><span>숙소 검색${i?'':' <b>*</b>'}</span><input type="search" class="h-q" maxlength="60" placeholder="숙소 이름 (예: 솔 바이 멜리아 푸꾸옥)" autocomplete="off"></label><ul class="sugg" role="listbox"></ul><p class="hint h-msg" role="status"></p>`:'';
+  const manual=h.placeId?'':KEY?`<details class="manual"${h.name||h.address||h.mapUrl?' open':''}><summary>검색이 안 되면 직접 입력</summary>${manualFields}</details>`:manualFields;
+  return `<div class="hotel"><h3>숙소 ${i+1}${i?'<button type="button" class="link rm">삭제</button>':''}</h3>${picked}${search}${manual}
+ <label><span>짧은 이름 <span class="hint">(선택, 예: 중숙)</span></span><input type="text" class="h-short" maxlength="8" placeholder="예: 중숙"></label></div>`;}
 function drawHotels(){
   $('#hotels').innerHTML=hv.map((_,i)=>hotelHtml(i)).join('');
-  document.querySelectorAll('.hotel').forEach((h,i)=>{
-    h.querySelectorAll('input').forEach((x,k)=>{x.value=hv[i][k];x.addEventListener('input',()=>{hv[i][k]=x.value;});});
-    h.querySelector('.rm')?.addEventListener('click',()=>{hv.splice(i,1);drawHotels();});
+  document.querySelectorAll('.hotel').forEach((box,i)=>{
+    const hot=hv[i];
+    [['.h-name','name'],['.h-addr','address'],['.h-map','mapUrl'],['.h-short','short']].forEach(([sel2,k])=>{const x=box.querySelector(sel2);if(x){x.value=hot[k];x.addEventListener('input',()=>{hot[k]=x.value;});}});
+    box.querySelector('.rm')?.addEventListener('click',()=>{hv.splice(i,1);drawHotels();});
+    box.querySelector('.again')?.addEventListener('click',()=>{Object.assign(hot,{placeId:'',lat:null,lng:null,name:'',address:'',mapUrl:'',token:null});drawHotels();});
+    bindSearch(box,hot);
   });
   $('#addHotel').hidden=hv.length>=3;
+  $('#hotelHint').textContent=KEY?'숙소 이름을 검색해서 목록에서 고르면 주소와 위치가 자동으로 채워져요.':'구글맵 앱에서 숙소를 열고 공유 → 링크 복사로 붙여넣어 주세요.';
 }
 function drawChips(){$('#comp').innerHTML=COMP.map(c=>`<button type="button" class="chip" aria-pressed="${sel.has(c)}" data-c="${c}">${c}</button>`).join('');
   $('#comp').querySelectorAll('.chip').forEach(b=>b.onclick=()=>{sel.has(b.dataset.c)?sel.delete(b.dataset.c):sel.add(b.dataset.c);drawChips();});}
@@ -110,24 +178,30 @@ async function load(){
 function show(id,t){const e=$(id);e.hidden=!t;e.textContent=t||'';}
 function open(v){$('#form').hidden=!v;$('#open').hidden=v;if(v){show('#err');show('#ok');$('#dest').focus();}}
 $('#open').onclick=()=>open(true);$('#close').onclick=()=>open(false);
-$('#addHotel').onclick=()=>{if(hv.length<3){hv.push(['','','','']);drawHotels();}};
+$('#addHotel').onclick=()=>{if(hv.length<3){hv.push(newHotel());drawHotels();}};
+$('#dest').addEventListener('input',()=>{$('#destHint').hidden=true;});
 $('#form').addEventListener('submit',async e=>{
   e.preventDefault();show('#err');show('#ok');
   const dest=$('#dest').value.trim();
   if(have().includes(norm(dest))){show('#err',`"${dest}"은(는) 이미 있거나 접수돼 있어요.`);return;}
   const body={destination:dest,website:$('#website').value,companions:[...sel],season:$('#season').value,
     interests:[...document.querySelectorAll('.cat')].map(x=>x.value.trim()).filter(Boolean),
-    hotels:hv.map(([name,short,address,mapUrl])=>({name,short,address,mapUrl}))};
+    hotels:hv.map(h=>({name:h.name,short:h.short,address:h.address,mapUrl:h.mapUrl,placeId:h.placeId,lat:h.lat,lng:h.lng}))};
+  const bad=hv.findIndex(h=>!h.placeId&&!h.name&&!h.address&&!h.mapUrl);
+  if(bad>=0){show('#err',`숙소 ${bad+1}: ${KEY?'검색해서 목록에서 고르거나 직접 입력해 주세요.':'숙소 정보를 입력해 주세요.'}`);return;}
   $('#send').disabled=true;$('#send').textContent='보내는 중…';
   try{
     const r=await fetch('/api/request',{method:'POST',credentials:'same-origin',headers:{'content-type':'application/json'},body:JSON.stringify(body)});
     const j=await r.json().catch(()=>({}));
-    if(r.ok){show('#ok',`접수됐어요 (#${j.number}). 확인 후 수집을 시작하면 여기에 상태가 표시돼요.`);$('#form').reset();sel=new Set();hv=[['','','','']];drawChips();drawHotels();load();}
+    if(r.ok){show('#ok',`접수됐어요 (#${j.number}). 확인 후 수집을 시작하면 여기에 상태가 표시돼요.`);$('#form').reset();sel=new Set();hv=[newHotel()];$('#destHint').hidden=true;drawChips();drawHotels();load();}
     else show('#err',j.error||'접수하지 못했어요. 잠시 뒤에 다시 시도해 주세요.');
   }catch(err){show('#err','네트워크 오류예요. 연결을 확인하고 다시 시도해 주세요.');}
   $('#send').disabled=false;$('#send').textContent='요청 보내기';
 });
-drawHotels();drawChips();load();
+(async()=>{
+  try{const r=await fetch('/api/config',{credentials:'same-origin',cache:'no-store'});if(r.ok)KEY=(await r.json()).placesKey||null;}catch(e){}
+  drawHotels();drawChips();load();
+})();
 // 모바일은 탭·홈 화면 앱을 되돌릴 때 예전 화면을 그대로 살려 두므로, 다시 보일 때마다 상태를 새로 불러온다
 addEventListener('pageshow',e=>{if(e.persisted)load();});
 document.addEventListener('visibilitychange',()=>{if(!document.hidden)load();});

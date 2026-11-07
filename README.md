@@ -32,3 +32,12 @@
 
 시험: `npm test` (GitHub 는 가짜로 대체).
 
+### 숙소 검색 (구글 장소 검색, 선택)
+
+폼의 숙소 입력은 `GOOGLE_MAPS_BROWSER_KEY` 가 있으면 구글 장소 검색(Places API New)으로 숙소를 골라 주소·좌표·장소 ID 를 자동으로 채우고, 없으면 구글맵 링크 직접 입력으로 동작합니다. 지도 화면(Maps JavaScript API)은 쓰지 않습니다.
+
+1. Google Cloud 콘솔에서 프로젝트를 만들고 결제 계정을 연결, **Places API (New)** 사용 설정
+2. **브라우저용 키**: 사용자 인증 정보 → API 키 만들기 → 애플리케이션 제한은 *웹사이트(HTTP 리퍼러)* 에 사이트 주소(`https://<도메인>/*`), API 제한은 *Places API (New)* 만 → Vercel 환경변수 `GOOGLE_MAPS_BROWSER_KEY`
+3. **한도 걸기(중요)**: API 및 서비스 → Places API (New) → 할당량에서 일일 요청 한도를 무료 사용량보다 낮게 설정하고, 결제 → 예산 및 알림도 설정
+4. (선택) **서버 검증 키**: 같은 방식으로 키를 하나 더 만들되 애플리케이션 제한 없이 API 제한만 *Places API (New)* → `GOOGLE_MAPS_SERVER_KEY`. 있으면 접수할 때 서버가 장소 ID 로 좌표를 다시 조회해 다르면 거절합니다.
+

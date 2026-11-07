@@ -118,3 +118,50 @@ test('GET 목록은 번호·여행지·상태·접수일만 돌려준다', async
   assert.deepEqual(j.requests.map(r => [r.destination, r.status]), [['다낭', 'pending'], ['방콕', 'approved'], ['세부', 'collecting']]);
   assert.ok(!JSON.stringify(j).includes('SECRET'));
 });
+
+// ---- 구글 장소 검색으로 고른 숙소 ----
+const placeHotel = () => ({ name: '솔 바이 멜리아 푸꾸옥', short: '중숙', address: '푸꾸옥 즈엉동', placeId: 'ChIJ1234567890abcdef', lat: 10.1461223, lng: 103.9766385 });
+
+test('장소 검색 숙소: 구글맵 링크는 서버가 만들고 좌표·장소 ID를 보관', () => {
+  const b = good(); b.hotels = [placeHotel()];
+  const r = validateRequest(b, new Date('2026-11-07'));
+  assert.equal(r.ok, true);
+  const h = r.value.hotels[0];
+  assert.equal(h.source, 'places');
+  assert.equal(h.placeId, 'ChIJ1234567890abcdef');
+  assert.match(h.mapUrl, /^https:\/\/www\.google\.com\/maps\/search\/\?api=1&query=.+&query_place_id=ChIJ1234567890abcdef$/);
+});
+
+test('장소 검색 숙소: 이상한 장소 ID·좌표는 거절, 클라이언트가 보낸 링크는 무시', () => {
+  const t = f => { const b = good(); b.hotels = [placeHotel()]; f(b.hotels[0]); return validateRequest(b, new Date('2026-11-07')); };
+  assert.equal(t(h => { h.placeId = 'a b!'; }).ok, false);
+  assert.equal(t(h => { h.lat = 95; }).ok, false);
+  assert.equal(t(h => { h.lng = 'x'; }).ok, false);
+  const r = t(h => { h.mapUrl = 'https://evil.example/'; });
+  assert.equal(r.ok, true);
+  assert.ok(r.value.hotels[0].mapUrl.startsWith('https://www.google.com/maps/'));
+});
+
+test('서버 검증 키가 있으면 좌표가 다른 요청을 거절, 확인 못 하면 통과', async () => {
+  process.env.GOOGLE_MAPS_SERVER_KEY = 'srv';
+  const body = () => { const b = good(); b.hotels = [placeHotel()]; return b; };
+  const mk = (loc, status = 200) => { mockGitHub(); const base = globalThis.fetch; globalThis.fetch = async (u, i) => String(u).startsWith('https://places.googleapis.com/') ? new Response(JSON.stringify({ location: loc }), { status }) : base(u, i); };
+  mk({ latitude: 10.1461, longitude: 103.9766 });
+  assert.equal((await POST(req(body()))).status, 201);
+  mk({ latitude: 16.05, longitude: 108.2 });
+  assert.equal((await POST(req(body()))).status, 400);
+  mk({}, 404);
+  assert.equal((await POST(req(body()))).status, 400);
+  mk({}, 500);
+  assert.equal((await POST(req(body()))).status, 201);
+  delete process.env.GOOGLE_MAPS_SERVER_KEY;
+});
+
+test('/api/config 는 브라우저용 키만 돌려준다', async () => {
+  const { GET: CFG } = await import('../api/config.js');
+  assert.equal((await (await CFG()).json()).placesKey, null);
+  process.env.GOOGLE_MAPS_BROWSER_KEY = 'browser-key'; process.env.GOOGLE_MAPS_SERVER_KEY = 'srv-secret';
+  const txt = await (await CFG()).text();
+  assert.ok(txt.includes('browser-key') && !txt.includes('srv-secret'));
+  delete process.env.GOOGLE_MAPS_BROWSER_KEY; delete process.env.GOOGLE_MAPS_SERVER_KEY;
+});

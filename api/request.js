@@ -1,5 +1,6 @@
 // POST /api/request — 여행지 추가 요청을 GitHub 이슈로 접수한다. 사이트 전체가 비밀번호(middleware.js) 뒤에 있다.
 import { validateRequest } from '../lib/validate.js';
+import { verifyEnabled, verifyPlace } from '../lib/places.js';
 import { configured, listOpen, recentCount, createRequest, sameDest, MAX_OPEN, MAX_PER_WINDOW } from '../lib/github.js';
 
 const json = (status, obj) => new Response(JSON.stringify(obj), { status, headers: { 'content-type': 'application/json; charset=utf-8', 'cache-control': 'no-store' } });
@@ -29,6 +30,12 @@ export async function POST(req) {
   const v = validateRequest(body);
   if (!v.ok) return fail(400, v.error);
   const { destination } = v.value;
+
+  if (verifyEnabled()) {   // 장소 ID로 좌표를 다시 조회해 검색 결과를 조작한 요청을 거른다
+    for (const [i, h] of v.value.hotels.entries()) {
+      if (h.source === 'places' && (await verifyPlace(h)) === false) return fail(400, `숙소 ${i + 1}: 위치를 확인하지 못했어요. 다시 검색해 주세요.`);
+    }
+  }
 
   try {
     const open = await listOpen();
