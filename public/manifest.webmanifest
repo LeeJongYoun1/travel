@@ -1,6 +1,6 @@
 {
-  "name": "여행 노트",
-  "short_name": "여행 노트",
+  "name": "쏙여행",
+  "short_name": "쏙여행",
   "start_url": "/",
   "scope": "/",
   "display": "standalone",

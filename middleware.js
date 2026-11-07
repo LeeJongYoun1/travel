@@ -28,8 +28,8 @@ const esc = s => s.replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&
 function page(next, msg, status) {
   const html = `<!doctype html><html lang="ko"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex">
-<title>여행 노트</title>
-<link rel="icon" href="/icons/icon.svg" type="image/svg+xml"><link rel="apple-touch-icon" href="/apple-touch-icon.png"><link rel="manifest" href="/manifest.webmanifest"><meta name="theme-color" content="#0B7A75"><meta name="apple-mobile-web-app-title" content="여행 노트"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="mobile-web-app-capable" content="yes"><style>
+<title>쏙여행</title>
+<link rel="icon" href="/icons/icon.svg" type="image/svg+xml"><link rel="apple-touch-icon" href="/apple-touch-icon.png"><link rel="manifest" href="/manifest.webmanifest"><meta name="theme-color" content="#0B7A75"><meta name="apple-mobile-web-app-title" content="쏙여행"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="mobile-web-app-capable" content="yes"><style>
 :root{--bg:#F2F6F5;--surface:#fff;--ink:#132E2C;--muted:#5B706D;--line:#D5E2DF;--accent:#0B7A75;--bad:#B3322B}
 @media (prefers-color-scheme: dark){:root{--bg:#0E1A19;--surface:#152523;--ink:#E4EFED;--muted:#93AAA6;--line:#26403C;--accent:#4FC3BA;--bad:#F08A82}}
 *{box-sizing:border-box}body{margin:0;min-height:100vh;display:grid;place-items:center;background:var(--bg);color:var(--ink);
@@ -39,7 +39,7 @@ h1{margin:0;font-size:22px}p{margin:0;color:var(--muted);font-size:14px}
 input{font:inherit;font-size:16px;padding:12px;border:1px solid var(--line);border-radius:10px;background:var(--bg);color:var(--ink)}
 button{font:inherit;font-weight:600;padding:12px;border:0;border-radius:10px;background:var(--accent);color:#fff;cursor:pointer}
 .err{color:var(--bad)}</style></head><body>
-<form method="post" action="${LOGIN}"><h1>여행 노트</h1><p>비밀번호를 입력하세요.</p>
+<form method="post" action="${LOGIN}"><h1>쏙여행</h1><p>비밀번호를 입력하세요.</p>
 ${msg ? `<p class="err">${esc(msg)}</p>` : ''}
 <input type="password" name="pw" autocomplete="current-password" autofocus required aria-label="비밀번호">
 <input type="hidden" name="next" value="${esc(next)}"><button type="submit">들어가기</button></form></body></html>`;

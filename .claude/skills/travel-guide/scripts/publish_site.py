@@ -11,7 +11,7 @@ D = cfg['destination']; key = re.sub(r'[^a-z0-9]+', '', cfg.get('destination_en'
 src = os.path.join(OUT, f'{D}_여행노트_공유용.html')
 HEAD = ('<link rel="icon" href="/icons/icon.svg" type="image/svg+xml"><link rel="apple-touch-icon" href="/apple-touch-icon.png">'
         '<link rel="manifest" href="/manifest.webmanifest"><meta name="theme-color" content="#0B7A75">'
-        '<meta name="apple-mobile-web-app-title" content="여행 노트"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="mobile-web-app-capable" content="yes">')
+        '<meta name="apple-mobile-web-app-title" content="쏙여행"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="mobile-web-app-capable" content="yes">')
 # 홈 화면 아이콘(public/icons, manifest.webmanifest)을 쓰도록 <head> 에 링크를 넣는다
 os.makedirs(os.path.join(SITE, key), exist_ok=True)
 page = open(src, encoding='utf-8').read().replace('<meta charset="utf-8">', '<meta charset="utf-8">\n' + HEAD, 1)
@@ -26,7 +26,7 @@ cards = '\n'.join(f'<a class="card" href="/{e(t["key"])}/"><span class="name">{e
                   f'<span class="meta">{" · ".join(f"{e(k)} {n}" for k, n in t["counts"].items())}</span><span class="date">{e(t["built"])} 정리</span></a>' for t in trips)
 open(os.path.join(SITE, 'index.html'), 'w', encoding='utf-8').write(f'''<!doctype html>
 <html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<meta name="robots" content="noindex"><title>여행 노트</title>
+<meta name="robots" content="noindex"><title>쏙여행</title>
 {HEAD}<style>
 :root{{--bg:#F2F6F5;--surface:#fff;--ink:#132E2C;--muted:#5B706D;--line:#D5E2DF;--accent:#0B7A75}}
 @media (prefers-color-scheme: dark){{:root{{--bg:#0E1A19;--surface:#152523;--ink:#E4EFED;--muted:#93AAA6;--line:#26403C;--accent:#4FC3BA}}}}
@@ -35,7 +35,7 @@ main{{max-width:720px;margin:0 auto;padding:32px 16px 64px;display:grid;gap:16px
 .list{{display:grid;gap:12px}}.card{{display:grid;gap:2px;padding:18px;border:1px solid var(--line);border-radius:14px;background:var(--surface);color:inherit;text-decoration:none}}
 .card:hover{{border-color:var(--accent)}}.name{{font-size:20px;font-weight:700}}.en{{color:var(--muted);font-size:14px}}
 .meta{{color:var(--accent);font-size:14px;margin-top:6px}}.date{{color:var(--muted);font-size:13px}}
-</style></head><body><main><h1>여행 노트</h1><p>2025년 이후 후기에서 광고·AI 글을 걸러 정리한 여행지별 마사지·맛집·가볼만한 곳. 개인 여행 준비용(사진 저작권은 각 블로거에게 있음).</p>
+</style></head><body><main><h1>쏙여행</h1><p>2025년 이후 후기에서 광고·AI 글을 걸러 정리한 여행지별 마사지·맛집·가볼만한 곳. 개인 여행 준비용(사진 저작권은 각 블로거에게 있음).</p>
 <div class="list">
 {cards}
 </div></main></body></html>
