@@ -4,7 +4,7 @@ import assert from 'node:assert/strict';
 import { validateRequest } from '../lib/validate.js';
 
 const good = () => ({
-  destination: '다낭', companions: ['아이 동반', '없는보기'], season: '2026-12', interests: ['카페', '쇼핑'],
+  destination: '다낭', companions: ['아이 동반', '없는보기'], season: '2026-12', categories: ['카페', '쇼핑'],
   hotels: [{ name: '솔 바이 멜리아', short: '중숙', address: 'Bai Truong, Phu Quoc', mapUrl: 'https://maps.app.goo.gl/abc123' }],
 });
 
@@ -12,7 +12,7 @@ test('정상 입력은 통과하고 허용 목록 밖 동행자는 걸러진다'
   const r = validateRequest(good(), new Date('2026-11-07'));
   assert.equal(r.ok, true);
   assert.deepEqual(r.value.companions, ['아이 동반']);
-  assert.deepEqual(r.value.interests, ['카페', '쇼핑']);
+  assert.deepEqual(r.value.categories, ['쇼핑', '카페']);   // 정해진 순서로 정렬
 });
 
 test('숙소 없음·4곳·잘못된 링크·봇 칸은 거절', () => {
@@ -25,12 +25,16 @@ test('숙소 없음·4곳·잘못된 링크·봇 칸은 거절', () => {
   assert.equal(t(b => { b.website = 'x'; }).ok, false);
 });
 
-test('새 분야는 2개까지, 기본 분야·중복은 무시', () => {
-  const t = i => { const b = good(); b.interests = i; return validateRequest(b, new Date('2026-11-07')); };
-  assert.equal(t(['카페', '쇼핑', '야경']).ok, false);
-  assert.deepEqual(t(['맛집', '가볼 만한 곳', '카페', ' 카페 ']).value.interests, ['카페']);
-  assert.deepEqual(t(['x`y<b>']).value.interests, ['xyb']);   // 백틱·꺾쇠는 지워진다
-  assert.equal(t(['카페!!']).ok, false);
+test('수집 분야: 6개 중 1개 이상 필수, 허용 목록 밖·중복은 버림', () => {
+  const t = c => { const b = good(); b.categories = c; return validateRequest(b, new Date('2026-11-07')); };
+  assert.equal(t([]).ok, false);
+  assert.equal(t(undefined).ok, false);
+  assert.equal(t(['야경', '투어']).ok, false);                 // 목록 밖 값만 있으면 선택 없음과 같다
+  assert.match(t([]).error, /1개 이상/);
+  assert.deepEqual(t(['디저트', '마사지', '마사지', '야경']).value.categories, ['마사지', '디저트']);
+  assert.deepEqual(t(['마사지', '쇼핑', '카페', '가볼만한 곳', '맛집', '디저트']).value.categories.length, 6);
+  const b = good(); delete b.categories; b.interests = ['카페'];   // 예전 형식(관심 분야)은 더 이상 받지 않는다
+  assert.equal(validateRequest(b, new Date('2026-11-07')).ok, false);
 });
 
 test('여행지·시기 형식 검사, 줄바꿈과 백틱 제거', () => {

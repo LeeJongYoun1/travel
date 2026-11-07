@@ -72,11 +72,8 @@ details.manual{display:grid;gap:8px}details.manual summary{font-size:13px;color:
   <fieldset><legend>동행자 <span class="hint">(선택)</span></legend><div class="chips" id="comp"></div></fieldset>
   <fieldset><legend>여행 시기 <span class="hint">(선택)</span></legend>
     <input type="month" id="season" aria-label="여행 시기" placeholder="2026-12"></fieldset>
-  <fieldset><legend>관심 분야 추가 <span class="hint">(선택, 최대 2개)</span></legend>
-    <p class="hint">마사지·맛집·가볼만한 곳은 기본으로 들어가요. 카페, 쇼핑, 야경처럼 더 보고 싶은 분야를 적어 주세요.</p>
-    <input type="text" class="cat" maxlength="12" list="catlist" placeholder="예: 카페" aria-label="관심 분야 1" autocomplete="off">
-    <input type="text" class="cat" maxlength="12" list="catlist" placeholder="예: 쇼핑" aria-label="관심 분야 2" autocomplete="off">
-    <datalist id="catlist"><option value="카페"><option value="쇼핑"><option value="야경"><option value="디저트"><option value="시장"></datalist></fieldset>
+  <fieldset><legend>수집 분야 <b style="color:var(--bad)">*</b> <span class="hint">(1개 이상 선택)</span></legend><div class="chips" id="cats" role="group" aria-label="수집 분야"></div>
+    <p class="hint">고른 분야만 정리해요. 분야가 많을수록 시간이 더 걸려요.</p></fieldset>
   <input class="hp" type="text" id="website" tabindex="-1" autocomplete="off" aria-hidden="true">
   <div class="msg err" id="err" hidden role="alert"></div>
   <div class="msg ok" id="ok" hidden role="status"></div>
@@ -90,8 +87,9 @@ const esc=s=>String(s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;',
 const norm=t=>String(t).toLowerCase().replace(/[\s\-_.,·()&'"\/]+/g,'');
 const ST={pending:'수집 대기',approved:'승인됨 · 곧 시작',collecting:'수집 중'};
 const COMP=['혼자','커플','친구','아이 동반','부모님'];
+const CATS=['마사지','쇼핑','카페','가볼만한 곳','맛집','디저트'];   // 선택한 것이 없는 상태로 시작
 const newHotel=()=>({name:'',short:'',address:'',mapUrl:'',placeId:'',lat:null,lng:null,token:null,seq:0});
-let configured=true, KEY=null, hv=[newHotel()], sel=new Set(), waiting=[];   // KEY: 구글 장소 검색용 브라우저 키(없으면 링크 직접 입력만)
+let configured=true, KEY=null, hv=[newHotel()], sel=new Set(), catSel=new Set(), waiting=[];   // KEY: 구글 장소 검색용 브라우저 키(없으면 링크 직접 입력만)
 const have=()=>[...document.querySelectorAll('#trips .card')].flatMap(c=>[c.dataset.name,c.dataset.en]).concat(waiting.map(w=>w.destination)).filter(Boolean).map(norm);
 
 // ---- 구글 장소 검색(Places API New, 브라우저에서 직접 호출) ----
@@ -167,6 +165,8 @@ function drawHotels(){
 }
 function drawChips(){$('#comp').innerHTML=COMP.map(c=>`<button type="button" class="chip" aria-pressed="${sel.has(c)}" data-c="${c}">${c}</button>`).join('');
   $('#comp').querySelectorAll('.chip').forEach(b=>b.onclick=()=>{sel.has(b.dataset.c)?sel.delete(b.dataset.c):sel.add(b.dataset.c);drawChips();});}
+function drawCats(){$('#cats').innerHTML=CATS.map(c=>`<button type="button" class="chip" aria-pressed="${catSel.has(c)}" data-c="${c}">${c}</button>`).join('');
+  $('#cats').querySelectorAll('.chip').forEach(b=>b.onclick=()=>{catSel.has(b.dataset.c)?catSel.delete(b.dataset.c):catSel.add(b.dataset.c);drawCats();});}
 function drawWaiting(){$('#waiting').innerHTML=waiting.map(w=>`<div class="card wait"><span class="name">${esc(w.destination)}</span><span class="st ${w.status}">${ST[w.status]||'수집 대기'}</span><span class="date">${esc(String(w.createdAt||'').slice(0,10))} 접수</span></div>`).join('');}
 async function load(){
   try{const r=await fetch('/api/requests',{credentials:'same-origin',cache:'no-store'});if(!r.ok)return;const j=await r.json();
@@ -185,22 +185,23 @@ $('#form').addEventListener('submit',async e=>{
   const dest=$('#dest').value.trim();
   if(have().includes(norm(dest))){show('#err',`"${dest}"은(는) 이미 있거나 접수돼 있어요.`);return;}
   const body={destination:dest,website:$('#website').value,companions:[...sel],season:$('#season').value,
-    interests:[...document.querySelectorAll('.cat')].map(x=>x.value.trim()).filter(Boolean),
+    categories:CATS.filter(c=>catSel.has(c)),
     hotels:hv.map(h=>({name:h.name,short:h.short,address:h.address,mapUrl:h.mapUrl,placeId:h.placeId,lat:h.lat,lng:h.lng}))};
+  if(!catSel.size){show('#err','수집할 분야를 1개 이상 선택해 주세요.');return;}
   const bad=hv.findIndex(h=>!h.placeId&&!h.name&&!h.address&&!h.mapUrl);
   if(bad>=0){show('#err',`숙소 ${bad+1}: ${KEY?'검색해서 목록에서 고르거나 직접 입력해 주세요.':'숙소 정보를 입력해 주세요.'}`);return;}
   $('#send').disabled=true;$('#send').textContent='보내는 중…';
   try{
     const r=await fetch('/api/request',{method:'POST',credentials:'same-origin',headers:{'content-type':'application/json'},body:JSON.stringify(body)});
     const j=await r.json().catch(()=>({}));
-    if(r.ok){show('#ok',`접수됐어요 (#${j.number}). 확인 후 수집을 시작하면 여기에 상태가 표시돼요.`);$('#form').reset();sel=new Set();hv=[newHotel()];$('#destHint').hidden=true;drawChips();drawHotels();load();}
+    if(r.ok){show('#ok',`접수됐어요 (#${j.number}). 확인 후 수집을 시작하면 여기에 상태가 표시돼요.`);$('#form').reset();sel=new Set();catSel=new Set();hv=[newHotel()];$('#destHint').hidden=true;drawChips();drawCats();drawHotels();load();}
     else show('#err',j.error||'접수하지 못했어요. 잠시 뒤에 다시 시도해 주세요.');
   }catch(err){show('#err','네트워크 오류예요. 연결을 확인하고 다시 시도해 주세요.');}
   $('#send').disabled=false;$('#send').textContent='요청 보내기';
 });
 (async()=>{
   try{const r=await fetch('/api/config',{credentials:'same-origin',cache:'no-store'});if(r.ok)KEY=(await r.json()).placesKey||null;}catch(e){}
-  drawHotels();drawChips();load();
+  drawHotels();drawChips();drawCats();load();
 })();
 // 모바일은 탭·홈 화면 앱을 되돌릴 때 예전 화면을 그대로 살려 두므로, 다시 보일 때마다 상태를 새로 불러온다
 addEventListener('pageshow',e=>{if(e.persisted)load();});
