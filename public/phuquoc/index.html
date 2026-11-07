@@ -89,6 +89,7 @@ summary{cursor:pointer;font-size:14px;font-weight:500;display:flex;gap:10px;flex
 .empty{padding:28px;text-align:center;color:var(--muted);border:1px dashed var(--line);border-radius:12px}
 footer{font-size:12.5px;color:var(--muted);display:grid;gap:4px;max-width:80ch}
 @media (prefers-reduced-motion:no-preference){.card{transition:border-color .15s}.card:hover{border-color:var(--lagoon)}}
+.wrap>*,.tools{min-width:0}.tools .chips{min-width:0;max-width:100%}.chiprow{flex-basis:100%;max-width:100%;display:flex;flex-wrap:nowrap;gap:6px;align-items:center;overflow-x:auto;scrollbar-width:none;min-width:0}.chiprow::-webkit-scrollbar{display:none}.chiprow .chip{flex:none;white-space:nowrap;padding:4px 10px;font-size:12.5px}.chiprow .count{flex:none;width:2.4em}
 .tab.new{color:var(--dusk)}.tab.new[aria-selected="true"]{color:var(--ink);border-color:var(--dusk)}
 .newtag{font-family:var(--mono);font-size:11px;font-weight:700;background:var(--dusk);color:#fff;border-radius:999px;padding:1px 8px;margin-left:8px;vertical-align:middle;text-decoration:none}
 .newposts{margin:0;padding:0;list-style:none;display:grid;gap:10px}
@@ -165,8 +166,9 @@ function renderNew(){
   const rcount=r=>base.filter(b=>r==='전체'||b.x.region===r).length;
   const regs=['전체',...DATA.regions.filter(r=>base.some(b=>b.x.region===r))];
   if(!regs.includes(state.nreg)) state.nreg='전체';
-  $('#regions').innerHTML='<span class="count">분류</span>'+cats.map(c=>`<button class="chip" aria-pressed="${c===state.cat}" data-c="${c}">${c}</button>`).join('')
-    +'<span style="flex-basis:100%;height:0"></span><span class="count">지역</span>'+regs.map(r=>`<button class="chip" aria-pressed="${r===state.nreg}" data-r="${r}">${r} ${rcount(r)}</button>`).join('');
+  const row=(label,html)=>`<div class="chiprow"><span class="count">${label}</span>${html}</div>`;
+  $('#regions').innerHTML=row('분류',cats.map(c=>`<button class="chip" aria-pressed="${c===state.cat}" data-c="${c}">${c}</button>`).join(''))
+    +row('지역',regs.map(r=>`<button class="chip" aria-pressed="${r===state.nreg}" data-r="${r}">${r} ${rcount(r)}</button>`).join(''));
   $('#regions').querySelectorAll('.chip[data-c]').forEach(b=>b.onclick=()=>{state.cat=b.dataset.c;render();});
   $('#regions').querySelectorAll('.chip[data-r]').forEach(b=>b.onclick=()=>{state.nreg=b.dataset.r;render();});
   $('#sort').style.display='none'; document.querySelector('label[for=sort]').style.display='none';
