@@ -102,6 +102,8 @@ test('다른 사이트에서 온 요청·JSON 아닌 요청·토큰 없음 거�
   assert.equal((await POST(req(good()))).status, 503);
   const list = await (await GET()).json();
   assert.equal(list.configured, false);
+  assert.deepEqual(Object.keys(list.diag).sort(), ['commit', 'similarNames', 'tokenVarEmpty', 'vercelEnv']);
+  assert.ok(!JSON.stringify(list).includes('test-token'));
   process.env.GITHUB_TOKEN = saved;
 });
 
