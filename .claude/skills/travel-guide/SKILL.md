@@ -29,6 +29,7 @@ description: 여행지 하나의 마사지·맛집·가볼만한 곳 정보를 2
 7. 빌드: `scripts/build_xlsx.py` → xlsx 스킬의 `recalc.py`(오류 0 확인) → `scripts/build_html.py`. HTML은 한 번 화면 확인 후 Artifact 로 게시하고, 엑셀·공유용 HTML·zip 을 SendUserFile 로 전달.
 
 8. 웹사이트(Vercel) 게시: `scripts/publish_site.py` 로 공유용 HTML 을 저장소 `public/<영문이름>/` 에 넣고 첫 화면 목록을 갱신 → 커밋·푸시하면 Vercel 이 자동 배포. 사이트 전체는 루트 `middleware.js` 가 비밀번호(Vercel 환경변수 `SITE_PASSWORD`)로 보호한다.
+9. 주간 갱신(새 소식 탭): `bash scripts/weekly_refresh.sh [예시폴더]` — 새로 수집·판별해 HTML 과 `public/` 을 갱신(후기 평가·사진은 기존 places.json 유지). 끝나면 config.json·public/ 을 커밋·푸시.
 
 ## 지켜야 할 기준 (references/criteria.md)
 - 2025-01-01 이후 글만. 네이버 카페는 작성일이 없어 출처로 쓰지 않음(언급 빈도 참고만).
