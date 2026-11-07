@@ -82,6 +82,14 @@ summary{cursor:pointer;font-size:14px;font-weight:500;display:flex;gap:10px;flex
 .empty{padding:28px;text-align:center;color:var(--muted);border:1px dashed var(--line);border-radius:12px}
 footer{font-size:12.5px;color:var(--muted);display:grid;gap:4px;max-width:80ch}
 @media (prefers-reduced-motion:no-preference){.card{transition:border-color .15s}.card:hover{border-color:var(--lagoon)}}
+.tab.new{color:var(--dusk)}.tab.new[aria-selected="true"]{color:var(--ink);border-color:var(--dusk)}
+.newtag{font-family:var(--mono);font-size:11px;font-weight:700;background:var(--dusk);color:#fff;border-radius:999px;padding:1px 8px;margin-left:8px;vertical-align:middle;text-decoration:none}
+.newposts{margin:0;padding:0;list-style:none;display:grid;gap:10px}
+.newposts li{border-left:3px solid var(--dusk);padding:2px 0 2px 10px;min-width:0;display:grid;gap:2px}
+.newposts .pd{font-family:var(--mono);font-size:12px;color:var(--dusk);margin-right:6px}
+.newposts a{color:var(--lagoon);word-break:break-all}
+.newposts .gp,.newposts .bp{font-size:13px}.newposts .gp{color:var(--good)}.newposts .bp{color:var(--bad)}
+.go{font:inherit;font-size:13px;border:1px solid var(--line);background:var(--surface);color:var(--lagoon);border-radius:999px;padding:4px 12px;cursor:pointer;justify-self:start}
 </style>
 <div class="wrap">
 <header>
@@ -106,7 +114,12 @@ const RATE=DATA.rate, UNIT=DATA.unit;
 const fmt=n=>Math.round(n).toLocaleString('ko-KR');
 const $=s=>document.querySelector(s);
 const esc=s=>String(s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
-let state={tab:Object.keys(DATA.sheets)[0],region:'전체',sort:'d0',q:''};
+const NEW='__new';
+const pad=n=>String(n).padStart(2,'0'), ymd=d=>d.getFullYear()+'-'+pad(d.getMonth()+1)+'-'+pad(d.getDate());
+const CUT=ymd(new Date(Date.now()-7*864e5));
+const recent=x=>(x.posts||[]).filter(p=>p.d>=CUT);
+const newCount=name=>{for(const k in DATA.sheets){const x=DATA.sheets[k].find(y=>y.name===name);if(x)return recent(x).length}return 0};
+let state={tab:Object.keys(DATA.sheets)[0],region:'전체',sort:'d0',q:'',cat:'전체'};
 try{const t=localStorage.getItem('pq-tab'); if(t&&DATA.sheets[t]) state.tab=t;}catch(e){}
 $('#facts').innerHTML=DATA.hotels.map(h=>`<div class="fact"><b>${esc(h.html||h.short+' 숙소')}</b><span>${esc(h.label)}</span></div>`).join('')+`<div class="fact"><b>환율 가정</b><span class="conv"><label for="vnd">${esc(UNIT)}</label><input id="vnd" inputmode="numeric" value="${esc(DATA.sample)}"><output id="won" for="vnd"></output></span></div>`;
 $('#foot').textContent=DATA.footer;
@@ -116,8 +129,9 @@ function conv(){const v=Number($('#vnd').value.replace(/[^\d]/g,''))||0; const w
 $('#vnd').addEventListener('input',conv); conv();
 $('#built').textContent=DATA.built;
 function tabs(){
-  $('#tabs').innerHTML=Object.keys(DATA.sheets).map(k=>`<button class="tab" role="tab" aria-selected="${k===state.tab}" data-t="${k}">${k}<small>${DATA.sheets[k].length}</small></button>`).join('');
-  $('#tabs').querySelectorAll('.tab').forEach(b=>b.onclick=()=>{state.tab=b.dataset.t;state.region='전체';try{localStorage.setItem('pq-tab',state.tab)}catch(e){};tabs();render();});
+  const nplaces=Object.values(DATA.sheets).reduce((n,l)=>n+l.filter(x=>recent(x).length).length,0);
+  $('#tabs').innerHTML=Object.keys(DATA.sheets).map(k=>`<button class="tab" role="tab" aria-selected="${k===state.tab}" data-t="${k}">${k}<small>${DATA.sheets[k].length}</small></button>`).join('')+`<button class="tab new" role="tab" aria-selected="${state.tab===NEW}" data-t="${NEW}">새 소식<small>${nplaces}</small></button>`;
+  $('#tabs').querySelectorAll('.tab').forEach(b=>b.onclick=()=>{state.tab=b.dataset.t;state.region='전체';state.cat='전체';state.q='';$('#q').value='';try{if(state.tab!==NEW)localStorage.setItem('pq-tab',state.tab)}catch(e){};tabs();render();});
 }
 function regions(){
   const rs=['전체',...DATA.regions.filter(r=>DATA.sheets[state.tab].some(x=>x.region===r))];
@@ -134,9 +148,33 @@ function revList(arr,kind,note){
   if(!arr.length) return `<p class="none">${note||(kind==='pos'?'검토한 후기에서 긍정 평가를 찾지 못했어요':'검토한 후기에서 부정 평가를 찾지 못했어요')}</p>`;
   return `<ol>${arr.map(r=>`<li>${esc(r.t)}<br><a href="${esc(r.u)}" target="_blank" rel="noopener">${esc(r.u.replace(/^https?:\/\/(www\.)?/,''))}</a></li>`).join('')}</ol>`;
 }
+function renderNew(){
+  const cats=['전체',...Object.keys(DATA.sheets)];
+  $('#regions').innerHTML=cats.map(c=>`<button class="chip" aria-pressed="${c===state.cat}" data-c="${c}">${c}</button>`).join('');
+  $('#regions').querySelectorAll('.chip').forEach(b=>b.onclick=()=>{state.cat=b.dataset.c;render();});
+  $('#sort').style.display='none'; document.querySelector('label[for=sort]').style.display='none';
+  const q=state.q.trim().toLowerCase(); let rows=[];
+  for(const s of Object.keys(DATA.sheets)){ if(state.cat!=='전체'&&state.cat!==s) continue;
+    for(const x of DATA.sheets[s]){const ps=recent(x); if(ps.length&&(!q||(x.name+x.desc+ps.map(p=>p.t).join(' ')).toLowerCase().includes(q))) rows.push({x,s,ps});}}
+  rows.sort((a,b)=>b.ps[0].d.localeCompare(a.ps[0].d)||b.ps.length-a.ps.length);
+  const total=rows.reduce((n,r)=>n+r.ps.length,0);
+  $('#count').textContent=`최근 7일(${CUT.slice(5).replace('-','.')} 이후) 새로 올라온 후기 ${total}건 · ${rows.length}곳 — 자료 수집일 ${DATA.built}`;
+  $('#list').innerHTML=rows.length?rows.map(({x,s,ps})=>{
+    const note=u=>{const g=x.pos.find(r=>r.u===u),b=x.neg.find(r=>r.u===u);return (g?`<span class="gp">👍 ${esc(g.t)}</span>`:'')+(b?`<span class="bp">👎 ${esc(b.t)}</span>`:'');};
+    return `<article class="card"><div class="card-head"><div><span class="region">${esc(s)} · ${esc(x.region)}</span><h2 style="display:inline">${esc(x.name)}</h2><span class="newtag">NEW ${ps.length}</span></div>
+      <div class="dist">${DATA.hotels.map((h,i)=>`<span>${esc(h.html||h.short+' 숙소')} <b>${x.dist[i]?.km!=null?x.dist[i].km.toFixed(1)+'km':'–'}</b>${x.dist[i]?.t?' · '+esc(x.dist[i].t):''}</span>`).join('')}</div></div>
+      <p class="desc">${esc(x.desc)}</p>
+      <ul class="newposts">${ps.slice(0,5).map(p=>`<li><span><span class="pd">${esc(p.d.slice(5).replace('-','.'))}</span><a href="${esc(p.u)}" target="_blank" rel="noopener">${esc(p.t)}</a></span>${note(p.u)}</li>`).join('')}</ul>
+      ${ps.length>5?`<p class="count">그 밖에 ${ps.length-5}건 더 있어요</p>`:''}
+      <button class="go" data-s="${esc(s)}" data-n="${esc(x.name)}">전체 정보 보기 →</button></article>`;}).join('')
+   :`<div class="empty">최근 7일(${CUT} 이후) 새로 올라온 후기가 없어요.<br>이 자료는 ${DATA.built}에 수집한 것이라, 새 글을 보려면 다시 수집해야 해요.</div>`;
+  $('#list').querySelectorAll('.go').forEach(b=>b.onclick=()=>{state.tab=b.dataset.s;state.region='전체';state.q=b.dataset.n;$('#q').value=b.dataset.n;tabs();render();window.scrollTo(0,0);});
+}
 function render(){
-  regions();
+  const isNew=state.tab===NEW; $('#sort').style.display=isNew?'none':''; document.querySelector('label[for=sort]').style.display=isNew?'none':'';
   document.querySelectorAll('.tab').forEach(b=>b.setAttribute('aria-selected',b.dataset.t===state.tab));
+  if(isNew) return renderNew();
+  regions();
   const q=state.q.trim().toLowerCase();
   let items=DATA.sheets[state.tab].filter(x=>(state.region==='전체'||x.region===state.region)&&(!q||JSON.stringify(x).toLowerCase().includes(q)));
   const key=Object.assign({reviews:x=>-x.reviews,name:x=>x.name},...DATA.hotels.map((h,i)=>({['d'+i]:x=>x.dist[i]?.km??1e9})));
@@ -146,7 +184,7 @@ function render(){
   $('#list').innerHTML=items.length?items.map(x=>`
   <article class="card">
     <div class="card-head">
-      <div><span class="region">${esc(x.region)}</span><h2 style="display:inline">${esc(x.name)}</h2></div>
+      <div><span class="region">${esc(x.region)}</span><h2 style="display:inline">${esc(x.name)}</h2>${recent(x).length?`<span class="newtag">NEW ${recent(x).length}</span>`:''}</div>
       <div class="dist">${DATA.hotels.map((h,i)=>`<span>${esc(h.html||h.short+' 숙소')} <b>${x.dist[i]?.km!=null?x.dist[i].km.toFixed(1)+'km':'–'}</b>${x.dist[i]?.t?' · '+esc(x.dist[i].t):''}</span>`).join('')}</div>
     </div>
     <div class="card-body ${x.img?'':'nophoto'}">

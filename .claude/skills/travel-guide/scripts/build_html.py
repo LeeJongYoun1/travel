@@ -3,8 +3,8 @@
 결과: 출력폴더/<여행지>_여행노트.html (Artifact 게시용, 문서 뼈대 없음)
       출력폴더/<여행지>_여행노트_공유용.html (doctype·charset 포함, 카톡 전송용)
       출력폴더/<여행지>_여행자료.zip (엑셀경로를 주면 함께 묶음)"""
-import sys, os, json, math, base64, urllib.parse, zipfile
-from common import load, Money, slug
+import sys, os, json, math, base64, urllib.parse, zipfile, datetime
+from common import load, save, Money, slug, work
 cfg = load(sys.argv[1]); P = load(sys.argv[2]); OUT = sys.argv[3]; XL = sys.argv[4] if len(sys.argv) > 4 else None
 base = os.path.dirname(os.path.abspath(sys.argv[2])); here = os.path.dirname(os.path.abspath(__file__))
 M = Money(cfg); T = cfg['travel']; D = cfg['destination']
@@ -15,6 +15,14 @@ def dist(p, h):
     km = round(6371*2*math.asin(math.sqrt(math.sin((a2-a1)/2)**2 + math.cos(a1)*math.cos(a2)*math.sin((o2-o1)/2)**2))*T['road_factor'], 1)
     if km < 1: return {'km': km, 't': f"도보 약 {max(5, round(km/T['walk_kmh']*60/5)*5)}분"}
     return {'km': km, 't': f"{T['mode']} 약 {max(5, round((T['wait_min']+km/T['speed_kmh']*60)/5)*5)}분"}
+# '새 소식' 탭용: 블로그 글 작성일·제목(work/naver_blog.json)과 깨끗한 글 목록(work/cleansrc.json). 없으면 탭이 비어 있다.
+BL, CSRC = {}, {}
+try:
+    BL = {i['link']: i for v in load(work(cfg, 'naver_blog.json')).values() for i in v}; CSRC = load(work(cfg, 'cleansrc.json'))
+except Exception: pass
+dd = lambda l: (lambda d: f'{d[:4]}-{d[4:6]}-{d[6:]}' if len(d) == 8 else '')(BL.get(l, {}).get('postdate', ''))
+built = datetime.date.fromisoformat(cfg['built']) if cfg.get('built') else datetime.date.today()
+POST_FROM = (built - datetime.timedelta(days=60)).isoformat()   # 이 날짜 이후 글만 내장(보는 날 기준 최근 7일은 화면에서 계산)
 S = {}; regions = []
 for sname, rows in P['sheets'].items():
     out = []
@@ -24,7 +32,8 @@ for sname, rows in P['sheets'].items():
         if p['region'] not in regions: regions.append(p['region'])
         out.append({'region': p['region'], 'name': p['name'], 'desc': p.get('desc', ''), 'price': lst(p.get('price', [])), 'pro': lst(p.get('pros', [])),
             'con': lst(p.get('cons', [])), 'extra': lst(p.get('extra', [])), 'basis': rv.get('basis', ''), 'reviews': int(''.join(c for c in rv.get('basis', '0').split('건')[0] if c.isdigit()) or 0),
-            'pos': rv.get('pos', []), 'neg': rv.get('neg', []), 'negnote': rv.get('neg_note', ''), 'dist': [dist(p, h) for h in cfg['hotels']],
+            'pos': [r | {'d': dd(r['u'])} for r in rv.get('pos', [])], 'neg': [r | {'d': dd(r['u'])} for r in rv.get('neg', [])],
+            'posts': sorted([{'u': l, 'd': dd(l), 't': BL[l]['title']} for l in CSRC.get(p['name'], {}).get('clean', []) if l in BL and dd(l) >= POST_FROM], key=lambda x: x['d'], reverse=True), 'negnote': rv.get('neg_note', ''), 'dist': [dist(p, h) for h in cfg['hotels']],
             'home': [{'l': h['label'], 'u': h['url']} for h in p.get('home', [])], 'book': [{'l': x['label'], 'u': x['url']} for x in p.get('booking', [])], 'booknote': p.get('booking_note', []), 'img': img, 'imgsrc': ph['src'] if ph else '',
             'gmap': 'https://www.google.com/maps/search/?api=1&query=' + urllib.parse.quote(p.get('map_query') or p['name'] + ' ' + cfg.get('destination_en', '')), 'gnote': p.get('map_note', '')})
     S[sname] = out
